@@ -1,0 +1,22 @@
+people:
+  # The TISS API result contains user records that are not meant to be displayed.
+  # Therefore this whitelist can be used to filter the result set. 
+  # Format (all lower case): 
+  #   first letter of first name + 
+  #   last name without hyphens or whitespace and converted umlauts (ae,oe,ue,sz).
+  whitelist:
+    - gkappel
+    - chabersack
+    - rbill
+    - jcito
+    - vdulca
+    - cfloyd
+    - tgrechenig
+    - chuemer
+    - mkrajiczek
+    - mmurzek
+    - gpaskaleva
+    - mscholz
+    - mschroeder
+    - mstraka
+    - bwally
