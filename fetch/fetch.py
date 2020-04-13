@@ -12,6 +12,7 @@ PEOPLE_DIR = CONTENT_DIR + '/authors'
 
 PEOPLE_URL = 'https://tiss.tuwien.ac.at/api/orgunit/v22/id/4760?persons=true'
 
+# load config
 with open('config.yml', 'r') as f:
     try:
         config = yaml.safe_load(f)
@@ -31,13 +32,12 @@ for person in people:
     first_name = person['first_name']
     last_name = person['last_name']
     name = f'{first_name} {last_name}'
-    short_name = (first_name[0] + last_name).lower()
-    identifier = short_name.replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue')\
+    identifier = (first_name[0] + last_name).lower().replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue')\
         .replace('ß', 'sz').replace(' ', '').replace('-', '')
     directory = f'{PEOPLE_DIR}/{identifier}'
 
-    if short_name not in config['people']['whitelist']:
-        print(f'Skipping {name} ({short_name}) - not whitelisted')
+    if identifier not in config['people']['whitelist']:
+        print(f'Skipping {name} ({identifier}) - person not whitelisted')
         continue
 
     # create folder
@@ -45,7 +45,7 @@ for person in people:
         print(f'Creating author files for {name}')
         os.makedirs(directory)
     else:
-        print(f'Skipping {name} ({short_name}) - already exists')
+        print(f'Skipping {name} ({identifier}) - profile already exists')
         continue
 
     # download profile pic or copy default
