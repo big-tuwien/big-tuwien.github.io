@@ -5,16 +5,26 @@ import frontmatter
 import urllib.request
 import shutil
 import yaml
-from xml.etree import ElementTree
+import xmltodict
+
+BIG_TID = 4760
+BIG_OID = 18460477
 
 CI_TEMPLATE_DIR = 'templates'
 
 CONTENT_DIR = '../content'
 PEOPLE_DIR = CONTENT_DIR + '/authors'
 
-PEOPLE_URL = 'https://tiss.tuwien.ac.at/api/orgunit/v22/id/4760?persons=true'
-PROJECTS_ONGOING_URL = 'https://tiss.tuwien.ac.at/api/pdb/rest/projectsearch/v2?instituteOid=18460477&status=1'
-PROJECTS_FINISHED_URL = 'https://tiss.tuwien.ac.at/api/pdb/rest/projectsearch/v2?instituteOid=18460477&status=2'
+PEOPLE_URL = f'https://tiss.tuwien.ac.at/api/orgunit/v22/id/{BIG_TID}?persons=true'
+PROJECTS_ONGOING_URL = f'https://tiss.tuwien.ac.at/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=1'
+PROJECTS_FINISHED_URL = f'https://tiss.tuwien.ac.at/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=2'
+COURSE_LECTURER_URL = 'https://tiss.tuwien.ac.at/api/course/lecturer/{}'
+
+COURSE_NAMESPACE_CONFIG = {
+    'https://tiss.tuwien.ac.at/api/schemas/course/v10': None,
+    'https://tiss.tuwien.ac.at/api/schemas/hasCourse/v10': None,
+    'https://tiss.tuwien.ac.at/api/schemas/i18n/v10': None
+}
 
 
 def main():
@@ -75,8 +85,18 @@ def main():
         with codecs.open(f'{directory}/_index.md', 'w+', 'utf-8') as f:
             f.write(frontmatter.dumps(post))
 
-    # handle projects
-    s.get(PROJECTS_ONGOING_URL).content
+    # fetch courses for each person (fetching courses for the institute returns an empty set)
+    for person in people:
+        url = COURSE_LECTURER_URL.format(person['oid'])
+        r = s.get(url)
+        parse_res = xmltodict.parse(
+            r.content, encoding='utf-8', process_namespaces=True,
+            namespaces=COURSE_NAMESPACE_CONFIG
+        )['tuvienna']
+
+        if 'course' not in parse_res:
+            continue
+        courses = parse_res['course']
 
 
 if __name__ == '__main__':
