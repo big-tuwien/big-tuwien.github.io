@@ -55,9 +55,8 @@ at TU Wien. Given its name, the division focuses on business informatics that in
 information systems and computer science. In particular, BIG works on those information technology aspects 
 that have a significant effect on the way organizations do their business. 
 
-Thereby, BIG addresses the gap 
-between the business strategy on why/what to do and the information technology aspect on how to do it in the 
+Thereby, BIG addresses the gap between the business strategy on why/what to do and the information technology aspect on how to do it in the 
 digital age. The current research areas of BIG cover model-driven engineering, data engineering, process 
 engineering, enterprise engineering, and industrial engineering.
 
-{{< figure library="true" src="team.jpg" title="© Stefanie Starz" lightbox="true" >}}
+{{< figure library="true" src="team.jpg" title="&copy; Stefanie Starz" lightbox="true" >}}
