@@ -5,12 +5,16 @@ import frontmatter
 import urllib.request
 import shutil
 import yaml
+from xml.etree import ElementTree
 
 CI_TEMPLATE_DIR = 'templates'
+
 CONTENT_DIR = '../content'
 PEOPLE_DIR = CONTENT_DIR + '/authors'
 
 PEOPLE_URL = 'https://tiss.tuwien.ac.at/api/orgunit/v22/id/4760?persons=true'
+PROJECTS_ONGOING_URL = 'https://tiss.tuwien.ac.at/api/pdb/rest/projectsearch/v2?instituteOid=18460477&status=1'
+PROJECTS_FINISHED_URL = 'https://tiss.tuwien.ac.at/api/pdb/rest/projectsearch/v2?instituteOid=18460477&status=2'
 
 
 def main():
@@ -70,6 +74,9 @@ def main():
         post['social'] = social
         with codecs.open(f'{directory}/_index.md', 'w+', 'utf-8') as f:
             f.write(frontmatter.dumps(post))
+
+    # handle projects
+    s.get(PROJECTS_ONGOING_URL).content
 
 
 if __name__ == '__main__':

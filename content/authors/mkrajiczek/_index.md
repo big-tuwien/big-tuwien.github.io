@@ -23,18 +23,11 @@ role: Weiterer Mitarbeiter
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
+  link: mailto:martin.krajiczek@tuwien.ac.at
+- icon: phone
+  icon_pack: fas
+  link: tel:+43 (1) 58801 18885
 superuser: false
-tel: +43 (1) 58801 18885
 user_groups:
 - Researchers
 ---

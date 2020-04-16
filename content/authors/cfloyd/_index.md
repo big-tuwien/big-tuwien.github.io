@@ -23,18 +23,11 @@ role: zugeteilt
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
+  link: mailto:christiane.floyd@tuwien.ac.at
+- icon: phone
+  icon_pack: fas
+  link: tel:+43 (1) 58801 188319
 superuser: false
-tel: +43 (1) 58801 188319
 user_groups:
 - Researchers
 ---
