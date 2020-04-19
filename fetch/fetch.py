@@ -1,4 +1,5 @@
 import codecs
+import json
 import os
 import requests
 import frontmatter
@@ -12,6 +13,7 @@ BIG_OID = 18460477
 
 CI_TEMPLATE_DIR = 'templates'
 
+DATA_DIR = '../data'
 CONTENT_DIR = '../content'
 PEOPLE_DIR = CONTENT_DIR + '/authors'
 
@@ -27,6 +29,11 @@ COURSE_NAMESPACE_CONFIG = {
 }
 
 
+def _id(first_name, last_name):
+    return (first_name[0] + last_name).lower().replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue')\
+            .replace('ß', 'sz').replace(' ', '').replace('-', '')
+
+
 def main():
     # load config
     with open('config.yml', 'r') as f:
@@ -38,19 +45,22 @@ def main():
 
     s = requests.Session()
 
-    # handle people
+    print('Fetching people. Creating files for new people in the "content/authors" directory')
+
+    # fetch people
     r = s.get(PEOPLE_URL)
     data = r.json()
     people = data['employees']
 
-    print('Fetching people. Creating files for people with no own folder in the "content/authors" directory')
+    # apply whitelist
+    print('Applying people whitelist')
+    people = list(filter(lambda p: _id(p['first_name'], p['last_name']) in config['people']['whitelist'], people))
 
     for person in people:
         first_name = person['first_name']
         last_name = person['last_name']
         name = f'{first_name} {last_name}'
-        identifier = (first_name[0] + last_name).lower().replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue')\
-            .replace('ß', 'sz').replace(' ', '').replace('-', '')
+        identifier = _id(first_name, last_name)
         directory = f'{PEOPLE_DIR}/{identifier}'
 
         if identifier not in config['people']['whitelist']:
@@ -85,18 +95,42 @@ def main():
         with codecs.open(f'{directory}/_index.md', 'w+', 'utf-8') as f:
             f.write(frontmatter.dumps(post))
 
-    # fetch courses for each person (fetching courses for the institute returns an empty set)
+    with open(DATA_DIR + '/people.json', 'w+') as f:
+        f.write(json.dumps(people, indent=4))
+
+    # fetch courses. has to be done separately for each person (fetching courses for the institute returns an empty set)
+    courses = {}
+
+    print('Fetching courses. Creating files for new courses in the "content/teaching" directory')
+
     for person in people:
         url = COURSE_LECTURER_URL.format(person['oid'])
         r = s.get(url)
-        parse_res = xmltodict.parse(
+        xml_dict = xmltodict.parse(
             r.content, encoding='utf-8', process_namespaces=True,
             namespaces=COURSE_NAMESPACE_CONFIG
-        )['tuvienna']
+        )
 
+        # skip invalid users
+        if 'tuvienna' not in xml_dict:
+            continue
+        parse_res = xml_dict['tuvienna']
+        # skip users that are not associated to any courses
         if 'course' not in parse_res:
             continue
-        courses = parse_res['course']
+
+        for course in parse_res['course']:
+            # skip cases where xml deserialization oddly does not generate a dict
+            if not isinstance(course, dict):
+                continue
+            course_id = f'{course["courseNumber"]}-{course["semesterCode"]}'
+            # skip duplicates
+            if course_id in courses:
+                continue
+            courses[course_id] = course
+
+    with open(DATA_DIR + '/courses.json', 'w+') as f:
+        f.write(json.dumps(list(courses.values()), indent=4))
 
 
 if __name__ == '__main__':
