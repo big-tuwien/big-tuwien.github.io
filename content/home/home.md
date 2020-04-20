@@ -44,7 +44,7 @@ subtitle = ""
 
 [advanced]
  # Custom CSS. 
- css_style = " h1 { text-align: center; }"
+ css_style = ""
  
  # CSS class.
  css_class = ""

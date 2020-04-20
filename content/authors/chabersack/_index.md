@@ -18,5 +18,5 @@ social:
   link: tel:+43 (1) 58801 194301
 superuser: false
 user_groups:
-- Researchers
+- Organisation
 ---
