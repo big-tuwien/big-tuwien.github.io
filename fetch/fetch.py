@@ -7,6 +7,7 @@ import urllib.request
 import shutil
 import yaml
 import xmltodict
+import datetime
 
 BIG_TID = 4760
 BIG_OID = 18460477
@@ -22,7 +23,7 @@ TISS_BASE = 'https://tiss.tuwien.ac.at'
 PEOPLE_URL = f'{TISS_BASE}/api/orgunit/v22/id/{BIG_TID}?persons=true'
 PROJECTS_ONGOING_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=1'
 PROJECTS_FINISHED_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=2'
-COURSE_LECTURER_URL = TISS_BASE + '/api/course/lecturer/{}?semester={}'
+COURSE_LECTURER_URL = TISS_BASE + '/api/course/lecturer/{}'
 
 COURSE_NAMESPACE_CONFIG = {
     f'{TISS_BASE}/api/schemas/course/v10': None,
@@ -34,6 +35,83 @@ COURSE_NAMESPACE_CONFIG = {
 def _id(first_name, last_name):
     return (first_name[0] + last_name).lower().replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue')\
             .replace('ß', 'sz').replace(' ', '').replace('-', '')
+
+
+def _get_semesters(at=datetime.datetime.now(), summer_term_start=3, winter_term_start=10):
+    # figure out current semester
+    if at.month < summer_term_start or at.month >= winter_term_start:
+        term = 'W'
+        year = at.year
+        # january 2020 -> 2019W
+        if at.month < summer_term_start:
+            year -= 1
+    else:
+        term = 'S'
+        year = at.year
+
+    current = f'{year}{term}'
+
+    # get the past semester
+    if term is 'W':
+        term = 'S'
+    else:
+        term = 'W'
+        year -= 1
+
+    prev = f'{year}{term}'
+
+    return current, prev
+
+
+def _create_course_post(courses, semester, template_path):
+    post = frontmatter.load(template_path)
+    post['linktitle'] = semester
+    post['date'] = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat()
+
+    content = '| No. | Type | Course Title German | Course Title English |\n' \
+              '|-----|------|---------------------|----------------------|\n'
+
+    for course in courses:
+        content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["courseType"]} ' \
+                   f'| {course["title"]["de"]} | {course["title"]["en"]} |\n'
+
+    post.content = content
+    return post
+
+
+def get_lecturer_courses(lecturer_oids, semester=None, session=requests.Session()):
+    course_dict = {}
+
+    for oid in lecturer_oids:
+        url = COURSE_LECTURER_URL.format(oid)
+        query = {}
+        if session:
+            query['semester'] = semester
+        r = session.get(url, params=query)
+        xml_dict = xmltodict.parse(
+          r.content, encoding='utf-8', process_namespaces=True,
+          namespaces=COURSE_NAMESPACE_CONFIG
+        )
+
+        # skip invalid users
+        if 'tuvienna' not in xml_dict:
+            continue
+        parse_res = xml_dict['tuvienna']
+        # skip users that are not associated to any courses
+        if 'course' not in parse_res:
+            continue
+
+        for course in parse_res['course']:
+            # skip cases where xml deserialization oddly does not generate a dict
+            if not isinstance(course, dict):
+                continue
+            course_id = f'{course["courseNumber"]}-{course["semesterCode"]}'
+            # skip duplicates
+            if course_id in course_dict:
+                continue
+            course_dict[course_id] = dict(course)
+
+    return list(course_dict.values())
 
 
 def main():
@@ -101,55 +179,26 @@ def main():
         f.write(json.dumps(people, indent=4))
 
     # fetch courses. has to be done separately for each person (fetching courses for the institute returns an empty set)
-    course_dict = {}
+    print('Fetching courses. Creating files for courses in the "content/teaching" directory')
 
-    print('Fetching courses. Creating files for new courses in the "content/teaching" directory')
+    current_semester, prev_semester = _get_semesters()
 
-    for person in people:
-        url = COURSE_LECTURER_URL.format(person['oid'])
-        r = s.get(url)
-        xml_dict = xmltodict.parse(
-            r.content, encoding='utf-8', process_namespaces=True,
-            namespaces=COURSE_NAMESPACE_CONFIG
-        )
+    semesters = [(current_semester, '_index.md'), (prev_semester, 'prev.md')]
 
-        # skip invalid users
-        if 'tuvienna' not in xml_dict:
-            continue
-        parse_res = xml_dict['tuvienna']
-        # skip users that are not associated to any courses
-        if 'course' not in parse_res:
-            continue
+    for semester, file in semesters:
+        print(f'Fetching courses for semester {semester} -> {file}')
 
-        for course in parse_res['course']:
-            # skip cases where xml deserialization oddly does not generate a dict
-            if not isinstance(course, dict):
-                continue
-            course_id = f'{course["courseNumber"]}-{course["semesterCode"]}'
-            # skip duplicates
-            if course_id in course_dict:
-                continue
-            course_dict[course_id] = dict(course)
+        lecturer_oids = [p['oid'] for p in people]
+        courses = get_lecturer_courses(lecturer_oids, semester=semester)
 
-    courses = list(course_dict.values())
+        # apply metadata to markdown front matter
+        post = _create_course_post(courses, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
 
-    # apply metadata to markdown front matter
-    post = frontmatter.load(CI_TEMPLATE_DIR + '/teaching/_index.md')
-    # post['name'] = name
+        with codecs.open(f'{TEACHING_DIR}/{file}', 'w+', 'utf-8') as f:
+            f.write(frontmatter.dumps(post))
 
-    content = '| No. | Type | Course Title German | Course Title English |\n' \
-              '|-----|------|---------------------|----------------------|\n'
-
-    for course in courses:
-        content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["courseType"]} ' \
-                   f'| {course["title"]["de"]} | {course["title"]["en"]} |\n'
-
-    post.content = content
-
-    with codecs.open(f'{TEACHING_DIR}/_index.md', 'w+', 'utf-8') as f:
-        f.write(frontmatter.dumps(post))
-    with codecs.open(f'{DATA_DIR}/courses.json', 'w+', 'utf-8') as f:
-        f.write(json.dumps(courses, indent=4))
+        with codecs.open(f'{DATA_DIR}/courses_{semester}.json', 'w+', 'utf-8') as f:
+            f.write(json.dumps(courses, indent=4))
 
 
 if __name__ == '__main__':
