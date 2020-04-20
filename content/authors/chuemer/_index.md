@@ -8,7 +8,7 @@ name: Christian Huemer
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: Univ.Dozent
+role: Ao.Univ.Prof. Mag.rer.soc.oec. Dr.rer.soc.oec.
 social:
 - icon: envelope
   icon_pack: fas

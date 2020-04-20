@@ -8,7 +8,7 @@ name: Marion Murzek
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: Senior Lecturer
+role: Senior Lecturer Mag.rer.soc.oec. Dr.rer.soc.oec.
 social:
 - icon: envelope
   icon_pack: fas

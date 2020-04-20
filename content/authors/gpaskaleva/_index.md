@@ -8,7 +8,7 @@ name: Galina Paskaleva
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: Weitere Mitarbeiterin
+role: Projektass. Dipl.-Ing.
 social:
 - icon: envelope
   icon_pack: fas

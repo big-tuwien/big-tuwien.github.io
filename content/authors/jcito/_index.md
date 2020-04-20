@@ -8,7 +8,7 @@ name: Jürgen Cito
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: Assistent
+role: Univ.Ass. Dipl.-Ing. Dr.sc.
 social:
 - icon: envelope
   icon_pack: fas

@@ -8,7 +8,7 @@ name: Gertrude Kappel
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: Leiterin
+role: O.Univ.Prof. Dipl.-Ing. Mag. Dr.techn.
 social:
 - icon: envelope
   icon_pack: fas
@@ -18,5 +18,5 @@ social:
   link: tel:+43 (1) 58801 18870
 superuser: false
 user_groups:
-- Researchers
+- Head
 ---

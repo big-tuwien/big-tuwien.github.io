@@ -8,7 +8,7 @@ name: Michael Schröder
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: Assistent
+role: Univ.Ass. Dipl.-Ing.
 social:
 - icon: envelope
   icon_pack: fas

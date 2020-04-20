@@ -8,7 +8,7 @@ name: Bernhard Wally
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: Weiterer Mitarbeiter
+role: null
 social:
 - icon: envelope
   icon_pack: fas

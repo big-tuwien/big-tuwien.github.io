@@ -8,7 +8,7 @@ name: Marion Scholz
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: Senior Lecturer
+role: Senior Lecturer Dipl.-Ing. Mag.rer.soc.oec.
 social:
 - icon: envelope
   icon_pack: fas

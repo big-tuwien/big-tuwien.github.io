@@ -8,7 +8,7 @@ name: Christiane Floyd
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: zugeteilt
+role: Hon.Prof. Dr.phil.
 social:
 - icon: envelope
   icon_pack: fas

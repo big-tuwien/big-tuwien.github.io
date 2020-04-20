@@ -8,7 +8,7 @@ name: Marek Straka
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: Allgem.Univ.Bediensteter
+role: null
 social:
 - icon: envelope
   icon_pack: fas

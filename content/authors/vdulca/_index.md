@@ -8,7 +8,7 @@ name: Victor Gabriel Dulca
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: StudMA in Forschung/Verwaltung
+role: null
 social:
 - icon: envelope
   icon_pack: fas

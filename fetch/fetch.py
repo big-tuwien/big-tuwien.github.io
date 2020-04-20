@@ -16,6 +16,7 @@ CI_TEMPLATE_DIR = 'templates'
 DATA_DIR = '../data'
 CONTENT_DIR = '../content'
 PEOPLE_DIR = CONTENT_DIR + '/authors'
+TEACHING_DIR = CONTENT_DIR + '/teaching'
 
 PEOPLE_URL = f'https://tiss.tuwien.ac.at/api/orgunit/v22/id/{BIG_TID}?persons=true'
 PROJECTS_ONGOING_URL = f'https://tiss.tuwien.ac.at/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=1'
@@ -73,7 +74,7 @@ def main():
             os.makedirs(directory)
         else:
             print(f'Skipping {name} ({identifier}) - profile already exists')
-            continue
+            #continue
 
         # download profile pic or copy default
         pic_dest = directory + '/avatar.jpg'
@@ -86,7 +87,7 @@ def main():
         post = frontmatter.load(CI_TEMPLATE_DIR + '/authors/user/_index.md')
         post['name'] = name
         post['authors'] = [identifier]
-        post['role'] = person['function']
+        post['role'] = person['preceding_titles']
         post['email'] = person['main_email']
         social = [{'icon': 'envelope', 'icon_pack': 'fas', 'link': f'mailto:{person["main_email"]}'}]
         if person['main_phone_number']:
@@ -95,7 +96,7 @@ def main():
         with codecs.open(f'{directory}/_index.md', 'w+', 'utf-8') as f:
             f.write(frontmatter.dumps(post))
 
-    with open(DATA_DIR + '/people.json', 'w+') as f:
+    with codecs.open(f'{DATA_DIR}/people.json', 'w+', 'utf-8') as f:
         f.write(json.dumps(people, indent=4))
 
     # fetch courses. has to be done separately for each person (fetching courses for the institute returns an empty set)
@@ -129,7 +130,7 @@ def main():
                 continue
             courses[course_id] = course
 
-    with open(DATA_DIR + '/courses.json', 'w+') as f:
+    with codecs.open(f'{DATA_DIR}/courses.json', 'w+', 'utf-8') as f:
         f.write(json.dumps(list(courses.values()), indent=4))
 
 

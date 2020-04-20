@@ -8,7 +8,7 @@ name: Thomas Grechenig
 organizations:
 - name: TU Wien
   url: https://www.tuwien.at/
-role: Univ.Dozent
+role: Ao.Univ.Prof. Dipl.-Ing. Dr.techn.
 social:
 - icon: envelope
   icon_pack: fas
