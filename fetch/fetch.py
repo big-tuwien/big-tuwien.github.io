@@ -18,15 +18,16 @@ CONTENT_DIR = '../content'
 PEOPLE_DIR = CONTENT_DIR + '/authors'
 TEACHING_DIR = CONTENT_DIR + '/teaching'
 
-PEOPLE_URL = f'https://tiss.tuwien.ac.at/api/orgunit/v22/id/{BIG_TID}?persons=true'
-PROJECTS_ONGOING_URL = f'https://tiss.tuwien.ac.at/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=1'
-PROJECTS_FINISHED_URL = f'https://tiss.tuwien.ac.at/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=2'
-COURSE_LECTURER_URL = 'https://tiss.tuwien.ac.at/api/course/lecturer/{}'
+TISS_BASE = 'https://tiss.tuwien.ac.at'
+PEOPLE_URL = f'{TISS_BASE}/api/orgunit/v22/id/{BIG_TID}?persons=true'
+PROJECTS_ONGOING_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=1'
+PROJECTS_FINISHED_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=2'
+COURSE_LECTURER_URL = TISS_BASE + '/api/course/lecturer/{}?semester={}'
 
 COURSE_NAMESPACE_CONFIG = {
-    'https://tiss.tuwien.ac.at/api/schemas/course/v10': None,
-    'https://tiss.tuwien.ac.at/api/schemas/hasCourse/v10': None,
-    'https://tiss.tuwien.ac.at/api/schemas/i18n/v10': None
+    f'{TISS_BASE}/api/schemas/course/v10': None,
+    f'{TISS_BASE}/api/schemas/hasCourse/v10': None,
+    f'{TISS_BASE}/api/schemas/i18n/v10': None
 }
 
 
@@ -74,12 +75,12 @@ def main():
             os.makedirs(directory)
         else:
             print(f'Skipping {name} ({identifier}) - profile already exists')
-            #continue
+            continue
 
         # download profile pic or copy default
         pic_dest = directory + '/avatar.jpg'
         if person['picture_uri']:
-            urllib.request.urlretrieve('https://tiss.tuwien.ac.at' + person['picture_uri'], pic_dest)
+            urllib.request.urlretrieve(TISS_BASE + person['picture_uri'], pic_dest)
         else:
             shutil.copyfile(CI_TEMPLATE_DIR + '/authors/user/avatar.jpg', pic_dest)
 
@@ -100,7 +101,7 @@ def main():
         f.write(json.dumps(people, indent=4))
 
     # fetch courses. has to be done separately for each person (fetching courses for the institute returns an empty set)
-    courses = {}
+    course_dict = {}
 
     print('Fetching courses. Creating files for new courses in the "content/teaching" directory')
 
@@ -126,12 +127,29 @@ def main():
                 continue
             course_id = f'{course["courseNumber"]}-{course["semesterCode"]}'
             # skip duplicates
-            if course_id in courses:
+            if course_id in course_dict:
                 continue
-            courses[course_id] = course
+            course_dict[course_id] = dict(course)
 
+    courses = list(course_dict.values())
+
+    # apply metadata to markdown front matter
+    post = frontmatter.load(CI_TEMPLATE_DIR + '/teaching/_index.md')
+    # post['name'] = name
+
+    content = '| No. | Type | Course Title German | Course Title English |\n' \
+              '|-----|------|---------------------|----------------------|\n'
+
+    for course in courses:
+        content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["courseType"]} ' \
+                   f'| {course["title"]["de"]} | {course["title"]["en"]} |\n'
+
+    post.content = content
+
+    with codecs.open(f'{TEACHING_DIR}/_index.md', 'w+', 'utf-8') as f:
+        f.write(frontmatter.dumps(post))
     with codecs.open(f'{DATA_DIR}/courses.json', 'w+', 'utf-8') as f:
-        f.write(json.dumps(list(courses.values()), indent=4))
+        f.write(json.dumps(courses, indent=4))
 
 
 if __name__ == '__main__':

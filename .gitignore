@@ -4,6 +4,3 @@
 # Hugo
 resources/
 public/
-
-# data
-data/people.json

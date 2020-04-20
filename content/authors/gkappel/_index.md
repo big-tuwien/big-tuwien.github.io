@@ -18,5 +18,5 @@ social:
   link: tel:+43 (1) 58801 18870
 superuser: false
 user_groups:
-- Head
+- Researchers
 ---
