@@ -12,6 +12,9 @@ import datetime
 BIG_TID = 4760
 BIG_OID = 18460477
 
+LECTURE_EXERCISE_COURSE_TYPES = ['VO', 'VU']
+SEMINAR_PROJECT_COURSE_TYPES = ['SE', 'PV', 'PR']
+
 CI_TEMPLATE_DIR = 'templates'
 
 DATA_DIR = '../data'
@@ -63,17 +66,33 @@ def _get_semesters(at=datetime.datetime.now(), summer_term_start=3, winter_term_
     return current, prev
 
 
+def _course_table(courses):
+    content = '| No. | Course Title German | Course Title English |\n' \
+              '|-----|---------------------|----------------------|\n'
+    for course in courses:
+        content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["title"]["de"]} | {course["title"]["en"]} |\n'
+
+    return content
+
+
 def _create_course_post(courses, semester, template_path):
     post = frontmatter.load(template_path)
     post['linktitle'] = semester
     post['date'] = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat()
 
-    content = '| No. | Type | Course Title German | Course Title English |\n' \
-              '|-----|------|---------------------|----------------------|\n'
+    lectures_exercises = [c for c in courses if c['courseType'] in LECTURE_EXERCISE_COURSE_TYPES]
+    seminars_projects = [c for c in courses if c['courseType'] in SEMINAR_PROJECT_COURSE_TYPES]
+    other = [c for c in courses if c['courseType'] not in (LECTURE_EXERCISE_COURSE_TYPES + SEMINAR_PROJECT_COURSE_TYPES)]
 
-    for course in courses:
-        content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["courseType"]} ' \
-                   f'| {course["title"]["de"]} | {course["title"]["en"]} |\n'
+    content = '## Lectures and Exercises\n\n' \
+              f'{_course_table(lectures_exercises)}\n' \
+              '## Seminars and Projects\n\n' \
+              f'{_course_table(seminars_projects)}\n'
+
+    # only display 'other' section if not empty
+    if other:
+        content += '## Other\n\n' \
+                   f'{_course_table(other)}\n'
 
     post.content = content
     return post
