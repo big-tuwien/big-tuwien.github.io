@@ -66,16 +66,20 @@ def _get_semesters(at=datetime.datetime.now(), summer_term_start=3, winter_term_
     return current, prev
 
 
-def _course_table(courses):
-    content = '| No. | Course Title German | Course Title English |\n' \
-              '|-----|---------------------|----------------------|\n'
+def _course_table(courses, people):
+    content = '| No. | Course Title German | Course Title English | Lecturers |\n' \
+              '|-----|---------------------|----------------------|-----------|\n'
     for course in courses:
-        content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["title"]["de"]} | {course["title"]["en"]} |\n'
+        authors = ['{{% mention "' + p['short_name'] + '" %}}' for p in people if str(p['oid']) in course['lecturers']['oid']]
+        author_string = ', '.join(authors)
+        content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["title"]["de"]} ' \
+                   f'| {course["title"]["en"]} ' \
+                   '| ' + author_string + ' |\n'
 
     return content
 
 
-def _create_course_post(courses, semester, template_path):
+def _create_course_post(courses, people, semester, template_path):
     post = frontmatter.load(template_path)
     post['linktitle'] = semester
     post['date'] = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat()
@@ -85,14 +89,14 @@ def _create_course_post(courses, semester, template_path):
     other = [c for c in courses if c['courseType'] not in (LECTURE_EXERCISE_COURSE_TYPES + SEMINAR_PROJECT_COURSE_TYPES)]
 
     content = '## Lectures and Exercises\n\n' \
-              f'{_course_table(lectures_exercises)}\n' \
+              f'{_course_table(lectures_exercises, people)}\n' \
               '## Seminars and Projects\n\n' \
-              f'{_course_table(seminars_projects)}\n'
+              f'{_course_table(seminars_projects, people)}\n'
 
     # only display 'other' section if not empty
     if other:
         content += '## Other\n\n' \
-                   f'{_course_table(other)}\n'
+                   f'{_course_table(other, people)}\n'
 
     post.content = content
     return post
@@ -151,27 +155,26 @@ def main():
     data = r.json()
     people = data['employees']
 
+    # add short names
+    for person in people:
+        person['short_name'] = _id(person['first_name'], person['last_name'])
+
     # apply whitelist
     print('Applying people whitelist')
-    people = list(filter(lambda p: _id(p['first_name'], p['last_name']) in config['people']['whitelist'], people))
+    people = [p for p in people if p['short_name'] in config['people']['whitelist']]
 
     for person in people:
         first_name = person['first_name']
         last_name = person['last_name']
         name = f'{first_name} {last_name}'
-        identifier = _id(first_name, last_name)
-        directory = f'{PEOPLE_DIR}/{identifier}'
-
-        if identifier not in config['people']['whitelist']:
-            print(f'Skipping {name} ({identifier}) - person not whitelisted')
-            continue
+        directory = f'{PEOPLE_DIR}/{person["short_name"]}'
 
         # create folder
         if not os.path.exists(directory):
             print(f'Creating author files for {name}')
             os.makedirs(directory)
         else:
-            print(f'Skipping {name} ({identifier}) - profile already exists')
+            print(f'Skipping {name} ({person["short_name"]}) - profile already exists')
             continue
 
         # download profile pic or copy default
@@ -184,7 +187,7 @@ def main():
         # apply metadata to markdown front matter
         post = frontmatter.load(CI_TEMPLATE_DIR + '/authors/user/_index.md')
         post['name'] = name
-        post['authors'] = [identifier]
+        post['authors'] = [person["short_name"]]
         post['role'] = person['preceding_titles']
         post['email'] = person['main_email']
         social = [{'icon': 'envelope', 'icon_pack': 'fas', 'link': f'mailto:{person["main_email"]}'}]
@@ -211,7 +214,7 @@ def main():
         courses = get_lecturer_courses(lecturer_oids, semester=semester)
 
         # apply metadata to markdown front matter
-        post = _create_course_post(courses, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
+        post = _create_course_post(courses, people, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
 
         with codecs.open(f'{TEACHING_DIR}/{file}', 'w+', 'utf-8') as f:
             f.write(frontmatter.dumps(post))

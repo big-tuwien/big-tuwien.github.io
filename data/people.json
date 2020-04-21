@@ -19,7 +19,8 @@
         ],
         "function": "Leiterin",
         "room_code": "HC0215",
-        "function_category": "Vorstand"
+        "function_category": "Vorstand",
+        "short_name": "gkappel"
     },
     {
         "tiss_id": 317376,
@@ -39,7 +40,8 @@
         "other_emails": [],
         "function": "Sekretariat",
         "room_code": "HC0211",
-        "function_category": "Sekretariat"
+        "function_category": "Sekretariat",
+        "short_name": "chabersack"
     },
     {
         "tiss_id": 44613,
@@ -63,7 +65,8 @@
             "&lt;p&gt;Leiter der Forschungsgruppe Industrielle Software (INSO)&lt;br /&gt;Architekt f&amp;uuml;r gro&amp;szlig;e IT-Systeme&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;"
         ],
         "function": "Univ.Dozent",
-        "function_category": "Professor_innen"
+        "function_category": "Professor_innen",
+        "short_name": "tgrechenig"
     },
     {
         "tiss_id": 118510,
@@ -84,7 +87,8 @@
             "huemer@big.tuwien.ac.at"
         ],
         "function": "Univ.Dozent",
-        "function_category": "Professor_innen"
+        "function_category": "Professor_innen",
+        "short_name": "chuemer"
     },
     {
         "tiss_id": 49492,
@@ -104,7 +108,8 @@
         "other_emails": [],
         "function": "Allgem.Univ.Bediensteter",
         "room_code": "HG0209",
-        "function_category": "Allgemeine Bedienstete"
+        "function_category": "Allgemeine Bedienstete",
+        "short_name": "mstraka"
     },
     {
         "tiss_id": 186791,
@@ -123,7 +128,8 @@
         "main_email": "christiane.floyd@tuwien.ac.at",
         "other_emails": [],
         "function": "zugeteilt",
-        "function_category": "Zugeordnet"
+        "function_category": "Zugeordnet",
+        "short_name": "cfloyd"
     },
     {
         "tiss_id": 59677,
@@ -145,7 +151,8 @@
         ],
         "function": "Weiterer Mitarbeiter",
         "room_code": "HG0206",
-        "function_category": "Weitere Mitarbeiter_innen"
+        "function_category": "Weitere Mitarbeiter_innen",
+        "short_name": "rbill"
     },
     {
         "tiss_id": 53147,
@@ -167,7 +174,8 @@
         ],
         "function": "Weiterer Mitarbeiter",
         "room_code": "HE0124",
-        "function_category": "Weitere Mitarbeiter_innen"
+        "function_category": "Weitere Mitarbeiter_innen",
+        "short_name": "mkrajiczek"
     },
     {
         "tiss_id": 50450,
@@ -198,7 +206,8 @@
         ],
         "function": "Weitere Mitarbeiterin",
         "room_code": "HD0205",
-        "function_category": "Weitere Mitarbeiter_innen"
+        "function_category": "Weitere Mitarbeiter_innen",
+        "short_name": "gpaskaleva"
     },
     {
         "tiss_id": 82129,
@@ -229,7 +238,8 @@
         ],
         "function": "Weiterer Mitarbeiter",
         "room_code": "HG0205",
-        "function_category": "Weitere Mitarbeiter_innen"
+        "function_category": "Weitere Mitarbeiter_innen",
+        "short_name": "bwally"
     },
     {
         "tiss_id": 68412,
@@ -248,7 +258,8 @@
         "main_email": "juergen.cito@tuwien.ac.at",
         "other_emails": [],
         "function": "Assistent",
-        "function_category": "Wissenschaftliche Mitarbeiter_innen"
+        "function_category": "Wissenschaftliche Mitarbeiter_innen",
+        "short_name": "jcito"
     },
     {
         "tiss_id": 60223,
@@ -268,7 +279,8 @@
         "other_emails": [],
         "function": "Assistent",
         "room_code": "HD0209",
-        "function_category": "Wissenschaftliche Mitarbeiter_innen"
+        "function_category": "Wissenschaftliche Mitarbeiter_innen",
+        "short_name": "mschroeder"
     },
     {
         "tiss_id": 100963,
@@ -288,7 +300,8 @@
         "other_emails": [],
         "function": "Senior Lecturer",
         "room_code": "HD0211",
-        "function_category": "Wissenschaftliche Mitarbeiter_innen"
+        "function_category": "Wissenschaftliche Mitarbeiter_innen",
+        "short_name": "mmurzek"
     },
     {
         "tiss_id": 44006,
@@ -308,7 +321,8 @@
         "other_emails": [],
         "function": "Senior Lecturer",
         "room_code": "HD0211",
-        "function_category": "Wissenschaftliche Mitarbeiter_innen"
+        "function_category": "Wissenschaftliche Mitarbeiter_innen",
+        "short_name": "mscholz"
     },
     {
         "tiss_id": 254917,
@@ -327,6 +341,7 @@
         "main_email": "victor.dulca@tuwien.ac.at",
         "other_emails": [],
         "function": "StudMA in Forschung/Verwaltung",
-        "function_category": "Studentische Mitarbeiter_innen"
+        "function_category": "Studentische Mitarbeiter_innen",
+        "short_name": "vdulca"
     }
 ]
