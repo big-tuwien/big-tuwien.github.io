@@ -59,4 +59,4 @@ Thereby, BIG addresses the gap between the business strategy on why/what to do a
 digital age. The current research areas of BIG cover model-driven engineering, data engineering, process 
 engineering, enterprise engineering, and industrial engineering.
 
-{{< figure library="true" src="team.jpg" title="&copy; Stefanie Starz" lightbox="true" >}}
+{{< figure library="true" src="team.jpg" title="&copy; Stefanie Starz" lightbox="false" >}}

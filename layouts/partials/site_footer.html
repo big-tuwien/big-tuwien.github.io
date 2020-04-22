@@ -1,0 +1,40 @@
+{{/* Get site logo. */}}
+{{ $show_logo := site.Params.main_menu.show_logo | default true }}
+{{ $has_logo := fileExists "assets/images/logo.png" | or (fileExists "assets/images/logo.svg") }}
+{{ $logo := "" }}
+{{ if $has_logo }}
+  {{ $logo = (partial "functions/get_logo" (dict "constraint" "max_height" "size" 50)) }}
+{{ end }}
+
+<footer class="site-footer">
+  {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
+  <p class="powered-by">
+    {{ with site.GetPage "privacy.md" }}
+      {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+    {{ end }}
+    {{ with site.GetPage "terms.md" }}
+      {{ if site.GetPage "privacy.md" }} &middot; {{ end }}
+      {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+    {{ end }}
+  </p>
+  {{ end }}
+
+
+
+  <p class="powered-by d-flex flex-wrap justify-content-center">
+    {{if $show_logo}}
+    {{if $has_logo}}
+    <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}" class="mr-2">
+    {{ end }}
+    <span style="position: relative;width: 350px">
+      <img src="https://informatics.tuwien.ac.at/logo.svg" alt="TU Wien Informatics">
+      <a href="https://www.tuwien.at" title="TU Wien" style="position:absolute;display:block;top:0;left:0;width:17%;height:100%;"></a>
+      <a href="https://informatics.tuwien.ac.at" title="TU Wien Informatics" style="position:absolute;display:block;top:0;left:17%;width:83%;height:100%;"></a>
+    </span>
+    {{ end }}
+  </p>
+
+  <p class="powered-by">
+    {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
+  </p>
+</footer>
