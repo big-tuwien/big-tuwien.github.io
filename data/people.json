@@ -20,7 +20,7 @@
         "function": "Leiterin",
         "room_code": "HC0215",
         "function_category": "Vorstand",
-        "short_name": "gkappel"
+        "short_name": "gertrude-kappel"
     },
     {
         "tiss_id": 317376,
@@ -41,7 +41,7 @@
         "function": "Sekretariat",
         "room_code": "HC0211",
         "function_category": "Sekretariat",
-        "short_name": "chabersack"
+        "short_name": "claudia-habersack"
     },
     {
         "tiss_id": 44613,
@@ -66,7 +66,7 @@
         ],
         "function": "Univ.Dozent",
         "function_category": "Professor_innen",
-        "short_name": "tgrechenig"
+        "short_name": "thomas-grechenig"
     },
     {
         "tiss_id": 118510,
@@ -88,7 +88,7 @@
         ],
         "function": "Univ.Dozent",
         "function_category": "Professor_innen",
-        "short_name": "chuemer"
+        "short_name": "christian-huemer"
     },
     {
         "tiss_id": 49492,
@@ -109,7 +109,7 @@
         "function": "Allgem.Univ.Bediensteter",
         "room_code": "HG0209",
         "function_category": "Allgemeine Bedienstete",
-        "short_name": "mstraka"
+        "short_name": "marek-straka"
     },
     {
         "tiss_id": 186791,
@@ -129,7 +129,7 @@
         "other_emails": [],
         "function": "zugeteilt",
         "function_category": "Zugeordnet",
-        "short_name": "cfloyd"
+        "short_name": "christiane-floyd"
     },
     {
         "tiss_id": 59677,
@@ -152,7 +152,7 @@
         "function": "Weiterer Mitarbeiter",
         "room_code": "HG0206",
         "function_category": "Weitere Mitarbeiter_innen",
-        "short_name": "rbill"
+        "short_name": "robert-bill"
     },
     {
         "tiss_id": 50450,
@@ -184,7 +184,7 @@
         "function": "Weitere Mitarbeiterin",
         "room_code": "HD0205",
         "function_category": "Weitere Mitarbeiter_innen",
-        "short_name": "gpaskaleva"
+        "short_name": "galina-paskaleva"
     },
     {
         "tiss_id": 82129,
@@ -216,48 +216,7 @@
         "function": "Weiterer Mitarbeiter",
         "room_code": "HG0205",
         "function_category": "Weitere Mitarbeiter_innen",
-        "short_name": "bwally"
-    },
-    {
-        "tiss_id": 68412,
-        "oid": 7360709,
-        "old_tiss_ids": [],
-        "first_name": "J\u00fcrgen",
-        "last_name": "Cito",
-        "gender": "M",
-        "pseudoperson": false,
-        "preceding_titles": "Univ.Ass. Dipl.-Ing. Dr.sc.",
-        "postpositioned_titles": "BSc",
-        "orcid": null,
-        "card_uri": "/person/68412",
-        "picture_uri": "/illustration/anzeigen/5534f4ba5280.jpeg?v1",
-        "main_phone_number": null,
-        "main_email": "juergen.cito@tuwien.ac.at",
-        "other_emails": [],
-        "function": "Assistent",
-        "function_category": "Wissenschaftliche Mitarbeiter_innen",
-        "short_name": "jcito"
-    },
-    {
-        "tiss_id": 60223,
-        "oid": 6447109,
-        "old_tiss_ids": [],
-        "first_name": "Michael",
-        "last_name": "Schr\u00f6der",
-        "gender": "M",
-        "pseudoperson": false,
-        "preceding_titles": "Univ.Ass. Dipl.-Ing.",
-        "postpositioned_titles": "BSc",
-        "orcid": null,
-        "card_uri": "/person/60223",
-        "picture_uri": "/illustration/anzeigen/65f2a4942134.jpeg?v1",
-        "main_phone_number": "+43 (1) 58801 194306",
-        "main_email": "michael.schroeder@tuwien.ac.at",
-        "other_emails": [],
-        "function": "Assistent",
-        "room_code": "HD0209",
-        "function_category": "Wissenschaftliche Mitarbeiter_innen",
-        "short_name": "mschroeder"
+        "short_name": "bernhard-wally"
     },
     {
         "tiss_id": 100963,
@@ -278,7 +237,7 @@
         "function": "Senior Lecturer",
         "room_code": "HD0211",
         "function_category": "Wissenschaftliche Mitarbeiter_innen",
-        "short_name": "mmurzek"
+        "short_name": "marion-murzek"
     },
     {
         "tiss_id": 44006,
@@ -299,7 +258,7 @@
         "function": "Senior Lecturer",
         "room_code": "HD0211",
         "function_category": "Wissenschaftliche Mitarbeiter_innen",
-        "short_name": "mscholz"
+        "short_name": "marion-scholz"
     },
     {
         "tiss_id": 254917,
@@ -319,6 +278,6 @@
         "other_emails": [],
         "function": "StudMA in Forschung/Verwaltung",
         "function_category": "Studentische Mitarbeiter_innen",
-        "short_name": "vdulca"
+        "short_name": "victor-gabriel-dulca"
     }
 ]

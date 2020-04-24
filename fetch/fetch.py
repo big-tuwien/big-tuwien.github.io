@@ -23,7 +23,7 @@ CI_TEMPLATE_DIR = 'templates'
 
 DATA_DIR = '../data'
 CONTENT_DIR = '../content'
-PEOPLE_DIR = CONTENT_DIR + '/authors'
+PEOPLE_DIR = CONTENT_DIR + '/people'
 TEACHING_DIR = CONTENT_DIR + '/teaching'
 PUBLICATION_DIR = CONTENT_DIR + '/publication'
 
@@ -41,9 +41,9 @@ COURSE_NAMESPACE_CONFIG = {
 }
 
 
-def _id(first_name, last_name):
-    return (first_name[0] + last_name).lower().replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue')\
-            .replace('ß', 'sz').replace(' ', '').replace('-', '')
+def _id(name):
+    return name.lower().replace(' ', '-').replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue')\
+        .replace('ß', 'sz').replace(' ', '')
 
 
 def _get_semesters(at=datetime.datetime.now(), summer_term_start=3, winter_term_start=10):
@@ -192,11 +192,12 @@ def main():
 
     # add short names
     for person in people:
-        person['short_name'] = _id(person['first_name'], person['last_name'])
+        person['short_name'] = _id(person['first_name'] + ' ' + person['last_name'])
 
     # apply whitelist
     print('Applying people whitelist')
-    people = [p for p in people if p['short_name'] in config['people']['whitelist']]
+    whitelist = [_id(name) for name in config['people']['whitelist']]
+    people = [p for p in people if p['short_name'] in whitelist]
 
     for person in people:
         first_name = person['first_name']
@@ -225,10 +226,12 @@ def main():
         post['authors'] = [person["short_name"]]
         post['role'] = person['preceding_titles']
         post['email'] = person['main_email']
-        social = [{'icon': 'envelope', 'icon_pack': 'fas', 'link': f'mailto:{person["main_email"]}'}]
+        pairs = [{'key': 'Mail', 'value': person["main_email"], 'link': f'mailto:{person["main_email"]}'}]
         if person['main_phone_number']:
-            social.append({'icon': 'phone', 'icon_pack': 'fas', 'link': f'tel:{person["main_phone_number"]}'})
-        post['social'] = social
+            pairs.append(
+                {'key': 'Phone', 'value': person["main_phone_number"], 'link': f'tel:{person["main_phone_number"]}'}
+            )
+        post['pairs'] = pairs
         with codecs.open(f'{directory}/_index.md', 'w+', 'utf-8') as f:
             f.write(frontmatter.dumps(post))
 
@@ -257,10 +260,10 @@ def main():
             f.write(json.dumps(courses, indent=4))
 
     # fetch publications
-    print('Fetching publications')
-    bibtex = load_bibtex(people, session=s)
-    print(f'Parsing fetched publications an storing results to "{PUBLICATION_DIR}"')
-    parse_publications(bibtex, PUBLICATION_DIR)
+    #print('Fetching publications')
+    #bibtex = load_bibtex(people, session=s)
+    #print(f'Parsing fetched publications an storing results to "{PUBLICATION_DIR}"')
+    #parse_publications(bibtex, PUBLICATION_DIR)
 
 
 if __name__ == '__main__':

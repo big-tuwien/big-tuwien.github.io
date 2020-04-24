@@ -1,0 +1,18 @@
+---
+authors:
+- thomas-grechenig
+bio: Lorem ipsum
+email: thomas.grechenig@tuwien.ac.at
+name: Thomas Grechenig
+pairs:
+- key: Mail
+  link: mailto:thomas.grechenig@tuwien.ac.at
+  value: thomas.grechenig@tuwien.ac.at
+- key: Phone
+  link: tel:+43 (1) 58801 183400
+  value: +43 (1) 58801 183400
+role: Ao.Univ.Prof. Dipl.-Ing. Dr.techn.
+superuser: false
+user_groups:
+- Researchers
+---

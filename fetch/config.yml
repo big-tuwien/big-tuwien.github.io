@@ -1,22 +1,19 @@
 people:
   # The TISS API result contains user records that are not meant to be displayed.
-  # Therefore this whitelist can be used to filter the result set. 
-  # Format (all lower case): 
-  #   first letter of first name + 
-  #   last name without hyphens or whitespace and converted umlauts (ae,oe,ue,sz).
+  # Therefore this whitelist can be used to filter the result set.
   whitelist:
-    - gkappel
-    - chabersack
-    - rbill
-    - jcito
-    - vdulca
-    - cfloyd
-    - tgrechenig
-    - chuemer
-    - mkrajiczek
-    - mmurzek
-    - gpaskaleva
-    - mscholz
-    - mschroeder
-    - mstraka
-    - bwally
+    - Gertrude Kappel
+    - Claudia Habersack
+    - Robert Bill
+    - Jürgen Cito
+    - Victor Gabriel Dulca
+    - Christiane Floyd
+    - Thomas Grechenig
+    - Christian Huemer
+    - Martin Peter Krajiczek
+    - Marion Murzek
+    - Galina Paskaleva
+    - Marion Scholz
+    - Michael Schröder
+    - Marek Straka
+    - Bernhard Wally
