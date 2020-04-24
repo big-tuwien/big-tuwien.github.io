@@ -1,7 +1,7 @@
 ---
 authors:
 - christiane-floyd
-bio: Lorem ipsum
+bio: null
 email: christiane.floyd@tuwien.ac.at
 name: Christiane Floyd
 pairs:

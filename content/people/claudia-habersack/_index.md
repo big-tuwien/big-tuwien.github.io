@@ -1,7 +1,7 @@
 ---
 authors:
 - claudia-habersack
-bio: Lorem ipsum
+bio: null
 email: claudia.habersack@tuwien.ac.at
 name: Claudia Habersack
 pairs:

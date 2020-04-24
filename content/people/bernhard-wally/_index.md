@@ -1,7 +1,7 @@
 ---
 authors:
 - bernhard-wally
-bio: Lorem ipsum
+bio: null
 email: bernhard.wally@tuwien.ac.at
 name: Bernhard Wally
 pairs:

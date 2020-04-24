@@ -1,7 +1,7 @@
 ---
 authors:
 - marek-straka
-bio: Lorem ipsum
+bio: null
 email: marek.straka@tuwien.ac.at
 name: Marek Straka
 pairs:

@@ -1,7 +1,7 @@
 ---
 authors:
 - thomas-grechenig
-bio: Lorem ipsum
+bio: null
 email: thomas.grechenig@tuwien.ac.at
 name: Thomas Grechenig
 pairs:

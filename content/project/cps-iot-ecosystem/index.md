@@ -3,7 +3,7 @@
 
 title: "CPS/IoT Ecosystem"
 summary: ""
-authors: [mwimmer, jmayerhofer, bwally, mschadler, gkappel]
+authors: [Manuel Wimmer, Tanja Mayerhofer, Bernhard Wally, Michael Schadler, Gertrude Kappel]
 tags: []
 categories: []
 date: 2020-04-14T19:07:18+02:00

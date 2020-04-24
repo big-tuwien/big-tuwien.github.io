@@ -1,0 +1,10 @@
+<ul class="data-pairs">
+  {{range .Params.pairs}}
+  <li>
+    {{ with .key }}<b>{{ . }}</b>:{{end}}
+    {{ with .link }} <a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+    {{ with .value }}<span>{{ . }}</span>{{ end }}
+    {{ if .link }}</a>{{ end }}
+  </li>
+  {{end}}
+</ul>

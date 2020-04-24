@@ -1,7 +1,7 @@
 ---
 authors:
 - gertrude-kappel
-bio: Lorem ipsum
+bio: null
 email: gertrude.kappel@tuwien.ac.at
 name: Gertrude Kappel
 pairs:

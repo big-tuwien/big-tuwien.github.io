@@ -1,7 +1,7 @@
 ---
 authors:
 - christian-huemer
-bio: Lorem ipsum
+bio: null
 email: christian.huemer@tuwien.ac.at
 name: Christian Huemer
 pairs:

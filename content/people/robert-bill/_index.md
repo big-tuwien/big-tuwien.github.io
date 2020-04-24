@@ -1,7 +1,7 @@
 ---
 authors:
 - robert-bill
-bio: Lorem ipsum
+bio: null
 email: robert.bill@tuwien.ac.at
 name: Robert Bill
 pairs:

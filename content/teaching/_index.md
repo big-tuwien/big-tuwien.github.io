@@ -1,5 +1,5 @@
 ---
-date: '2020-04-24T23:28:00+02:00'
+date: '2020-04-25T00:21:12+02:00'
 draft: false
 linktitle: 2020S
 menu:

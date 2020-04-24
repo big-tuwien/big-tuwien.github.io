@@ -1,7 +1,7 @@
 ---
 authors:
 - galina-paskaleva
-bio: Lorem ipsum
+bio: null
 email: galina.paskaleva@tuwien.ac.at
 name: Galina Paskaleva
 pairs:

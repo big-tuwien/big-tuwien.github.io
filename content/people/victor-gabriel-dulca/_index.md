@@ -1,7 +1,7 @@
 ---
 authors:
 - victor-gabriel-dulca
-bio: Lorem ipsum
+bio: null
 email: victor.dulca@tuwien.ac.at
 name: Victor Gabriel Dulca
 pairs:

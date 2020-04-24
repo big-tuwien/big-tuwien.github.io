@@ -1,7 +1,7 @@
 ---
 authors:
 - marion-murzek
-bio: Lorem ipsum
+bio: null
 email: marion.murzek@tuwien.ac.at
 name: Marion Murzek
 pairs:

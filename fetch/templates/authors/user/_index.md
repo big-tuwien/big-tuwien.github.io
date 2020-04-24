@@ -18,7 +18,7 @@ role: Dr.sc
 #  url: "https://www.tuwien.at/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Lorem ipsum
+bio:
 
 # interests:
 # - Artificial Intelligence

@@ -1,7 +1,7 @@
 ---
 authors:
 - marion-scholz
-bio: Lorem ipsum
+bio: null
 email: marion.scholz@tuwien.ac.at
 name: Marion Scholz
 pairs:
