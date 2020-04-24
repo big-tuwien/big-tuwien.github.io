@@ -155,29 +155,6 @@
         "short_name": "rbill"
     },
     {
-        "tiss_id": 53147,
-        "oid": 3208493,
-        "old_tiss_ids": [],
-        "first_name": "Martin Peter",
-        "last_name": "Krajiczek",
-        "gender": "M",
-        "pseudoperson": false,
-        "preceding_titles": null,
-        "postpositioned_titles": null,
-        "orcid": null,
-        "card_uri": "/person/53147",
-        "picture_uri": "/illustration/anzeigen/e1ece314480d.jpeg?v1",
-        "main_phone_number": "+43 (1) 58801 18885",
-        "main_email": "martin.krajiczek@tuwien.ac.at",
-        "other_emails": [
-            "mkrajicz@intern.tuwien.ac.at"
-        ],
-        "function": "Weiterer Mitarbeiter",
-        "room_code": "HE0124",
-        "function_category": "Weitere Mitarbeiter_innen",
-        "short_name": "mkrajiczek"
-    },
-    {
         "tiss_id": 50450,
         "oid": 2765389,
         "old_tiss_ids": [],

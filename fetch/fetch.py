@@ -8,6 +8,10 @@ import shutil
 import yaml
 import xmltodict
 import datetime
+import academic.cli as academic
+import bibtexparser
+from bibtexparser.bparser import BibTexParser
+from bibtexparser.customization import convert_to_unicode
 
 BIG_TID = 4760
 BIG_OID = 18460477
@@ -21,12 +25,14 @@ DATA_DIR = '../data'
 CONTENT_DIR = '../content'
 PEOPLE_DIR = CONTENT_DIR + '/authors'
 TEACHING_DIR = CONTENT_DIR + '/teaching'
+PUBLICATION_DIR = CONTENT_DIR + '/publication'
 
 TISS_BASE = 'https://tiss.tuwien.ac.at'
 PEOPLE_URL = f'{TISS_BASE}/api/orgunit/v22/id/{BIG_TID}?persons=true'
 PROJECTS_ONGOING_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=1'
 PROJECTS_FINISHED_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=2'
 COURSE_LECTURER_URL = TISS_BASE + '/api/course/lecturer/{}'
+PUBLICATION_URL = 'https://publik.tuwien.ac.at/pubbibtex.php'
 
 COURSE_NAMESPACE_CONFIG = {
     f'{TISS_BASE}/api/schemas/course/v10': None,
@@ -67,12 +73,12 @@ def _get_semesters(at=datetime.datetime.now(), summer_term_start=3, winter_term_
 
 
 def _course_table(courses, people):
-    content = '| No. | Course Title German | Course Title English | Lecturers |\n' \
-              '|-----|---------------------|----------------------|-----------|\n'
+    content = '| No. | Type | Title | Lecturers |\n' \
+              '|-----|------|-------|-----------|\n'
     for course in courses:
         authors = ['{{% mention "' + p['short_name'] + '" %}}' for p in people if str(p['oid']) in course['lecturers']['oid']]
         author_string = ', '.join(authors)
-        content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["title"]["de"]} ' \
+        content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["courseType"]} ' \
                    f'| {course["title"]["en"]} ' \
                    '| ' + author_string + ' |\n'
 
@@ -102,11 +108,11 @@ def _create_course_post(courses, people, semester, template_path):
     return post
 
 
-def get_lecturer_courses(lecturer_oids, semester=None, session=requests.Session()):
+def get_courses(lecturers, semester=None, session=requests.Session()):
     course_dict = {}
 
-    for oid in lecturer_oids:
-        url = COURSE_LECTURER_URL.format(oid)
+    for lect in lecturers:
+        url = COURSE_LECTURER_URL.format(lect['oid'])
         query = {}
         if session:
             query['semester'] = semester
@@ -135,6 +141,35 @@ def get_lecturer_courses(lecturer_oids, semester=None, session=requests.Session(
             course_dict[course_id] = dict(course)
 
     return list(course_dict.values())
+
+
+def load_bibtex(researchers, session=requests.Session()):
+    composite_bibtex = ''
+
+    for res in researchers:
+        query = {'zuname': res['last_name'], 'vorname': res['first_name'], 'inst': 'E194', 'abt': '03'}
+        r = session.get(PUBLICATION_URL, params=query)
+        result = r.content.decode()
+        for line in result.split(os.linesep):
+            if len(line) == 0 or line.startswith('BibTeX-Export:') or line.endswith('ausgegeben') or line.startswith('@comment'):
+                continue
+            composite_bibtex += line + '\n'
+        composite_bibtex += '\n'
+
+    return composite_bibtex
+
+
+def parse_publications(bibtex, pub_dir):
+    parser = BibTexParser(common_strings=True)
+    parser.customization = convert_to_unicode
+    parser.ignore_nonstandard_types = False
+    bib_database = bibtexparser.loads(bibtex_str=bibtex, parser=parser)
+
+    for entry in bib_database.entries:
+        academic.parse_bibtex_entry(
+            entry, pub_dir=pub_dir, featured=False,
+            overwrite=True, normalize=False, dry_run=False
+        )
 
 
 def main():
@@ -210,8 +245,7 @@ def main():
     for semester, file in semesters:
         print(f'Fetching courses for semester {semester} -> {file}')
 
-        lecturer_oids = [p['oid'] for p in people]
-        courses = get_lecturer_courses(lecturer_oids, semester=semester)
+        courses = get_courses(people, semester=semester)
 
         # apply metadata to markdown front matter
         post = _create_course_post(courses, people, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
@@ -221,6 +255,12 @@ def main():
 
         with codecs.open(f'{DATA_DIR}/courses_{semester}.json', 'w+', 'utf-8') as f:
             f.write(json.dumps(courses, indent=4))
+
+    # fetch publications
+    print('Fetching publications')
+    bibtex = load_bibtex(people, session=s)
+    print(f'Parsing fetched publications an storing results to "{PUBLICATION_DIR}"')
+    parse_publications(bibtex, PUBLICATION_DIR)
 
 
 if __name__ == '__main__':

@@ -2,3 +2,4 @@ requests
 python-frontmatter
 pyyaml
 xmltodict
+academic
