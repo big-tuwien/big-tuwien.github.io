@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Save-the-date: ER 2020 – 39th International Conference on Conceptual Modeling, Nov. 3-6, 2020!"
+title: "Talk by Prof. Leymann and Dr. Barzen: „Quantum Computing: A Brief Introduction“"
 subtitle: ""
 summary: ""
 authors: []
 tags: []
 categories: []
-date: 2019-12-23T13:32:58+02:00
-lastmod: 2019-12-23T13:32:58+02:00
+date: 2019-10-25T00:45:37+02:00
+lastmod: 2019-10-25T00:45:37+02:00
 featured: false
 draft: false
 
@@ -27,5 +27,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-BIG is organizing ER 2020 with the overarching theme on Digital Transformation. 
-[further information](https://er2020.big.tuwien.ac.at/)
+
+**When?** October 25th, 2019, 2 p.m. 
+**Where?** TU Wien, 1040 Vienna, Favoritenstraße 9-11, lecture room Zemanek, ground floor 
+
+[announcement_Leymann_Barzen](https://www.big.tuwien.ac.at/app/uploads/2019/10/announcement_Leymann_Barzen.pdf)

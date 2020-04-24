@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Save-the-date: ER 2020 – 39th International Conference on Conceptual Modeling, Nov. 3-6, 2020!"
+title: "We welcome our guest professor Prof. Dr. Markus Stumptner from the University of South Australia!"
 subtitle: ""
 summary: ""
 authors: []
 tags: []
 categories: []
-date: 2019-12-23T13:32:58+02:00
-lastmod: 2019-12-23T13:32:58+02:00
+date: 2019-11-25T00:44:48+02:00
+lastmod: 2019-11-25T00:44:48+02:00
 featured: false
 draft: false
 
@@ -27,5 +27,4 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-BIG is organizing ER 2020 with the overarching theme on Digital Transformation. 
-[further information](https://er2020.big.tuwien.ac.at/)
+[further information](https://people.unisa.edu.au/Markus.Stumptner)

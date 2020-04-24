@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Save-the-date: ER 2020 – 39th International Conference on Conceptual Modeling, Nov. 3-6, 2020!"
+title: "Welcome to our new team member Dr. Jürgen Cito!"
 subtitle: ""
 summary: ""
 authors: []
 tags: []
 categories: []
-date: 2019-12-23T13:32:58+02:00
-lastmod: 2019-12-23T13:32:58+02:00
+date: 2020-02-25T00:44:26+02:00
+lastmod: 2020-02-25T00:44:26+02:00
 featured: false
 draft: false
 
@@ -27,5 +27,4 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-BIG is organizing ER 2020 with the overarching theme on Digital Transformation. 
-[further information](https://er2020.big.tuwien.ac.at/)
+[Jürgen Cito](https://www.big.tuwien.ac.at/people/jcito/)

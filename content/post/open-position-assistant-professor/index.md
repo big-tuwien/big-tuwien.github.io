@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Save-the-date: ER 2020 – 39th International Conference on Conceptual Modeling, Nov. 3-6, 2020!"
+title: "Open Position"
 subtitle: ""
 summary: ""
 authors: []
 tags: []
 categories: []
-date: 2019-12-23T13:32:58+02:00
-lastmod: 2019-12-23T13:32:58+02:00
+date: 2019-09-25T00:47:32+02:00
+lastmod: 2019-09-25T00:47:32+02:00
 featured: false
 draft: false
 
@@ -27,5 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-BIG is organizing ER 2020 with the overarching theme on Digital Transformation. 
-[further information](https://er2020.big.tuwien.ac.at/)
+
+[Assistant Professor of Business Systems Engineering](https://informatics.tuwien.ac.at/stories-1752) 
+
+We invite applications for this full-time tenure track position until November 3!
