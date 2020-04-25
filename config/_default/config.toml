@@ -70,3 +70,17 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "people"
+
+# Related content
+[related]
+threshold = 80.0
+includeNewer = false
+toLower = false
+
+  [[related.indices]]
+  name = "keywords"
+  weight = 100.0
+
+  [[related.indices]]
+  name = "date"
+  weight = 10.0

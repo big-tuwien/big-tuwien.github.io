@@ -45,7 +45,7 @@
       <ul class="data-pairs">
         {{range $person.pairs}}
         <li>
-          {{ with .key }}<b>{{ . }}</b>:{{end}}
+          {{ with .key }}<b class="head-font">{{ . }}</b>:{{end}}
           {{ with .link }} <a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
           {{ with .value }}<span>{{ . }}</span>{{ end }}
           {{ if .link }}</a>{{ end }}
