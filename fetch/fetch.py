@@ -76,7 +76,7 @@ def _course_table(courses, people):
     content = '| No. | Type | Title | Lecturers |\n' \
               '|-----|------|-------|-----------|\n'
     for course in courses:
-        authors = ['{{% mention "' + p['short_name'] + '" %}}' for p in people if str(p['oid']) in course['lecturers']['oid']]
+        authors = ['{{% mention "' + p['identifier'] + '" %}}' for p in people if str(p['oid']) in course['lecturers']['oid']]
         author_string = ', '.join(authors)
         content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["courseType"]} ' \
                    f'| {course["title"]["en"]} ' \
@@ -192,25 +192,25 @@ def main():
 
     # add short names
     for person in people:
-        person['short_name'] = _id(person['first_name'] + ' ' + person['last_name'])
+        person['identifier'] = _id(person['first_name'] + ' ' + person['last_name'])
 
     # apply whitelist
     print('Applying people whitelist')
     whitelist = [_id(name) for name in config['people']['whitelist']]
-    people = [p for p in people if p['short_name'] in whitelist]
+    people = [p for p in people if p['identifier'] in whitelist]
 
     for person in people:
         first_name = person['first_name']
         last_name = person['last_name']
         name = f'{first_name} {last_name}'
-        directory = f'{PEOPLE_DIR}/{person["short_name"]}'
+        directory = f'{PEOPLE_DIR}/{person["identifier"]}'
 
         # create folder
         if not os.path.exists(directory):
             print(f'Creating author files for {name}')
             os.makedirs(directory)
         else:
-            print(f'Skipping {name} ({person["short_name"]}) - profile already exists')
+            print(f'Skipping {name} ({person["identifier"]}) - profile already exists')
             continue
 
         # download profile pic or copy default
@@ -223,7 +223,7 @@ def main():
         # apply metadata to markdown front matter
         post = frontmatter.load(CI_TEMPLATE_DIR + '/authors/user/_index.md')
         post['name'] = name
-        post['authors'] = [person["short_name"]]
+        post['authors'] = [person["identifier"]]
         post['role'] = person['preceding_titles']
         post['email'] = person['main_email']
         pairs = [{'key': 'Mail', 'value': person["main_email"], 'link': f'mailto:{person["main_email"]}'}]
@@ -245,13 +245,16 @@ def main():
 
     semesters = [(current_semester, '_index.md'), (prev_semester, 'prev.md')]
 
+    lecturer_blacklist = [_id(name) for name in config['courses']['blacklist']]
+    lecturers = [p for p in people if p['identifier'] not in lecturer_blacklist]
+
     for semester, file in semesters:
         print(f'Fetching courses for semester {semester} -> {file}')
 
-        courses = get_courses(people, semester=semester)
+        courses = get_courses(lecturers, semester=semester)
 
         # apply metadata to markdown front matter
-        post = _create_course_post(courses, people, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
+        post = _create_course_post(courses, lecturers, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
 
         with codecs.open(f'{TEACHING_DIR}/{file}', 'w+', 'utf-8') as f:
             f.write(frontmatter.dumps(post))

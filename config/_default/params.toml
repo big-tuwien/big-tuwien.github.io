@@ -86,14 +86,14 @@ phone = "+43 (1) 58801-194301"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Favoritenstraße 9-11/194-3", city = "Vienna", postcode = "1040", country = "Austrua", country_code = "AT"}
+address = {street = "Favoritenstraße 9-11/194-3", city = "Vienna", postcode = "1040", country = "Austria", country_code = "AT"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 coordinates = {latitude = "48.195188", longitude = "16.370066"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+directions = "Staircase II on the 2nd floor"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -174,7 +174,7 @@ plugins_js  = []
 
 # Available address formats.
 [address_formats]
-  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+  en-us = {order = ['street', 'region', 'postcode', 'city', 'country'], delimiters = [', ', ', ', ' ', ', ']}
   en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
   de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
   fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}

@@ -1,6 +1,7 @@
 people:
   # The TISS API result contains user records that are not meant to be displayed.
   # Therefore this whitelist can be used to filter the result set.
+  # This whitelist will be the base of any blacklists, meaning this list is applied before the blacklists
   whitelist:
     - Gertrude Kappel
     - Claudia Habersack
@@ -17,3 +18,8 @@ people:
     - Michael Schröder
     - Marek Straka
     - Bernhard Wally
+
+courses:
+  # If any whitelisted persons should be excluded from course fetching, list here
+  blacklist:
+    - Thomas Grechenig
