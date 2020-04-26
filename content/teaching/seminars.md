@@ -48,12 +48,20 @@ subtitle = ""
 
 ## Research Seminar
 
+<div class="full-width">
+
 | Title  | Speaker | When | Where|
 |--------|--------|--------|--------|
 | Model Integration by Model Virtualisation | {{% mention "Robert Bill" %}} | 24.02.2020, 10:00 - 12:00 | Sitzungszimmer Dekanat |
 
+</div>
+
 ## Diploma Seminar
+
+<div class="full-width">
 
 | Title  | Speaker | When | Where|
 |--------|--------|--------|--------|
 | Using Model-based Testing Approaches for Creating Behaviour-driven Tests in the Context of VoIP Software | {{% mention "Simon Schneider" %}} | 04.05.2020, 10:00 - 12:00 | Besprechungsraum 2. Stock (HD 0215) |
+
+</div>
