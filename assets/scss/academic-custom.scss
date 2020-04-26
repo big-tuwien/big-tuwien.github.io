@@ -1,0 +1,19 @@
+// override academic's display: block on tables
+.full-width table {
+  display: table !important;
+}
+
+.wg-hero {
+  padding: 0 0 3em;
+}
+
+.slider-widget {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators li {
+    filter: brightness(20%);
+}

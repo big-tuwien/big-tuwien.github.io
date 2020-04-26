@@ -1,3 +1,5 @@
+@import "academic-custom";
+
 ul.data-pairs {
   display: flex;
   flex-direction: column;
@@ -10,9 +12,4 @@ ul.data-pairs {
 .head-font {
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
-}
-
-// override academic's display: block on tables
-.full-width table {
-  display: table !important;
 }
