@@ -42,7 +42,7 @@ height = ""
 | No. | Type | Title | Lecturers |
 |-----|------|-------|-----------|
 | [188391](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188391&semester=2020S) | VU | Object-oriented modeling | {{% mention "gertrude-kappel" %}}, {{% mention "christian-huemer" %}}, {{% mention "marion-murzek" %}}, {{% mention "marion-scholz" %}} |
-| [188951](https://web-engineering.big.tuwien.ac.at) | VU | Web Engineering | {{% mention "gertrude-kappel" %}} |
+| [188951](https://web-engineering.big.tuwien.ac.at) | VU | Web Engineering | {{% mention "gertrude-kappel" %}}, {{% mention "juergen-cito" %}}, {{% mention "michael-schroeder" %}} |
 | [188978](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188978&semester=2020S) | VU | IT Governance | {{% mention "gertrude-kappel" %}}, {{% mention "christian-huemer" %}} |
 | [194082](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194082&semester=2020S) | VU | Technology for People 2040 | {{% mention "christian-huemer" %}} |
 | [195079](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=195079&semester=2020S) | VU | Fundamental research methods for doctoral students | {{% mention "christian-huemer" %}} |
@@ -80,7 +80,7 @@ height = ""
 
 | No. | Type | Title | Lecturers |
 |-----|------|-------|-----------|
-| [188923](https://tuwel.tuwien.ac.at/course/view.php?idnumber=188923-2016W) | VU | Model Engineering | {{% mention "gertrude-kappel" %}}, {{% mention "galina-paskaleva" %}} |
+| [188923](https://tuwel.tuwien.ac.at/course/view.php?idnumber=188923-2016W) | VU | Model Engineering | {{% mention "gertrude-kappel" %}}, {{% mention "galina-paskaleva" %}}, {{% mention "michael-schroeder" %}} |
 | [188951](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188951&semester=2019W) | VU | Web Engineering | {{% mention "gertrude-kappel" %}} |
 | [194043](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194043&semester=2019W) | VU | Enterprise Architecture | {{% mention "christian-huemer" %}} |
 | [194082](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194082&semester=2019W) | VU | Technology for People 2040 | {{% mention "christian-huemer" %}} |
@@ -113,5 +113,4 @@ height = ""
 | [180779](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=180779&semester=2019W) | SE | Seminar for Master Students in Business Informatics | {{% mention "christian-huemer" %}} |
 | [194078](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194078&semester=2019W) | SE | Research Methods | {{% mention "christian-huemer" %}} |
 | [234174](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=234174&semester=2019W) | SE | Integrated BIM Design Lab | {{% mention "galina-paskaleva" %}} |
-
 </div>

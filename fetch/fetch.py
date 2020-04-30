@@ -174,9 +174,9 @@ def parse_publications(bibtex, pub_dir):
 
 def main():
     # load config
-    with open('config.yml', 'r') as f:
+    with open('config.yml', 'r', encoding='utf8') as yml:
         try:
-            config = yaml.safe_load(f)
+            config = yaml.safe_load(yml)
         except yaml.YAMLError as e:
             print('Cannot read config.yml: ', e)
             return
@@ -197,7 +197,9 @@ def main():
     # apply whitelist
     print('Applying people whitelist')
     whitelist = [_id(name) for name in config['people']['whitelist']]
+    print(whitelist)
     people = [p for p in people if p['identifier'] in whitelist]
+    print(people)
 
     for person in people:
         first_name = person['first_name']
@@ -256,8 +258,8 @@ def main():
         # apply metadata to markdown front matter
         post = _create_course_post(courses, lecturers, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
 
-        with codecs.open(f'{TEACHING_DIR}/{file}', 'w+', 'utf-8') as f:
-            f.write(frontmatter.dumps(post))
+        # with codecs.open(f'{TEACHING_DIR}/{file}', 'w+', 'utf-8') as f:
+        #     f.write(frontmatter.dumps(post))
 
         with codecs.open(f'{DATA_DIR}/courses_{semester}.json', 'w+', 'utf-8') as f:
             f.write(json.dumps(courses, indent=4))
