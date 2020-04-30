@@ -1,0 +1,12 @@
+{{- $path := .Get 0 -}}
+{{- $sep := "," -}}
+<table>
+  <tbody>
+    {{range $i, $r := getCSV $sep $path }}
+    <tr>
+      {{range $c := $r}}
+      <td>{{ . }}</td>
+      {{ end }}
+    </tr>
+  </tbody>
+</table>
