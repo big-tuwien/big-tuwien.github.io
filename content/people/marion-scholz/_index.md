@@ -14,5 +14,5 @@ pairs:
 role: Senior Lecturer Dipl.-Ing. Mag.rer.soc.oec.
 superuser: false
 user_groups:
-- Researchers
+- Research
 ---

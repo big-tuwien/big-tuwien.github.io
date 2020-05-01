@@ -14,5 +14,5 @@ pairs:
 role: Projektass. Dipl.-Ing.
 superuser: false
 user_groups:
-- Researchers
+- Research
 ---

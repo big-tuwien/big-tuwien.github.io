@@ -14,5 +14,5 @@ pairs:
 role: Hon.Prof. Dr.phil.
 superuser: false
 user_groups:
-- Researchers
+- Research
 ---

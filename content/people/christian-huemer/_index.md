@@ -14,5 +14,5 @@ pairs:
 role: Ao.Univ.Prof. Mag.rer.soc.oec. Dr.rer.soc.oec.
 superuser: false
 user_groups:
-- Researchers
+- Research
 ---

@@ -14,5 +14,5 @@ pairs:
 role: null
 superuser: false
 user_groups:
-- Researchers
+- Research
 ---

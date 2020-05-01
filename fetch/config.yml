@@ -1,7 +1,8 @@
 people:
   # The TISS API result contains user records that are not meant to be displayed.
+  # All names must match the names used in TISS.
   # Therefore this whitelist can be used to filter the result set.
-  # This whitelist will be the base of any blacklists, meaning this list is applied before the blacklists
+  # This whitelist will be the base of any blacklists, meaning this list is applied before the blacklists.
   whitelist:
     - Gertrude Kappel
     - Claudia Habersack
