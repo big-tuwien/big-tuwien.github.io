@@ -1,4 +1,3 @@
-import codecs
 import json
 import os
 import requests
@@ -32,13 +31,7 @@ PEOPLE_URL = f'{TISS_BASE}/api/orgunit/v22/id/{BIG_TID}?persons=true'
 PROJECTS_ONGOING_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=1'
 PROJECTS_FINISHED_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=2'
 COURSE_LECTURER_URL = TISS_BASE + '/api/course/lecturer/{}'
-PUBLICATION_URL = 'https://publik.tuwien.ac.at/pubbibtex.php'
-
-COURSE_NAMESPACE_CONFIG = {
-    f'{TISS_BASE}/api/schemas/course/v10': None,
-    f'{TISS_BASE}/api/schemas/hasCourse/v10': None,
-    f'{TISS_BASE}/api/schemas/i18n/v10': None
-}
+PUBLICATION_URL = 'https://publik.tuwien.ac.at/pubexport.php'
 
 
 def _id(name):
@@ -111,16 +104,19 @@ def _create_course_post(courses, people, semester, template_path):
 def get_courses(lecturers, semester=None, session=requests.Session()):
     course_dict = {}
 
+    namespaces = {
+      f'{TISS_BASE}/api/schemas/course/v10': None,
+      f'{TISS_BASE}/api/schemas/hasCourse/v10': None,
+      f'{TISS_BASE}/api/schemas/i18n/v10': None
+    }
+
     for lect in lecturers:
         url = COURSE_LECTURER_URL.format(lect['oid'])
         query = {}
         if session:
             query['semester'] = semester
         r = session.get(url, params=query)
-        xml_dict = xmltodict.parse(
-          r.content, encoding='utf-8', process_namespaces=True,
-          namespaces=COURSE_NAMESPACE_CONFIG
-        )
+        xml_dict = xmltodict.parse(r.content, encoding='utf-8', process_namespaces=True, namespaces=namespaces)
 
         # skip invalid users
         if 'tuvienna' not in xml_dict:
@@ -143,38 +139,74 @@ def get_courses(lecturers, semester=None, session=requests.Session()):
     return list(course_dict.values())
 
 
-def load_bibtex(researchers, session=requests.Session()):
-    composite_bibtex = ''
+def load_publications(researchers, session=requests.Session()):
+    publications = []
 
     for res in researchers:
         query = {'zuname': res['last_name'], 'vorname': res['first_name'], 'inst': 'E194', 'abt': '03'}
         r = session.get(PUBLICATION_URL, params=query)
-        result = r.content.decode()
-        for line in result.split(os.linesep):
-            if len(line) == 0 or line.startswith('BibTeX-Export:') or line.endswith('ausgegeben') or line.startswith('@comment'):
-                continue
-            composite_bibtex += line + '\n'
-        composite_bibtex += '\n'
+        content = r.content.decode('utf-8', 'replace')
+        xml = xmltodict.parse(content, encoding='utf-8')['export']  # get root element
+        if 'publikation' not in xml:
+            continue
 
-    return composite_bibtex
+        res_pub = xml['publikation']
+        publications.extend(res_pub)
+
+    return publications
 
 
-def parse_publications(bibtex, pub_dir):
-    parser = BibTexParser(common_strings=True)
-    parser.customization = convert_to_unicode
-    parser.ignore_nonstandard_types = False
-    bib_database = bibtexparser.loads(bibtex_str=bibtex, parser=parser)
+def parse_publications(publications, pub_dir):
+    type_map = {
+        'Dissertation': 'diss_dipl',
+        'Wissenschaftlicher Bericht': 'bericht',
+        'Zeitschriftenartikel': 'zeitschriftenartikel',
+        'Vortrag mit Tagungsband': 'vortrag_poster_mit_tagungsband',
+        'Vortrag ohne Tagungsband': 'vortrag_poster_ohne_tagungsband',
+        'Diplom- oder Master-Arbeit': 'diss_dipl',
+        'Buch-Herausgabe': 'buch_herausgabe',
+        'Monographie (Erstauflage)': 'buch',
+        'Monographie (Folgeauflage)': 'buch',
+        'Beitrag in elektron. Zeitschrift': 'elektron_zeitschrift',
+        'Buchbeitrag': 'buchbeitrag',
+        'Beitrag in Tagungsband': 'beitrag_tagungsband',
+        'Posterpräsentation mit Tagungsband': 'vortrag_poster_mit_tagungsband',
+        'Vortrag mit CD- oder Web-Tagungsband': 'vortrag_poster_mit_cd_tagungsband',
+    }
 
-    for entry in bib_database.entries:
-        academic.parse_bibtex_entry(
-            entry, pub_dir=pub_dir, featured=False,
-            overwrite=True, normalize=False, dry_run=False
-        )
+    for pub in publications:
+        #print(json.dumps(pub, indent=4))
+        print(pub['pub_id'])
+        pub_type = pub['type']
+        if pub_type not in type_map:
+            print(f'Unknown Type: {pub_type}')
+            continue
+        else:
+            print(pub_type)
+            pub_type = type_map[pub_type]
+            print(pub_type)
+        pub_id = pub['pub_id'].lower()
+        title = pub['titel']
+        year = pub[pub_type]['jahr']
+        abstract = pub['abstract_english'] if 'abstract_english' in pub else ''
+        authors = []
+        # if ',' in pub['autoren_clean']:
+            # multiple authors
+
+
+    # for entry in bib_database.entries:
+    #     academic.parse_bibtex_entry(
+    #         entry, pub_dir=pub_dir, featured=False,
+    #         overwrite=True, normalize=False, dry_run=False
+    #     )
+
+    def parse_author(author_dict):
+        pass
 
 
 def main():
     # load config
-    with open('config.yml', 'r', encoding='utf8') as yml:
+    with open('config.yml', 'r', encoding='utf-8') as yml:
         try:
             config = yaml.safe_load(yml)
         except yaml.YAMLError as e:
@@ -197,9 +229,7 @@ def main():
     # apply whitelist
     print('Applying people whitelist')
     whitelist = [_id(name) for name in config['people']['whitelist']]
-    print(whitelist)
     people = [p for p in people if p['identifier'] in whitelist]
-    print(people)
 
     for person in people:
         first_name = person['first_name']
@@ -234,10 +264,10 @@ def main():
                 {'key': 'Phone', 'value': person["main_phone_number"], 'link': f'tel:{person["main_phone_number"]}'}
             )
         post['pairs'] = pairs
-        with codecs.open(f'{directory}/_index.md', 'w+', 'utf-8') as f:
+        with open(f'{directory}/_index.md', 'w+', encoding='utf-8') as f:
             f.write(frontmatter.dumps(post))
 
-    with codecs.open(f'{DATA_DIR}/people.json', 'w+', 'utf-8') as f:
+    with open(f'{DATA_DIR}/people.json', 'w+', encoding='utf-8') as f:
         f.write(json.dumps(people, indent=4))
 
     # fetch courses. has to be done separately for each person (fetching courses for the institute returns an empty set)
@@ -258,17 +288,23 @@ def main():
         # apply metadata to markdown front matter
         post = _create_course_post(courses, lecturers, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
 
-        # with codecs.open(f'{TEACHING_DIR}/{file}', 'w+', 'utf-8') as f:
+        # with open(f'{TEACHING_DIR}/{file}', 'w+', encoding='utf-8') as f:
         #     f.write(frontmatter.dumps(post))
 
-        with codecs.open(f'{DATA_DIR}/courses_{semester}.json', 'w+', 'utf-8') as f:
+        with open(f'{DATA_DIR}/courses_{semester}.json', 'w+', encoding='utf-8') as f:
             f.write(json.dumps(courses, indent=4))
 
     # fetch publications
-    #print('Fetching publications')
-    #bibtex = load_bibtex(people, session=s)
-    #print(f'Parsing fetched publications an storing results to "{PUBLICATION_DIR}"')
-    #parse_publications(bibtex, PUBLICATION_DIR)
+    print('Fetching publications')
+
+    publisher_blacklist = [_id(name) for name in config['publications']['blacklist']]
+    publishers = [p for p in people if p['identifier'] not in publisher_blacklist]
+
+    publications = load_publications(publishers, session=s)
+    with open(f'{DATA_DIR}/publications.json', 'w+', encoding='utf-8') as f:
+        f.write(json.dumps(publications, indent=4))
+    print(f'Parsing fetched publications an storing results to "{PUBLICATION_DIR}"')
+    parse_publications(publications, PUBLICATION_DIR)
 
 
 if __name__ == '__main__':

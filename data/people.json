@@ -23,6 +23,26 @@
         "identifier": "gertrude-kappel"
     },
     {
+        "tiss_id": 68412,
+        "oid": 7360709,
+        "old_tiss_ids": [],
+        "first_name": "J\u00fcrgen",
+        "last_name": "Cito",
+        "gender": "M",
+        "pseudoperson": false,
+        "preceding_titles": "Assistant Prof. Dipl.-Ing. Dr.sc.",
+        "postpositioned_titles": "BSc",
+        "orcid": null,
+        "card_uri": "/person/68412",
+        "picture_uri": "/illustration/anzeigen/5534f4ba5280.jpeg?v1",
+        "main_phone_number": null,
+        "main_email": "juergen.cito@tuwien.ac.at",
+        "other_emails": [],
+        "function": "Assistant Prof.",
+        "function_category": "Wissenschaftliche Mitarbeiter_innen",
+        "identifier": "juergen-cito"
+    },
+    {
         "tiss_id": 317376,
         "oid": 12014381,
         "old_tiss_ids": [],
@@ -217,26 +237,6 @@
         "room_code": "HG0205",
         "function_category": "Weitere Mitarbeiter_innen",
         "identifier": "bernhard-wally"
-    },
-    {
-        "tiss_id": 68412,
-        "oid": 7360709,
-        "old_tiss_ids": [],
-        "first_name": "J\u00fcrgen",
-        "last_name": "Cito",
-        "gender": "M",
-        "pseudoperson": false,
-        "preceding_titles": "Univ.Ass. Dipl.-Ing. Dr.sc.",
-        "postpositioned_titles": "BSc",
-        "orcid": null,
-        "card_uri": "/person/68412",
-        "picture_uri": "/illustration/anzeigen/5534f4ba5280.jpeg?v1",
-        "main_phone_number": null,
-        "main_email": "juergen.cito@tuwien.ac.at",
-        "other_emails": [],
-        "function": "Assistent",
-        "function_category": "Wissenschaftliche Mitarbeiter_innen",
-        "identifier": "juergen-cito"
     },
     {
         "tiss_id": 60223,

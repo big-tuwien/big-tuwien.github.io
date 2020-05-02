@@ -21,6 +21,11 @@ people:
     - Bernhard Wally
 
 courses:
-  # If any whitelisted persons should be excluded from course fetching, list here
+  # If a whitelisted person should be excluded from course fetching, list here
+  blacklist:
+    - Thomas Grechenig
+
+publications:
+  # If a whitelisted person should be excluded from publication fetching, list here
   blacklist:
     - Thomas Grechenig
