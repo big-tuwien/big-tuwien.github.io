@@ -7,10 +7,6 @@ import shutil
 import yaml
 import xmltodict
 import datetime
-import academic.cli as academic
-import bibtexparser
-from bibtexparser.bparser import BibTexParser
-from bibtexparser.customization import convert_to_unicode
 
 BIG_TID = 4760
 BIG_OID = 18460477
@@ -78,30 +74,7 @@ def _course_table(courses, people):
     return content
 
 
-def _create_course_post(courses, people, semester, template_path):
-    post = frontmatter.load(template_path)
-    post['linktitle'] = semester
-    post['date'] = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat()
-
-    lectures_exercises = [c for c in courses if c['courseType'] in LECTURE_EXERCISE_COURSE_TYPES]
-    seminars_projects = [c for c in courses if c['courseType'] in SEMINAR_PROJECT_COURSE_TYPES]
-    other = [c for c in courses if c['courseType'] not in (LECTURE_EXERCISE_COURSE_TYPES + SEMINAR_PROJECT_COURSE_TYPES)]
-
-    content = '## Lectures and Exercises\n\n' \
-              f'{_course_table(lectures_exercises, people)}\n' \
-              '## Seminars and Projects\n\n' \
-              f'{_course_table(seminars_projects, people)}\n'
-
-    # only display 'other' section if not empty
-    if other:
-        content += '## Other\n\n' \
-                   f'{_course_table(other, people)}\n'
-
-    post.content = content
-    return post
-
-
-def get_courses(lecturers, semester=None, session=requests.Session()):
+def load_courses(lecturers, semester=None, session=requests.Session()):
     course_dict = {}
 
     namespaces = {
@@ -139,69 +112,115 @@ def get_courses(lecturers, semester=None, session=requests.Session()):
     return list(course_dict.values())
 
 
+def parse_courses(courses, people, semester, template_path):
+    post = frontmatter.load(template_path)
+    post['linktitle'] = semester
+    post['date'] = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat()
+
+    lectures_exercises = [c for c in courses if c['courseType'] in LECTURE_EXERCISE_COURSE_TYPES]
+    seminars_projects = [c for c in courses if c['courseType'] in SEMINAR_PROJECT_COURSE_TYPES]
+    other = [c for c in courses if c['courseType'] not in (LECTURE_EXERCISE_COURSE_TYPES + SEMINAR_PROJECT_COURSE_TYPES)]
+
+    content = '## Lectures and Exercises\n\n' \
+              f'{_course_table(lectures_exercises, people)}\n' \
+              '## Seminars and Projects\n\n' \
+              f'{_course_table(seminars_projects, people)}\n'
+
+    # only display 'other' section if not empty
+    if other:
+        content += '## Other\n\n' \
+                   f'{_course_table(other, people)}\n'
+
+    post.content = content
+    return post
+
+
 def load_publications(researchers, session=requests.Session()):
     publications = []
 
     for res in researchers:
         query = {'zuname': res['last_name'], 'vorname': res['first_name'], 'inst': 'E194', 'abt': '03'}
         r = session.get(PUBLICATION_URL, params=query)
-        content = r.content.decode('utf-8', 'replace')
+        content = r.content.decode('ISO-8859-1')
         xml = xmltodict.parse(content, encoding='utf-8')['export']  # get root element
         if 'publikation' not in xml:
             continue
-
-        res_pub = xml['publikation']
-        publications.extend(res_pub)
+        result = xml['publikation'] if type(xml['publikation']) is list else [xml['publikation']]
+        publications.extend(result)
 
     return publications
 
 
 def parse_publications(publications, pub_dir):
     type_map = {
-        'Dissertation': 'diss_dipl',
-        'Wissenschaftlicher Bericht': 'bericht',
-        'Zeitschriftenartikel': 'zeitschriftenartikel',
-        'Vortrag mit Tagungsband': 'vortrag_poster_mit_tagungsband',
-        'Vortrag ohne Tagungsband': 'vortrag_poster_ohne_tagungsband',
-        'Diplom- oder Master-Arbeit': 'diss_dipl',
-        'Buch-Herausgabe': 'buch_herausgabe',
-        'Monographie (Erstauflage)': 'buch',
-        'Monographie (Folgeauflage)': 'buch',
-        'Beitrag in elektron. Zeitschrift': 'elektron_zeitschrift',
-        'Buchbeitrag': 'buchbeitrag',
-        'Beitrag in Tagungsband': 'beitrag_tagungsband',
-        'Posterpräsentation mit Tagungsband': 'vortrag_poster_mit_tagungsband',
-        'Vortrag mit CD- oder Web-Tagungsband': 'vortrag_poster_mit_cd_tagungsband',
+        'Dissertation': ('diss_dipl', 7),
+        'Wissenschaftlicher Bericht': ('bericht', 4),
+        'Zeitschriftenartikel': ('zeitschriftenartikel', 2),
+        'Vortrag mit Tagungsband': ('vortrag_poster_mit_tagungsband', 0),
+        'Vortrag ohne Tagungsband': ('vortrag_poster_ohne_tagungsband', 0),
+        'Diplom- oder Master-Arbeit': ('diss_dipl', 7),
+        'Buch-Herausgabe': ('buch_herausgabe', 5),
+        'Monographie (Erstauflage)': ('buch', 5),
+        'Monographie (Folgeauflage)': ('buch', 5),
+        'Beitrag in elektron. Zeitschrift': ('elektron_zeitschrift', 4),
+        'Buchbeitrag': ('buchbeitrag', 6),
+        'Beitrag in Tagungsband': ('beitrag_tagungsband', 1),
+        'Vortrag mit CD- oder Web-Tagungsband': ('vortrag_poster_mit_cd_tagungsband', 0),
+        'Herausgabe eines Bandes einer Buchreihe': ('herausgabe_buchreihe', 0),
+        'Beitrag in CD- oder Web-Tagungsband': ('beitrag_cd_tagungsband', 0),
+        'Haupt-(Keynote-)Vortrag mit Tagungsband': ('vortrag_poster_mit_tagungsband', 0),
+        'Haupt-(Keynote-)Vortrag ohne Tagungsband': ('vortrag_poster_ohne_tagungsband', 0),
+        'Posterpräsentation mit Tagungsband': ('vortrag_poster_mit_tagungsband', 0),
+        'Posterpräsentation ohne Tagungsband': ('vortrag_poster_ohne_tagungsband', 0),
+        'Posterpräsentation mit CD- oder Web-Tagungsband': ('vortrag_poster_mit_cd_tagungsband', 0),
     }
 
     for pub in publications:
-        #print(json.dumps(pub, indent=4))
-        print(pub['pub_id'])
-        pub_type = pub['type']
-        if pub_type not in type_map:
-            print(f'Unknown Type: {pub_type}')
-            continue
-        else:
-            print(pub_type)
-            pub_type = type_map[pub_type]
-            print(pub_type)
         pub_id = pub['pub_id'].lower()
+        directory = f'{pub_dir}/{pub_id}'
+
+        # create folder
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        else:
+            continue
+
+        pub_type = pub['type']
+        if pub_type in type_map:
+            pub_type, academic_pub_type = type_map[pub_type]
+        else:
+            print(f'Unknown Type: {pub_type} @ {pub_id}')
+            continue
+
         title = pub['titel']
-        year = pub[pub_type]['jahr']
         abstract = pub['abstract_english'] if 'abstract_english' in pub else ''
-        authors = []
-        # if ',' in pub['autoren_clean']:
-            # multiple authors
+        authors = [f'{a["vorname_lang"]} {a["nachname"]}' for a in (pub['autor_info'] if ',' in pub['autoren_clean'] else [pub['autor_info']])]
+        pdf_link = pub['link_pdf'] if 'link_pdf' in pub else ''
 
+        year = ''
+        month = '01'
+        day = '01'
+        if 'datum_von' in pub[pub_type]:
+            dateparts = pub[pub_type]['datum_von'].split('.')
+            day, month, year = dateparts[0], dateparts[1], dateparts[2]
+        elif 'jahr' in pub[pub_type]:
+            year = pub[pub_type]['jahr']
 
-    # for entry in bib_database.entries:
-    #     academic.parse_bibtex_entry(
-    #         entry, pub_dir=pub_dir, featured=False,
-    #         overwrite=True, normalize=False, dry_run=False
-    #     )
+        # create the post
+        metadata = {
+            'publication': f'*{title}*',
+            'authors': authors,
+            'date': f'{year}-{month}-{day}',
+            'publishDate': f'{year}-{month}-{day}',
+            'publication_types': [str(academic_pub_type)],
+            'abstract': abstract,
+            'featured': False,
+            'url_pdf': pdf_link,
+        }
 
-    def parse_author(author_dict):
-        pass
+        post = frontmatter.Post(content='', metadata=metadata)
+        with open(f'{directory}/index.md', 'w+', encoding='utf-8') as f:
+            f.write(frontmatter.dumps(post))
 
 
 def main():
@@ -283,10 +302,10 @@ def main():
     for semester, file in semesters:
         print(f'Fetching courses for semester {semester} -> {file}')
 
-        courses = get_courses(lecturers, semester=semester)
+        courses = load_courses(lecturers, semester=semester)
 
         # apply metadata to markdown front matter
-        post = _create_course_post(courses, lecturers, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
+        post = parse_courses(courses, lecturers, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
 
         # with open(f'{TEACHING_DIR}/{file}', 'w+', encoding='utf-8') as f:
         #     f.write(frontmatter.dumps(post))
@@ -303,7 +322,8 @@ def main():
     publications = load_publications(publishers, session=s)
     with open(f'{DATA_DIR}/publications.json', 'w+', encoding='utf-8') as f:
         f.write(json.dumps(publications, indent=4))
-    print(f'Parsing fetched publications an storing results to "{PUBLICATION_DIR}"')
+
+    print(f'Parsing fetched publications an storing results to "{PUBLICATION_DIR}". Skipping existing publications.')
     parse_publications(publications, PUBLICATION_DIR)
 
 
