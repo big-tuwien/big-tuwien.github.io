@@ -18,10 +18,9 @@ authors:
 - Christian Huemer
 date: '2015-07-13'
 featured: false
-publication: '*Model-Driven Retail Information System based on REA Business Ontology
-  and Retail-H*'
 publication_types:
 - '0'
 publishDate: '2015-07-13'
+title: Model-Driven Retail Information System based on REA Business Ontology and Retail-H
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_240407.pdf
 ---

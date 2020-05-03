@@ -11,9 +11,9 @@ authors:
 - Christian Huemer
 date: '2014-07-14'
 featured: false
-publication: '*Defining Business Rules for REA Business Models*'
 publication_types:
 - '0'
 publishDate: '2014-07-14'
+title: Defining Business Rules for REA Business Models
 url_pdf: ''
 ---

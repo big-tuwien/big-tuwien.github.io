@@ -16,9 +16,9 @@ authors:
 - Christian Huemer
 date: '2015-07-22'
 featured: false
-publication: '*HoVer: a Modeling Framework for Horizontal and Vertical Integration*'
 publication_types:
 - '0'
 publishDate: '2015-07-22'
+title: 'HoVer: a Modeling Framework for Horizontal and Vertical Integration'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_238502.pdf
 ---

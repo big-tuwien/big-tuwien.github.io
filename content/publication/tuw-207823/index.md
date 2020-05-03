@@ -15,9 +15,9 @@ authors:
 - Christian Huemer
 date: '2012-06-25'
 featured: false
-publication: '*Extending the REA-DSL by the Planning Layer of the REA Ontology*'
 publication_types:
 - '0'
 publishDate: '2012-06-25'
+title: Extending the REA-DSL by the Planning Layer of the REA Ontology
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_207823.pdf
 ---

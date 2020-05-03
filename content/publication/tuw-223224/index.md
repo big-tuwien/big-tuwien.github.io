@@ -17,9 +17,9 @@ authors:
 - Christian Huemer
 date: '2013-12-16'
 featured: false
-publication: '*Putting Services in Context*'
 publication_types:
 - '0'
 publishDate: '2013-12-16'
+title: Putting Services in Context
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_223224.pdf
 ---

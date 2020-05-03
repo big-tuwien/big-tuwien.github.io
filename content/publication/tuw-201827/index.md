@@ -19,10 +19,10 @@ authors:
 - Christian Huemer
 date: '2011-09-13'
 featured: false
-publication: '*Towards Variability Management in Business Document Types using Product
-  Line Engineering*'
 publication_types:
 - '0'
 publishDate: '2011-09-13'
+title: Towards Variability Management in Business Document Types using Product Line
+  Engineering
 url_pdf: ''
 ---

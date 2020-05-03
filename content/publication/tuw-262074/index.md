@@ -29,9 +29,9 @@ authors:
 - Manuel Wimmer
 date: '2019-01-01'
 featured: false
-publication: '*A Local and Global Tour on MOMoT*'
 publication_types:
 - '2'
 publishDate: '2019-01-01'
+title: A Local and Global Tour on MOMoT
 url_pdf: https://publik.tuwien.ac.at/files/publik_262074.pdf
 ---

@@ -17,9 +17,9 @@ authors:
 - Manuel Wimmer
 date: '2019-07-22'
 featured: false
-publication: '*Production Planning with IEC 62264 and PDDL*'
 publication_types:
 - '0'
 publishDate: '2019-07-22'
+title: Production Planning with IEC 62264 and PDDL
 url_pdf: ''
 ---

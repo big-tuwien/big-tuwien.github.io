@@ -16,9 +16,9 @@ authors:
 - Christian Huemer
 date: '2016-09-12'
 featured: false
-publication: '*Verifiability and Traceability in a Linked Data Based Messaging System*'
 publication_types:
 - '0'
 publishDate: '2016-09-12'
+title: Verifiability and Traceability in a Linked Data Based Messaging System
 url_pdf: http://publik.tuwien.ac.at/files/publik_266979.pdf
 ---

@@ -37,9 +37,9 @@ authors:
 - Stefanie Lindstaedt
 date: '2018-07-11'
 featured: false
-publication: '*Data Analytics for Industrial Process Improvement - A Vision Paper*'
 publication_types:
 - '0'
 publishDate: '2018-07-11'
+title: Data Analytics for Industrial Process Improvement - A Vision Paper
 url_pdf: https://publik.tuwien.ac.at/files/publik_276777.pdf
 ---

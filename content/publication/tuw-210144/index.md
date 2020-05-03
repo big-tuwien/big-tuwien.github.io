@@ -19,10 +19,10 @@ authors:
 - Jan vom Brocke
 date: '2012-01-01'
 featured: false
-publication: '*Inter-organizational Reference Models - May Inter-organizational Systems
-  Profit from Reference Modeling?*'
 publication_types:
 - '6'
 publishDate: '2012-01-01'
+title: Inter-organizational Reference Models - May Inter-organizational Systems Profit
+  from Reference Modeling?
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_210144.pdf
 ---

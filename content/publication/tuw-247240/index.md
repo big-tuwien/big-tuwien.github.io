@@ -14,9 +14,9 @@ authors:
 - Philipp Liegl
 date: '2013-11-11'
 featured: false
-publication: '*Crossing the Boundaries: e-Invoicing/e-Procurement as Native ERP Features*'
 publication_types:
 - '0'
 publishDate: '2013-11-11'
+title: 'Crossing the Boundaries: e-Invoicing/e-Procurement as Native ERP Features'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_247240.pdf
 ---

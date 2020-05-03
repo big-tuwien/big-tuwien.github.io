@@ -18,9 +18,9 @@ authors:
 - Christian Huemer
 date: '2017-10-21'
 featured: false
-publication: '*Agreements in a Decentralized Linked Data Based Messaging System*'
 publication_types:
 - '0'
 publishDate: '2017-10-21'
+title: Agreements in a Decentralized Linked Data Based Messaging System
 url_pdf: http://publik.tuwien.ac.at/files/publik_266955.pdf
 ---

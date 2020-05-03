@@ -19,9 +19,9 @@ authors:
 - Birgit Hofreiter
 date: '2010-01-01'
 featured: false
-publication: '*Modelling Interorganizational Business Processes*'
 publication_types:
 - '6'
 publishDate: '2010-01-01'
+title: Modelling Interorganizational Business Processes
 url_pdf: ''
 ---

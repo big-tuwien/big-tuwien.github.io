@@ -18,10 +18,10 @@ authors:
 - Marco Zapletal
 date: '2010-07-05'
 featured: false
-publication: '*A Composable, QoS-Aware and Web Services-Based Execution Model for
-  ebXML BPSS Business Transactions*'
 publication_types:
 - '0'
 publishDate: '2010-07-05'
+title: A Composable, QoS-Aware and Web Services-Based Execution Model for ebXML BPSS
+  Business Transactions
 url_pdf: ''
 ---

@@ -21,10 +21,10 @@ authors:
 - Renate Kirschner-Schwabe
 date: '2019-01-01'
 featured: false
-publication: '*Aneuploidy in children with relapsed B-cell precursor acute lymphoblastic
-  leukaemia: clinical importance of detecting a hypodiploid origin of relapse*'
 publication_types:
 - '2'
 publishDate: '2019-01-01'
+title: 'Aneuploidy in children with relapsed B-cell precursor acute lymphoblastic
+  leukaemia: clinical importance of detecting a hypodiploid origin of relapse'
 url_pdf: ''
 ---

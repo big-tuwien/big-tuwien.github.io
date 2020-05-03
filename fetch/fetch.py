@@ -1,5 +1,8 @@
 import json
 import os
+import re
+
+import bibtexparser
 import requests
 import frontmatter
 import urllib.request
@@ -203,9 +206,13 @@ def parse_publications(publications, pub_dir):
             print(f'Unknown Type: {pub_type} @ {pub_id}')
             continue
 
-        title = pub['titel']
+        # get abstract and strip all <br> tags
         abstract = pub['abstract_englisch'] if 'abstract_englisch' in pub else ''
-        authors = [f'{a["vorname_lang"]} {a["nachname"]}' for a in (pub['autor_info'] if ',' in pub['autoren_clean'] else [pub['autor_info']])]
+        abstract = re.sub('<br/?>', '', abstract)
+        # remove all dots from title (intention is to remove trailing dots)
+        title = pub['titel'].strip('.')
+        authors = [f'{a["vorname_lang"]} {a["nachname"]}' for a in
+                   (pub['autor_info'] if ',' in pub['autoren_clean'] else [pub['autor_info']])]
         pdf_link = pub['link_pdf'] if 'link_pdf' in pub else ''
 
         year = ''
@@ -221,7 +228,7 @@ def parse_publications(publications, pub_dir):
             year = pub[pub_type]['jahr']
 
         # create the post
-        post = frontmatter.Post(content='', publication=f'*{title}*', authors=authors, date=f'{year}-{month}-{day}',
+        post = frontmatter.Post(content='', title=title, authors=authors, date=f'{year}-{month}-{day}',
                                 publishDate=f'{year}-{month}-{day}', publication_types=[str(academic_pub_type)],
                                 abstract=abstract, featured=False, url_pdf=pdf_link)
 
@@ -230,7 +237,32 @@ def parse_publications(publications, pub_dir):
     return posts
 
 
-def save_publications(posts, pub_dir):
+def load_bibtex(publishers, session=requests.Session()):
+    composite_bibtex = ''
+
+    for pub in publishers:
+        query = {'zuname': pub['last_name'], 'vorname': pub['first_name'], 'inst': 'E194', 'abt': '03'}
+        r = session.get(PUBLICATION_URL, params=query)
+        result = r.content.decode('ISO-8859-1')
+        for line in result.split(os.linesep):
+            if len(line) == 0 or line.startswith('BibTeX-Export:') or line.endswith('ausgegeben') or line.startswith('@comment'):
+                continue
+            composite_bibtex += line + '\n'
+        composite_bibtex += '\n'
+
+    return composite_bibtex
+
+
+def parse_bibtex(bibtex):
+    parser = bibtexparser.bparser.BibTexParser(common_strings=True)
+    parser.customization = bibtexparser.customization.convert_to_unicode
+    parser.ignore_nonstandard_types = False
+    bib_database = bibtexparser.loads(bibtex_str=bibtex, parser=parser)
+
+    return bib_database
+
+
+def save_publications(posts, bib_db, pub_dir):
     for identifier, post in posts:
         directory = f'{pub_dir}/{identifier}'
 
@@ -239,6 +271,19 @@ def save_publications(posts, pub_dir):
             os.makedirs(directory)
         else:
             continue
+
+        bib_entry = None
+        for entry in bib_db.entries:
+            if entry['ID'] == identifier:
+                bib_entry = entry
+                break
+
+        if bib_entry:
+            db = bibtexparser.bibdatabase.BibDatabase()
+            db.entries = [bib_entry]
+            writer = bibtexparser.bwriter.BibTexWriter()
+            with open(f'{directory}/cite.bib', 'w+', encoding='utf-8') as f:
+                f.write(writer.write(db))
 
         with open(f'{directory}/index.md', 'w+', encoding='utf-8') as f:
             f.write(frontmatter.dumps(post))
@@ -347,8 +392,14 @@ def main():
     print('Parsing publications')
     posts = parse_publications(publications, PUBLICATION_DIR)
 
+    print('Loading BibTeX records')
+    bibtex = load_bibtex(publishers)
+
+    print('Parsing BibTeX entries')
+    bib_db = parse_bibtex(bibtex)
+
     print(f'Storing results to "{PUBLICATION_DIR}". Skipping existing records.')
-    save_publications(posts, PUBLICATION_DIR)
+    save_publications(posts, bib_db, PUBLICATION_DIR)
 
 
 if __name__ == '__main__':

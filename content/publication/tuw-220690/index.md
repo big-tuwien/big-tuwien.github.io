@@ -19,9 +19,9 @@ authors:
 - Christian Huemer
 date: '2013-09-11'
 featured: false
-publication: '*Contextualizing Business Documents*'
 publication_types:
 - '0'
 publishDate: '2013-09-11'
+title: Contextualizing Business Documents
 url_pdf: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6686269
 ---

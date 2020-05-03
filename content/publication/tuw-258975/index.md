@@ -21,10 +21,10 @@ authors:
 - Alexandra Mazak
 date: '2017-04-22'
 featured: false
-publication: '*Entwining Plant Engineering Data and ERP Information: Vertical Integration
-  with AutomationML and ISA-95*'
 publication_types:
 - '0'
 publishDate: '2017-04-22'
+title: 'Entwining Plant Engineering Data and ERP Information: Vertical Integration
+  with AutomationML and ISA-95'
 url_pdf: ''
 ---

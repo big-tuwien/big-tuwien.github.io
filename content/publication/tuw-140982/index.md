@@ -14,9 +14,9 @@ authors:
 - Marco Zapletal
 date: '2007-01-01'
 featured: false
-publication: '*A State Machine executing UMM Business Transactions*'
 publication_types:
 - '0'
 publishDate: '2007-01-01'
+title: A State Machine executing UMM Business Transactions
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_4580.pdf
 ---

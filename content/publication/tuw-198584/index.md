@@ -21,9 +21,9 @@ authors:
 - Christian Pichler
 date: '2011-01-01'
 featured: false
-publication: '*Registry support for core component-based business document models*'
 publication_types:
 - '2'
 publishDate: '2011-01-01'
+title: Registry support for core component-based business document models
 url_pdf: ''
 ---

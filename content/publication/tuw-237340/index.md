@@ -17,9 +17,9 @@ authors:
 - Christian Huemer
 date: '2014-01-01'
 featured: false
-publication: '*The Case for the Web of Needs*'
 publication_types:
 - '1'
 publishDate: '2014-01-01'
+title: The Case for the Web of Needs
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_237340.pdf
 ---

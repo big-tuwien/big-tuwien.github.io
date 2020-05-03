@@ -19,9 +19,9 @@ authors:
 - Christian Huemer
 date: '2011-02-07'
 featured: false
-publication: '*A Domain Specific Modeling Language for REA*'
 publication_types:
 - '0'
 publishDate: '2011-02-07'
+title: A Domain Specific Modeling Language for REA
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_200217.pdf
 ---

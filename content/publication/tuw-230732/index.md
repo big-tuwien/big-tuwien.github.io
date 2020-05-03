@@ -17,9 +17,9 @@ authors:
 - Bernhard Wally
 date: '2014-03-03'
 featured: false
-publication: '*Pragmatic-based Ontology Design and Alignment*'
 publication_types:
 - '0'
 publishDate: '2014-03-03'
+title: Pragmatic-based Ontology Design and Alignment
 url_pdf: ''
 ---

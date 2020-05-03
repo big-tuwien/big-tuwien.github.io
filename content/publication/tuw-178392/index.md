@@ -17,9 +17,9 @@ authors:
 - Michael Strommer
 date: '2009-10-21'
 featured: false
-publication: '*A Framework for Managing the Complexity of Business Document Integration*'
 publication_types:
 - '0'
 publishDate: '2009-10-21'
+title: A Framework for Managing the Complexity of Business Document Integration
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_178392.pdf
 ---

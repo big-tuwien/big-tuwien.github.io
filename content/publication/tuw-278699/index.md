@@ -15,9 +15,9 @@ authors:
 - Radek Sindelar
 date: '2019-01-01'
 featured: false
-publication: '*Modeling Variability and Persisting Configurations in OPC UA*'
 publication_types:
 - '2'
 publishDate: '2019-01-01'
+title: Modeling Variability and Persisting Configurations in OPC UA
 url_pdf: ''
 ---

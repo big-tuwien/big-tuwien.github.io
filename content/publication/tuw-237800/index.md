@@ -12,9 +12,9 @@ authors:
 - Dieter Mayrhofer
 date: '2015-02-23'
 featured: false
-publication: '*REAlist-A Tool Demo*'
 publication_types:
 - '0'
 publishDate: '2015-02-23'
+title: REAlist-A Tool Demo
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_237800.pdf
 ---

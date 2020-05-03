@@ -17,9 +17,9 @@ authors:
 - Manuel Wimmer
 date: '2019-09-25'
 featured: false
-publication: '*Generating Structured AutomationML Models from IEC 62264 Information*'
 publication_types:
 - '0'
 publishDate: '2019-09-25'
+title: Generating Structured AutomationML Models from IEC 62264 Information
 url_pdf: https://publik.tuwien.ac.at/files/publik_281396.pdf
 ---

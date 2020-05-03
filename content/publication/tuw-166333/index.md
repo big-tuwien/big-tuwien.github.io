@@ -16,10 +16,10 @@ authors:
 - Christian Huemer
 date: '2008-07-22'
 featured: false
-publication: '*A model-driven top-down approach to inter-organizational systems: From
-  global choreography models to executable BPEL*'
 publication_types:
 - '0'
 publishDate: '2008-07-22'
+title: 'A model-driven top-down approach to inter-organizational systems: From global
+  choreography models to executable BPEL'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_166333.pdf
 ---

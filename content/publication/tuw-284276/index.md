@@ -21,9 +21,9 @@ authors:
 - Vanja Bisanovic
 date: '2019-10-14'
 featured: false
-publication: '*Sensyml: Simulation Environment for large-scale IoT Applications*'
 publication_types:
 - '0'
 publishDate: '2019-10-14'
+title: 'Sensyml: Simulation Environment for large-scale IoT Applications'
 url_pdf: https://publik.tuwien.ac.at/files/publik_284276.pdf
 ---

@@ -16,9 +16,9 @@ authors:
 - Birgit Hofreiter
 date: '2009-01-01'
 featured: false
-publication: '*Service-Oriented Enterprise Modeling and Analysis*'
 publication_types:
 - '6'
 publishDate: '2009-01-01'
+title: Service-Oriented Enterprise Modeling and Analysis
 url_pdf: ''
 ---

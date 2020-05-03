@@ -30,10 +30,10 @@ authors:
 - Christian Huemer
 date: '2015-01-01'
 featured: false
-publication: '*Analyzing inter-organizational business processes. Process mining and
-  business performance analysis using electronic data interchange messages.*'
 publication_types:
 - '4'
 publishDate: '2015-01-01'
+title: Analyzing inter-organizational business processes. Process mining and business
+  performance analysis using electronic data interchange messages
 url_pdf: ''
 ---

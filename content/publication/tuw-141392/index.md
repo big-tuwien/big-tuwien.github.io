@@ -21,9 +21,9 @@ authors:
 - Marco Zapletal
 date: '2007-10-24'
 featured: false
-publication: '*Worksheet-Driven UMM Modeling of B2B Services*'
 publication_types:
 - '0'
 publishDate: '2007-10-24'
+title: Worksheet-Driven UMM Modeling of B2B Services
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5007.pdf
 ---

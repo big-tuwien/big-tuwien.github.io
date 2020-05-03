@@ -23,10 +23,9 @@ authors:
 - Hannes Werthner
 date: '2013-08-13'
 featured: false
-publication: '*Inter-organizational Business Processes: On Redundancies in Document
-  Exchanges*'
 publication_types:
 - '0'
 publishDate: '2013-08-13'
+title: 'Inter-organizational Business Processes: On Redundancies in Document Exchanges'
 url_pdf: http://www.doria.fi/xmlui/bitstream/handle/10024/91642/LN19.digi.pdf?sequence=3#page=53
 ---

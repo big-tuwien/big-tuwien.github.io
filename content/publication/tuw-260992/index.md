@@ -14,10 +14,10 @@ authors:
 - Alexandra Mazak
 date: '2017-08-20'
 featured: false
-publication: '*A View on Model-Driven Vertical Integration: Alignment of Production
-  Facility Models and Business Models*'
 publication_types:
 - '0'
 publishDate: '2017-08-20'
+title: 'A View on Model-Driven Vertical Integration: Alignment of Production Facility
+  Models and Business Models'
 url_pdf: ''
 ---

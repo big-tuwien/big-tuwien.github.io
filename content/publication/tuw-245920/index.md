@@ -19,9 +19,9 @@ authors:
 - Christian Huemer
 date: '2015-07-13'
 featured: false
-publication: '*From Business Functions to Control Functions: Transforming REA to ISA-95*'
 publication_types:
 - '0'
 publishDate: '2015-07-13'
+title: 'From Business Functions to Control Functions: Transforming REA to ISA-95'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_245920.pdf
 ---

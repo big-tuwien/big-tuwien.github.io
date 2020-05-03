@@ -19,10 +19,9 @@ authors:
 - Alexandra Mazak
 date: '2017-11-22'
 featured: false
-publication: '*Aligning Business Services with Production Services: The Case of REA
-  and ISA-95*'
 publication_types:
 - '0'
 publishDate: '2017-11-22'
+title: 'Aligning Business Services with Production Services: The Case of REA and ISA-95'
 url_pdf: ''
 ---

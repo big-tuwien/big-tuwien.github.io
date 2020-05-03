@@ -18,10 +18,10 @@ authors:
 - Peter Regatschnig
 date: '2014-03-03'
 featured: false
-publication: '*REAlist: Towards a Business Model Adapting Multi-Tenant ERP System
-  in the Cloud*'
 publication_types:
 - '0'
 publishDate: '2014-03-03'
+title: 'REAlist: Towards a Business Model Adapting Multi-Tenant ERP System in the
+  Cloud'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_227581.pdf
 ---

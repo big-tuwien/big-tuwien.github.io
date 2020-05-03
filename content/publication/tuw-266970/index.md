@@ -15,9 +15,9 @@ authors:
 - Christian Pichler
 date: '2016-01-01'
 featured: false
-publication: '*A Linked Data Based Messaging Architecture for the Web of Needs*'
 publication_types:
 - '2'
 publishDate: '2016-01-01'
+title: A Linked Data Based Messaging Architecture for the Web of Needs
 url_pdf: http://publik.tuwien.ac.at/files/publik_266970.pdf
 ---

@@ -19,9 +19,9 @@ authors:
 - Marco Zapletal
 date: '2007-07-09'
 featured: false
-publication: '*Deriving executable BPEL from UMM Business Transactions*'
 publication_types:
 - '0'
 publishDate: '2007-07-09'
+title: Deriving executable BPEL from UMM Business Transactions
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5003.pdf
 ---

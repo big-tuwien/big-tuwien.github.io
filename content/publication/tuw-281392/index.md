@@ -17,10 +17,10 @@ authors:
 - Manuel Wimmer
 date: '2019-01-01'
 featured: false
-publication: '*Flexible Production Systems: Automated Generation of Operations Plans
-  based on ISA-95 and PDDL*'
 publication_types:
 - '2'
 publishDate: '2019-01-01'
+title: 'Flexible Production Systems: Automated Generation of Operations Plans based
+  on ISA-95 and PDDL'
 url_pdf: ''
 ---

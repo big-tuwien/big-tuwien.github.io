@@ -20,9 +20,9 @@ authors:
 - Alessio Braccini
 date: '2011-06-20'
 featured: false
-publication: '*The REA-DSL: A Domain Specific Modeling Language for Business Models*'
 publication_types:
 - '0'
 publishDate: '2011-06-20'
+title: 'The REA-DSL: A Domain Specific Modeling Language for Business Models'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_198185.pdf
 ---

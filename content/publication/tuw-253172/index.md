@@ -23,9 +23,9 @@ authors:
 - Tanja Mayerhofer
 date: '2017-02-20'
 featured: false
-publication: '*Automated Generation of Consistency-Achieving Modeling Editors*'
 publication_types:
 - '0'
 publishDate: '2017-02-20'
+title: Automated Generation of Consistency-Achieving Modeling Editors
 url_pdf: https://doi.org/10.1109/SANER.2017.7884615
 ---

@@ -4,9 +4,9 @@ abstract: 'The IEEE Conference on Business Informatics (CBI) constitutes the nex
   (CEC). The first event under this new banner takes place in Vienna, Austria, July
   15 - 18, 2013. The change in the name and scope of the conference is congruent to
   the renaming of the IEEE Technical Committee on e-Commerce to the IEEE Technical
-  Committee on Business Informatics and Systems (TCBIS).<br> <br> In summary, the
-  program of CBI 2013 consists of nine key note presentations on the research domains,
-  15 academic paper sessions, three industry paper sessions, three workshops, a tutorial
+  Committee on Business Informatics and Systems (TCBIS).  In summary, the program
+  of CBI 2013 consists of nine key note presentations on the research domains, 15
+  academic paper sessions, three industry paper sessions, three workshops, a tutorial
   and a panel. We are looking forward to innovative research results and high quality
   contributions on a broad range of business informatics. This has been guaranteed
   by a very selective paper selection process. In total we received 103 submissions
@@ -26,9 +26,9 @@ authors:
 - Jorge Sanz
 date: '2013-01-01'
 featured: false
-publication: '*2013 IEEE International Conference on Business Informatics*'
 publication_types:
 - '5'
 publishDate: '2013-01-01'
+title: 2013 IEEE International Conference on Business Informatics
 url_pdf: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6642227
 ---

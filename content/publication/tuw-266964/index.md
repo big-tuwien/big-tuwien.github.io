@@ -16,9 +16,9 @@ authors:
 - Christian Huemer
 date: '2017-10-12'
 featured: false
-publication: '*Towards a Web Based Transportation Infrastructure*'
 publication_types:
 - '0'
 publishDate: '2017-10-12'
+title: Towards a Web Based Transportation Infrastructure
 url_pdf: http://publik.tuwien.ac.at/files/publik_266964.pdf
 ---

@@ -13,9 +13,9 @@ authors:
 - Christian Huemer
 date: '2013-06-14'
 featured: false
-publication: '*A Survey on Business Context*'
 publication_types:
 - '0'
 publishDate: '2013-06-14'
+title: A Survey on Business Context
 url_pdf: http://link.springer.com/chapter/10.1007%2F978-81-322-1665-0_19
 ---

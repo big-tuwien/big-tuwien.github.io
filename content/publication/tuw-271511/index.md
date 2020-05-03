@@ -11,9 +11,9 @@ authors:
 - Manuel Wimmer
 date: '2018-10-24'
 featured: false
-publication: '*IEC 62264-2 for AutomationML*'
 publication_types:
 - '0'
 publishDate: '2018-10-24'
+title: IEC 62264-2 for AutomationML
 url_pdf: ''
 ---

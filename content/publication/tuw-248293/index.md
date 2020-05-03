@@ -9,7 +9,7 @@ abstract: In Anlehnung an die Umsetzungsempfehlung des deutschen Arbeitskreises 
   unterschiedlichen Ebenen in einem Unternehmen, in Anlehnung an die klassische Automatisierungspyramide.
   Die zweite Dimension unterscheidet zwischen den internen und den externen Aspekten
   der horizontalen und vertikalen Integration. Die dritte Dimension differenziert
-  zwischen der wirtschaftlichen Tätigkeit der teilneh-<br> menden Unternehmen im Wertschöpfungsnetzwerk
+  zwischen der wirtschaftlichen Tätigkeit der teilneh- menden Unternehmen im Wertschöpfungsnetzwerk
   und den technischen Aspekten des nahtlosen Daten- und Informationsaustausches.
 authors:
 - Alexandra Mazak
@@ -19,10 +19,10 @@ authors:
 - Wolfgang Kastner
 date: '2016-01-01'
 featured: false
-publication: '*Rahmenwerk zur modellbasierten horizontalen und vertikalen Integration
-  von Standards für Industrie 4.0*'
 publication_types:
 - '6'
 publishDate: '2016-01-01'
+title: Rahmenwerk zur modellbasierten horizontalen und vertikalen Integration von
+  Standards für Industrie 4.0
 url_pdf: http://link.springer.com/referenceworkentry/10.1007%2F978-3-662-45537-1_94-1
 ---

@@ -27,9 +27,9 @@ authors:
 - Andreas Kuntner
 date: '2010-01-01'
 featured: false
-publication: '*SOMA - A Service-Oriented Mobile Learning Architecture*'
 publication_types:
 - '7'
 publishDate: '2010-01-01'
+title: SOMA - A Service-Oriented Mobile Learning Architecture
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_195817.pdf
 ---

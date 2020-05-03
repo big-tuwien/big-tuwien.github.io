@@ -16,9 +16,9 @@ authors:
 - Philipp Liegl
 date: '2007-04-15'
 featured: false
-publication: '*A UML Profile for Core Components and their Transformation to XSD*'
 publication_types:
 - '0'
 publishDate: '2007-04-15'
+title: A UML Profile for Core Components and their Transformation to XSD
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_4612.pdf
 ---

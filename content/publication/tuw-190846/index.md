@@ -20,10 +20,9 @@ authors:
 - Hannes Werthner
 date: '2010-05-03'
 featured: false
-publication: '*From Economic Drivers to B2B Process Models: a Mapping from REA to
-  UMM*'
 publication_types:
 - '0'
 publishDate: '2010-05-03'
+title: 'From Economic Drivers to B2B Process Models: a Mapping from REA to UMM'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_190846.pdf
 ---

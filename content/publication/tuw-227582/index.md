@@ -16,9 +16,9 @@ authors:
 - Christian Huemer
 date: '2014-03-03'
 featured: false
-publication: '*A Generic REA Software Architecture based on Fragments and Declarations*'
 publication_types:
 - '0'
 publishDate: '2014-03-03'
+title: A Generic REA Software Architecture based on Fragments and Declarations
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_227582.pdf
 ---

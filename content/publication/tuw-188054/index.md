@@ -18,9 +18,9 @@ authors:
 - Jan vom Brocke
 date: '2010-06-28'
 featured: false
-publication: '*Inter-organizational Reference Modeling - A Position Statement*'
 publication_types:
 - '0'
 publishDate: '2010-06-28'
+title: Inter-organizational Reference Modeling - A Position Statement
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_188054.pdf
 ---

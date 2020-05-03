@@ -1,5 +1,5 @@
 ---
-abstract: The large scale of the Internet has offered unique economic<br> opportunities,
+abstract: The large scale of the Internet has offered unique economic opportunities,
   that in turn introduce overwhelming challenges for development and operations to
   provide reliable and fast services in order to meet the high demands on the performance
   of online services. In this paper, we investigate how performance engineers can
@@ -17,10 +17,9 @@ authors:
 - Schahram Dustdar
 date: '2014-07-01'
 featured: false
-publication: '*Identifying Root Causes of Web Performance Degradation Using Changepoint
-  Analysis*'
 publication_types:
 - '0'
 publishDate: '2014-07-01'
+title: Identifying Root Causes of Web Performance Degradation Using Changepoint Analysis
 url_pdf: ''
 ---

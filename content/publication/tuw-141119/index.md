@@ -1,6 +1,6 @@
 ---
 abstract: Due to company mergers, acquisition and business to business interoperability,
-  there is a need for model transformations in the<br> area of business process modeling
+  there is a need for model transformations in the area of business process modeling
   to facilitate scenarios like model translation, integration and synchronization.
   Thus this paper concentrates on transformations of models between different business
   process modeling languages. As current transformation languages provide general
@@ -17,10 +17,10 @@ authors:
 - Gerhard Kramler
 date: '2007-10-05'
 featured: false
-publication: '*The Model Morphing Approach - Horizontal Transformations between Business
-  Process Models*'
 publication_types:
 - '0'
 publishDate: '2007-10-05'
+title: The Model Morphing Approach - Horizontal Transformations between Business Process
+  Models
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_4725.pdf
 ---

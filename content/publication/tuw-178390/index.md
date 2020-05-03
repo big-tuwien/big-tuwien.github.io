@@ -17,9 +17,9 @@ authors:
 - Christian Pichler
 date: '2009-12-14'
 featured: false
-publication: '*A registry model for UN/CEFACT''s Core Components*'
 publication_types:
 - '0'
 publishDate: '2009-12-14'
+title: A registry model for UN/CEFACT's Core Components
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_178390.pdf
 ---

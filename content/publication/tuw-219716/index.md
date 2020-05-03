@@ -37,9 +37,9 @@ authors:
 - Barbara Weber
 date: '2013-07-15'
 featured: false
-publication: '*Towards Living Inter-Organizational Processes*'
 publication_types:
 - '0'
 publishDate: '2013-07-15'
+title: Towards Living Inter-Organizational Processes
 url_pdf: ''
 ---

@@ -21,9 +21,9 @@ authors:
 - Manuel Wimmer
 date: '2011-12-12'
 featured: false
-publication: '*Business Document Interoperability as a Service*'
 publication_types:
 - '0'
 publishDate: '2011-12-12'
+title: Business Document Interoperability as a Service
 url_pdf: ''
 ---

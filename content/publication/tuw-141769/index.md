@@ -11,9 +11,9 @@ abstract: Owing to company mergers and business to business interoperability, th
   purposes. However, recurring structures have been observed when transforming models
   in the area of business process modeling. This leads to the assumption, that there
   are similar transformation problems in a distinct area. These recurring structures,
-  however, are only inadequately supported by existing transformation approaches.<br>
-  <br> This thesis analyzes the different ways of how business process modeling aspects
-  are represented in various business process modeling formalisms. Furthermore, existing
+  however, are only inadequately supported by existing transformation approaches.  This
+  thesis analyzes the different ways of how business process modeling aspects are
+  represented in various business process modeling formalisms. Furthermore, existing
   transformation approaches are evaluated concerning their suitability for transforming
   models in the area of business process modeling. Based on this evaluation, special
   requirements and solutions for model transformations in the area of business process
@@ -27,10 +27,10 @@ authors:
 - Marion Murzek
 date: '2008-01-01'
 featured: false
-publication: '*The Model Morphing Approach - Horizontal Transformation of Business
-  Process Models*'
 publication_types:
 - '7'
 publishDate: '2008-01-01'
+title: The Model Morphing Approach - Horizontal Transformation of Business Process
+  Models
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5400.pdf
 ---

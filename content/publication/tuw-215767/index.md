@@ -18,10 +18,10 @@ authors:
 - Christian Huemer
 date: '2012-09-30'
 featured: false
-publication: '*Replacing Traditional Classroom Lectures with Lecture Videos - An Experience
-  Report*'
 publication_types:
 - '0'
 publishDate: '2012-09-30'
+title: Replacing Traditional Classroom Lectures with Lecture Videos - An Experience
+  Report
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_215767.pdf
 ---

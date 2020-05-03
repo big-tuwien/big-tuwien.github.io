@@ -19,10 +19,10 @@ authors:
 - Christian Huemer
 date: '2013-04-18'
 featured: false
-publication: '*Business Context Sensitive Business Documents: An Ontology Based Business
-  Context Model for Core Components*'
 publication_types:
 - '0'
 publishDate: '2013-04-18'
+title: 'Business Context Sensitive Business Documents: An Ontology Based Business
+  Context Model for Core Components'
 url_pdf: ''
 ---

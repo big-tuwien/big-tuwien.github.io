@@ -44,8 +44,8 @@ abstract: 'Automated business-to-business (B2B) interactions between companies a
   to bottom-up document standards are introduced in Chapter 10. Consequently, we examine
   how to map bottom-up standard definitions to core component based top-down standard
   definitions in Chapter 11. Finally, we show how to combine business choreography
-  models and business document models in Chapter 12.<br> Related work is discussed
-  in Chapter 13 and Chapter 14 concludes the contributions of this thesis. In summary
+  models and business document models in Chapter 12. Related work is discussed in
+  Chapter 13 and Chapter 14 concludes the contributions of this thesis. In summary
   this thesis provides the following seven contributions: (1) An overview of business
   document standards, based on standard clusters; (2) three reference representation
   formats for core components using the Unified Modeling Language, Domain Specific
@@ -61,9 +61,9 @@ authors:
 - Philipp Liegl
 date: '2010-01-01'
 featured: false
-publication: '*Business Documents for Inter-Organizational Business Processes*'
 publication_types:
 - '7'
 publishDate: '2010-01-01'
+title: Business Documents for Inter-Organizational Business Processes
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_183994.pdf
 ---

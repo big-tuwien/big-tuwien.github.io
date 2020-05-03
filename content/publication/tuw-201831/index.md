@@ -18,9 +18,9 @@ authors:
 - Michael Strommer
 date: '2011-08-22'
 featured: false
-publication: '*Evolution Patterns for Business Document Models*'
 publication_types:
 - '0'
 publishDate: '2011-08-22'
+title: Evolution Patterns for Business Document Models
 url_pdf: ''
 ---

@@ -24,10 +24,9 @@ authors:
 - Galina Paskaleva
 date: '2013-10-28'
 featured: false
-publication: '*Parametric Balinese Rumah - Procedural Modeling of Traditional Balinese
-  Architecture*'
 publication_types:
 - '0'
 publishDate: '2013-10-28'
+title: Parametric Balinese Rumah - Procedural Modeling of Traditional Balinese Architecture
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_223198.pdf
 ---

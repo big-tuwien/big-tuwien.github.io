@@ -21,9 +21,9 @@ authors:
 - Christian Huemer
 date: '2012-01-25'
 featured: false
-publication: '*Validation of Business Document Types based on Feature Models*'
 publication_types:
 - '0'
 publishDate: '2012-01-25'
+title: Validation of Business Document Types based on Feature Models
 url_pdf: ''
 ---

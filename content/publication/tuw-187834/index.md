@@ -19,9 +19,9 @@ authors:
 - Christian Huemer
 date: '2010-06-16'
 featured: false
-publication: '*Managing Variability and Evolution of Business Document Models*'
 publication_types:
 - '0'
 publishDate: '2010-06-16'
+title: Managing Variability and Evolution of Business Document Models
 url_pdf: http://ceur-ws.org/Vol-625/MDPLE2010-paper6-Pichler.pdf
 ---

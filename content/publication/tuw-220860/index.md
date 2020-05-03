@@ -12,9 +12,9 @@ authors:
 - Christian Huemer
 date: '2013-10-28'
 featured: false
-publication: '*Context Aware Business Documents Modeling*'
 publication_types:
 - '0'
 publishDate: '2013-10-28'
+title: Context Aware Business Documents Modeling
 url_pdf: http://link.springer.com/chapter/10.1007%2F978-3-642-40972-1_29
 ---

@@ -14,9 +14,9 @@ authors:
 - Christian Huemer
 date: '2018-09-10'
 featured: false
-publication: '*Hailing a Taxi on the Web of Needs*'
 publication_types:
 - '0'
 publishDate: '2018-09-10'
+title: Hailing a Taxi on the Web of Needs
 url_pdf: https://publik.tuwien.ac.at/files/publik_276723.pdf
 ---

@@ -19,10 +19,10 @@ authors:
 - Christian Huemer
 date: '2013-07-29'
 featured: false
-publication: '*Business Context Sensitive Business Documents: Business Context Aware
-  Core Components Modeling Using the E-UCM Model*'
 publication_types:
 - '0'
 publishDate: '2013-07-29'
+title: 'Business Context Sensitive Business Documents: Business Context Aware Core
+  Components Modeling Using the E-UCM Model'
 url_pdf: ''
 ---

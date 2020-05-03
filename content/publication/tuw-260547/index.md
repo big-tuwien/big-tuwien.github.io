@@ -9,10 +9,9 @@ authors:
 - Yingbing Hua
 date: '2017-06-27'
 featured: false
-publication: '*AutomationML auf höheren Automatisierungsebenen: Eine Auswahl relevanter
-  Anwendungsfälle*'
 publication_types:
 - '0'
 publishDate: '2017-06-27'
+title: 'AutomationML auf höheren Automatisierungsebenen: Eine Auswahl relevanter Anwendungsfälle'
 url_pdf: ''
 ---

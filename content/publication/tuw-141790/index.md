@@ -19,9 +19,9 @@ authors:
 - Marco Zapletal
 date: '2008-06-16'
 featured: false
-publication: '*A UML Profile for the e3-Value e-Business Model Ontology*'
 publication_types:
 - '0'
 publishDate: '2008-06-16'
+title: A UML Profile for the e3-Value e-Business Model Ontology
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5421.pdf
 ---

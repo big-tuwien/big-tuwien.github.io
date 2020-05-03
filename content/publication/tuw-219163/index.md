@@ -24,9 +24,9 @@ authors:
 - Manuel Wimmer
 date: '2013-01-01'
 featured: false
-publication: '*Evolution of Business Documents Based on UN/CEFACT''s Core Components*'
 publication_types:
 - '2'
 publishDate: '2013-01-01'
+title: Evolution of Business Documents Based on UN/CEFACT's Core Components
 url_pdf: http://www.ijsi.org/ch/reader/view_abstract.aspx?file_no=i158&flag=1
 ---

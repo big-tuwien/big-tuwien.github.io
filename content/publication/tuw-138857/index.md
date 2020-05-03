@@ -22,9 +22,9 @@ authors:
 - Dominik Fleischmann
 date: '2004-10-10'
 featured: false
-publication: '*Non-linear Model Fitting to Parameterize Diseased Blood Vessels*'
 publication_types:
 - '0'
 publishDate: '2004-10-10'
+title: Non-linear Model Fitting to Parameterize Diseased Blood Vessels
 url_pdf: http://www.cg.tuwien.ac.at/research/publications/2004/LaCruz2004/
 ---

@@ -14,9 +14,9 @@ authors:
 - Marco Zapletal
 date: '2008-08-19'
 featured: false
-publication: '*The Development Process of the UN/CEFACT Modeling Methodology*'
 publication_types:
 - '0'
 publishDate: '2008-08-19'
+title: The Development Process of the UN/CEFACT Modeling Methodology
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_166115.pdf
 ---

@@ -19,9 +19,9 @@ authors:
 - Christian Pichler
 date: '2013-10-28'
 featured: false
-publication: '*Context Model for Business Context Sensitive Business Documents*'
 publication_types:
 - '0'
 publishDate: '2013-10-28'
+title: Context Model for Business Context Sensitive Business Documents
 url_pdf: ''
 ---

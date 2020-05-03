@@ -12,9 +12,9 @@ authors:
 - Christian Huemer
 date: '2014-06-24'
 featured: false
-publication: '*Towards a Generic Data Model for REA Based Applications*'
 publication_types:
 - '0'
 publishDate: '2014-06-24'
+title: Towards a Generic Data Model for REA Based Applications
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_237351.pdf
 ---

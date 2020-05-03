@@ -28,9 +28,9 @@ authors:
 - Thomas Bednar
 date: '2018-09-23'
 featured: false
-publication: '*Big-open-real-BIM Data Model - Proof of Concept*'
 publication_types:
 - '0'
 publishDate: '2018-09-23'
+title: Big-open-real-BIM Data Model - Proof of Concept
 url_pdf: ''
 ---

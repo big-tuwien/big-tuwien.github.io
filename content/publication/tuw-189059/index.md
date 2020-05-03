@@ -20,9 +20,9 @@ authors:
 - Christian Pichler
 date: '2010-11-10'
 featured: false
-publication: '*A bottom-up approach to build XML business document standards*'
 publication_types:
 - '0'
 publishDate: '2010-11-10'
+title: A bottom-up approach to build XML business document standards
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_189059.pdf
 ---

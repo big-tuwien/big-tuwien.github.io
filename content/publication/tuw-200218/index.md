@@ -17,9 +17,9 @@ authors:
 - Christian Sonnenberg
 date: '2011-10-19'
 featured: false
-publication: '*REA-XML: An Unambiguous Language for REA Business Models*'
 publication_types:
 - '0'
 publishDate: '2011-10-19'
+title: 'REA-XML: An Unambiguous Language for REA Business Models'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_200218.pdf
 ---

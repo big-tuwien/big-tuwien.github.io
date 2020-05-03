@@ -18,9 +18,9 @@ authors:
 - Christian Huemer
 date: '2010-07-05'
 featured: false
-publication: '*Size Matters!? Measuring the Complexity of XML Schema Mapping Models*'
 publication_types:
 - '0'
 publishDate: '2010-07-05'
+title: Size Matters!? Measuring the Complexity of XML Schema Mapping Models
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_187939.pdf
 ---

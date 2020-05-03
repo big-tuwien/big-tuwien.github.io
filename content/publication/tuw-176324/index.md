@@ -16,10 +16,10 @@ authors:
 - Marco Zapletal
 date: '2009-01-01'
 featured: false
-publication: '*A UML-based Methodology for Model-Driven B2B Integration: From Business
-  Values over Business Processes to Deployment Artifacts*'
 publication_types:
 - '7'
 publishDate: '2009-01-01'
+title: 'A UML-based Methodology for Model-Driven B2B Integration: From Business Values
+  over Business Processes to Deployment Artifacts'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_176324.pdf
 ---

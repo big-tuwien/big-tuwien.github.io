@@ -39,9 +39,9 @@ authors:
 - Christian Huemer
 date: '2015-01-01'
 featured: false
-publication: '*Inter-organizational success factors: a cause and effect model*'
 publication_types:
 - '2'
 publishDate: '2015-01-01'
+title: 'Inter-organizational success factors: a cause and effect model'
 url_pdf: http://link.springer.com/article/10.1007/s10257-014-0258-z
 ---

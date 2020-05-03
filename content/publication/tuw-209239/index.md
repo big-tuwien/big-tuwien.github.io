@@ -26,9 +26,9 @@ authors:
 - Philipp Krenn
 date: '2012-07-24'
 featured: false
-publication: '*ERPEL: Enabling Seamless Ad-hoc Cross Enterprise Collaborations*'
 publication_types:
 - '0'
 publishDate: '2012-07-24'
+title: 'ERPEL: Enabling Seamless Ad-hoc Cross Enterprise Collaborations'
 url_pdf: ''
 ---

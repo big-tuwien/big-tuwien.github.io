@@ -2,7 +2,7 @@
 abstract: Huge classes with more than 800 students pose a major challenge to lecturers
   as well as to students, especially when a practical part is included. In order to
   successfully master lectures of this size, novel kinds of teaching media provide
-  a multitude of enhanced opportunities.<br> In this paper, we present our experiences
+  a multitude of enhanced opportunities. In this paper, we present our experiences
   with the application of new media in our undergraduate course Introduction to Object-Oriented
   Modeling (OOM). In this course, we teach approximately 800-1000 students per year
   the principles and techniques of UML 2.0. New media, i.e., technologies other than
@@ -17,9 +17,9 @@ authors:
 - Christian Huemer
 date: '2011-01-01'
 featured: false
-publication: '*Novel Communication Channels in Software Modeling Education*'
 publication_types:
 - '1'
 publishDate: '2011-01-01'
+title: Novel Communication Channels in Software Modeling Education
 url_pdf: http://www.springerlink.com/content/85433244788077u4/
 ---

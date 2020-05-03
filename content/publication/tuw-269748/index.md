@@ -18,9 +18,9 @@ authors:
 - Manuel Wimmer
 date: '2018-08-20'
 featured: false
-publication: '*AutomationML, ISA-95 and Others: Rendezvous in the OPC UA Universe*'
 publication_types:
 - '0'
 publishDate: '2018-08-20'
+title: 'AutomationML, ISA-95 and Others: Rendezvous in the OPC UA Universe'
 url_pdf: ''
 ---

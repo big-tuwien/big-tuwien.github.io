@@ -11,10 +11,10 @@ authors:
 - Alexandra Mazak
 date: '2015-01-21'
 featured: false
-publication: '*A Common Home for Features and Requirements: Retrofitting the House
-  of Quality with Feature Models*'
 publication_types:
 - '0'
 publishDate: '2015-01-21'
+title: 'A Common Home for Features and Requirements: Retrofitting the House of Quality
+  with Feature Models'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_237896.pdf
 ---

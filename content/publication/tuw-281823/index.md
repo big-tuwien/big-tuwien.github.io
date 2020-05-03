@@ -1,15 +1,15 @@
 ---
-abstract: Current trends in manufacturing lead to more intelligent<br> products, produced
-  in global supply chains in shorter cycles,<br> taking more and complex requirements
-  into account. To manage<br> this increasing complexity, cognitive decision support
-  systems,<br> building on data analytic approaches and focusing on the product<br>
-  life cycle, stages seem a promising approach. With two high-tech<br> companies (world
-  market leader in their domains) from Austria,<br> we are approaching this challenge
-  and jointly develop cognitive<br> decision support systems for three real world
-  industrial use cases.<br> Within this position paper, we introduce our understanding
-  of<br> cognitive decision support and we introduce three industrial use<br> cases,
-  focusing on the requirements for cognitive decision support.<br> Finally, we describe
-  our preliminary solution approach for each<br> use case and our next steps
+abstract: Current trends in manufacturing lead to more intelligent products, produced
+  in global supply chains in shorter cycles, taking more and complex requirements
+  into account. To manage this increasing complexity, cognitive decision support systems,
+  building on data analytic approaches and focusing on the product life cycle, stages
+  seem a promising approach. With two high-tech companies (world market leader in
+  their domains) from Austria, we are approaching this challenge and jointly develop
+  cognitive decision support systems for three real world industrial use cases. Within
+  this position paper, we introduce our understanding of cognitive decision support
+  and we introduce three industrial use cases, focusing on the requirements for cognitive
+  decision support. Finally, we describe our preliminary solution approach for each
+  use case and our next steps
 authors:
 - Stefan Thalmann
 - Heimo Gursch
@@ -25,10 +25,10 @@ authors:
 - Stefanie Lindstaedt
 date: '2019-01-01'
 featured: false
-publication: '*Cognitive Decision Support for Industrial Product Life Cycles: A Position
-  Paper*'
 publication_types:
 - '1'
 publishDate: '2019-01-01'
+title: 'Cognitive Decision Support for Industrial Product Life Cycles: A Position
+  Paper'
 url_pdf: https://publik.tuwien.ac.at/files/publik_281823.pdf
 ---

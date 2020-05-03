@@ -21,10 +21,9 @@ authors:
 - Christian Huemer
 date: '2014-07-14'
 featured: false
-publication: '*A Framework for Inter-organizational Performance Analysis from EDI
-  Messages*'
 publication_types:
 - '0'
 publishDate: '2014-07-14'
+title: A Framework for Inter-organizational Performance Analysis from EDI Messages
 url_pdf: ''
 ---

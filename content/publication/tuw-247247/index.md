@@ -15,10 +15,10 @@ authors:
 - Birgit Hofreiter
 date: '2015-01-01'
 featured: false
-publication: '*The UN/CEFACT Modeling Methodology UMM 2.0: Choreographing Business
-  Document Exchanges*'
 publication_types:
 - '6'
 publishDate: '2015-01-01'
+title: 'The UN/CEFACT Modeling Methodology UMM 2.0: Choreographing Business Document
+  Exchanges'
 url_pdf: http://link.springer.com/chapter/10.1007%2F978-3-642-45100-3_27
 ---

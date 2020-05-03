@@ -15,10 +15,9 @@ authors:
 - Christian Huemer
 date: '2015-12-06'
 featured: false
-publication: '*A Standards Framework for Value Networks in the Context of Industry
-  4.0*'
 publication_types:
 - '0'
 publishDate: '2015-12-06'
+title: A Standards Framework for Value Networks in the Context of Industry 4.0
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_247230.pdf
 ---

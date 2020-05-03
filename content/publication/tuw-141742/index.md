@@ -9,9 +9,9 @@ authors:
 - Christian Huemer
 date: '2008-01-01'
 featured: false
-publication: '*Designing ebXML - The Work of UN/CEFACT*'
 publication_types:
 - '6'
 publishDate: '2008-01-01'
+title: Designing ebXML - The Work of UN/CEFACT
 url_pdf: ''
 ---

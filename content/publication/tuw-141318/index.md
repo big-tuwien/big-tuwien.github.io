@@ -12,10 +12,9 @@ authors:
 - Eduard Gröller
 date: '2007-01-01'
 featured: false
-publication: '*Multipath Curved Planar Reformation of the Peripheral Arterial Tree
-  in CT Angiography*'
 publication_types:
 - '2'
 publishDate: '2007-01-01'
+title: Multipath Curved Planar Reformation of the Peripheral Arterial Tree in CT Angiography
 url_pdf: ''
 ---

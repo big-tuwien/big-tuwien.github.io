@@ -19,10 +19,10 @@ authors:
 - Marco Zapletal
 date: '2007-07-09'
 featured: false
-publication: '*The Web Services-BusinessActivity-Initiator (WS-BA-I) Protocol: an
-  Extension to the Web Services-BusinessActivity Specification*'
 publication_types:
 - '0'
 publishDate: '2007-07-09'
+title: 'The Web Services-BusinessActivity-Initiator (WS-BA-I) Protocol: an Extension
+  to the Web Services-BusinessActivity Specification'
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5006.pdf
 ---

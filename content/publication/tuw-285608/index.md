@@ -14,15 +14,15 @@ abstract: The goal of Building Information Modeling (BIM) is the uninterrupted u
   way, unlike IFC, our data model removes the long wait for the next implementation
   cycle to be completed by developers. Furthermore, it shortens the training time
   and facilitates the loss-, corruption-, and conflict-free exchange of information
-  between domain experts, which is a key aspect of BIM.<br> As proof of concept, we
-  present the evolution of the virtual building model from the construction to the
-  operation phase. In each phase, stakeholders enrich the data model with the information
-  they need for, e.g., analyses. Our approach considers the needs of the operation
-  phase and works towards the construction and commissioning phases to set up the
-  necessary data infrastructure by collecting information at every stage, from every
-  stakeholder and considering inter - dependencies, potential conflicts and threats
-  to model consistency.<br> Results show that the flexible data model of SIMULTAN
-  can be adapted to the task. It can handle structured as well as unstructured data.
+  between domain experts, which is a key aspect of BIM. As proof of concept, we present
+  the evolution of the virtual building model from the construction to the operation
+  phase. In each phase, stakeholders enrich the data model with the information they
+  need for, e.g., analyses. Our approach considers the needs of the operation phase
+  and works towards the construction and commissioning phases to set up the necessary
+  data infrastructure by collecting information at every stage, from every stakeholder
+  and considering inter - dependencies, potential conflicts and threats to model consistency.
+  Results show that the flexible data model of SIMULTAN can be adapted to the task.
+  It can handle structured as well as unstructured data.
 authors:
 - Galina Paskaleva
 - Thomas Lewis
@@ -30,10 +30,10 @@ authors:
 - Thomas Bednar
 date: '2019-06-17'
 featured: false
-publication: '*SIMULTAN as a Big-Open-Real-BIM Data Model - Evolution of Virtual Building
-  from Design through Construction into Operation Phase*'
 publication_types:
 - '0'
 publishDate: '2019-06-17'
+title: SIMULTAN as a Big-Open-Real-BIM Data Model - Evolution of Virtual Building
+  from Design through Construction into Operation Phase
 url_pdf: http://www.bre.polyu.edu.hk/CIBWBC2019/proceedings.html
 ---

@@ -24,9 +24,9 @@ authors:
 - Dominik Fleischmann
 date: '2004-10-10'
 featured: false
-publication: '*The VesselGlyph: Focus & Context Visualization in CT-Angiography*'
 publication_types:
 - '0'
 publishDate: '2004-10-10'
+title: 'The VesselGlyph: Focus & Context Visualization in CT-Angiography'
 url_pdf: http://www.cg.tuwien.ac.at/research/publications/2004/StrakaVis2004/
 ---

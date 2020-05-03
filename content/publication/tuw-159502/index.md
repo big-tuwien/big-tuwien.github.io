@@ -7,9 +7,9 @@ authors:
 - Peter Cerwenka
 date: '2002-01-01'
 featured: false
-publication: '*Entwicklung des Grenzlandes im Zuge der EU-Erweiterung*'
 publication_types:
 - '4'
 publishDate: '2002-01-01'
+title: Entwicklung des Grenzlandes im Zuge der EU-Erweiterung
 url_pdf: ''
 ---

@@ -29,10 +29,10 @@ authors:
 - Mario Topf
 date: '2010-01-01'
 featured: false
-publication: '*BSopt Choreographies - Transforming Global Choreographies into Workflow
-  Deployment Artifacts*'
 publication_types:
 - '7'
 publishDate: '2010-01-01'
+title: BSopt Choreographies - Transforming Global Choreographies into Workflow Deployment
+  Artifacts
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_189404.pdf
 ---

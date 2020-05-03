@@ -15,9 +15,9 @@ authors:
 - Manuel Wimmer
 date: '2018-09-04'
 featured: false
-publication: '*A Variability Information Model for OPC UA*'
 publication_types:
 - '0'
 publishDate: '2018-09-04'
+title: A Variability Information Model for OPC UA
 url_pdf: ''
 ---

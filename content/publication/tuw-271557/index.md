@@ -17,9 +17,9 @@ authors:
 - Bernhard Wally
 date: '2018-10-15'
 featured: false
-publication: '*An Initial Mapping Study on MDE4IoT*'
 publication_types:
 - '0'
 publishDate: '2018-10-15'
+title: An Initial Mapping Study on MDE4IoT
 url_pdf: ''
 ---

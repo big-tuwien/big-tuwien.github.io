@@ -17,9 +17,9 @@ authors:
 - Radu Grosu
 date: '2018-10-04'
 featured: false
-publication: '*CPS/IoT Ecosystem: A Platform for Research and Education*'
 publication_types:
 - '0'
 publishDate: '2018-10-04'
+title: 'CPS/IoT Ecosystem: A Platform for Research and Education'
 url_pdf: ''
 ---

@@ -14,9 +14,9 @@ authors:
 - Peter Regatschnig
 date: '2013-02-18'
 featured: false
-publication: '*REA-ERP: Challenges of Using REA in an ERP System*'
 publication_types:
 - '0'
 publishDate: '2013-02-18'
+title: 'REA-ERP: Challenges of Using REA in an ERP System'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_217080.pdf
 ---
