@@ -16,7 +16,7 @@ abstract: In this paper we present the ERPEL approach towards executing on-the-f
   (BSI) that are integrated into the ERP systems.
 authors:
 - Christian Huemer
-- Gerti Kappel
+- Gertrude Kappel
 - Philipp Liegl
 - Rainer Schuster
 - Hannes Werthner

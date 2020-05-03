@@ -13,7 +13,7 @@ abstract: In our project BSopt we have developed a model-driven approach towards
 authors:
 - Birgit Hofreiter
 - Christian Huemer
-- Gerti Kappel
+- Gertrude Kappel
 - Dieter Mayrhofer
 - Jan vom Brocke
 date: '2010-06-28'

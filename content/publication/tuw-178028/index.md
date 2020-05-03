@@ -11,7 +11,7 @@ abstract: Approximately 1000 students of computer science and business informati
 authors:
 - Marion Scholz
 - Martina Seidl
-- Gerti Kappel
+- Gertrude Kappel
 date: '2009-10-06'
 featured: false
 publication_types:

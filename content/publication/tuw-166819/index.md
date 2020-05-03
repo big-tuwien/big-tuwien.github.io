@@ -5,7 +5,7 @@ authors:
 - Martina Seidl
 - Manuel Wimmer
 - Christian Huemer
-- Gerti Kappel
+- Gertrude Kappel
 date: '2008-09-29'
 featured: false
 publication_types:

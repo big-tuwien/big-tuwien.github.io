@@ -13,7 +13,7 @@ abstract: Research in areas of Internet of Things (IoT), Industry 4.0 (I4.0), Cy
   of models.
 authors:
 - Christian Huemer
-- Gerti Kappel
+- Gertrude Kappel
 - Manuel Wimmer
 - Henderik A. Proper
 - Siegfried Reich

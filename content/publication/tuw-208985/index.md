@@ -4,7 +4,7 @@ authors:
 - Martina Seidl
 - Marion Scholz
 - Christian Huemer
-- Gerti Kappel
+- Gertrude Kappel
 date: '2012-01-01'
 featured: false
 publication_types:

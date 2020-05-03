@@ -20,7 +20,7 @@ authors:
 - Tobias Schreck
 - Belgin Mutlu
 - Jürgen Mangler
-- Gerti Kappel
+- Gertrude Kappel
 - Christian Huemer
 - Stefanie Lindstaedt
 date: '2019-01-01'

@@ -25,7 +25,7 @@ authors:
 - Schahram Dustdar
 - Johann Eder
 - Christian Huemer
-- Gerti Kappel
+- Gertrude Kappel
 - Julius Köpke
 - Philip Langer
 - Jürgen Mangler

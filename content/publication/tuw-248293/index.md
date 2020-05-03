@@ -15,7 +15,7 @@ authors:
 - Alexandra Mazak
 - Manuel Wimmer
 - Christian Huemer
-- Gerti Kappel
+- Gertrude Kappel
 - Wolfgang Kastner
 date: '2016-01-01'
 featured: false

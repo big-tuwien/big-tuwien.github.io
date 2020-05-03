@@ -29,7 +29,7 @@ authors:
 - Christian Kittl
 - Christoph Pollak
 - Matej Vukovic
-- Gerti Kappel
+- Gertrude Kappel
 - Milot Gashi
 - Stefanie Rinderle-Ma
 - Josef Suschnigg

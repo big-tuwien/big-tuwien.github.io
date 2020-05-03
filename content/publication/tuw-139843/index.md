@@ -2,7 +2,7 @@
 abstract: ''
 authors:
 - Marion Murzek
-- Gerti Kappel
+- Gertrude Kappel
 - Gerhard Kramler
 date: '2005-10-03'
 featured: false

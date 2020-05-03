@@ -16,7 +16,7 @@ authors:
 - Bernhard Wally
 - Thomas Rausch
 - Schahram Dustdar
-- Gerti Kappel
+- Gertrude Kappel
 - Denise Ratasich
 - Vanja Bisanovic
 date: '2019-10-14'

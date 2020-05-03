@@ -12,7 +12,7 @@ authors:
 - Thomas Rausch
 - Dejan Nickovic
 - Willibald Krenn
-- Gerti Kappel
+- Gertrude Kappel
 - Schahram Dustdar
 - Radu Grosu
 date: '2018-10-04'

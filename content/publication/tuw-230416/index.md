@@ -4,7 +4,7 @@ authors:
 - Robert Bill
 - Simon Steyskal
 - Manuel Wimmer
-- Gerti Kappel
+- Gertrude Kappel
 date: '2014-09-30'
 featured: false
 publication_types:

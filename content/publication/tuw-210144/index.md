@@ -14,7 +14,7 @@ abstract: Inter-organizational systems span from business models over business p
 authors:
 - Birgit Hofreiter
 - Christian Huemer
-- Gerti Kappel
+- Gertrude Kappel
 - Dieter Mayrhofer
 - Jan vom Brocke
 date: '2012-01-01'

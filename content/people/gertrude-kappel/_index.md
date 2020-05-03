@@ -3,7 +3,7 @@ authors:
 - gertrude-kappel
 bio: null
 email: gertrude.kappel@tuwien.ac.at
-name: Gertrude Kappel
+name: Gerti Kappel
 pairs:
 - key: Mail
   link: mailto:gertrude.kappel@tuwien.ac.at
