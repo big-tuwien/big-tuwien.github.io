@@ -1,0 +1,27 @@
+---
+abstract: In the context of smart factories, a seamless information exchange between
+  information systems on the same layer (horizontal integration) and between information
+  system son different layers (vertical integration) is a key issue. For this purpose
+  we aim for an integrated modeling framework spanning over production chains and
+  value networks. In building this framework, we first concentrate on the layers realizing
+  the business functions and the manufacturing control functions. Thereby, we build
+  up on the Resource Event Agent (REA)business ontology (ISO/IEC 15944-4) to describe
+  external activities requiring horizontal integration with business partners and
+  internal activities serving as a hook for vertical integration within a manufacturing
+  enterprise. Furthermore, we base our framework on the ISA-95 industry standard (ANSI/ISA-95,
+  IEC62264) to describe the vertical integration within an enterprise. In this paper,
+  we demonstrate how information given in REA models is transformed to corresponding
+  ISA-95 skeletons. In other words, we show how a model describing the main business
+  functions of an enterprise is used to derive essential concepts relevant to the
+  manufacturing execution system.
+authors:
+- Alexandra Mazak
+- Christian Huemer
+date: '2015-07-13'
+featured: false
+publication: '*From Business Functions to Control Functions: Transforming REA to ISA-95*'
+publication_types:
+- '0'
+publishDate: '2015-07-13'
+url_pdf: http://publik.tuwien.ac.at/files/PubDat_245920.pdf
+---

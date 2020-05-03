@@ -1,11 +1,12 @@
 ---
-title: "Indifference Prices and Related Measures I"
-date: 2001-01-01
-publishDate: 2020-04-23T22:04:53.289641Z
-authors: ["Marcel Straka"]
-publication_types: ["3"]
-abstract: ""
+abstract: ''
+authors:
+- Marcel Straka
+date: '2001-12-11'
 featured: false
-publication: ""
+publication: '*Indifference Prices and Related Measures I*'
+publication_types:
+- '0'
+publishDate: '2001-12-11'
+url_pdf: ''
 ---
-

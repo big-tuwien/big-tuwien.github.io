@@ -1,12 +1,14 @@
 ---
-title: "Business Model Interoperability using Enterprise Model Integration"
-date: 2004-01-01
-publishDate: 2020-04-23T22:04:53.357173Z
-authors: ["Harald Kühn", "Marion Murzek", "Franz Bayer"]
-publication_types: ["1"]
-abstract: ""
+abstract: ''
+authors:
+- Harald Kühn
+- Marion Murzek
+- Franz Bayer
+date: '2004-10-27'
 featured: false
-publication: "*eAdoption and the Knowledge Economy: Issues, Applications, Case Studies*"
-url_pdf: "http://www.big.tuwien.ac.at/research/publications/2004/1004.pdf"
+publication: '*Business Model Interoperability using Enterprise Model Integration*'
+publication_types:
+- '0'
+publishDate: '2004-10-27'
+url_pdf: http://www.big.tuwien.ac.at/research/publications/2004/1004.pdf
 ---
-

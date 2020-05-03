@@ -175,17 +175,28 @@ def parse_publications(publications, pub_dir):
         'Posterpräsentation mit CD- oder Web-Tagungsband': ('vortrag_poster_mit_cd_tagungsband', 0),
     }
 
+    # PUB_TYPES = {
+    #   'article': 2,
+    #   'book': 5,
+    #   'inbook': 6,
+    #   'incollection': 6,
+    #   'inproceedings': 1,
+    #   'manual': 4,
+    #   'mastersthesis': 7,
+    #   'misc': 0,
+    #   'phdthesis': 7,
+    #   'proceedings': 0,
+    #   'techreport': 4,
+    #   'unpublished': 3,
+    #   'patent': 8
+    # }
+
+    posts = []
+
     for pub in publications:
         pub_id = pub['pub_id'].lower()
-        directory = f'{pub_dir}/{pub_id}'
-
-        # create folder
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-        else:
-            continue
-
         pub_type = pub['type']
+
         if pub_type in type_map:
             pub_type, academic_pub_type = type_map[pub_type]
         else:
@@ -193,7 +204,7 @@ def parse_publications(publications, pub_dir):
             continue
 
         title = pub['titel']
-        abstract = pub['abstract_english'] if 'abstract_english' in pub else ''
+        abstract = pub['abstract_englisch'] if 'abstract_englisch' in pub else ''
         authors = [f'{a["vorname_lang"]} {a["nachname"]}' for a in (pub['autor_info'] if ',' in pub['autoren_clean'] else [pub['autor_info']])]
         pdf_link = pub['link_pdf'] if 'link_pdf' in pub else ''
 
@@ -202,23 +213,33 @@ def parse_publications(publications, pub_dir):
         day = '01'
         if 'datum_von' in pub[pub_type]:
             dateparts = pub[pub_type]['datum_von'].split('.')
-            day, month, year = dateparts[0], dateparts[1], dateparts[2]
+            if len(dateparts) >= 3:
+                day, month, year = dateparts[0], dateparts[1], dateparts[2]
+            else:
+                year = dateparts[0]
         elif 'jahr' in pub[pub_type]:
             year = pub[pub_type]['jahr']
 
         # create the post
-        metadata = {
-            'publication': f'*{title}*',
-            'authors': authors,
-            'date': f'{year}-{month}-{day}',
-            'publishDate': f'{year}-{month}-{day}',
-            'publication_types': [str(academic_pub_type)],
-            'abstract': abstract,
-            'featured': False,
-            'url_pdf': pdf_link,
-        }
+        post = frontmatter.Post(content='', publication=f'*{title}*', authors=authors, date=f'{year}-{month}-{day}',
+                                publishDate=f'{year}-{month}-{day}', publication_types=[str(academic_pub_type)],
+                                abstract=abstract, featured=False, url_pdf=pdf_link)
 
-        post = frontmatter.Post(content='', metadata=metadata)
+        posts.append((pub_id, post))
+
+    return posts
+
+
+def save_publications(posts, pub_dir):
+    for identifier, post in posts:
+        directory = f'{pub_dir}/{identifier}'
+
+        # create folder
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        else:
+            continue
+
         with open(f'{directory}/index.md', 'w+', encoding='utf-8') as f:
             f.write(frontmatter.dumps(post))
 
@@ -323,8 +344,11 @@ def main():
     with open(f'{DATA_DIR}/publications.json', 'w+', encoding='utf-8') as f:
         f.write(json.dumps(publications, indent=4))
 
-    print(f'Parsing fetched publications an storing results to "{PUBLICATION_DIR}". Skipping existing publications.')
-    parse_publications(publications, PUBLICATION_DIR)
+    print('Parsing publications')
+    posts = parse_publications(publications, PUBLICATION_DIR)
+
+    print(f'Storing results to "{PUBLICATION_DIR}". Skipping existing records.')
+    save_publications(posts, PUBLICATION_DIR)
 
 
 if __name__ == '__main__':

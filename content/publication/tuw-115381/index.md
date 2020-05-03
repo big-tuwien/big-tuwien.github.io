@@ -1,11 +1,13 @@
 ---
-title: "Implementation and Stability, Hedging Strategies, Application to Exotic Derivatives"
-date: 2001-01-01
-publishDate: 2020-04-23T22:04:53.288644Z
-authors: ["Marcel Straka"]
-publication_types: ["3"]
-abstract: ""
+abstract: ''
+authors:
+- Marcel Straka
+date: '2001-04-26'
 featured: false
-publication: ""
+publication: '*Implementation and Stability, Hedging Strategies, Application to Exotic
+  Derivatives*'
+publication_types:
+- '0'
+publishDate: '2001-04-26'
+url_pdf: ''
 ---
-
