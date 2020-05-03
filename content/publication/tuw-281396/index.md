@@ -17,6 +17,9 @@ authors:
 - Manuel Wimmer
 date: '2019-09-25'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=281396&lang=1
 publication_types:
 - '0'
 publishDate: '2019-09-25'

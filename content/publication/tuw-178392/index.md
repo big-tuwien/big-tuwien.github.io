@@ -17,6 +17,9 @@ authors:
 - Michael Strommer
 date: '2009-10-21'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=178392&lang=1
 publication_types:
 - '0'
 publishDate: '2009-10-21'

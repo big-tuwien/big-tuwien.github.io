@@ -14,6 +14,9 @@ authors:
 - Wolfgang Schramm
 date: '2011-10-16'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=205727&lang=1
 publication_types:
 - '0'
 publishDate: '2011-10-16'

@@ -29,6 +29,9 @@ authors:
 - Markus Gruber
 date: '2014-01-01'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=236342&lang=1
 publication_types:
 - '7'
 publishDate: '2014-01-01'

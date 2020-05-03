@@ -15,6 +15,9 @@ authors:
 - René Baranyi
 date: '2014-05-14'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=235992&lang=1
 publication_types:
 - '0'
 publishDate: '2014-05-14'

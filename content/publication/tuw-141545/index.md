@@ -17,6 +17,9 @@ authors:
 - Sonja Mayrhofer
 date: '2007-09-24'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141545&lang=1
 publication_types:
 - '0'
 publishDate: '2007-09-24'

@@ -13,6 +13,9 @@ authors:
 - Gerhard Kramler
 date: '2007-06-12'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141030&lang=1
 publication_types:
 - '0'
 publishDate: '2007-06-12'

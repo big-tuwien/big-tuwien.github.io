@@ -16,6 +16,9 @@ authors:
 - Karin Kappel
 date: '2009-11-22'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183633&lang=1
 publication_types:
 - '0'
 publishDate: '2009-11-22'

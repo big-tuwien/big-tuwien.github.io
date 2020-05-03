@@ -10,6 +10,9 @@ authors:
 - Johannes Nagler
 date: '2018-07-10'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=271949&lang=1
 publication_types:
 - '0'
 publishDate: '2018-07-10'

@@ -4,6 +4,9 @@ authors:
 - Michael Schröder
 date: '2015-01-01'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=247616&lang=1
 publication_types:
 - '7'
 publishDate: '2015-01-01'

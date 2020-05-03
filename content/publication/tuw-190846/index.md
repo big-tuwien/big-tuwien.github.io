@@ -20,6 +20,9 @@ authors:
 - Hannes Werthner
 date: '2010-05-03'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=190846&lang=1
 publication_types:
 - '0'
 publishDate: '2010-05-03'

@@ -37,6 +37,9 @@ authors:
 - Stefanie Lindstaedt
 date: '2018-07-11'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=276777&lang=1
 publication_types:
 - '0'
 publishDate: '2018-07-11'

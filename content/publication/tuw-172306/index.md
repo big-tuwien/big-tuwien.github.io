@@ -16,6 +16,9 @@ authors:
 - Thomas Költringer
 date: '2008-10-20'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=172306&lang=1
 publication_types:
 - '0'
 publishDate: '2008-10-20'

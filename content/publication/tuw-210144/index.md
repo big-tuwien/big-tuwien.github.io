@@ -19,6 +19,9 @@ authors:
 - Jan vom Brocke
 date: '2012-01-01'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=210144&lang=1
 publication_types:
 - '6'
 publishDate: '2012-01-01'

@@ -17,6 +17,9 @@ authors:
 - Radu Grosu
 date: '2018-10-04'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=276165&lang=1
 publication_types:
 - '0'
 publishDate: '2018-10-04'

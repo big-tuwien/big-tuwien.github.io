@@ -17,6 +17,9 @@ authors:
 - Christian Sonnenberg
 date: '2011-10-19'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=200218&lang=1
 publication_types:
 - '0'
 publishDate: '2011-10-19'

@@ -11,6 +11,9 @@ authors:
 - Alexandra Mazak
 date: '2015-01-21'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=237896&lang=1
 publication_types:
 - '0'
 publishDate: '2015-01-21'

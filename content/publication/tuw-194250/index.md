@@ -17,6 +17,9 @@ authors:
 - Thomas Grechenig
 date: '2010-03-21'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=194250&lang=1
 publication_types:
 - '0'
 publishDate: '2010-03-21'

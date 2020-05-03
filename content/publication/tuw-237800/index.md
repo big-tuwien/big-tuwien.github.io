@@ -12,6 +12,9 @@ authors:
 - Dieter Mayrhofer
 date: '2015-02-23'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=237800&lang=1
 publication_types:
 - '0'
 publishDate: '2015-02-23'

@@ -24,6 +24,9 @@ authors:
 - Galina Paskaleva
 date: '2013-10-28'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=223198&lang=1
 publication_types:
 - '0'
 publishDate: '2013-10-28'

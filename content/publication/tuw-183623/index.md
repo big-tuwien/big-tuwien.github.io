@@ -5,6 +5,9 @@ authors:
 - Thomas Grechenig
 date: '2008-02-21'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183623&lang=1
 publication_types:
 - '0'
 publishDate: '2008-02-21'

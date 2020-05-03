@@ -6,6 +6,9 @@ authors:
 - Franz Bayer
 date: '2004-10-27'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=138659&lang=1
 publication_types:
 - '0'
 publishDate: '2004-10-27'

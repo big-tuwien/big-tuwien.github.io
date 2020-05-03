@@ -26,6 +26,9 @@ authors:
 - Birgit Schmiedl
 date: '2010-06-22'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=194515&lang=1
 publication_types:
 - '0'
 publishDate: '2010-06-22'

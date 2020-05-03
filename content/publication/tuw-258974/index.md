@@ -12,6 +12,9 @@ authors:
 - Alexandra Mazak
 date: '2017-03-06'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=258974&lang=1
 publication_types:
 - '0'
 publishDate: '2017-03-06'

@@ -19,6 +19,9 @@ authors:
 - Martina Pöll
 date: '2011-06-27'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=205879&lang=1
 publication_types:
 - '0'
 publishDate: '2011-06-27'

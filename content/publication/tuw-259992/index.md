@@ -7,6 +7,9 @@ authors:
 - Birgit Vogel-Heuser
 date: '2017-07-21'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=259992&lang=1
 publication_types:
 - '0'
 publishDate: '2017-07-21'

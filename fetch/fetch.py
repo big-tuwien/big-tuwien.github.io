@@ -215,6 +215,7 @@ def parse_publications(publications, author_transform_map):
         authors = [f'{a["vorname_lang"]} {a["nachname"]}' for a in authors]
         authors = [author_transform_map[name] if name in author_transform_map else name for name in authors]
         pdf_link = pub['link_pdf'] if 'link_pdf' in pub else ''
+        publik_link = pub['infolink']
 
         year = ''
         month = '01'
@@ -231,7 +232,8 @@ def parse_publications(publications, author_transform_map):
         # create the post
         post = frontmatter.Post(content='', title=title, authors=authors, date=f'{year}-{month}-{day}',
                                 publishDate=f'{year}-{month}-{day}', publication_types=[str(academic_pub_type)],
-                                abstract=abstract, featured=False, url_pdf=pdf_link)
+                                abstract=abstract, featured=False, url_pdf=pdf_link,
+                                links=[{'name': 'Publik', 'url': publik_link}])
 
         posts.append((pub_id, post))
 

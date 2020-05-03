@@ -21,6 +21,9 @@ authors:
 - Vanja Bisanovic
 date: '2019-10-14'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=284276&lang=1
 publication_types:
 - '0'
 publishDate: '2019-10-14'

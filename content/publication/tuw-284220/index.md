@@ -21,6 +21,9 @@ authors:
 - Renate Kirschner-Schwabe
 date: '2019-01-01'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=284220&lang=1
 publication_types:
 - '2'
 publishDate: '2019-01-01'

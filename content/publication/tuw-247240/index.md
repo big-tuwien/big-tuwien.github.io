@@ -14,6 +14,9 @@ authors:
 - Philipp Liegl
 date: '2013-11-11'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=247240&lang=1
 publication_types:
 - '0'
 publishDate: '2013-11-11'

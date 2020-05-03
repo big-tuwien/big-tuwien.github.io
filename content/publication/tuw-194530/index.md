@@ -25,6 +25,9 @@ authors:
 - Wolfgang Wimleitner
 date: '2010-01-01'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=194530&lang=1
 publication_types:
 - '7'
 publishDate: '2010-01-01'

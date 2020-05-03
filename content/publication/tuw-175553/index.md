@@ -30,6 +30,9 @@ authors:
 - Andreas Mehlführer
 date: '2009-01-01'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=175553&lang=1
 publication_types:
 - '7'
 publishDate: '2009-01-01'

@@ -15,6 +15,9 @@ authors:
 - S Renan
 date: '2008-06-04'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=172341&lang=1
 publication_types:
 - '0'
 publishDate: '2008-06-04'

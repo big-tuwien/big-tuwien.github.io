@@ -17,6 +17,9 @@ authors:
 - Martin Pazderka
 date: '2008-12-01'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=171842&lang=1
 publication_types:
 - '0'
 publishDate: '2008-12-01'

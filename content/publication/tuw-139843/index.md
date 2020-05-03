@@ -6,6 +6,9 @@ authors:
 - Gerhard Kramler
 date: '2005-10-03'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=139843&lang=1
 publication_types:
 - '0'
 publishDate: '2005-10-03'

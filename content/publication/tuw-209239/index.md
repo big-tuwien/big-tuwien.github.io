@@ -26,6 +26,9 @@ authors:
 - Philipp Krenn
 date: '2012-07-24'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=209239&lang=1
 publication_types:
 - '0'
 publishDate: '2012-07-24'

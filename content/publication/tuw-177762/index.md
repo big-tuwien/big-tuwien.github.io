@@ -30,6 +30,9 @@ authors:
 - Martin Windisch
 date: '2009-08-31'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=177762&lang=1
 publication_types:
 - '0'
 publishDate: '2009-08-31'

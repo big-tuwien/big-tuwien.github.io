@@ -30,6 +30,9 @@ authors:
 - Thomas Bednar
 date: '2019-06-17'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=285612&lang=1
 publication_types:
 - '0'
 publishDate: '2019-06-17'

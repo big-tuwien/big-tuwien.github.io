@@ -6,6 +6,9 @@ authors:
 - Wolfgang Zuser
 date: '2003-01-01'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=138182&lang=1
 publication_types:
 - '0'
 publishDate: '2003-01-01'

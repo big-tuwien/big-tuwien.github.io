@@ -17,6 +17,9 @@ authors:
 - Schahram Dustdar
 date: '2014-07-01'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=230604&lang=1
 publication_types:
 - '0'
 publishDate: '2014-07-01'

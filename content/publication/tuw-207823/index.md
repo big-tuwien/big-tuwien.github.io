@@ -15,6 +15,9 @@ authors:
 - Christian Huemer
 date: '2012-06-25'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=207823&lang=1
 publication_types:
 - '0'
 publishDate: '2012-06-25'

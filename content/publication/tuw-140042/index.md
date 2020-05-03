@@ -8,6 +8,9 @@ authors:
 - Marco Zapletal
 date: '2006-07-10'
 featured: false
+links:
+- name: Publik
+  url: https://publik.tuwien.ac.at/showentry.php?ID=140042&lang=1
 publication_types:
 - '0'
 publishDate: '2006-07-10'
