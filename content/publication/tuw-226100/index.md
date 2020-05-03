@@ -1,0 +1,25 @@
+---
+abstract: Code reviews are a very effective, but effortful quality assurance technique.
+  A major problem is to read and understand source-code that was produced by someone
+  else. With different programming styles and complex interactions, understanding
+  the code under review is the most expensive sub-task of a code review. As with many
+  other modern software engineering practices, code reviews may be applied as a continuous
+  process to reduce the effort and support the concept of collective ownership. This
+  study evaluates the effect of a continuous code review process on the understandability
+  and collective ownership of the code base. A group of 8 subjects performed a total
+  of 114 code reviews within 18 months in an industrial context and conducted an expert
+  evaluation according to this research question. This study concludes that there
+  is a clear positive effect on the understandability and collective ownership of
+  the code base with continuous code reviews, but also limiting factors and drawbacks
+  for complex review tasks.
+authors:
+- Mario Bernhart
+- Thomas Grechenig
+date: '2013-05-20'
+featured: false
+publication_types:
+- '0'
+publishDate: '2013-05-20'
+title: On the understanding of programs with continuous code reviews
+url_pdf: ''
+---

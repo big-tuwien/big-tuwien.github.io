@@ -27,5 +27,19 @@ courses:
 
 publications:
   # If a whitelisted person should be excluded from publication fetching, list here
-  blacklist:
-    - Thomas Grechenig
+  #blacklist:
+  #  - Thomas Grechenig
+  blacklist: []
+  # The publication database does not necessarily use the same names as TISS.
+  # In order to link names with the user profiles, names must be transformed to the correct name identifier
+  # TO represents the value all FROM values must be mapped to
+  # Example:
+  # - to: Max Mustermann
+  #      from:
+  #        - Maximilian Mustermann
+  #        - M. Mustermann
+  # This setup will map all names matching either "Maximilian Mustermann" or "M. Mustermann" to "Max Mustermann"
+  transform:
+    - to: Marek Straka
+      from:
+        - Marcel Straka

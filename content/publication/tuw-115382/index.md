@@ -1,7 +1,7 @@
 ---
 abstract: ''
 authors:
-- Marcel Straka
+- Marek Straka
 date: '2001-03-27'
 featured: false
 publication_types:

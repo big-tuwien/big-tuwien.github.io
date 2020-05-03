@@ -1,0 +1,13 @@
+---
+abstract: ''
+authors:
+- Helene Richter
+date: '2006-01-01'
+featured: false
+publication_types:
+- '7'
+publishDate: '2006-01-01'
+title: The Impact of Inaccurate Social Perception on Conflicts in Small Software Engineering
+  Teams
+url_pdf: ''
+---

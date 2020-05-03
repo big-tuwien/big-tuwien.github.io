@@ -154,7 +154,7 @@ def load_publications(researchers, session=requests.Session()):
     return publications
 
 
-def parse_publications(publications, pub_dir):
+def parse_publications(publications, author_transform_map):
     type_map = {
         'Dissertation': ('diss_dipl', 7),
         'Wissenschaftlicher Bericht': ('bericht', 4),
@@ -211,8 +211,9 @@ def parse_publications(publications, pub_dir):
         abstract = re.sub('<br/?>', '', abstract)
         # remove all dots from title (intention is to remove trailing dots)
         title = pub['titel'].strip('.')
-        authors = [f'{a["vorname_lang"]} {a["nachname"]}' for a in
-                   (pub['autor_info'] if ',' in pub['autoren_clean'] else [pub['autor_info']])]
+        authors = pub['autor_info'] if ',' in pub['autoren_clean'] else [pub['autor_info']]
+        authors = [f'{a["vorname_lang"]} {a["nachname"]}' for a in authors]
+        authors = [author_transform_map[name] if name in author_transform_map else name for name in authors]
         pdf_link = pub['link_pdf'] if 'link_pdf' in pub else ''
 
         year = ''
@@ -390,13 +391,20 @@ def main():
         f.write(json.dumps(publications, indent=4))
 
     print('Parsing publications')
-    posts = parse_publications(publications, PUBLICATION_DIR)
+    name_map = {}
+    for entry in config['publications']['transform']:
+        to = entry['to']
+        for fr in entry['from']:
+            name_map[fr] = to
+
+    posts = parse_publications(publications, name_map)
 
     print('Loading BibTeX records')
     bibtex = load_bibtex(publishers)
 
     print('Parsing BibTeX entries')
-    bib_db = parse_bibtex(bibtex)
+    #bib_db = parse_bibtex(bibtex)
+    bib_db = bibtexparser.bibdatabase.BibDatabase()
 
     print(f'Storing results to "{PUBLICATION_DIR}". Skipping existing records.')
     save_publications(posts, bib_db, PUBLICATION_DIR)

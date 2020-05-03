@@ -1,0 +1,28 @@
+---
+abstract: Voice over IP (VoIP) gains more and more attractiveness by large companies
+  as well as private users. Therefore, the risk increases that VoIP systems get attacked
+  by hackers. In order to effectively protect VoIP users from misuse, researchers
+  use, e.g., honeynets to capture and analyze VoIP attacks occurring in the Internet.
+  Global VoIP security threats are analyzed by studying several millions of real-world
+  attacks collected in independent VoIP honeynet solutions with different capture
+  mechanisms over a long period of time. Due to the validation of results from several
+  honeynet designs we have achieved a unique, much broader view on large scale attacks.
+  The results show similar attacker behavior, confirm previous assumptions about attacks
+  and present new insights in large scale VoIP attacks, e.g., for toll fraud.
+authors:
+- Markus Gruber
+- Dirk Hoffstadt
+- Adnan Aziz
+- Florian Fankhauser
+- Christian Schanes
+- Erwin Rathgeb
+- Thomas Grechenig
+date: '2015-05-20'
+featured: false
+publication_types:
+- '0'
+publishDate: '2015-05-20'
+title: Global VoIP Security Threats - Large Scale Validation Based on Independent
+  Honeynets
+url_pdf: ''
+---
