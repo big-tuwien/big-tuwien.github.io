@@ -14,7 +14,7 @@ abstract: The large scale of the Internet has offered unique economic opportunit
   high-traffic website in the financial sector. Finally, we interpret our findings
   and discuss various challenges and pitfalls.
 authors:
-- Jürgen Cito
+- Juergen Cito
 - Devan Gotowka
 - Philipp Leitner
 - Ryan Pelette

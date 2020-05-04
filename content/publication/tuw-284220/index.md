@@ -2,7 +2,7 @@
 abstract: ''
 authors:
 - Stefanie Groenefeld-Krentz
-- Michael Schröder
+- Michael Schroeder
 - Michael Reiter
 - Malwine Pogodzinski
 - Helia Pimentel-Gutierrez

@@ -39,6 +39,7 @@ publications:
   #        - Maximilian Mustermann
   #        - M. Mustermann
   # This setup will map all names matching either "Maximilian Mustermann" or "M. Mustermann" to "Max Mustermann"
+  # WARNING: ALL NAMES THAT CONTAIN NON ASCII LETTERS MUST PROVIDE TRANSFORM RECORDS REMOVING THEM
   transform:
     - to: Marek Straka
       from:
@@ -46,3 +47,9 @@ publications:
     - to: Gertrude Kappel
       from:
         - Gerti Kappel
+    - to: Juergen Cito
+      from:
+        - Jürgen Cito
+    - to: Michael Schroeder
+      from:
+        - Michael Schröder

@@ -11,7 +11,7 @@ abstract: The large scale of the Internet has offered unique economic opportunit
   analysis and changepoint detection. Finally, we interpret our findings and discuss
   various challenges and pitfalls.
 authors:
-- Jürgen Cito
+- Juergen Cito
 - Dritan Suljoti
 - Philipp Leitner
 - Schahram Dustdar

@@ -371,23 +371,17 @@ def main():
 
     current_semester, prev_semester = _get_semesters()
 
-    semesters = [(current_semester, '_index.md'), (prev_semester, 'prev.md')]
+    semesters = [current_semester, prev_semester]
 
     lecturer_blacklist = [_id(name) for name in config['courses']['blacklist']]
     lecturers = [p for p in people if p['identifier'] not in lecturer_blacklist]
 
-    for semester, file in semesters:
-        print(f'Fetching courses for semester {semester} -> {file}')
+    for semester in semesters:
+        print(f'Fetching courses for semester {semester}')
 
         courses = load_courses(lecturers, semester=semester)
 
-        # apply metadata to markdown front matter
-        post = parse_courses(courses, lecturers, semester, f'{CI_TEMPLATE_DIR}/teaching/{file}')
-
-        # with open(f'{TEACHING_DIR}/{file}', 'w+', encoding='utf-8') as f:
-        #     f.write(frontmatter.dumps(post))
-
-        with open(f'{DATA_DIR}/courses_{semester}.json', 'w+', encoding='utf-8') as f:
+        with open(f'{DATA_DIR}/teaching/courses/{semester}.json', 'w+', encoding='utf-8') as f:
             f.write(json.dumps(courses, indent=4))
 
     # fetch publications

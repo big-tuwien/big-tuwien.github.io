@@ -1,7 +1,7 @@
 ---
 abstract: ''
 authors:
-- Michael Schröder
+- Michael Schroeder
 date: '2015-01-01'
 featured: false
 links:

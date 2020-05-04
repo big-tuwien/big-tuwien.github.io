@@ -30,7 +30,7 @@ abstract: Over the past few decades, the internet has grown to an enormous infra
   observed data from production systems. The presented approach is then applied in
   a case study for benchmarking search engine providers.
 authors:
-- Jürgen Cito
+- Juergen Cito
 date: '2014-01-01'
 featured: false
 links:
