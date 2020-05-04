@@ -143,7 +143,7 @@ def load_publications(researchers, session=requests.Session()):
     publications = []
 
     for res in researchers:
-        query = {'zuname': res['last_name'], 'vorname': res['first_name'], 'inst': 'E194', 'abt': '03'}
+        query = {'zuname': res['last_name'], 'vorname': res['first_name'], 'inst': 'E194', 'abt': '03', 'func': '1'}
         r = session.get(PUBLICATION_URL, params=query)
         content = r.content.decode('ISO-8859-1')
         xml = xmltodict.parse(content, encoding='utf-8')['export']  # get root element
@@ -252,7 +252,7 @@ def load_bibtex(publishers, session=requests.Session()):
     composite_bibtex = ''
 
     for pub in publishers:
-        query = {'zuname': pub['last_name'], 'vorname': pub['first_name'], 'inst': 'E194', 'abt': '03'}
+        query = {'zuname': pub['last_name'], 'vorname': pub['first_name'], 'inst': 'E194', 'abt': '03', 'func': '1'}
         r = session.get(BIBTEX_URL, params=query)
         result = r.content.decode('ISO-8859-1')
         for line in result.split(os.linesep):
