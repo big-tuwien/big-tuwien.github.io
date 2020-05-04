@@ -30,9 +30,9 @@ date: '2011-06-16'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=204898&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=204898&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-06-16'
 title: An Outline of the Technical Requirements on Governmental Electronic Record
   Systems Derived from the European Legal Environment

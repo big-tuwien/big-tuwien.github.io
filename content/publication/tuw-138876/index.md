@@ -26,9 +26,9 @@ date: '2004-10-10'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=138876&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=138876&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2004-10-10'
 title: 'The VesselGlyph: Focus & Context Visualization in CT-Angiography'
 url_pdf: http://www.cg.tuwien.ac.at/research/publications/2004/StrakaVis2004/

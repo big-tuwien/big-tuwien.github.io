@@ -23,9 +23,9 @@ date: '2011-12-12'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=201825&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=201825&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-12-12'
 title: Business Document Interoperability as a Service
 url_pdf: ''

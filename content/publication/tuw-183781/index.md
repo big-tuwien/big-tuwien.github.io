@@ -42,9 +42,9 @@ date: '2009-03-23'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=183781&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183781&lang=2
 publication_types:
-- '0'
+- '3'
 publishDate: '2009-03-23'
 title: ReviewClipse - Supporting Code-Reviews within the Eclipse IDE
 url_pdf: ''

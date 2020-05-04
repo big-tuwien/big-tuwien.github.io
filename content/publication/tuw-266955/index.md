@@ -20,9 +20,9 @@ date: '2017-10-21'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=266955&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=266955&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2017-10-21'
 title: Agreements in a Decentralized Linked Data Based Messaging System
 url_pdf: http://publik.tuwien.ac.at/files/publik_266955.pdf

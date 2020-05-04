@@ -22,9 +22,9 @@ date: '2008-09-21'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=171841&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=171841&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-09-21'
 title: 'From Feedback to Awareness: An Ambient Water Consumption Display'
 url_pdf: ''

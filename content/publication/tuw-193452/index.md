@@ -22,9 +22,9 @@ date: '2010-07-29'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=193452&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=193452&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2010-07-29'
 title: 'The Power of Community: Survival Strategies for Companies in the Social Web'
 url_pdf: ''

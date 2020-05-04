@@ -20,9 +20,9 @@ date: '2014-07-30'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=237398&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=237398&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-07-30'
 title: Yes, Governments Can! - Concept and Experiences with Guaranteed Blindness in
   a Central Exchange Service

@@ -17,9 +17,9 @@ date: '2015-12-06'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=247230&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=247230&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2015-12-06'
 title: A Standards Framework for Value Networks in the Context of Industry 4.0
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_247230.pdf

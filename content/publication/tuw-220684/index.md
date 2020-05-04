@@ -21,9 +21,9 @@ date: '2013-04-18'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=220684&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=220684&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-04-18'
 title: 'Business Context Sensitive Business Documents: An Ontology Based Business
   Context Model for Core Components'

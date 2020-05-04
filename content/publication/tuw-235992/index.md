@@ -17,9 +17,9 @@ date: '2014-05-14'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=235992&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=235992&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-05-14'
 title: 'unCUT: Bridging the Gap from Paper Diary Cards Towards Mobile Electronic Monitoring
   Solutions in Borderline and Self-Injury'

@@ -26,9 +26,9 @@ date: '2018-05-16'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=277475&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=277475&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-05-16'
 title: DiaBeaThis - A gamified Self-Tracking Portal to Support People Suffering from
   Diabetes mellitus to control their Blood Glucose Level"; IEEE 6th International

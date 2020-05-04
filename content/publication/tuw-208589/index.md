@@ -18,9 +18,9 @@ date: '2012-09-09'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=208589&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=208589&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2012-09-09'
 title: 'REA-DSL: Business Model Driven Data-Engineering'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_208589.pdf

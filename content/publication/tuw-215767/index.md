@@ -20,9 +20,9 @@ date: '2012-09-30'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=215767&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=215767&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2012-09-30'
 title: Replacing Traditional Classroom Lectures with Lecture Videos - An Experience
   Report

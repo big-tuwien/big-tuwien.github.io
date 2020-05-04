@@ -22,9 +22,9 @@ date: '2010-05-02'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=193561&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=193561&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2010-05-02'
 title: An experience report on the incremental adoption and evolution of an SPL in
   eHealth

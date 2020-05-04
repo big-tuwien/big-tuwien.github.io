@@ -7,9 +7,9 @@ date: '2015-09-22'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=246600&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=246600&lang=2
 publication_types:
-- '0'
+- '3'
 publishDate: '2015-09-22'
 title: 'Ein realer Cyber-Angriff und seine Abwehr: Struktur und Live-Demo'
 url_pdf: ''

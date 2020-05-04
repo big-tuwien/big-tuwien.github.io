@@ -17,9 +17,9 @@ date: '2013-09-30'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=221651&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=221651&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-09-30'
 title: 'OCL meets CTL: Towards CTL-Extended OCL Model Checking'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_221651.pdf

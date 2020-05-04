@@ -21,9 +21,9 @@ date: '2009-04-26'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=183638&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183638&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-04-26'
 title: 'show-me: water consumption at a glance to promote water conservation in the
   shower'

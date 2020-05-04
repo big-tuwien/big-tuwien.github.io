@@ -20,9 +20,9 @@ date: '2015-07-13'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=240407&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=240407&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2015-07-13'
 title: Model-Driven Retail Information System based on REA Business Ontology and Retail-H
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_240407.pdf

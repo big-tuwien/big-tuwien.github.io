@@ -8,9 +8,9 @@ date: '2016-10-02'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=251188&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=251188&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2016-10-02'
 title: On Leveraging UML/OCL for Model Synchronization
 url_pdf: http://www.models-and-evolution.com/2016/?committee%2Fprogram

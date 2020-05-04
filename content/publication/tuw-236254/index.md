@@ -20,9 +20,9 @@ date: '2014-06-17'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=236254&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=236254&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-06-17'
 title: Concept and Design of a Transparent Security Layer to Enable Anonymous VoIP
   Calls

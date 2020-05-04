@@ -13,9 +13,9 @@ date: '2018-10-24'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=271511&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=271511&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-10-24'
 title: IEC 62264-2 for AutomationML
 url_pdf: ''

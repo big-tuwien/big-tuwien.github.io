@@ -21,9 +21,9 @@ date: '2018-11-08'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=278493&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=278493&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-11-08'
 title: Teaching Global Software Engineering in a Remote Customer Environment
 url_pdf: ''

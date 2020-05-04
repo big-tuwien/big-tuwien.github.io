@@ -14,9 +14,9 @@ date: '2007-04-28'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141548&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141548&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-04-28'
 title: Game Controller Text Entry with Alphabetic and Multi-Tap Selection Keyboards
 url_pdf: ''

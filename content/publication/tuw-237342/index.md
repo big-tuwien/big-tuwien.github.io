@@ -13,9 +13,9 @@ date: '2014-07-14'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=237342&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=237342&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-07-14'
 title: Defining Business Rules for REA Business Models
 url_pdf: ''

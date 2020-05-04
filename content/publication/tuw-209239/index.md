@@ -28,9 +28,9 @@ date: '2012-07-24'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=209239&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=209239&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2012-07-24'
 title: 'ERPEL: Enabling Seamless Ad-hoc Cross Enterprise Collaborations'
 url_pdf: ''

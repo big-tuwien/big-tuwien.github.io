@@ -16,9 +16,9 @@ date: '2013-11-11'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=247240&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=247240&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-11-11'
 title: 'Crossing the Boundaries: e-Invoicing/e-Procurement as Native ERP Features'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_247240.pdf

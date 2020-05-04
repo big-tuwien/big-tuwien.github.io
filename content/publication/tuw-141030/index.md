@@ -15,9 +15,9 @@ date: '2007-06-12'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141030&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141030&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-06-12'
 title: BUSINESS PROCESS MODEL TRANSFORMATION ISSUES The top 7 adversaries encountered
   at defining model transformations

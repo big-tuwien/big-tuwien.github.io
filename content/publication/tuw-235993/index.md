@@ -21,9 +21,9 @@ date: '2014-12-08'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=235993&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=235993&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-12-08'
 title: WristDroid - a Serious Game to Support and Motivate Patients throughout their
   Wrist Rehabilitation

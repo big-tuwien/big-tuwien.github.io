@@ -21,9 +21,9 @@ date: '2008-07-25'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=171813&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=171813&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-07-25'
 title: 'Electronic Commerce Mashups: Combining Applications to Useful Services for
   Shoppers'

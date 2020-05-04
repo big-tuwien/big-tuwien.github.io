@@ -9,9 +9,9 @@ date: '2006-04-22'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=140751&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=140751&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2006-04-22'
 title: Developing User Interface Guidelines for DVD Menus
 url_pdf: ''

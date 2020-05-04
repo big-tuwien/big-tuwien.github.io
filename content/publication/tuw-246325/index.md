@@ -21,9 +21,9 @@ date: '2015-05-20'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=246325&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=246325&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2015-05-20'
 title: Global VoIP Security Threats - Large Scale Validation Based on Independent
   Honeynets

@@ -20,9 +20,9 @@ date: '2011-02-23'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=205747&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=205747&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-02-23'
 title: Expectations and Fears of Urban Versus Rural Population Regarding the use of
   an Electronic Health Record

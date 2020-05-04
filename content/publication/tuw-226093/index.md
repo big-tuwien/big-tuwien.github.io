@@ -18,9 +18,9 @@ date: '2013-06-03'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=226093&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=226093&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-06-03'
 title: 'Inter-organizational Co-development with Scrum: Experiences and Lessons Learned
   from a Distributed Corporate Development Environment'

@@ -30,9 +30,9 @@ date: '2018-09-23'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=274757&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=274757&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-09-23'
 title: Big-open-real-BIM Data Model - Proof of Concept
 url_pdf: ''

@@ -16,9 +16,9 @@ date: '2009-10-06'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=178028&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=178028&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-10-06'
 title: 'Teaching Models@BIG: On Efficiently Assessing Modeling Concepts'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_178028.pdf

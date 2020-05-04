@@ -16,9 +16,9 @@ date: '2008-09-29'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=166389&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=166389&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-09-29'
 title: Teaching Models @ BIG - How to Give 1000 Students an Understanding of the UML
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_166389.pdf

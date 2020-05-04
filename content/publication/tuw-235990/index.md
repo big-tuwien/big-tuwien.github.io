@@ -18,9 +18,9 @@ date: '2014-03-23'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=235990&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=235990&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-03-23'
 title: 'A Quantitative Survey About the Interest in Second Opinion and Quality/Trust
   in Online Health Information: How "Online" are Digital Natives in Personal Health?'

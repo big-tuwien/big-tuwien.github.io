@@ -20,9 +20,9 @@ date: '2013-01-16'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=215427&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=215427&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-01-16'
 title: Developing a NFC Based Patient Identification and Ward round System for Mobile
   Devices Using the Android Platform

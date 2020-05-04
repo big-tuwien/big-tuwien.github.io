@@ -22,9 +22,9 @@ date: '2018-09-24'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=277474&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=277474&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-09-24'
 title: Combining and Visualizing Time-Oriented Data from the Software Engineering
   Toolset

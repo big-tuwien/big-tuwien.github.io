@@ -13,9 +13,9 @@ date: '2010-09-02'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=194264&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=194264&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2010-09-02'
 title: Open Source Tool for 3D Simulation of Complex Applicator Placements and Ablation
   Volume during Image Guided Percutaneous Cryoablations

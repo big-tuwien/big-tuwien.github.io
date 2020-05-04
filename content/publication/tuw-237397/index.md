@@ -21,9 +21,9 @@ date: '2014-10-29'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=237397&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=237397&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-10-29'
 title: Implementing Privacy Sensitive Governmental Systems based on the Concept of
   the Austrian Data Retention Exchange Service

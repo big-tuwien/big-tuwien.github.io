@@ -15,9 +15,9 @@ date: '2007-07-26'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141747&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141747&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-07-26'
 title: A Concept to Support Seamless Spectator Participation in Sports Events Based
   on Wearable Motion Sensors

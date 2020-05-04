@@ -18,9 +18,9 @@ date: '2009-09-10'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=183630&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183630&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-09-10'
 title: Nationwide PKI Testing - Ensuring Interoperability of OCSP Server and Client
   Implementations Early During Component Tests

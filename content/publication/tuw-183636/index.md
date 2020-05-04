@@ -15,9 +15,9 @@ date: '2009-01-01'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=183636&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183636&lang=2
 publication_types:
-- '4'
+- '2'
 publishDate: '2009-01-01'
 title: Digitale Wunddiagnostik und -dokumentation mit W.H.A.T. als Basis für eine
   integrative Versorgung

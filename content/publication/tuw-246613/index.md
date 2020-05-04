@@ -24,7 +24,7 @@ date: '2015-01-01'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=246613&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=246613&lang=2
 publication_types:
 - '2'
 publishDate: '2015-01-01'

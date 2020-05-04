@@ -37,9 +37,9 @@ date: '2012-06-14'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=215508&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=215508&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2012-06-14'
 title: The Austrian Approach Concerning the European Data Retention Directive´s Translation
   into National Law and its Technical Implementation

@@ -8,9 +8,9 @@ date: '2006-04-01'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=140755&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=140755&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2006-04-01'
 title: Konzeptive Kriterien für ein State-of-the-Art Portalsystem zur effektiven innerbetrieblichen
   Organisation in der öffentlichen Verwaltung

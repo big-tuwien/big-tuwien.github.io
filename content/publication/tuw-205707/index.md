@@ -18,9 +18,9 @@ date: '2011-10-16'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=205707&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=205707&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-10-16'
 title: Extending the Patient Synchronized Applications Profile with Tools for Distributed
   Diagnosis

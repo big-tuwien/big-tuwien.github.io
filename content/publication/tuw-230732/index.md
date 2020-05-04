@@ -19,9 +19,9 @@ date: '2014-03-03'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=230732&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=230732&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-03-03'
 title: Pragmatic-based Ontology Design and Alignment
 url_pdf: ''

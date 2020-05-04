@@ -18,9 +18,9 @@ date: '2006-10-16'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=140240&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=140240&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2006-10-16'
 title: Structural Patterns for the Transformation of Business Process Models
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_3809.pdf

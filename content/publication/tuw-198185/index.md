@@ -22,9 +22,9 @@ date: '2011-06-20'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=198185&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=198185&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-06-20'
 title: 'The REA-DSL: A Domain Specific Modeling Language for Business Models'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_198185.pdf

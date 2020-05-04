@@ -8,9 +8,9 @@ date: '2005-05-15'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=139692&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=139692&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2005-05-15'
 title: Software Quality Development and Assurance in RUP, MSF and XP - A Comparative
   Study

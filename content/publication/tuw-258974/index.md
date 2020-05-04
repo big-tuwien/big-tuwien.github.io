@@ -14,9 +14,9 @@ date: '2017-03-06'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=258974&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=258974&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2017-03-06'
 title: ISA-95 based Task Specification Layer for REA in Production Environments
 url_pdf: ''

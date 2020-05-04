@@ -19,9 +19,9 @@ date: '2009-01-05'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=183619&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183619&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-01-05'
 title: 'Scalable Social Software Services: Towards a Shopping Community Model Based
   on Analyses of Established Web Service Components and Functions'

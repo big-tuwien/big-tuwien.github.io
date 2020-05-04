@@ -25,9 +25,9 @@ date: '2015-05-18'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=246254&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=246254&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2015-05-18'
 title: 'Mobile Payment Fraud: A Practical View on the Technical Architecture and Starting
   Points for Forensic Analysis of New Attack Scenarios'

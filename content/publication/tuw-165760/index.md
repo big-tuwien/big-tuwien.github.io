@@ -20,9 +20,9 @@ date: '2008-07-08'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=165760&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=165760&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-07-08'
 title: A 3-level e-Business Registry Meta Model
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_165760.pdf

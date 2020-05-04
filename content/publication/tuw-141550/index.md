@@ -18,9 +18,9 @@ date: '2007-12-07'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141550&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141550&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-12-07'
 title: 'Community Driven Commerce: Design of an Integrated Framework for Social Shopping'
 url_pdf: ''

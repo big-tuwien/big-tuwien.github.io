@@ -18,9 +18,9 @@ date: '2011-10-23'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=205409&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=205409&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-10-23'
 title: Generic data format approach for generation of security test data
 url_pdf: ''

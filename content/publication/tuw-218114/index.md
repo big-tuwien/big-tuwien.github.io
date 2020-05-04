@@ -25,9 +25,9 @@ date: '2013-08-13'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=218114&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=218114&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-08-13'
 title: 'Inter-organizational Business Processes: On Redundancies in Document Exchanges'
 url_pdf: http://www.doria.fi/xmlui/bitstream/handle/10024/91642/LN19.digi.pdf?sequence=3#page=53

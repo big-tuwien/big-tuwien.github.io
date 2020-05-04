@@ -21,9 +21,9 @@ date: '2007-07-09'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141388&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141388&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-07-09'
 title: Deriving executable BPEL from UMM Business Transactions
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5003.pdf

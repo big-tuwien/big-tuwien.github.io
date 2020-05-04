@@ -15,9 +15,9 @@ date: '2013-06-14'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=220685&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=220685&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-06-14'
 title: A Survey on Business Context
 url_pdf: http://link.springer.com/chapter/10.1007%2F978-81-322-1665-0_19

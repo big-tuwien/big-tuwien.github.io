@@ -16,9 +16,9 @@ date: '2008-11-09'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=171830&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=171830&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-11-09'
 title: Developing a Global Standard Challenges and Lessons Learned During the OPM3
   2nd Edition Update Project

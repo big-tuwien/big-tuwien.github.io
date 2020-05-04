@@ -16,9 +16,9 @@ date: '2011-09-05'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=201830&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=201830&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-09-05'
 title: Business Document Transformation using Core Components and XSLT
 url_pdf: ''

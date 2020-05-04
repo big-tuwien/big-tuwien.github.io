@@ -15,9 +15,9 @@ date: '2015-11-30'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=246389&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=246389&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2015-11-30'
 title: 'Woody: a location-based smartphone game to increase children''s outdoor activities
   in urban environments'

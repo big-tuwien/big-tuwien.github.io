@@ -20,9 +20,9 @@ date: '2015-10-05'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=246351&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=246351&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2015-10-05'
 title: 'Low-Cost Gamification of Online Surveys: Improving the User Experience through
   Achievement Badges'

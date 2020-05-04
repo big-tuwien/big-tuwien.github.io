@@ -17,9 +17,9 @@ date: '2014-08-29'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=235973&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=235973&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-08-29'
 title: 'Modelling Microservices in Email-marketing: Concepts, Implementation and Experiences'
 url_pdf: ''

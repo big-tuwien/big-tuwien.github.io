@@ -27,9 +27,9 @@ date: '2019-04-08'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=285686&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=285686&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2019-04-08'
 title: Technical Mechanics of a Trans-Border Waste Flow Tracking Solution Based on
   Blockchain Technology

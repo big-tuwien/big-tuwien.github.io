@@ -18,9 +18,9 @@ date: '2011-04-15'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=205869&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=205869&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-04-15'
 title: Toward a Management Catalog of Security Measures against Social Engineering
   Attacks

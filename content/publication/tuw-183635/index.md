@@ -23,9 +23,9 @@ date: '2009-09-20'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=183635&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183635&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-09-20'
 title: 'Digging deep: Software reengineering supported by database reverse engineering
   of a system with 30+ years of legacy'

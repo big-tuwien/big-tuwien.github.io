@@ -25,9 +25,9 @@ date: '2017-02-20'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=253172&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=253172&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2017-02-20'
 title: Automated Generation of Consistency-Achieving Modeling Editors
 url_pdf: https://doi.org/10.1109/SANER.2017.7884615

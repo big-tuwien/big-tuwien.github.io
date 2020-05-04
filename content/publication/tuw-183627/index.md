@@ -22,9 +22,9 @@ date: '2009-09-20'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=183627&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183627&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-09-20'
 title: Problem space and special characteristics of security testing in live and operational
   environments of large systems exemplified by a nationwide IT infrastructure

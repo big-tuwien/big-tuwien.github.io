@@ -25,9 +25,9 @@ date: '2012-08-27'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=215195&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=215195&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2012-08-27'
 title: Applying Continuous Code Reviews in Airport Operations Software
 url_pdf: ''

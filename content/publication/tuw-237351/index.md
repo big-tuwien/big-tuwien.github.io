@@ -14,9 +14,9 @@ date: '2014-06-24'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=237351&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=237351&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-06-24'
 title: Towards a Generic Data Model for REA Based Applications
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_237351.pdf

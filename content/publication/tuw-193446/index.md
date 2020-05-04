@@ -19,9 +19,9 @@ date: '2010-05-02'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=193446&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=193446&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2010-05-02'
 title: Mining security changes in freebsd
 url_pdf: ''

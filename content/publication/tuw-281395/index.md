@@ -19,9 +19,9 @@ date: '2019-07-22'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=281395&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=281395&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2019-07-22'
 title: Production Planning with IEC 62264 and PDDL
 url_pdf: ''

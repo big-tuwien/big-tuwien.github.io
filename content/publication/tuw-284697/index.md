@@ -21,9 +21,9 @@ date: '2019-11-27'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=284697&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=284697&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2019-11-27'
 title: Measuring Mobile Text Entry Performance and Behaviour in the Wild with a Serious
   Game

@@ -14,9 +14,9 @@ date: '2019-05-04'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=284659&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=284659&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2019-05-04'
 title: 'Hyper Typer: A Serious Game for Measuring Mobile Text Entry Performance in
   the Wild'

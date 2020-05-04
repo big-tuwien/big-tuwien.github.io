@@ -21,9 +21,9 @@ date: '2012-09-23'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=215202&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=215202&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2012-09-23'
 title: Incremental Reengineering and Migration of a 40 Year Old Airport Operations
   System

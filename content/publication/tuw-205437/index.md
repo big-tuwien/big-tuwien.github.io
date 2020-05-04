@@ -22,9 +22,9 @@ date: '2011-09-13'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=205437&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=205437&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-09-13'
 title: Issues and mitigation strategies when using agile industrial software development
   processes in student software engineering projects

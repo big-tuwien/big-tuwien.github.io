@@ -21,9 +21,9 @@ date: '2013-07-29'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=220689&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=220689&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-07-29'
 title: 'Business Context Sensitive Business Documents: Business Context Aware Core
   Components Modeling Using the E-UCM Model'

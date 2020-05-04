@@ -18,9 +18,9 @@ date: '2008-07-22'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=166333&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=166333&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-07-22'
 title: 'A model-driven top-down approach to inter-organizational systems: From global
   choreography models to executable BPEL'

@@ -22,9 +22,9 @@ date: '2013-05-02'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=226032&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=226032&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-05-02'
 title: Chances for Serious Games in Rehabilitation of Stroke Patients on the Example
   of Utilizing the Wii Fit Balance Board

@@ -17,9 +17,9 @@ date: '2012-06-25'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=207823&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=207823&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2012-06-25'
 title: Extending the REA-DSL by the Planning Layer of the REA Ontology
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_207823.pdf

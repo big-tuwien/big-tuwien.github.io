@@ -28,9 +28,9 @@ date: '2017-06-08'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=267878&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=267878&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2017-06-08'
 title: 'Designing for change: uncovering the patient perspective in developing mobile
   apps for borderline and self-injury'

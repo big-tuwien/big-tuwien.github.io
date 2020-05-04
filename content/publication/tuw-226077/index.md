@@ -20,9 +20,9 @@ date: '2013-07-08'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=226077&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=226077&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-07-08'
 title: Extraction of ABNF Rules from RFCs to Enable Automated Test Data Generation
 url_pdf: ''

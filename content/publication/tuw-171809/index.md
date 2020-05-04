@@ -21,9 +21,9 @@ date: '2008-07-24'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=171809&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=171809&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-07-24'
 title: 'Consumer Centric Communities: Integrating Community Based Features into Online
   Shops'

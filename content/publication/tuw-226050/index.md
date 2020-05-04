@@ -16,9 +16,9 @@ date: '2013-02-24'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=226050&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=226050&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-02-24'
 title: Towards an Architecture for a Game Achievement Based System to Analyze Human
   Health Comparative Behavior

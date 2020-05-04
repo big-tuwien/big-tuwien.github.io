@@ -19,9 +19,9 @@ date: '2009-06-10'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=183648&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183648&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-06-10'
 title: Discrepancies between expectation and evaluation results of IS shared services
 url_pdf: ''

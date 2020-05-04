@@ -21,9 +21,9 @@ date: '2007-11-05'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141188&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141188&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-11-05'
 title: Applying Model Transformation By-Example on Business Process Modeling Languages
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_4798.pdf

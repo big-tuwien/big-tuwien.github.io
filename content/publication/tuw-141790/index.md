@@ -21,9 +21,9 @@ date: '2008-06-16'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141790&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141790&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-06-16'
 title: A UML Profile for the e3-Value e-Business Model Ontology
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5421.pdf

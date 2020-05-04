@@ -26,9 +26,9 @@ date: '2012-03-24'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=215174&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=215174&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2012-03-24'
 title: Tracing your maintenance work - a cross-project validation of an automated
   classification dictionary for commit messages

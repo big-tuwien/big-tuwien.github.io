@@ -19,9 +19,9 @@ date: '2009-10-21'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=178392&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=178392&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-10-21'
 title: A Framework for Managing the Complexity of Business Document Integration
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_178392.pdf

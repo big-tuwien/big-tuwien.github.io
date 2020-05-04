@@ -21,9 +21,9 @@ date: '2014-06-27'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=236273&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=236273&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2014-06-27'
 title: 'Data Retention Services with Soft Privacy Impacts: Concept and Implementation'
 url_pdf: ''

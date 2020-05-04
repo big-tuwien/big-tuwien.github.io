@@ -26,9 +26,9 @@ date: '2019-09-01'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=285680&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=285680&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2019-09-01'
 title: Towards a Multi-party, Blockchain-Based Identity Verification Solution to Implement
   Clear Name Laws for Online Media Platforms

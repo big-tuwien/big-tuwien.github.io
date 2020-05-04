@@ -13,9 +13,9 @@ date: '2007-05-13'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141748&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141748&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-05-13'
 title: Towards A Taxonomy For Ambient Information Systems
 url_pdf: http://publik.tuwien.ac.at/files/hidden/pub-inf_5379_A_14139abf4dda717023e6d93a1a94356d.pdf

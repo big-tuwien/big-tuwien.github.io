@@ -18,9 +18,9 @@ date: '2007-04-15'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141013&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141013&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-04-15'
 title: A UML Profile for Core Components and their Transformation to XSD
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_4612.pdf

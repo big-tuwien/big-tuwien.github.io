@@ -39,9 +39,9 @@ date: '2018-07-11'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=276777&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=276777&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-07-11'
 title: Data Analytics for Industrial Process Improvement - A Vision Paper
 url_pdf: https://publik.tuwien.ac.at/files/publik_276777.pdf

@@ -19,9 +19,9 @@ date: '2007-10-05'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141119&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141119&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-10-05'
 title: The Model Morphing Approach - Horizontal Transformations between Business Process
   Models

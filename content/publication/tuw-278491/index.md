@@ -18,9 +18,9 @@ date: '2018-04-22'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=278491&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=278491&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-04-22'
 title: Engineering Consequences of Mobile Systems´ Technological Constraints in Developing
   Countries Exemplified by Mozambique

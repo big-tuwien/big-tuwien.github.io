@@ -18,9 +18,9 @@ date: '2018-08-15'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=277491&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=277491&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-08-15'
 title: 'Towards Using Public Blockchain in Information-Centric Networks: Challenges
   Imposed by the European Union´s General Data Protection Regulation'

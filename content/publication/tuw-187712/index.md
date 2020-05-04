@@ -20,9 +20,9 @@ date: '2010-07-05'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=187712&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=187712&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2010-07-05'
 title: A Composable, QoS-Aware and Web Services-Based Execution Model for ebXML BPSS
   Business Transactions

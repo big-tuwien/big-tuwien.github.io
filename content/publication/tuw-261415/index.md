@@ -23,9 +23,9 @@ date: '2017-10-23'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=261415&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=261415&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2017-10-23'
 title: Virtual Textual Model Composition for Supporting Versioning and Aspect-Orientation
 url_pdf: http://publik.tuwien.ac.at/files/publik_261415.pdf

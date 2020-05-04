@@ -14,9 +14,9 @@ date: '2019-09-29'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=287206&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=287206&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2019-09-29'
 title: Challenges in re-platforming mixed language PL/I and COBOL IS to an open systems
   platform

@@ -39,9 +39,9 @@ date: '2013-07-15'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=219716&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=219716&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-07-15'
 title: Towards Living Inter-Organizational Processes
 url_pdf: ''

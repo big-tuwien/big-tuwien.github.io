@@ -13,9 +13,9 @@ date: '2015-01-21'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=237896&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=237896&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2015-01-21'
 title: 'A Common Home for Features and Requirements: Retrofitting the House of Quality
   with Feature Models'

@@ -19,9 +19,9 @@ date: '2011-10-19'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=200218&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=200218&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-10-19'
 title: 'REA-XML: An Unambiguous Language for REA Business Models'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_200218.pdf

@@ -21,9 +21,9 @@ date: '2007-07-23'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141387&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141387&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-07-23'
 title: Modeling Business Entity State Centric Choreographies
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5002.pdf

@@ -19,9 +19,9 @@ date: '2008-12-01'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=171842&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=171842&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-12-01'
 title: Outsourcing as a Strategy for IT Harmonization - A Public Sector Case Study
   Proposing an Approach in Independent Stakeholder Scenarios

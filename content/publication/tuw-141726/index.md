@@ -28,9 +28,9 @@ date: '2007-09-17'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=141726&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=141726&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-09-17'
 title: 'UMM Add-In: A UML Extension for UN/CEFACT''s Modeling Methodology'
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5355.pdf

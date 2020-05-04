@@ -23,9 +23,9 @@ date: '2019-05-04'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=287271&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=287271&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2019-05-04'
 title: 'Distributed Kanban with Limited Geographical Distance: Analyzing Lean Principles
   Pull, Work in Progress and Kaizen'

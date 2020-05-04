@@ -25,9 +25,9 @@ date: '2019-08-05'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=285701&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=285701&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2019-08-05'
 title: Reha@Stroke - A Mobile Application to Support People Suffering from a Stroke
   Through Their Rehabilitation

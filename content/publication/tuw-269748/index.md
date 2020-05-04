@@ -20,9 +20,9 @@ date: '2018-08-20'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=269748&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=269748&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-08-20'
 title: 'AutomationML, ISA-95 and Others: Rendezvous in the OPC UA Universe'
 url_pdf: ''

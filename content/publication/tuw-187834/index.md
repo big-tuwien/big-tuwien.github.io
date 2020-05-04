@@ -21,9 +21,9 @@ date: '2010-06-16'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=187834&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=187834&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2010-06-16'
 title: Managing Variability and Evolution of Business Document Models
 url_pdf: http://ceur-ws.org/Vol-625/MDPLE2010-paper6-Pichler.pdf

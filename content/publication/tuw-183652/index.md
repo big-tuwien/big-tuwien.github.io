@@ -27,9 +27,9 @@ date: '2009-09-17'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=183652&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183652&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-09-17'
 title: Technical Criteria for the Comparison of Modern ERP Systems for Usage in Orchestra
   Companies

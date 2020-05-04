@@ -17,9 +17,9 @@ date: '2013-09-30'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=223488&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=223488&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-09-30'
 title: 'Making UML "hip": A First Experience Report on Using Modern Teaching Tools
   for Object-Oriented Modelling'

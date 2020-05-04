@@ -21,9 +21,9 @@ date: '2017-11-22'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=261306&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=261306&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2017-11-22'
 title: 'Aligning Business Services with Production Services: The Case of REA and ISA-95'
 url_pdf: ''

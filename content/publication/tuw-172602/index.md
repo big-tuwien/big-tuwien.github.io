@@ -16,9 +16,9 @@ date: '2007-07-29'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=172602&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=172602&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2007-07-29'
 title: 'Project Management Maturity Models: Towards Best Practices for Virtual Teams'
 url_pdf: ''

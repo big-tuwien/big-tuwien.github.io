@@ -17,9 +17,9 @@ date: '2013-06-03'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=226061&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=226061&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-06-03'
 title: Architecture for Trapping Toll Fraud Attacks Using a VoIP Honeynet Approach
 url_pdf: ''

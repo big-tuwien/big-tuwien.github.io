@@ -19,9 +19,9 @@ date: '2011-08-29'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=205865&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=205865&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-08-29'
 title: 'Learning from a Distributed Denial of Service Attack against a Legally Binding
   Electronic Election: Scenario, Operational Experience, Legal Consequences'

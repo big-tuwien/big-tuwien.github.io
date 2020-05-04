@@ -28,9 +28,9 @@ date: '2012-04-19'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=207796&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=207796&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2012-04-19'
 title: Shape Grammars for Architectural Heritage
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_207796.pdf

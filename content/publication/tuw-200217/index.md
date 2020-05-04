@@ -21,9 +21,9 @@ date: '2011-02-07'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=200217&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=200217&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-02-07'
 title: A Domain Specific Modeling Language for REA
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_200217.pdf

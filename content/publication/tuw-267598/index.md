@@ -25,9 +25,9 @@ date: '2017-04-02'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=267598&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=267598&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2017-04-02'
 title: NutritionRush - a serious game to support people with the awareness of their
   nutrition intake

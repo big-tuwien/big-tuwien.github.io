@@ -20,9 +20,9 @@ date: '2017-02-20'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=257511&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=257511&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2017-02-20'
 title: Modernizing Domain-Specific Languages with XMLText and IntellEdit
 url_pdf: ''

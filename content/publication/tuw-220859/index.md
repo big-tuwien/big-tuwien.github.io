@@ -21,9 +21,9 @@ date: '2013-10-28'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=220859&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=220859&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-10-28'
 title: Context Model for Business Context Sensitive Business Documents
 url_pdf: ''

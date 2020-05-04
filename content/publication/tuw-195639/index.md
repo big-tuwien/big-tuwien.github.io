@@ -8,9 +8,9 @@ date: '2010-08-09'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=195639&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=195639&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2010-08-09'
 title: Adopting Code Reviews for Agile Software Development
 url_pdf: ''

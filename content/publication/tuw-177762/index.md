@@ -32,9 +32,9 @@ date: '2009-08-31'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=177762&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=177762&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-08-31'
 title: '[vem:xi:] - A methodology for process based requirements engineering'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_177762.pdf

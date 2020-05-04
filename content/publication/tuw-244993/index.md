@@ -32,9 +32,9 @@ date: '2015-01-01'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=244993&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=244993&lang=2
 publication_types:
-- '4'
+- '2'
 publishDate: '2015-01-01'
 title: Analyzing inter-organizational business processes. Process mining and business
   performance analysis using electronic data interchange messages

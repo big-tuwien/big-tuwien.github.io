@@ -17,9 +17,9 @@ date: '2010-11-08'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=193437&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=193437&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2010-11-08'
 title: A Robust and Flexible Test Environment for VoIP Security Tests
 url_pdf: ''

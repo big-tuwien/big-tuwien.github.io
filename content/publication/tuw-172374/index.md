@@ -15,9 +15,9 @@ date: '2008-03-19'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=172374&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=172374&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-03-19'
 title: A Framework for Architecture as a Medium for Expression
 url_pdf: ''

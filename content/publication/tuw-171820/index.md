@@ -24,9 +24,9 @@ date: '2008-06-15'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=171820&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=171820&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-06-15'
 title: 'Collaborative Shopping Networks: Sharing the Wisdom of Crowds in E-Commerce
   Environments'

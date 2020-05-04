@@ -19,9 +19,9 @@ date: '2018-10-04'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=276165&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=276165&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-10-04'
 title: 'CPS/IoT Ecosystem: A Platform for Research and Education'
 url_pdf: ''

@@ -16,9 +16,9 @@ date: '2008-08-19'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=166115&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=166115&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2008-08-19'
 title: The Development Process of the UN/CEFACT Modeling Methodology
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_166115.pdf

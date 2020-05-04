@@ -17,9 +17,9 @@ date: '2011-10-09'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=205412&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=205412&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2011-10-09'
 title: Security status of voip based on the observation of real-world attacks on a
   honeynet

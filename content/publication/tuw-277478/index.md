@@ -24,9 +24,9 @@ date: '2018-11-23'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=277478&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=277478&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2018-11-23'
 title: A Hands-on Technology Mix for a European Refugee Management System serving
   Migrants and Institutions

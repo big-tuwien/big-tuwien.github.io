@@ -19,9 +19,9 @@ date: '2013-03-18'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=226083&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=226083&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2013-03-18'
 title: Generic Approach for Security Error Detection Based on Learned System Behavior
   Models for Automated Security Tests

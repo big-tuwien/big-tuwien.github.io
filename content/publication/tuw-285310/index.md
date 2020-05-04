@@ -25,9 +25,9 @@ date: '2019-06-05'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=285310&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=285310&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2019-06-05'
 title: Ethical Issues Arising Through Identification and Registration Systems Applied
   in a European Refugee Camp

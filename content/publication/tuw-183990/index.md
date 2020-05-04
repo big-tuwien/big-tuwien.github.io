@@ -18,9 +18,9 @@ date: '2009-07-20'
 featured: false
 links:
 - name: Publik
-  url: https://publik.tuwien.ac.at/showentry.php?ID=183990&lang=1
+  url: https://publik.tuwien.ac.at/showentry.php?ID=183990&lang=2
 publication_types:
-- '0'
+- '1'
 publishDate: '2009-07-20'
 title: Profitability Analysis of Workflow Management Systems
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_183990.pdf
