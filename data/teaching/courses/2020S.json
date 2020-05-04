@@ -1,1021 +1,175 @@
-[
-    {
-        "courseNumber": "180779",
-        "semesterCode": "2020S",
-        "courseType": "SE",
-        "title": {
-            "de": "Seminar f\u00fcr Diplomand_innen f\u00fcr Wirtschaftsinformatik",
-            "en": "Seminar for Master Students in Business Informatics"
+{
+    "lectures_exercises": [
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer",
+                "marion-murzek",
+                "marion-scholz"
+            ],
+            "number": "188391",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188391&semester=2020S",
+            "type": "VU",
+            "title": "Object-oriented modeling"
         },
-        "objective": {
-            "de": "<p>-</p>",
-            "en": "<p>-</p>"
+        {
+            "authors": [
+                "gertrude-kappel",
+                "juergen-cito",
+                "michael-schroeder"
+            ],
+            "number": "188951",
+            "url": "https://web-engineering.big.tuwien.ac.at",
+            "type": "VU",
+            "title": "Web Engineering"
         },
-        "teachingContent": {
-            "de": "<p><span>Dieses Seminar ist Pflicht f\u00fcr alle Studierenden des Master Business Informatics, die nicht mehr gem\u00e4\u00df \u00dcbergangsregelungen nach dem alten Modus mit dem Seminar 188.967 abschlie\u00dfen.</span></p> \n<p><span>Vortr\u00e4ge der DiplomandInnen \u00fcber Proposal und Ergebnisse ihrer Diplomarbeiten.</span></p>",
-            "en": "<p>This seminar is mandatory for all students of the Master Business Informatics who are not able to finish their studies in the old mode with the Seminar4Master 188.967.</p> \n<p>&nbsp;P<span>resentations of master thesis proposal and final results of the master thesis.</span></p>"
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer"
+            ],
+            "number": "188978",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188978&semester=2020S",
+            "type": "VU",
+            "title": "IT Governance"
         },
-        "additionalInformation": {
-            "de": "<p><span>Beachten Sie beim Verfassen der Ausarbeitung bitte die Richtlinie der TU Wien zum Umgang mit Plagiaten: </span><a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf</a></p> \n<p>&nbsp;</p> \n<p><br>Beachten Sie beim Verfassen der Ausarbeitung bitte die Richtlinie der TU Wien zum Umgang mit Plagiaten: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf</a></p>",
-            "en": "<p><span>Please consider the plagiarism guidelines of TU Wien when writing your seminar paper: </span><a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf</a></p> \n<p>&nbsp;</p> \n<p><br>Please consider the plagiarism guidelines of TU Wien when writing your seminar paper: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf</a></p>"
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "194082",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194082&semester=2020S",
+            "type": "VU",
+            "title": "Technology for People 2040"
         },
-        "lectureNotes": {
-            "de": null,
-            "en": null
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "195079",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=195079&semester=2020S",
+            "type": "VU",
+            "title": "Fundamental research methods for doctoral students"
         },
-        "examinationModalities": {
-            "de": "<p>Bewertung der beiden Pr\u00e4sentationen und des Reviews.</p>",
-            "en": "<p>Assessment&nbsp; of both presentations and of the review.</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": "<p>Die Studierenden sollten idealerweise im Semester davor SE Research Methods absolviert haben. Jedenfalls sollten Studierende vor ihrer Proposal Pr\u00e4sentation alle Methodenvortr\u00e4ge aus Research Methods geh\u00f6rt haben.</p>",
-                "en": "<p>Students are expected to have passed the seminar on research methods in the previous semester. Before presenting their own proposal students should have at least visited all method presentations of SE Research Methods.</p>"
-            }
-        },
-        "weeklyHours": "1.0",
-        "lecturers": {
-            "oid": [
-                "3365713",
-                "1329125",
-                "2619281"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E180",
-        "instituteName": {
-            "de": "Fakult\u00e4t f\u00fcr Informatik",
-            "en": "Faculty of Informatics"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=180779&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "NONE",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=180779-2020S",
-        "language": {
-            "de": "Englisch",
-            "en": "English"
+        {
+            "authors": [
+                "marion-scholz"
+            ],
+            "number": "185A06",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2020S",
+            "type": "VU",
+            "title": "Formal Modelling"
         }
-    },
-    {
-        "courseNumber": "188391",
-        "semesterCode": "2020S",
-        "courseType": "VU",
-        "title": {
-            "de": "Objektorientierte Modellierung",
-            "en": "Object-oriented modeling"
+    ],
+    "seminars_projects": [
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer"
+            ],
+            "number": "180779",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=180779&semester=2020S",
+            "type": "SE",
+            "title": "Seminar for Master Students in Business Informatics"
         },
-        "objective": {
-            "de": "<p>Ziel dieser Lehrveranstaltung ist es, den Studenten einen fundierten \u00dcberblick \u00fcber die Modellierungskonzepte der Unified Modeling Language (UML) zu geben. Die behandelten Themen umfassen:</p> \n<p>- Modellbegriff und Modellierungsbegriff<br>- Objektorientierte Konzepte<br>- Objektorientierte Anforderungsspezifikation<br>- Analyse und Entwurf von Softwaresystemen<br>- Objektorientierte Modellierung anhand von UML (Klassendiagramm, Sequenzdiagramm, Zustandsdiagramm, Aktivit\u00e4tsdiagramm, Anwendungsfalldiagramm)</p>",
-            "en": "<p>The goal of this course is to give students a profound understanding of modeling using the Unified Modeling Language (UML). Thereby the lecture will focus on the following topics: object oriented concepts, object oriented requirements specification, analysis and design of software systems, and object oriented modeling using UML.</p>"
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer"
+            ],
+            "number": "188416",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188416&semester=2020S",
+            "type": "PR",
+            "title": "Informatics Lab (Freifachpraktikum)"
         },
-        "teachingContent": {
-            "de": "<p>Als Modellierungstechniken werden folgende Diagramme von UML2 angewendet:<br><br>- Klassendiagramm<br>- Sequenzdiagramm<br>- Zustandsdiagramm<br>- Aktivit\u00e4tsdiagramm<br>- Anwendungsfalldiagramm</p>",
-            "en": "<p>The following UML modeling techniques will be used throughout the course:<br><br>- Class diagram<br>- Sequence diagram<br>- State diagram<br>- Activity diagram<br>- Use case diagram</p>"
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer"
+            ],
+            "number": "188445",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188445&semester=2020S",
+            "type": "SE",
+            "title": "Seminar for Master Students"
         },
-        "additionalInformation": {
-            "de": "<p>Link zum GoTo Meeting f\u00fcr die \u00dcbung:&nbsp;https://www.gotomeet.me/TUW-OOM</p> \n<p>Fragen bitte an: oom[at]big.tuwien.ac.at<br><br>Zu Beginn des Semesters ist in Tuwel ein Einstiegstest zu absolvieren (bis 09.03.2020), der Voraussetzung f\u00fcr die Teilnahme an der LVA ist.<br><br>Sie finden alle notwendigen Informationen und alle Unterlagen zur LVA im Tuwel-Kurs!<br><br>Die theoretischen Inhalte der Lehrveranstaltung werden mit Vorlesungsvideos vermittelt. In \"Beispielstunden\" werden Fragen zu den Inhalten der Videos beantwortet und die praktische L\u00f6sung von Beispielen wird demonstriert.<br><br>Vorlesungstermine/Beispielstunden, 15-17 Uhr, AudiMax:<br><br>03.03.: Vorbesprechung<br>10.03.: Klassendiagramm<br>17.03.: Sequenzdiagramm<br>24.03.: Zustandsdiagramm<br>31.03.: Aktivit\u00e4tsdiagramm<br>21.04: Anwendungsfalldiagramm<br>(bei den Beispielstunden gibt es keine Anwesenheitspflicht)</p> \n<p>Die 6 \u00dcbungstermine finden in folgenden Wochen statt:<br><br>16.-19.03., 23.-26.03., 30.3.-02.04., 20.-23.04., 27.-30.4. und 04.-07.05. (In den anderen Wochen ist kein \u00dcbungsbetrieb!)<br><br>Sie m\u00fcssen sich sowohl zur Lehrveranstaltung als auch zu einer der \u00dcbungsgruppen anmelden.<br><br>Es sind zwei Anmeldungen erforderlich!<br><br>Hinweis: Es gibt insgesamt 6 \u00dcbungsbl\u00e4tter zu je 6 Beispielen. Zu jedem der \u00dcbungsbl\u00e4tter gibt es eine \u00dcbungseinheit, die als \"Kreuzerl\u00fcbung\" (wie in der Mathematik) abgehalten wird. Dabei m\u00fcssen Sie insgesamt zumindest 24 Beispiele kreuzen (und dann auch in der \u00dcbung anwesend sein). N\u00e4heres dazu erfahren Sie in der Vorbesprechung!<br><br>Es ist nicht m\u00f6glich, die Beispiele in einer anderen Gruppe zu kreuzen/pr\u00e4sentieren, als in der, in der Sie sich angemeldet haben!<br><br>Aufwand f\u00fcr Studierende:<br><br>&nbsp; 1 h Vorbesprechung<br>&nbsp; 8 h Vorlesungsvideos<br>7,5 h Beispielstunden (5 x 1,5 h)<br>&nbsp; 9 h \u00dcbung (6 x 1,5 h)<br>&nbsp;27 h Vorbereitung \u00dcbung (6 x 6 x 0,75 h)<br>1,5 h Tests (3 x 0,5 h)<br>&nbsp;21 h Vorbereitung Tests (3 x 7,0 h)<br>-----------------------------------------<br>&nbsp;75 h = 3 ECTS</p>",
-            "en": "<p>Link to GoTo Meeting for the Exercises:&nbsp;https://www.gotomeet.me/TUW-OOM</p> \n<p>Address your questions to: oom[at]big.tuwien.ac.at<br><br>All necessary information will be provided in the TUWEL-course of <br><br>this lecture.<br><br>All theoretical content is taught via lecture videos. There are <br><br>lectures where questions concerning the content of the videos <br><br>will be answered and practical solutions of the examples will be <br><br>demonstrated.<br><br>Dates (3-5 p.m., AudiMax):<br><br>March 3: Prediscussion/Introduction<br>March 10: class diagram<br>March 17: sequence diagram<br>March 24: state diagram (Tuesday!)<br>March 31: activity diagram<br>April 21: use case diagram<br><br>The labs take place in the following weeks:<br><br>March 16-19, March 23-26, March 30-April 2, April 20-23, April 27-30, und May 4-7.<br><br>You have to apply for the course and for one of the lab groups.<br><br>Both registrations are mandatory to attend the course!<br><br>Note: There are 6 assignments with 6 exercises each. For each <br><br>lecture there will be a dedicated lab lesson. Before each lesson <br><br>you have to mark in TUWEL which exercises you have solved and you <br><br>can therefore present in the lab. You have to solve at least 24 <br><br>(out of 36) exercises. Further information will be provided in <br><br>the prediscussion / first lecture.<br><br>You have to present your solved exercises in your designated lab <br><br>group. It is not possible to present your assignments in another <br><br>lab group to which you are not assigned to!<br><br>student efforts:<br><br>&nbsp; 1 h Preliminary talk<br>&nbsp; 8 h Lecture videos<br>7,5 h Example lectures (5 x 1,5 h)<br>&nbsp; 9 h Lab sessions (6 x 1,5 h)<br>&nbsp;27 h Exercise preparation (6 x 6 x 0,75 h)<br>1,5 h Tests (3 x 0,5 h)<br>&nbsp;21 h Test preparation (3 x 7,0 h)<br>-------------------------------------------<br>75 h = 3 ECTS</p>"
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer"
+            ],
+            "number": "188446",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188446&semester=2020S",
+            "type": "SE",
+            "title": "Research Seminar"
         },
-        "lectureNotes": {
-            "de": "<p>alle Unterlagen zur LVA finden Sie im Tuwel-Kurs.</p>",
-            "en": "<p>all course material can be found in the tuwel-course.</p>"
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer"
+            ],
+            "number": "188512",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188512&semester=2020S",
+            "type": "SE",
+            "title": "Literature Seminar for PhD Students"
         },
-        "examinationModalities": {
-            "de": "<p>Zu Beginn des Semesters ist in Tuwel ein Einstiegstest zu absolvieren (bis 09.03.2020), der Voraussetzung f\u00fcr die Teilnahme an der LVA ist. F\u00fcr eine positive Beurteilung der LVA ist es notwendig, mind. 2/3 der Beispiele zu l\u00f6sen und diese in den \u00dcbungseinheiten pr\u00e4sentieren zu k\u00f6nnen. Weiters gibt es \u00fcber das Semester verteilt drei Tests, jeweils zu den Themen der Vorlesungs- bzw. \u00dcbungseinheiten. Diese sind verpflichtend. Einer der drei Tests kann am Semesterende nachgemacht bzw. wiederholt werden.</p>",
-            "en": "<p>At the beginning of the term, as a precondition to attend the course, the entry-test in TUWEL has to be passed until March 9, 2020. In order to pass the course successfully it is necessary to solve at least 2/3 of all assigned examples and to be able to present them during the lab. Furthermore there will be three mandatory written exams throughout the term. One of the three tests may be repeated at the end of the term.</p>"
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer"
+            ],
+            "number": "188926",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188926&semester=2020S",
+            "type": "PR",
+            "title": "Bachelor Thesis for Informatics and Business Informatics"
         },
-        "related": {
-            "recommendation": {
-                "de": "<p>grundlegendes algorithmisches Verst\u00e4ndnis (Programmieren 1)</p>",
-                "en": "<p>programming skills</p>"
-            }
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer"
+            ],
+            "number": "188976",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188976&semester=2020S",
+            "type": "PV",
+            "title": "Exclusive Tutorial for PhD Students"
         },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "3365713",
-                "1329125",
-                "1442505",
-                "3686765",
-                "2440365"
-            ]
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer"
+            ],
+            "number": "194074",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194074&semester=2020S",
+            "type": "PR",
+            "title": "Project in Computer Science 1"
         },
-        "tutors": {
-            "oid": [
-                "18050709",
-                "14078593",
-                "17915893",
-                "15486789",
-                "22595837",
-                "11916097",
-                "10188993",
-                "17783001",
-                "18050357"
-            ]
+        {
+            "authors": [
+                "gertrude-kappel",
+                "christian-huemer"
+            ],
+            "number": "194075",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194075&semester=2020S",
+            "type": "PR",
+            "title": "Project in Computer Science 2"
         },
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "180772",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=180772&semester=2020S",
+            "type": "SE",
+            "title": "Seminar for Master Students in Data Science"
         },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188391&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "TISS",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?id=18982",
-        "language": {
-            "de": "Deutsch",
-            "en": "German"
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "194078",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194078&semester=2020S",
+            "type": "SE",
+            "title": "Research Methods"
         }
-    },
-    {
-        "courseNumber": "188416",
-        "semesterCode": "2020S",
-        "courseType": "PR",
-        "title": {
-            "de": "Freifachpraktikum",
-            "en": "Informatics Lab (Freifachpraktikum)"
-        },
-        "objective": {
-            "de": "<p>Ziel dieser Lehrveranstaltung ist die praktische Erfahrung in der Anwendung der verschiedenen Verfahren und Methoden der Wirtschaftsinformatik. Die Durchf\u00fchrung des Praktikums kann optional in Zusammenarbeit mit Wirtschaftspartnern erfolgen. Dies ist jedoch unbedingt vor Beginn des Praktikums mit der LVA-Leitung abzusprechen.</p>",
-            "en": "<p>The goal of this course is the practical application of research topics of the Business Informatics Group. Coursework will include the collection of related business problems, identification of optimization possibilities, and the potential application in IT systems. Optionally the work can be conducted in cooperation with an industry partner. If you would like to accomplish your lab in cooperation with an external partner, please inform your advisor in advance.</p>"
-        },
-        "teachingContent": {
-            "de": "<p>Im Rahmen der Lehrveranstaltung setzen Sie eine konkrete Aufgabenstellung beginnend von der groben Anforderungsbeschreibung bis hin zur prototypischen Realisierung um. Dabei k\u00f6nnen Praktika zum Beispiel folgende Bereiche abdecken: Requirements Engineering, Prozessoptimierung, Design, Entwurf und prototypische Implementierung. Der konkrete Umfang Ihres Praktikums wird gemeinsam mit der LVA Leitung festgelegt und h\u00e4ngt vom gew\u00e4hlten Thema, der Themenkomplexit\u00e4t und der Gruppengr\u00f6\u00dfe ab.</p> \n<p><a href=\"http://www.big.tuwien.ac.at/teaching/info.html?locale=en\" rel=\"nofollow\">Formatvorlagen und Richtlinien</a></p> \n<p><a href=\"http://www.big.tuwien.ac.at/teaching/practicals.html?locale=en\" rel=\"nofollow\">Aktuelle Praktikumsthemen der Business Informatics Group</a></p>",
-            "en": "<p>During the course of this lab students will realize a practical assignment beginning with a coarse-grained requirements definition culminating in a final prototypical realization. Potential topics include but are not limited to requirements analysis, process optimization, design, implementation, and prototypical realization. The exact definition of your lab assignment will be done together with your advisor and depends on the chosen topic, the topic's complexity, and the size of your team (if you are working in one).</p> \n<p><a href=\"http://www.big.tuwien.ac.at/teaching/info.html?locale=en\" rel=\"nofollow\">Templates and Guidelines</a></p> \n<p><a href=\"http://www.big.tuwien.ac.at/teaching/practicals.html?locale=en\" rel=\"nofollow\">Current lab assignment topics of the Business Informatics Group</a></p>"
-        },
-        "additionalInformation": {
-            "de": "<p>Aufwand f\u00fcr Studierende:</p> \n<pre>&nbsp; 2 h Vorbesprechung<br>&nbsp;20 h Pflichtenheft<br>&nbsp;40 h Analyse und Entwurf<br>&nbsp;40 h Implementierung<br>&nbsp;24 h Dokumentation (Systemhandbuch, Benutzerhandbuch)<br>&nbsp;10 h Vorbereitung der Pr\u00e4sentation<br>&nbsp; 2 h Pr\u00e4sentation<br>&nbsp;12 h Laufende Besprechungen<br>-----------------------------------------------------------------------------<br>150 h = 6 ECTS</pre>",
-            "en": "<pre>Effort for the student:<br><br>  2 h Preliminary Talk<br> 20 h Requirements Engineering<br> 40 h Analysis and Design<br> 40 h Implementation<br> 24 h Documentation (System Manual, User Manual)<br> 10 h Preparing Presentation<br> &nbsp;2 h Presentation<br> 12 h Regular Meetings<br>-----------------------------------------------<br>150 h = 6 ECTS</pre>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Studierende werden aufgrund der Qualit\u00e4t der praktischen Implementierung und deren Dokumentation beurteilt</p>",
-            "en": "<p>Students are graded based on the quality of the implementation of the prototype system and its documentation.</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": "<p>Individuell nach Themenstellung.</p>",
-                "en": "<p>Depending on the chosen topic.</p>"
-            }
-        },
-        "weeklyHours": "4.0",
-        "lecturers": {
-            "oid": [
-                "1329125",
-                "3365713",
-                "1026725"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188416&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "EXTERNAL",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=188416-2020S",
-        "language": {
-            "de": "Deutsch",
-            "en": "German"
-        }
-    },
-    {
-        "courseNumber": "188445",
-        "semesterCode": "2020S",
-        "courseType": "SE",
-        "title": {
-            "de": "Seminar f\u00fcr DiplomandInnen",
-            "en": "Seminar for Master Students"
-        },
-        "objective": {
-            "de": "<p>Pr\u00e4sentation der Fortschritte der eigenen Diplomarbeit. Kennenlernen der anderen Diplomarbeiten des Arbeitsbereichs.</p>",
-            "en": "<p>During this seminar students will present the current progress of their diploma thesis related research. Every student will give a presentation of her or his research topic for the other students attending the course.</p>"
-        },
-        "teachingContent": {
-            "de": "<p>Vortr\u00e4ge der DiplomandInnen \u00fcber Problemstellung und Ergebnisse ihrer Diplomarbeiten.</p> \n<p><a href=\"https://big.tuwien.ac.at/teaching/masters-theses/diploma-seminars/\" rel=\"nofollow\">Aktuelle Vortr\u00e4ge und Termine</a></p> \n<p>F\u00fcr eine Liste der zu verwendenen Richtlinien und Vorlagen besuchen Sie bitte die Webseite der <a href=\"http://www.big.tuwien.ac.at/teaching/info.html?locale=en\" rel=\"nofollow\">Business Informatics Group</a>.</p>",
-            "en": "<p>Presentations of problem descriptions and results of the various diploma theses topics.</p> \n<p><a href=\"https://big.tuwien.ac.at/teaching/masters-theses/diploma-seminars/\" rel=\"nofollow\">List of current presentations, times, and venues</a></p> \n<p>For a list of guidelines and document templates please see the website of the <a href=\"http://www.big.tuwien.ac.at/teaching/info.html?locale=en\" rel=\"nofollow\">Business Informatics Group</a>.</p>"
-        },
-        "additionalInformation": {
-            "de": "<p>Aufwand f\u00fcr Studierende:</p> \n<pre>3 x 3 h = 9 h Teilnahme an 3 Bl\u00f6cken<br>         20 h Vorbereitung Erstvortrag<br>         20 h Vorbereitung Zweitvortrag<br>         26 h Reflexion der Ergebnisse<br>-----------------------------------------------<br>         75 h = 3 ECTS<br><br></pre> \n<p><br>Beachten Sie beim Verfassen der Ausarbeitung bitte die Richtlinie der TU Wien zum Umgang mit Plagiaten: <a href=\"https://www.tuwien.ac.at/fileadmin/t/ukanzlei/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf\" rel=\"nofollow\">https://www.tuwien.ac.at/fileadmin/t/ukanzlei/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf</a></p> \n<p><br>Beachten Sie beim Verfassen der Ausarbeitung bitte die Richtlinie der TU Wien zum Umgang mit Plagiaten: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf</a></p>",
-            "en": "<p>Effort for the student:</p> \n<pre>3 x 3 hrs = 9 h Participation in 3 Units<br>           20 h Preparing Presentation on Master Proposal<br>           20 h Preparing Final Presentation<br>           25 h Reflection of Results<br>-----------------------------------------------</pre> \n<pre>           75 h = 3 ECTS<br><br></pre> \n<p><br>Please consider the plagiarism guidelines of TU Wien when writing your seminar paper: <a href=\"http://www.tuwien.ac.at/fileadmin/t/ukanzlei/t-ukanzlei-english/Plagiarism.pdf\" rel=\"nofollow\">http://www.tuwien.ac.at/fileadmin/t/ukanzlei/t-ukanzlei-english/Plagiarism.pdf</a></p> \n<p><br>Please consider the plagiarism guidelines of TU Wien when writing your seminar paper: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf</a></p>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Beurteilung der Pr\u00e4sentationen zur Masterarbeit und der damit verbundenen Fragenbeantwortung.</p>",
-            "en": "<p>Assessment of the presentations on the master thesis and the anser given on related questions.</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            }
-        },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "1329125",
-                "3365713"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188445&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "EXTERNAL",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=188445-2020S",
-        "language": {
-            "de": "bei Bedarf in Englisch",
-            "en": "if required in English"
-        }
-    },
-    {
-        "courseNumber": "188446",
-        "semesterCode": "2020S",
-        "courseType": "SE",
-        "title": {
-            "de": "Forschungsseminar",
-            "en": "Research Seminar"
-        },
-        "objective": {
-            "de": "<p>- Neueste Forschungsergebnisse verstehen, anwenden und auf ihre Anwendbarkeit pr\u00fcfen.<br>- Weiterentwicklung von Forschungsergebnissen.<br><br></p>",
-            "en": "<p>During this seminar current state-of-the-art research results are presented and their applicability and sustainability are scrutinized.</p>"
-        },
-        "teachingContent": {
-            "de": "<p>Pr\u00e4sentation neuester Forschungsarbeiten auf dem Gebiet des Data Engineering, Information &amp; Knowledge Engineering, Process Engineering, Software Engineering, Web Engineering und Model Engineering.</p> \n<p><a href=\"https://www.big.tuwien.ac.at/teaching/phd-seminars/\" rel=\"nofollow\">Aktuelle Vortr\u00e4ge und Termine</a></p>",
-            "en": "<p>Presentation of challenging topics in the fields of Data Engineering, Information &amp; Knowledge Engineering, Process Engineering, Software Engineering, Web Engineering, and Model Engineering.</p> \n<p><a href=\"https://www.big.tuwien.ac.at/teaching/phd-seminars/\" rel=\"nofollow\">List of current presentations, times, and venues</a></p>"
-        },
-        "additionalInformation": {
-            "de": "<p>Beachten Sie beim Verfassen der Ausarbeitung bitte die Richtlinie der TU Wien zum Umgang mit Plagiaten: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf</a></p>",
-            "en": "<p>Please consider the plagiarism guidelines of TU Wien when writing your seminar paper: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf</a></p>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Beurteilung der Pr\u00e4sentation, Diskussionsbeitr\u00e4ge</p>",
-            "en": "<p>Assessment of the presentation, contributions to discussions</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            }
-        },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "1329125",
-                "3365713"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188446&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "NONE",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=188446-2020S",
-        "language": {
-            "de": "bei Bedarf in Englisch",
-            "en": "if required in English"
-        }
-    },
-    {
-        "courseNumber": "188512",
-        "semesterCode": "2020S",
-        "courseType": "SE",
-        "title": {
-            "de": "Literaturseminar f\u00fcr DissertantInnen",
-            "en": "Literature Seminar for PhD Students"
-        },
-        "objective": {
-            "de": "<p>Beherrschung der Recherche und Aufarbeitung der Literatur f\u00fcr wissenschaftliches Arbeiten.</p>",
-            "en": "<p>Gaining experience in searching and analysing literature related to own research work.</p>"
-        },
-        "teachingContent": {
-            "de": "<p>- Literaturrecherche<br>- Kritische W\u00fcrdigung der gefundenen Literatur<br>- Pr\u00e4sentation neuester Forschungsergebnisse</p>",
-            "en": "<p>- Searching and analysing literature<br>- Presentation of newest research results</p>"
-        },
-        "additionalInformation": {
-            "de": "<p>Beachten Sie beim Verfassen der Ausarbeitung bitte die Richtlinie der TU Wien zum Umgang mit Plagiaten: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf</a></p>",
-            "en": "<p>Please consider the plagiarism guidelines of TU Wien when writing your seminar paper: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf</a></p>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Schreiben eines wissenschaftlichen Artikels und Halten eines Vortrages.</p>",
-            "en": "<p>Writing a scientific article and giving a talk.</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            }
-        },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "1329125",
-                "3365713"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188512&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "NONE",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=188512-2020S",
-        "language": {
-            "de": "Deutsch",
-            "en": "German"
-        }
-    },
-    {
-        "courseNumber": "188926",
-        "semesterCode": "2020S",
-        "courseType": "PR",
-        "title": {
-            "de": "Bachelorarbeit f\u00fcr Informatik und Wirtschaftsinformatik",
-            "en": "Bachelor Thesis for Informatics and Business Informatics"
-        },
-        "objective": {
-            "de": "<p>Ziel dieser Lehrveranstaltung ist die selbst\u00e4ndige Erarbeitung der Bachelorarbeit zu einem der verschiedenen Themen der Wirtschaftsinformatik oder Informatik.</p>",
-            "en": "<p>The goal of this course is to write the Bachelor Thesis on one of the multiple topics of business informatics or informatics.</p>"
-        },
-        "teachingContent": {
-            "de": "<p>Im Rahmen der Lehrveranstaltung erarbeiten Sie selbst\u00e4ndig Ihre Bachelorarbeit zu einem bestimmten Themenbereich. Dabei beginnen Sie mit der Auswahl eines konkreten Themas aus der Liste der verf\u00fcgbaren Themen zusammen mit Ihrer Betreuung. Anschlie\u00dfend recherchieren Sie selbst\u00e4ndig nach relevanten Publikationen und verfassen Ihre Arbeit. Im Rahmen einer Endpr\u00e4sentation stellen Sie Ihre Arbeit vor dem Auditorium bestehend aus anderen Studierenden und MitarbeiterInnen der Business Informatics Group vor.</p> \n<p>Bitte beachten Sie die <a href=\"http://www.big.tuwien.ac.at/teaching/info.html?locale=en\" rel=\"nofollow\">Formatvorlagen und Richtlinien der Business Informatics Group</a>.</p> \n<p><a href=\"http://www.big.tuwien.ac.at/teaching/practicals.html?locale=en\" rel=\"nofollow\">Aktuelle Themen der Business Informatics Group</a></p>",
-            "en": "<p>During the course students will elaborate a scientific paper for a well defined topic. Students will choose a topic from one of the available topics together with the course advisor. Subsequently students will conduct literature search and finalize their assignment. In a final presentation the achieved results will be presented to the other students participating in the course.</p> \n<p>Please consider the <a href=\"http://www.big.tuwien.ac.at/teaching/info.html?locale=en\" rel=\"nofollow\">terms of reference of the Business Informatics Group</a>.</p> \n<p><a href=\"http://www.big.tuwien.ac.at/teaching/practicals.html?locale=en\" rel=\"nofollow\">Current topics of the Business Informatics Group</a></p>"
-        },
-        "additionalInformation": {
-            "de": "<p>Aufwand f\u00fcr Studierende:</p> \n<pre>  4 h Vorbesprechung<br> 40 h Einlesen in relevante Literatur<br> 30 h Pflichtenheft<br> 50 h Analyse und Entwurf<br> 60 h Implementierung<br> 40 h Schreiben der Bachelorarbeit<br> 10 h Vorbereitung der Pr\u00e4sentation<br>  4 h Pr\u00e4sentation<br> 12 h Laufende Besprechungen</pre> \n<pre>----------------------------------------------</pre> \n<pre>250 h = 10 ECTS</pre>",
-            "en": "<p>Effort for the student:</p> \n<pre>  4 h Preliminary Talk<br> 40 h Reading/Learning from relevant Literature<br> 30 h Requirements Engineering<br> 50 h Analysis and Design<br> 60 h Implementation<br> 40 h Writing Bachelor Thesis<br> 10 h Preparing Presentation<br>  4 h Presentation<br> 12 h Regular Meetings<br>-----------------------------------------------</pre> \n<pre>250 h = 10 ECTS</pre>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Beurteilung der erstellten Bachelorarbeit.</p>",
-            "en": "<p>Assessment of the Bachelor thesis.</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            }
-        },
-        "weeklyHours": "5.0",
-        "lecturers": {
-            "oid": [
-                "1329125",
-                "3365713"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188926&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "TISS",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=188926-2020S",
-        "language": {
-            "de": "bei Bedarf in Englisch",
-            "en": "if required in English"
-        }
-    },
-    {
-        "courseNumber": "188951",
-        "semesterCode": "2020S",
-        "courseType": "VU",
-        "title": {
-            "de": "Web Engineering",
-            "en": "Web Engineering"
-        },
-        "objective": {
-            "de": "<p><strong>Diese Lehrveranstaltung findet im Sommersemester 2019 NICHT statt!</strong></p> \n<p>Nach erfolgreicher Absolvierung der Lehrveranstaltung sind die Studierenden mit Technologien und Entwicklungskonzepten zur Realisierung dynamischer Web-Anwendungen unter Ber\u00fccksichtigung geltender Standards (u.a. Barrierefreiheit) vertraut.</p>",
-            "en": "<p><strong>This lecture has to be cancled for the summer term 2019!</strong></p> \n<p>After a successful completion of this course students will have a profound understanding of the technological foundations of web applications. In particular the course will focus on client- and server-side technologies for web-applications, modeling languages, methods for web applications, web accessibility etc.</p>"
-        },
-        "teachingContent": {
-            "de": "<ul> \n <li>Vorbesprechung</li> \n <li>Internet und Web \u00dcberblick</li> \n <li>HTML</li> \n <li>CSS</li> \n <li>JavaScript</li> \n <li>Web Services Interaction</li> \n <li>Web Server</li> \n <li>Backend</li> \n <li>Frontend</li> \n <li>Gastvortrag</li> \n</ul>",
-            "en": "<ul> \n <li><span>Preliminary discussion</span></li> \n <li><span>Overview</span></li> \n <li><span>HTML</span></li> \n <li><span>CSS</span></li> \n <li><span>JavaScript</span></li> \n <li><span>Web Services Interaction</span></li> \n <li><span>Web Server</span></li> \n <li><span>Backend</span></li> \n <li><span>Frontend</span></li> \n <li><span>Guest Lecture</span></li> \n</ul>"
-        },
-        "additionalInformation": {
-            "de": "<p><span>Allgemeine Anfragen richten Sie bitte an&nbsp;<a href=\"mailto:web-engineering@big.tuwien.ac.at\" rel=\"nofollow\">web-engineering@big.tuwien.ac.at</a></span></p> \n<p><span>Der Aufwand f\u00fcr Studierende betr\u00e4gt 3 ECTS oder 75 Stunden, aufgeteilt in:</span></p> \n<p><span>13,5 Stunden Vorlesung (9 x 1,5 Stunden)</span><span><br></span><span> &nbsp; 44 Stunden \u00dcbungen (4 x 11 Stunden) </span><span><br></span><span> &nbsp; &nbsp; 1 Stunde Abgabgespr\u00e4che (2 x 30 min)</span><span><br></span><span>&nbsp; 15 Stunden Testvorbereitung (2 x 7,5 Stunden)</span><span><br></span><span>&nbsp; &nbsp; 1 Stunde Tests (2 x 30 min)</span></p>",
-            "en": "<p><span>If you have any questions, please contact&nbsp;<a href=\"mailto:web-engineering@big.tuwien.ac.at\" rel=\"nofollow\">web-engineering@big.tuwien.ac.at</a></span></p> \n<p><span>Student effort is 3 ECTS or 75 hours, broken down as:</span></p> \n<p><span><span>13,5 h Lecture (9 x 1,5 h)</span><span><br></span><span> &nbsp; 44 h Assignments (4 x 11 h)</span><span><br></span><span> &nbsp; &nbsp; 1 h Assignment Reviews (2 x 30 min)</span><span><br></span><span> &nbsp; 15 h Preparing for tests (2 x 7,5 h)</span><span><br></span><span> &nbsp; &nbsp; 1 h Tests (2 x 30 min)</span></span></p>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<ul> \n <li><span><span>Die \u00dcbungen werden mit Hilfe von automatisierten Tests beurteilt.</span></span></li> \n <li><span><span>Abgabegespr\u00e4che dienen haupts\u00e4chlich der Beantwortung von Fragen.</span></span></li> \n <li><span><span>Das Ausma\u00df der individuellen Teilnahme an den Gruppen\u00fcbungen wird kontrolliert und kann zur Note beitragen.</span></span></li> \n <li>Zwei schriftliche Tests \u00fcber den Vorlesungsinhalt werden wie \u00fcblich abgehalten.</li> \n</ul>",
-            "en": "<ul> \n <li><span><span>The assignments are graded through automated tests.</span></span></li> \n <li><span><span>Assignment reviews have the main purpose of resolving questions.</span></span></li> \n <li><span>The amount of individual participation in group assignments will be checked and may contribute to the grade.</span></li> \n <li><span>Two written tests about the lecture contents are administered in the usual way.</span></li> \n</ul>"
-        },
-        "related": {
-            "recommendation": {
-                "de": "<p>Unterliegt der STEOP-Regelung.</p> \n<p>Grundkenntnisse von Versionskontrollsystemen wird vorausgesetzt, insbesondere der Umgang mit&nbsp;<a href=\"https://git-scm.com\" rel=\"nofollow\">git</a>.</p>",
-                "en": "<p>Participation&nbsp;in this course is regulated by STEOP.</p> \n<p>Basic knowledge of version control systems is required, particularly how to use&nbsp;<a href=\"https://git-scm.com\" rel=\"nofollow\">git</a>.</p>"
-            },
-            "accompanyingCourses": {
-                "course": "184705"
-            }
-        },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "7360709",
-                "1329125",
-                "6447109"
-            ]
-        },
-        "tutors": {
-            "oid": [
-                "11082193",
-                "12627209",
-                "14865273",
-                "17784353",
-                "17784393"
-            ]
-        },
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://web-engineering.big.tuwien.ac.at",
-        "uses54EctsRule": "false",
-        "registration": "TISS",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=188951-2020S",
-        "language": {
-            "de": "Englisch",
-            "en": "English"
-        }
-    },
-    {
-        "courseNumber": "188976",
-        "semesterCode": "2020S",
-        "courseType": "PV",
-        "title": {
-            "de": "Privatissimum f\u00fcr DissertantInnen",
-            "en": "Exclusive Tutorial for PhD Students"
-        },
-        "objective": {
-            "de": "<p>Erarbeitung von individuell auf das Dissertationsthema abgestimmten Methoden und Verfahren</p>",
-            "en": "<p>Development of methods and techniques tailored to the individual PhD topic.</p>"
-        },
-        "teachingContent": {
-            "de": "<p>Im Privatissimum werden DissertantInnen einzeln betreut. Individuell zu den jeweiligen Dissertationsthemen werden wissenschaftliche Methoden erarbeitet.</p>",
-            "en": "<p>In the exclusive tutorial PhD students are supervised individually. According to the individual PhD topic scientific approaches and methods are developed.</p>"
-        },
-        "additionalInformation": {
-            "de": null,
-            "en": null
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Beurteilung der Pr\u00e4sentation, Diskussionsbeitr\u00e4ge</p>",
-            "en": "<p>Assessment of the presentation, contributions to discussions</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            }
-        },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "1329125",
-                "3365713",
-                "1026725"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188976&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "EXTERNAL",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=188976-2020S",
-        "language": {
-            "de": "bei Bedarf in Englisch",
-            "en": "if required in English"
-        }
-    },
-    {
-        "courseNumber": "188978",
-        "semesterCode": "2020S",
-        "courseType": "VU",
-        "title": {
-            "de": "IT Governance",
-            "en": "IT Governance"
-        },
-        "objective": {
-            "de": "<p>The aim of this course is to provide a detailed understanding on the subject of IT Governance.</p>",
-            "en": "<p>The aim of this course is to provide a detailed understanding on the subject of IT Governance.</p>"
-        },
-        "teachingContent": {
-            "de": "<ul> \n <li>IT Governance</li> \n <li>IT Strategy</li> \n</ul> \n<ul> \n <li>Tasks of an IT department</li> \n <li>Functions of an IT department</li> \n <li>What do I have to do by myself?</li> \n <li>Forms of organizations in IT</li> \n <li>IT governance processes (incl. COBIT, ITIL, and CMMI)</li> \n</ul> \n<ul> \n <li>Managing an IT department</li> \n <li>IT development</li> \n <li>Portfolio Management</li> \n <li>IT controlling / IT reporting</li> \n <li>Compliance in IT</li> \n</ul> \n<ul> \n <li>IT Sourcing</li> \n <li>Architecture</li> \n <li>Data Governance</li> \n <li>Cloud-based Solutions</li> \n <li>Internet of Things &amp; Industrie 4.0</li> \n <li>Data &amp; Analytics</li> \n <li>SAP-based Solutions</li> \n <li>Information Securtiy</li> \n <li>Sector-specific trends (Banking, Energy, Production)</li> \n</ul>",
-            "en": "<ul> \n <li>IT Governance</li> \n <li>IT Strategy</li> \n</ul> \n<ul> \n <li>Tasks of an IT department</li> \n <li>Functions of an IT department</li> \n <li>What do I have to do by myself?</li> \n <li>Forms of organizations in IT</li> \n <li>IT governance processes (incl. COBIT, ITIL, and CMMI)</li> \n</ul> \n<ul> \n <li>Managing an IT department</li> \n <li>IT development</li> \n <li>Portfolio Management</li> \n <li>IT controlling / IT reporting</li> \n <li>Compliance in IT</li> \n</ul> \n<ul> \n <li>IT Sourcing</li> \n <li>Architecture</li> \n <li>Data Governance</li> \n <li>Cloud-based Solutions</li> \n <li>Internet of Things &amp; Industrie 4.0</li> \n <li>Data &amp; Analytics</li> \n <li>SAP-based Solutions</li> \n <li>Information Securtiy</li> \n <li>Sector-specific trends (Banking, Energy, Production)</li> \n</ul>"
-        },
-        "additionalInformation": {
-            "de": null,
-            "en": null
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Der Leistungsnachweis wird durch die ausgearbeitete Fallstudie, die dar\u00fcber verfasste Sminararbeit und deren Pr\u00e4sentation erbracht.</p>",
-            "en": "<p>Proof of performance is provided by the case study, the ministry paper written on it and its presentation.</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": "<p>Der vorhergehende Besuch der Lehrveranstaltung Enterprise Architecture im Windersemester wird empfohlen, ist aber keine verpflichtende Voraussetzung.</p>",
-                "en": "<p>Previous attendance of the course Enterprise Architecture in the wind semester is recommended but not mandatory.</p>"
-            }
-        },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "1329125",
-                "3365713"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188978&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "TISS",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=188978-2020S",
-        "language": {
-            "de": "Englisch",
-            "en": "English"
-        }
-    },
-    {
-        "courseNumber": "194074",
-        "semesterCode": "2020S",
-        "courseType": "PR",
-        "title": {
-            "de": "Project in Computer Science 1",
-            "en": "Project in Computer Science 1"
-        },
-        "objective": {
-            "de": null,
-            "en": null
-        },
-        "teachingContent": {
-            "de": "<p>Im Rahmen der Lehrveranstaltung setzen Sie eine konkrete Aufgabenstellung beginnend von der groben Anforderungsbeschreibung bis hin zur prototypischen Realisierung um. Der konkrete Umfang Ihres Projekts wird gemeinsam mit der LVA-Leitung festgelegt und h\u00e4ngt vom gew\u00e4hlten Thema, der Themenkomplexit\u00e4t und der Gruppengr\u00f6\u00dfe ab.</p> \n<p>Bitte beachten Sie die Einhaltung der&nbsp;<a href=\"http://www.big.tuwien.ac.at/teaching/info.html?locale=en\" rel=\"nofollow\">Formatvorlagen und Richtlinien der Business Informatics Group.</a></p> \n<p><a href=\"http://www.big.tuwien.ac.at/teaching/practicals.html?locale=en\" rel=\"nofollow\">Aktuelle Themen der Business Informatics Group</a></p>",
-            "en": "<p>During the course of this project students will realize a practical assignment beginning with a coarse-grained requirements definition culminating in a final prototypical realization. The exact definition of your project assignment will be done together with your advisor and depends on the chosen topic, the topic's complexity, and the size of your team (if you are working in one).</p> \n<p>Please consider the&nbsp;<a href=\"http://www.big.tuwien.ac.at/teaching/info.html?locale=en\" rel=\"nofollow\">terms of reference of the Business Informatics Group.</a></p> \n<p><a href=\"http://www.big.tuwien.ac.at/teaching/practicals.html?locale=en\" rel=\"nofollow\">Current lab assignment topics of the Business Informatics Group</a></p>"
-        },
-        "additionalInformation": {
-            "de": null,
-            "en": null
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Studierende werden aufgrund der Qualit\u00e4t der praktischen Implementierung und deren Dokumentation beurteilt</p>",
-            "en": "<p>Students are graded based on the quality of the implementation of the prototype system and its documentation.</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            }
-        },
-        "weeklyHours": "4.0",
-        "lecturers": {
-            "oid": [
-                "3365713",
-                "1329125"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194074&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "NONE",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=194074-2020S",
-        "language": {
-            "de": "bei Bedarf in Englisch",
-            "en": "if required in English"
-        }
-    },
-    {
-        "courseNumber": "194075",
-        "semesterCode": "2020S",
-        "courseType": "PR",
-        "title": {
-            "de": "Project in Computer Science 2",
-            "en": "Project in Computer Science 2"
-        },
-        "objective": {
-            "de": null,
-            "en": null
-        },
-        "teachingContent": {
-            "de": "<p>Im Rahmen der Lehrveranstaltung setzen Sie eine konkrete Aufgabenstellung beginnend von der groben Anforderungsbeschreibung bis hin zur prototypischen Realisierung um. Der konkrete Umfang Ihres Projekts wird gemeinsam mit der LVA-Leitung festgelegt und h\u00e4ngt vom gew\u00e4hlten Thema, der Themenkomplexit\u00e4t und der Gruppengr\u00f6\u00dfe ab.</p> \n<p>Bitte beachten Sie die Einhaltung der&nbsp;<a href=\"http://www.big.tuwien.ac.at/teaching/info.html?locale=en\" rel=\"nofollow\">Formatvorlagen und Richtlinien der Business Informatics Group.</a></p> \n<p><a href=\"http://www.big.tuwien.ac.at/teaching/practicals.html?locale=en\" rel=\"nofollow\">Aktuelle Themen der Business Informatics Group</a></p>",
-            "en": "<p>During the course of this project students will realize a practical assignment beginning with a coarse-grained requirements definition culminating in a final prototypical realization. The exact definition of your project assignment will be done together with your advisor and depends on the chosen topic, the topic's complexity, and the size of your team (if you are working in one).</p> \n<p>Please consider the&nbsp;<a href=\"http://www.big.tuwien.ac.at/teaching/info.html?locale=en\" rel=\"nofollow\">terms of reference of the Business Informatics Group.</a></p> \n<p><a href=\"http://www.big.tuwien.ac.at/teaching/practicals.html?locale=en\" rel=\"nofollow\">Current lab assignment topics of the Business Informatics Group</a></p>"
-        },
-        "additionalInformation": {
-            "de": null,
-            "en": null
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Studierende werden aufgrund der Qualit\u00e4t der praktischen Implementierung und deren Dokumentation beurteilt</p>",
-            "en": "<p>Students are graded based on the quality of the implementation of the prototype system and its documentation.</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            }
-        },
-        "weeklyHours": "4.0",
-        "lecturers": {
-            "oid": [
-                "3365713",
-                "1329125"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194075&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "NONE",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=194075-2020S",
-        "language": {
-            "de": "bei Bedarf in Englisch",
-            "en": "if required in English"
-        }
-    },
-    {
-        "courseNumber": "180772",
-        "semesterCode": "2020S",
-        "courseType": "SE",
-        "title": {
-            "de": "Seminar f\u00fcr Diplomand_innen f\u00fcr Data Science",
-            "en": "Seminar for Master Students in Data Science"
-        },
-        "objective": {
-            "de": "<p>-</p>",
-            "en": "<p>-</p>"
-        },
-        "teachingContent": {
-            "de": "<p>Dieses Seminar ist Pflicht f\u00fcr alle Studierenden des Master Data Science.</p> \n<p>Vortr\u00e4ge der DiplomandInnen \u00fcber Proposal und Ergebnisse ihrer Diplomarbeiten.</p>",
-            "en": "<p>This seminar is mandatory for all students of the Master Data Science.</p> \n<p>Presentations of master thesis proposal and final results of the master thesis.</p>"
-        },
-        "additionalInformation": {
-            "de": "<p>Beachten Sie beim Verfassen der Ausarbeitung bitte die Richtlinie der TU Wien zum Umgang mit Plagiaten: <a href=\"https://www.tuwien.ac.at/fileadmin/t/ukanzlei/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf\" rel=\"nofollow\">https://www.tuwien.ac.at/fileadmin/t/ukanzlei/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf</a></p> \n<p><br>Beachten Sie beim Verfassen der Ausarbeitung bitte die Richtlinie der TU Wien zum Umgang mit Plagiaten: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf</a></p>",
-            "en": "<p>Please consider the plagiarism guidelines of TU Wien when writing your seminar paper: <a href=\"http://www.tuwien.ac.at/fileadmin/t/ukanzlei/t-ukanzlei-english/Plagiarism.pdf\" rel=\"nofollow\">http://www.tuwien.ac.at/fileadmin/t/ukanzlei/t-ukanzlei-english/Plagiarism.pdf</a></p> \n<p><br>Please consider the plagiarism guidelines of TU Wien when writing your seminar paper: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf</a></p>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Bewertung der beiden Pr\u00e4sentationen und des Reviews.</p>",
-            "en": "<p>Assessment&nbsp; of both presentations and of the review.</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            }
-        },
-        "weeklyHours": "1.0",
-        "lecturers": {
-            "oid": [
-                "3365713",
-                "1026725",
-                "2152749"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E180",
-        "instituteName": {
-            "de": "Fakult\u00e4t f\u00fcr Informatik",
-            "en": "Faculty of Informatics"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=180772&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "NONE",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=180772-2020S",
-        "language": {
-            "de": "Englisch",
-            "en": "English"
-        }
-    },
-    {
-        "courseNumber": "194078",
-        "semesterCode": "2020S",
-        "courseType": "SE",
-        "title": {
-            "de": "Research Methods",
-            "en": "Research Methods"
-        },
-        "objective": {
-            "de": null,
-            "en": null
-        },
-        "teachingContent": {
-            "de": "<p>Einf\u00fchrung in das interdisziplin\u00e4re Forschungsgebiet der Wirtschaftsinformatik</p> \n<ul> \n <li>gestaltungsorientierte Methoden</li> \n <li>empirisch-quantitative Methoden&nbsp;</li> \n <li>empirisch-qualitative Methoden</li> \n <li>Daten-getriebene Methoden</li> \n <li>formal-analytische Methoden</li> \n</ul>",
-            "en": "<p>Introduction to the interdisciplinary research field of business informatics</p> \n<ul> \n <li>design-based methods</li> \n <li>empirical-quantitative methods</li> \n <li>empirical-qualitative methods</li> \n <li>data-driven methods</li> \n <li>formal-analytical methods</li> \n</ul>"
-        },
-        "additionalInformation": {
-            "de": "<p>Beachten Sie beim Verfassen der Ausarbeitung bitte die Richtlinie der TU Wien zum Umgang mit Plagiaten: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Lehre_-_Leitfaden_zum_Umgang_mit_Plagiaten.pdf</a></p>",
-            "en": "<p>Please consider the plagiarism guidelines of TU Wien when writing your seminar paper: <a href=\"https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf\" rel=\"nofollow\">https://www.tuwien.at/fileadmin/Assets/dienstleister/Datenschutz_und_Dokumentenmanagement/Plagiarism.pdf</a></p>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Kurze Tests im Anschlu\u00df an die Vorstellung der Methoden und Seminararbeit&nbsp;</p>",
-            "en": "<p>Kurze Tests im Anschlu\u00df an die Vorstellung der Methoden und Seminararbeit&nbsp;</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            },
-            "accompanyingCourses": {
-                "course": "180779"
-            }
-        },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "3365713",
-                "1298405",
-                "1026725",
-                "2152749",
-                "992585",
-                "5861121",
-                "6297029",
-                "10684417"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194078&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "NONE",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=194078-2020S",
-        "language": {
-            "de": "Englisch",
-            "en": "English"
-        }
-    },
-    {
-        "courseNumber": "194082",
-        "semesterCode": "2020S",
-        "courseType": "VU",
-        "title": {
-            "de": "Technik f\u00fcr Menschen 2040",
-            "en": "Technology for People 2040"
-        },
-        "objective": {
-            "de": null,
-            "en": null
-        },
-        "teachingContent": {
-            "de": "<p>Wissenschaft, Technologie und Gesellschaft sind eng miteinander verflochten. Wissenschaft und Technologie bilden das Fundament unserer modernen Gesellschaft und werden in einer Welt mit 9 bis 11 Milliarden Menschen eine noch gr\u00f6\u00dfere Rolle spielen. So erscheint einerseits die Bedeutung von Wissenschaft und Technologie bei der Entwicklung und dem Fortschritt unserer Gesellschaften unbestreitbar, andererseits sind unsere Lebensgrundlagen&nbsp; durch die unbeabsichtigten Folgen von Technologie, wachsenden Ungleichheiten und einer Wirtschaft gef\u00e4hrdet, deren Wachstum mit Umweltzerst\u00f6rung verbunden ist.</p> \n<p>Von den neun \u00bbplanetaren Grenzen\u00ab, die einen \u00bbsicheren Betriebsraum f\u00fcr die Menschheit\u00ab definieren, wurden einige bereits deutlich \u00fcberschritten: Klimawandel, Biosph\u00e4renintegrit\u00e4t, biogeochemische Str\u00f6mungen und Landnutzungs\u00e4nderungen. Andere Innovationen wie k\u00fcnstliche Intelligenz, Automatisierung und Digitalisierung werden tiefgreifende Auswirkungen auf alle Aspekte unseres Lebens, unserer Arbeit, der Art und Weise, wie wir unsere Gesellschaften regieren und Kriege f\u00fchren, zeigen. Synthetische Biologie, Nanotechnologie, neue Materialien und Produktionstechnologien k\u00f6nnten die Art und Weise, wie wir mit der physikalischen und biologischen Welt umgehen, grundlegend ver\u00e4ndern.</p> \n<p>Alle genannten Technologien, und viele, die noch zu erwarten sind, bieten erhebliche Chancen, aber auch Gefahren.</p> \n<p>In dieser Vorlesung werden wir globale Megatrends diskutieren. Wir werden \u00fcberlegen, wie wir mit Wissenschaft und Technik umgehen m\u00fcssen, damit sie einer positive Zukunft der Menschheit dienen. Was kann dabei der Beitrag und unsere Verantwortung als zuk\u00fcnftige Wissenschafter und Ingenieure, als Manager und als Mitglieder der Gesellschaft sein?</p> \n<p>Was darf schlie\u00dflich die Gesellschaft von den Absolventen einer Technischen Universit\u00e4t im 21. Jahrhundert erwarten? Technische Exzellenz ist ohne Zweifel notwendig, aber wir sollten ambitionierter sein:</p> \n<ul> \n <li><span>kritisches Denken und Bewerten der Folgen der Technik, insbesondere im eigenen Arbeitsbereich.</span></li> \n <li>Fokussierung auf wichtige und sinnvolle Bereiche f\u00fcr die Gesellschaft: Arbeiten die besten Menschen an den wichtigsten Problemen? Was ist ihre Rolle? Wo leisten Sie den gr\u00f6\u00dften Beitrag?</li> \n <li>F\u00e4higkeit, eigenes Fachwissen und Konsequenzen der Technologie mit Nicht-Experten, Management und anderen Interessengruppen zu kommunizieren.</li> \n <li>F\u00e4higkeit, Teams und Mitarbeiter auch unter sehr schwierigen Bedingungen zu f\u00fchren, zu f\u00fchren und zu motivieren.</li> \n</ul>",
-            "en": "<p>Science, technology and society are intertwined. Science and technology formed the foundation of our modern society and will play an even bigger part in a world with 9 to 11 billion people on this planet.&nbsp; The pivotal role of science and technology in the development and advancement of our societies is undeniable. However, our very livelihoods are now under threat by the unintended consequences of technology, growing inequalities, and an economy whose growth is coupled with environmental degradation.</p> \n<p>Of the nine planetary boundaries, which define a \u201csafe operating space for humanity\u201d, some have already been critically exceeded: climate change, biosphere integrity, biogeochemical flows and land system change.</p> \n<p>Other innovations such as artificial intelligence, automation and digitalisation will have profound impacts on all aspects of our lives, work, the way we govern our societies and conduct wars. Synthetic biology, nanotechnology, new materials and production technologies could fundamentally change the way we interact with the physical and biological world.</p> \n<p>All of these technologies provide significant opportunities, but also threats.</p> \n<p>In this lecture we will be discussing the mega trends that we should be mindful of, and how we could envision a positive future in which technology and science serve humanity. To fulfil that vision, what should be our contribution and our responsibility as future scientists and engineers, as managers and as members of society?</p> \n<p>Finally, what do we expect from alumni of a technical university in the 21st century? Technical excellence is certainly required, however we should reach for more:</p> \n<ul> \n <li><span>critical thinking and assessment of the consequences of technology, especially in own field of work</span></li> \n <li>focusing on important and meaningful areas for society: are the best people working on the most important problems? what is your contribution? where do you contribute the most?</li> \n <li>ability to communicate own expertise and consequences of technology with non-experts, management and other stakeholder</li> \n <li>capability to lead, manage and motivate teams and co-workers even under very challenging conditions</li> \n</ul>"
-        },
-        "additionalInformation": {
-            "de": "<p>Vorlesung und Diskussionen finden in Deutsch statt. Seminararbeit kann in Deutsch oder Englisch verfasst werden.</p> \n<p>Podcast: <a href=\"https://podcast.zukunft-denken.eu\" rel=\"nofollow\">https://podcast.zukunft-denken.eu</a> Lecturer Homepage: <a href=\"http://www.schatten.info\" rel=\"nofollow\">http://www.schatten.info</a></p>",
-            "en": "<p>Lecture and discussions are in German. Term paper can be written in German or English.</p> \n<p>&nbsp;</p> \n<p>Podcast: <a href=\"https://podcast.zukunft-denken.eu\" rel=\"nofollow\">https://podcast.zukunft-denken.eu</a> Lecturer Homepage: <a href=\"http://www.schatten.info\" rel=\"nofollow\">http://www.schatten.info</a></p>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Der Leistungsnachweis erfolgt durch Beurteilung verschiedener Aktivit\u00e4ten der Studierenden:</p> \n<ul> \n <li>Teilnahme an Diskussionen</li> \n <li>Kurz-Pr\u00e4sentation eigener Erkenntnisse und Szenarien</li> \n <li>Kritische Auseinandersetzung mit ausgew\u00e4hlter Literatur</li> \n <li>Kritische und konstruktive Beurteilung eingebrachter Thesen des Vortragenden sowie anderer Teilnehmer</li> \n <li>Seminararbeit und Szenario-Entwicklung</li> \n</ul>",
-            "en": "<p>Marking follows a sum of different activities</p> \n<ul> \n <li>participation in discussions</li> \n <li>classroom presentations of findings and scenarios</li> \n <li>constructive criticism of thesis of other participants and the lecturer</li> \n <li>term paper and scenario development</li> \n</ul>"
-        },
-        "related": {
-            "recommendation": {
-                "de": "<p>Kein besonderes Vorwissen ist erforderlich.&nbsp;<span>Erwartet wird allerdings das Interesse, sich interdisziplin\u00e4r mit den wichtigsten Herausforderungen und Chancen unserer Zeit auseinanderzusetzen, sowie die Bereitschaft, aktiv in der Lehrveranstaltung mitzuwirken.</span></p>",
-                "en": "<p>No specific prior knowledge is expected.&nbsp;<span>What is expected though is interest to engange with main challenges and opportunities of our time in an interdisciplinary way and the willingness to actively contribute.</span></p>"
-            }
-        },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "3365713",
-                "2642317"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E194",
-        "instituteName": {
-            "de": "Institut f\u00fcr Information Systems Engineering",
-            "en": "Institute of Information Systems Engineering"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194082&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "TISS",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=194082-2020S",
-        "language": {
-            "de": "Deutsch",
-            "en": "German"
-        }
-    },
-    {
-        "courseNumber": "195079",
-        "semesterCode": "2020S",
-        "courseType": "VU",
-        "title": {
-            "de": "Fundamental research methods for doctoral students",
-            "en": "Fundamental research methods for doctoral students"
-        },
-        "objective": {
-            "de": "<p>This course will explore the fundamental research methods in Computer Science. It aims to provide a basic understanding of important resarch methods and how to critically apply these to advanced research.</p>",
-            "en": "<p>This course will explore the fundamental research methods in Computer Science. It aims to provide a basic understanding of important resarch methods and how to critically apply these to advanced research.</p>"
-        },
-        "teachingContent": {
-            "de": "<h1>Presentations with physical attendance of students have to be cancelled.</h1> \n<h1>We are working on alternatives like video recording or live stream. Stay tuned for updates and don't forget to watch for new material/assignments in TUWEL!</h1> \n<p><br><br></p> \n<p>This course consists of 5 parts:</p> \n<ol> \n <li>Introduction to methodologies and paradigms</li> \n <li>Overview of formal methods</li> \n <li>Overview of quantitative methods</li> \n <li>Overview of qualitative methods</li> \n <li>Overview of design methods<strong></strong></li> \n</ol> \n<p><strong>Schedule:</strong></p> \n<p>March 3: Organizational issues<br>March 10: Introduction to Methodologies and Paradigms <br>March 17: Overview of Formal Methods <br>March 24: Overview of Formal Methods <br>March 31: Overview of Quantitative Methods <br>April 21: Overview of Quantitative Methods <br>April 28: Overview of Quantitative Methods <br>May 5: Overview of Qualitative Methods <br>May 12: Overview of Qualitative Methods <br>May 19: Overview of Design Methods<br>May 26: Overview of Design Methods<br>June 16: Overview of Qualitative Methods (date might be shifted)</p>",
-            "en": "<h1>Presentations with physical attendance of students have to be cancelled.</h1> \n<h1>We are working on alternatives like video recording or live stream. Stay tuned for updates and don't forget to watch for new material/assignments in TUWEL!</h1> \n<p><br><br></p> \n<p>This course consists of 5 parts:</p> \n<ol> \n <li>Introduction to methodologies and paradigms</li> \n <li>Overview of formal methods</li> \n <li>Overview of quantitative methods</li> \n <li>Overview of qualitative methods</li> \n <li>Overview of design methods</li> \n</ol> \n<p><strong>Schedule:</strong></p> \n<p>March 3: Organizational issues</p> \n<p>March 10: Introduction to Methodologies and Paradigms <br>March 17: Overview of Formal Methods <br>March 24: Overview of Formal Methods <br>March 31: Overview of Quantitative Methods <br>April 21: Overview of Quantitative Methods <br>April 28: Overview of Quantitative Methods <br>May 5: Overview of Qualitative Methods <br>May 12: Overview of Qualitative Methods <br>May 19: Overview of Design Methods<br>May 26: Overview of Design Methods<br>June 16: Overview of Qualitative Methods (date might be shifted)</p>"
-        },
-        "additionalInformation": {
-            "de": "<p>This is a&nbsp;<strong>Fundamental PhD Course</strong>&nbsp;of the Faculty of Informatics for doctoral students.&nbsp;</p> \n<p>First-year doctoral students are advised to take this course, as its content may help them to prepare their PhD proposal.</p> \n<p>Doctoral students in Computer Science have admission priority to this course.</p> \n<p>In case of general questions (which are not specific to one of the course parts) please contact Andreas Steininger via e-mail: steininger@ecs.tuwien.ac.at.</p>",
-            "en": "<p>This is a&nbsp;<strong>Fundamental PhD Course</strong>&nbsp;of the Faculty of Informatics for doctoral students.&nbsp;</p> \n<p>First-year doctoral students are advised to take this course, as its content may help them to prepare their PhD proposal.</p> \n<p>Doctoral students in Computer Science have admission priority to this course.</p> \n<p>In case of general questions (which are not specific to one of the course parts) please contact <br>Andreas Steininger via e-mail: steininger@ecs.tuwien.ac.at.</p>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>The course parts will be graded with an assignment for each part. The final grade is calculated as the average grade of the assignments.</p> \n<p>Students will receive a positive grade only if the following requirements are fulfilled:</p> \n<ul> \n <li>Attendance to the lectures (if attendance is not possible, if should be communicated via e-mail to the respective lecturer and C.Schmid via clarissa.schmid@tuwien.ac.at<strong> before</strong> the lecture).</li> \n <li>positive grade in every course part</li> \n <li>Submission of all assignments.&nbsp;The type of assignment will be defined by the lecturers. In case of written assignments these should be written in English and submitted via TUWEL. In case a presentation has to be done, attendance is compulsary on that date.</li> \n</ul>",
-            "en": "<p>The course parts will be graded with an assignment for each part. The final grade is calculated as the average grade of the assignments.</p> \n<p>Students will receive a positive grade only if the following requirements are fulfilled:</p> \n<ul> \n <li>Attendance to the lectures (if attendance is not possible, if should be communicated via e-mail to the respective lecturer and C.Schmid via clarissa.schmid@tuwien.ac.at<strong> before</strong> the lecture).</li> \n <li>positive grade in every course part</li> \n <li>Submission of all assignments.&nbsp;The type of assignment will be defined by the lecturers. In case of written assignments these should be written in English and submitted via TUWEL. In case a presentation has to be done, attendance is compulsary on that date.</li> \n</ul>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            }
-        },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "7275665",
-                "1121293",
-                "3365713",
-                "571677",
-                "10684417",
-                "17693177",
-                "1069133"
-            ]
-        },
-        "tutors": null,
-        "instituteCode": "E199",
-        "instituteName": {
-            "de": "Services Informatik",
-            "en": "Services Informatics"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=195079&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "TISS",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=195079-2020S",
-        "language": {
-            "de": "Englisch",
-            "en": "English"
-        }
-    },
-    {
-        "courseNumber": "185A06",
-        "semesterCode": "2020S",
-        "courseType": "VU",
-        "title": {
-            "de": "Formale Modellierung",
-            "en": "Formal Modelling"
-        },
-        "objective": {
-            "de": "<p>Ziel der Lehrveranstaltung ist es, den Studierenden die wichtigsten formalen Spezifikationsmethoden zu vermitteln und sie zu bef\u00e4higen, mit diesen Methoden mehrdeutige umgangssprachlich beschriebene Sachverhalte zu modellieren. Weiters lernen sie die formal-mathematischen Beschreibungen dieser Methoden zu lesen und zu verstehen, sodass sie selbst\u00e4ndig ihr Wissen an Hand von Fachliteratur vertiefen k\u00f6nnen.</p>",
-            "en": "<p>The aim of the course is to get the students to know the most relevant methods for formal specification, and to enable them to model real-world situations in a formal manner on the basis of ambigous natural language descriptions. Moreover the students learn to read and understand the formal-mathematical characterisations of these methods such that they can extend their knowledge by specialised literature on their own.</p>"
-        },
-        "teachingContent": {
-            "de": "<p>Textuelle Spezifikationssprachen:</p> \n<ul> \n <li>Aussagenlogik</li> \n <li>Pr\u00e4dikatenlogik</li> \n <li>Regul\u00e4re Ausdr\u00fccke</li> \n <li>Kontextfreie Grammatiken</li> \n</ul> \n<p>Graphische Spezifikationssprachen:</p> \n<ul> \n <li>Endliche Automaten</li> \n <li>Petri-Netze</li> \n</ul> \n<p>F\u00fcr jede dieser Modellierungssprachen werden folgende Aspekte diskutiert: &nbsp;</p> \n<ul> \n <li>Syntax: Was ist eine zul\u00e4ssige \u00c4u\u00dferung in dieser Sprache?</li> \n <li>Semantik: Was bedeutet jede der zul\u00e4ssigen \u00c4u\u00dferungen?</li> \n <li>Ausdrucksst\u00e4rke: Was kann ausgedr\u00fcckt werden, was nicht?</li> \n <li>Verwendung: Wie setzt man die Sprache zur Modelllierung ein?</li> \n</ul>",
-            "en": "<p>Textual specification languagse:</p> \n<ul> \n <li>Propositional logic</li> \n <li>Predicate logic</li> \n <li>Regular expressions</li> \n <li>Context-free grammars</li> \n</ul> \n<p>Graphical specification languages: &nbsp;</p> \n<ul> \n <li>Finite-state machines (automata)</li> \n <li>Petri nets</li> \n</ul> \n<p>For each of these modeling languages we discuss the following aspects: &nbsp;</p> \n<ul> \n <li>Syntax: What are the admissible utterances of the language?</li> \n <li>Semantics: What is the meaning of admissible utterances?</li> \n <li>Expressive power: Which situations can be expressed adequately, which cannot?</li> \n <li>Applications: How is the language used to model concrete situations?</li> \n</ul> \n<p>&nbsp;</p> \n<p>&nbsp;</p>"
-        },
-        "additionalInformation": {
-            "de": "<h3><strong>Aufwandsabsch\u00e4tzung</strong></h3> \n<pre>18.0 h Vorlesungsbesuch (9 Tage x 2h)<br>21.0 h 2 \u00dcbungsbl\u00e4tter (2 x 10.5h)<br> 8.0 h Vorbereitung auf 1.Abgabegespr\u00e4ch<br> 1.0 h 1.Abgabegespr\u00e4ch<br>&nbsp;8.0 h Vorbereitung auf 2.Abgabegespr\u00e4ch<br> 1.0 h 2.Abgabegespr\u00e4ch<br>16.0 h Vorbereitung auf Abschlusstest<br> 2.0 h Abschlusstest<br>-------------------------------------------------<br>75.0 h = 3 Ects</pre>",
-            "en": "<h3><strong>Ects Breakdown<br></strong></h3> \n<pre>18.0 h attendance of lecture (9 days x 2h)<br>21.0 h 2 exercise sheets (2 x 10.5h)<br> 8.0 h preparation for first oral exam (Abgabegespr\u00e4ch)<br> 1.0 h first oral exam (Abgabegespr\u00e4ch)<br> 8.0 h preparation for second oral exam (Abgabegespr\u00e4ch)<br> 1.0 h second oral exam (Abgabegespr\u00e4ch)<br>16.0 h preparation for final test<br> 2.0 h final test<br>-----------------------------------------------<br>75.0 h = 3 Ects</pre>"
-        },
-        "lectureNotes": {
-            "de": null,
-            "en": null
-        },
-        "examinationModalities": {
-            "de": "<p>Die Gesamtbeurteilung ergibt sich aus den Leistungen, die bei <em>zwei \u00dcbungsbl\u00e4ttern</em> (zusammen max. 10 Punkte), zwei <em>Abgabegespr\u00e4ch</em>en (jeweils max. 10 Punkte) sowie beim schriftlichen <em>Abschlusstest</em> (max. 50 Punkte) erbracht werden. Insgesamt k\u00f6nnen somit 10+2*10+50=80 Punkte erzielt werden. F\u00fcr eine positive Gesamtbeurteilung sind mindestens 25 Punkte beim Abschlusstest und eine Gesamtpunkteanzahl von mindestens 40 notwendig. Positive Noten ergeben sich aus der Gesamtpunktezahl nach folgendem Schl\u00fcssel:</p> \n<ul> \n <li>40-49 Punkte: gen\u00fcgend (4)</li> \n <li>50-59 Punkte: befriedigend (3)</li> \n <li>60-69 Punkte: gut (2)</li> \n <li>70-80 Punkte: sehr gut (1)</li> \n</ul> \n<p>Zur Absolvierung des Abschlusstests werden vier Termine angeboten: Im Juni, September, November und J\u00e4nner (die genauen Termine entnehmen Sie bitte dem Abschnitt <em>Pr\u00fcfungen</em>). Es k\u00f6nnen maximal zwei der vier Termine genutzt werden, wobei das bessere Ergebnis z\u00e4hlt.</p>",
-            "en": "<p>The final grade is determined on the basis of&nbsp; the submitted exercises (in total 10 points), two oral exams (10 points each),&nbsp; and the written final test (50 points), giving a total of 10+2*10+50=80 points.&nbsp; To pass the course you need at least 25 points at the final test and at least 40 points in total. Positive grades are determined from the sum of points according to the following scale:</p> \n<ul> \n <li>40-49 points: passed (4)</li> \n <li>50-59 points: satisfactory (3)</li> \n <li>60-69 points: good (2)</li> \n <li>70-80 points: excellent (1)</li> \n</ul> \n<p>We offer four dates to take the final exam: in June, September, January and February (for the precise dates see the section <em>Exams</em>). You may take the test at most twice, with the better result superseding the worse one.</p>"
-        },
-        "related": {
-            "recommendation": {
-                "de": null,
-                "en": null
-            }
-        },
-        "weeklyHours": "2.0",
-        "lecturers": {
-            "oid": [
-                "468649",
-                "1442505",
-                "2114465",
-                "1188865",
-                "3365457",
-                "8620017"
-            ]
-        },
-        "tutors": {
-            "oid": [
-                "15486789",
-                "17691229",
-                "18050357",
-                "17922293",
-                "18050761",
-                "18050709",
-                "16246969",
-                "11916097",
-                "13009161",
-                "13585041",
-                "12494405",
-                "12077853",
-                "13708581",
-                "14268909",
-                "10835405"
-            ]
-        },
-        "instituteCode": "E192",
-        "instituteName": {
-            "de": "Institut f\u00fcr Logic and Computation",
-            "en": "Institute of Logic and Computation"
-        },
-        "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2020S",
-        "uses54EctsRule": "false",
-        "registration": "TISS",
-        "eLearning": "https://tuwel.tuwien.ac.at/course/view.php?id=18991",
-        "language": {
-            "de": "Deutsch",
-            "en": "German"
-        }
-    }
-]
+    ],
+    "other": []
+}

@@ -65,19 +65,6 @@ def _get_semesters(at=datetime.datetime.now(), summer_term_start=3, winter_term_
     return current, prev
 
 
-def _course_table(courses, people):
-    content = '| No. | Type | Title | Lecturers |\n' \
-              '|-----|------|-------|-----------|\n'
-    for course in courses:
-        authors = ['{{% mention "' + p['identifier'] + '" %}}' for p in people if str(p['oid']) in course['lecturers']['oid']]
-        author_string = ', '.join(authors)
-        content += f'| [{course["courseNumber"]}]({course["url"]}) | {course["courseType"]} ' \
-                   f'| {course["title"]["en"]} ' \
-                   '| ' + author_string + ' |\n'
-
-    return content
-
-
 def load_courses(lecturers, semester=None, session=requests.Session()):
     course_dict = {}
 
@@ -116,27 +103,23 @@ def load_courses(lecturers, semester=None, session=requests.Session()):
     return list(course_dict.values())
 
 
-def parse_courses(courses, people, semester, template_path):
-    post = frontmatter.load(template_path)
-    post['linktitle'] = semester
-    post['date'] = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat()
-
+def parse_courses(courses, people):
     lectures_exercises = [c for c in courses if c['courseType'] in LECTURE_EXERCISE_COURSE_TYPES]
     seminars_projects = [c for c in courses if c['courseType'] in SEMINAR_PROJECT_COURSE_TYPES]
     other = [c for c in courses if c['courseType'] not in (LECTURE_EXERCISE_COURSE_TYPES + SEMINAR_PROJECT_COURSE_TYPES)]
 
-    content = '## Lectures and Exercises\n\n' \
-              f'{_course_table(lectures_exercises, people)}\n' \
-              '## Seminars and Projects\n\n' \
-              f'{_course_table(seminars_projects, people)}\n'
+    result = {}
 
-    # only display 'other' section if not empty
-    if other:
-        content += '## Other\n\n' \
-                   f'{_course_table(other, people)}\n'
+    for identifier, courses in [('lectures_exercises', lectures_exercises), ('seminars_projects', seminars_projects), ('other', other)]:
+        result[identifier] = [{
+            'authors': [p['identifier'] for p in people if str(p['oid']) in course['lecturers']['oid']],
+            'number': course["courseNumber"],
+            'url': course["url"],
+            'type': course["courseType"],
+            'title': course["title"]["en"]
+        } for course in courses]
 
-    post.content = content
-    return post
+    return result
 
 
 def load_publications(researchers, session=requests.Session()):
@@ -380,9 +363,10 @@ def main():
         print(f'Fetching courses for semester {semester}')
 
         courses = load_courses(lecturers, semester=semester)
+        parsed_courses = parse_courses(courses, lecturers)
 
         with open(f'{DATA_DIR}/teaching/courses/{semester}.json', 'w+', encoding='utf-8') as f:
-            f.write(json.dumps(courses, indent=4))
+            f.write(json.dumps(parsed_courses, indent=4))
 
     # fetch publications
     publisher_blacklist = [_id(name) for name in config['publications']['blacklist']]

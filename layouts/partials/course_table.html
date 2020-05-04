@@ -1,0 +1,27 @@
+<table>
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Type</th>
+      <th>Title</th>
+      <th>Lecturers</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{range $row := . }}
+    <tr>
+      <td><a href="{{ index $row "url" }}">{{ index $row "number" }}</a></td>
+      <td>{{ index $row "type" }}</td>
+      <td>{{ index $row "title" }}</td>
+      <td>
+        {{ range $index, $username := (index $row "authors") }}
+        {{- $profile_page := site.GetPage (printf "/%s/%s" "people" $username) -}}
+        {{- $name := $profile_page.Params.name | default ($username|markdownify) -}}
+        {{- if (ne $index 0) -}}<span>, </span>{{- end -}}
+        <a href="{{$profile_page.RelPermalink}}">{{$name}}</a>
+        {{ end }}
+      </td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
