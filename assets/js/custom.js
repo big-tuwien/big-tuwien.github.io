@@ -1,112 +1,71 @@
-  /* ---------------------------------------------------------------------------
-   * Filter Courses.
-   * --------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------
+ * Filter Courses.
+ * --------------------------------------------------------------------------- */
 
-  // Active publication filters.
-  let pubFilters = {};
+// Course container.
+let $grid_courses = $('#container-courses');
 
-  // Search term.
-  let searchRegex;
+let $semester_filter = $('.courses-filter');
 
-  // Filter values (concatenated).
-  let filterValues;
+let semesterValue = $semester_filter.children("option:selected").val();
 
-  // Publication container.
-  let $grid_pubs = $('#container-publications');
+// Initialise Isotope.
+$grid_courses.isotope({
+  layoutMode: 'vertical',
+  vertical: {
+    horizontalAlignment: 0.5,
+  },
+  hiddenStyle: {
+    position: 'relative',
+    display: 'none'
+  },
+  visibleStyle: {
+    position: 'relative',
+    display: 'flex'
+  }
+});
 
-  // Initialise Isotope.
-  $grid_pubs.isotope({
-    itemSelector: '.isotope-item',
-    percentPosition: true,
-    masonry: {
-      // Use Bootstrap compatible grid layout.
-      columnWidth: '.grid-sizer'
-    },
-    filter: function () {
-      let $this = $(this);
-      let searchResults = searchRegex ? $this.text().match(searchRegex) : true;
-      let filterResults = filterValues ? $this.is(filterValues) : true;
-      return searchResults && filterResults;
-    }
-  });
+// hash of functions that match data-filter values
+const filterFns = {
+  semester: function () {
+    // use $(this) to get item element
+    let semesterClass = "semester-" + semesterValue;
+    return $(this).hasClass(semesterClass);
+  },
+};
 
-  // Filter by search term.
-  let $quickSearch = $('.filter-search').keyup(debounce(function () {
-    searchRegex = new RegExp($quickSearch.val(), 'gi');
-    $grid_pubs.isotope();
-  }));
+// filter items on button click
+$semester_filter.on('change', function () {
+  semesterValue = $(this).children("option:selected").val();
+  let filterValue = $(this).attr('data-filter');
+  // use filter function if value matches
+  filterValue = filterFns[ filterValue ] || filterValue;
+  $grid_courses.isotope({ filter: filterValue });
+  console.log(semesterValue);
+});
 
-  // Debounce input to prevent spamming filter requests.
-  function debounce(fn, threshold) {
-    let timeout;
-    threshold = threshold || 100;
-    return function debounced() {
-      clearTimeout(timeout);
-      let args = arguments;
-      let _this = this;
+// Filter courses according to hash in URL.
+function filter_courses() {
+  let urlHash = window.location.hash.replace('#', '');
 
-      function delayed() {
-        fn.apply(_this, args);
-      }
-
-      timeout = setTimeout(delayed, threshold);
-    };
+  // Check if semester hash is valid
+  if (urlHash !== '' && urlHash.match(/\d{4}[SW]/)) {
+    semesterValue = urlHash;
   }
 
-  // Flatten object by concatenating values.
-  function concatValues(obj) {
-    let value = '';
-    for (let prop in obj) {
-      value += obj[prop];
-    }
-    return value;
+  let filterValue = filterFns['semester'];
+  $grid_courses.isotope({ filter: filterValue });
+
+  // Set selected option.
+  $semester_filter.val(semesterValue);
+}
+
+$(window).on('load', function () {
+  // Enable course filter for course index page.
+  if ($('.courses-widget')) {
+    console.log(semesterValue);
+    filter_courses();
+    // Useful for changing hash manually (e.g. in development):
+    // window.addEventListener('hashchange', filter_courses, false);
   }
-
-  $('.pub-filters').on('change', function () {
-    let $this = $(this);
-
-    // Get group key.
-    let filterGroup = $this[0].getAttribute('data-filter-group');
-
-    // Set filter for group.
-    pubFilters[filterGroup] = this.value;
-
-    // Combine filters.
-    filterValues = concatValues(pubFilters);
-
-    // Activate filters.
-    $grid_pubs.isotope();
-
-    // If filtering by publication type, update the URL hash to enable direct linking to results.
-    if (filterGroup == "pubtype") {
-      // Set hash URL to current filter.
-      let url = $(this).val();
-      if (url.substr(0, 9) == '.pubtype-') {
-        window.location.hash = url.substr(9);
-      } else {
-        window.location.hash = '';
-      }
-    }
-  });
-
-  // Filter publications according to hash in URL.
-  function filter_publications() {
-    let urlHash = window.location.hash.replace('#', '');
-    let filterValue = '*';
-
-    // Check if hash is numeric.
-    if (urlHash != '' && !isNaN(urlHash)) {
-      filterValue = '.pubtype-' + urlHash;
-    }
-
-    // Set filter.
-    let filterGroup = 'pubtype';
-    pubFilters[filterGroup] = filterValue;
-    filterValues = concatValues(pubFilters);
-
-    // Activate filters.
-    $grid_pubs.isotope();
-
-    // Set selected option.
-    $('.pubtype-select').val(filterValue);
-  }
+});
