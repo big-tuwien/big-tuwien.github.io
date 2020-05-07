@@ -2,15 +2,15 @@
 authors:
 - claudia-habersack
 bio: null
-email: claudia.habersack@tuwien.ac.at
+email: habersack@big.tuwien.ac.at
 name: Claudia Habersack
 pairs:
 - key: Mail
-  link: mailto:claudia.habersack@tuwien.ac.at
-  value: claudia.habersack@tuwien.ac.at
+  link: mailto:habersack@big.tuwien.ac.at
+  value: habersack@big.tuwien.ac.at
 - key: Phone
-  link: tel:+43 (1) 58801 194301
-  value: +43 (1) 58801 194301
+  link: tel:+43 (1) 58801 - 194301
+  value: +43 (1) 58801 - 194301
 role: Mag.rer.nat.
 superuser: false
 user_groups:

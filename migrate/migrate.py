@@ -13,27 +13,7 @@ def _id(name):
            .replace('ß', 'sz').replace(' ', '')
 
 
-TEMPLATE_DIR = 'templates'
-CONTENT_DIR = '../content'
-PEOPLE_DIR = CONTENT_DIR + '/people'
-
-BIG_BASE = 'https://big.tuwien.ac.at'
-
-# migrate visitors and friends
-VAF_URL = f'{BIG_BASE}/people/visitors-and-friends/'
-
-s = requests.Session()
-vaf_r = s.get(VAF_URL)
-vaf_raw_html = vaf_r.content.decode()
-vaf_soup = BeautifulSoup(vaf_raw_html, 'html.parser')
-profile_refs = vaf_soup.select('#main a')
-
-for ref in profile_refs:
-    profile_url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
-    if BIG_BASE not in profile_url:
-        print(profile_url)
-        continue
-
+def migrate_big_profile(profile_url, picture=True):
     r = s.get(profile_url)
     raw_html = r.content.decode()
     soup = BeautifulSoup(raw_html, 'html.parser')
@@ -59,23 +39,24 @@ for ref in profile_refs:
 
     # create folder
     directory = f'{PEOPLE_DIR}/{identifier}'
+    template_source = TEMPLATE_DIR + '/authors/user/_index.md'
 
     if not os.path.exists(directory):
         print(f'Creating author files for {name}')
         os.makedirs(directory)
     else:
-        print(f'Skipping {name} ({identifier}) - profile already exists')
-        continue
+        template_source = directory + '/_index.md'
 
-    # download profile pic or copy default
-    pic_dest = directory + '/avatar.jpg'
-    if picture_uri:
-        urllib.request.urlretrieve(picture_uri, pic_dest)
-    else:
-        shutil.copyfile(TEMPLATE_DIR + '/authors/user/avatar.jpg', pic_dest)
+    if picture:
+        # download profile pic or copy default
+        pic_dest = directory + '/avatar.jpg'
+        if picture_uri:
+            urllib.request.urlretrieve(picture_uri, pic_dest)
+        else:
+            shutil.copyfile(TEMPLATE_DIR + '/authors/user/avatar.jpg', pic_dest)
 
     # apply metadata to markdown front matter
-    post = frontmatter.load(TEMPLATE_DIR + '/authors/user/_index.md')
+    post = frontmatter.load(template_source)
     post['name'] = name
     post['authors'] = [identifier]
     post['role'] = title
@@ -95,3 +76,45 @@ for ref in profile_refs:
 
     with open(f'{directory}/_index.md', 'w+', encoding='utf-8') as f:
         f.write(frontmatter.dumps(post))
+
+
+TEMPLATE_DIR = 'templates'
+CONTENT_DIR = '../content'
+PEOPLE_DIR = CONTENT_DIR + '/people'
+
+BIG_BASE = 'https://big.tuwien.ac.at'
+
+s = requests.Session()
+
+# migrate people at big
+PPL_URL = f'{BIG_BASE}/people/'
+
+ppl_r = s.get(PPL_URL)
+ppl_raw_html = ppl_r.content.decode()
+ppl_soup = BeautifulSoup(ppl_raw_html, 'html.parser')
+profile_refs = ppl_soup.select('#main a')
+profile_refs = [a for a in profile_refs if a['href'].startswith('/people') and not 'visitors-and-friends' in a['href']]
+
+for ref in profile_refs:
+    url = f'{BIG_BASE}{ref["href"]}'
+    if BIG_BASE not in url:
+        print(url)
+        continue
+    migrate_big_profile(url, picture=False)
+
+# migrate visitors and friends
+VAF_URL = f'{BIG_BASE}/people/visitors-and-friends/'
+
+vaf_r = s.get(VAF_URL)
+vaf_raw_html = vaf_r.content.decode()
+vaf_soup = BeautifulSoup(vaf_raw_html, 'html.parser')
+profile_refs = vaf_soup.select('#main a')
+
+for ref in profile_refs:
+    url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
+    if BIG_BASE not in url:
+        print(url)
+        continue
+    migrate_big_profile(url)
+
+
