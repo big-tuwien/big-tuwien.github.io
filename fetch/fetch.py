@@ -26,12 +26,13 @@ TEACHING_DIR = CONTENT_DIR + '/teaching'
 PUBLICATION_DIR = CONTENT_DIR + '/publication'
 
 TISS_BASE = 'https://tiss.tuwien.ac.at'
+PUBLIK_BASE = 'https://publik.tuwien.ac.at'
 PEOPLE_URL = f'{TISS_BASE}/api/orgunit/v22/id/{BIG_TID}?persons=true'
 PROJECTS_ONGOING_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=1'
 PROJECTS_FINISHED_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=2'
 COURSE_LECTURER_URL = TISS_BASE + '/api/course/lecturer/{}'
-PUBLICATION_URL = 'https://publik.tuwien.ac.at/pubexport.php'
-BIBTEX_URL = 'https://publik.tuwien.ac.at/pubbibtex.php'
+PUBLICATION_URL = f'{PUBLIK_BASE}/pubexport.php'
+BIBTEX_URL = f'{PUBLIK_BASE}/pubbibtex.php'
 
 
 def _id(name):

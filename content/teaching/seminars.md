@@ -1,16 +1,46 @@
 +++
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+# A Recent and Upcoming Talks section created with the Pages widget.
+# This section displays recent talks from `content/talk/`.
+
+widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Seminars"
+title = "Recent & Upcoming Seminars"
 subtitle = ""
 
-[design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+[content]
+  # Page type to display. E.g. post, talk, or publication.
+  page_type = "seminar"
+  
+  # Choose how much pages you would like to display (0 = all pages)
+  count = 5
+  
+  # Choose how many pages you would like to offset by
+  offset = 0
 
+  # Page order. Descending (desc) or ascending (asc) date.
+  order = "desc"
+
+  # Filter posts by a taxonomy term.
+  [content.filters]
+    tag = ""
+    category = ""
+    publication_type = ""
+    author = ""
+    exclude_featured = false
+    exclude_past = false
+    exclude_future = false
+    
+[design]
+  # Toggle between the various page layout types.
+  #   1 = List
+  #   2 = Compact
+  #   3 = Card
+  #   4 = Citation (publication only)
+  view = 2
+  
 [design.background]
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
@@ -25,19 +55,12 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  # image = "headers/bubbles-wide.jpg"  # Name of image in `static/img/`.
+  # image = "background.jpg"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  # image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
-  # image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
 
   # Text color (true=light or false=dark).
-  text_color_light = false
-
-[design.spacing]
-  # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
-
+  # text_color_light = true  
+  
 [advanced]
  # Custom CSS. 
  css_style = ""
@@ -45,23 +68,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-## Research Seminar
-
-<div class="full-width">
-
-| Title  | Speaker | When | Where|
-|--------|--------|--------|--------|
-| Model Integration by Model Virtualisation | {{% mention "Robert Bill" %}} | 24.02.2020, 10:00 - 12:00 | Sitzungszimmer Dekanat |
-
-</div>
-
-## Diploma Seminar
-
-<div class="full-width">
-
-| Title  | Speaker | When | Where|
-|--------|--------|--------|--------|
-| Using Model-based Testing Approaches for Creating Behaviour-driven Tests in the Context of VoIP Software | {{% mention "Simon Schneider" %}} | 04.05.2020, 10:00 - 12:00 | Besprechungsraum 2. Stock (HD 0215) |
-
-</div>

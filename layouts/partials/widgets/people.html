@@ -14,12 +14,6 @@
   </div>
   {{ end }}
 
-  {{ with $page.Content }}
-  <div class="col-md-12">
-    {{ . }}
-  </div>
-  {{ end }}
-
   {{ range $page.Params.content.user_groups }}
   {{ $query := where (where site.Pages "Section" "people") ".Params.user_groups" "intersect" (slice .) }}
 
@@ -57,5 +51,11 @@
     </div>
   </div>
   {{ end }}
+  {{ end }}
+
+  {{ with $page.Content }}
+  <div class="col-md-12 mt-4">
+    {{ . }}
+  </div>
   {{ end }}
 </div>

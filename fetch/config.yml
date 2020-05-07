@@ -1,8 +1,16 @@
 people:
-  # The TISS API result contains user records that are not meant to be displayed.
-  # All names must match the names used in TISS.
-  # Therefore this whitelist can be used to filter the result set.
-  # This whitelist will be the base of any blacklists, meaning this list is applied before the blacklists.
+  # Automatic profile creation:
+  #   * The TISS API result contains user records that are not meant to be displayed.
+  #   * This whitelist can be used to filter the result set.
+  #   * The script will create a profile page IF AND ONLY IF
+  #     - the person's name is on the following whitelist
+  #     - the person is a member of the BIG TISS research unit
+  #     - the name matches the person's name used in TISS
+  # WARNING: A person's courses and publications will only be fetched if included on this whitelist.
+  #          In some cases it may be necessary to whitelist people that are not members of the BIG TISS research unit
+  #          in order to fetch their publications. Records like that will not have a profile page created or courses
+  #          fetched, but publications will be loaded as intended.
+  # This whitelist is the base of any blacklists, meaning this list is applied first.
   whitelist:
     - Gertrude Kappel
     - Claudia Habersack
