@@ -1,14 +1,15 @@
 ---
-name: Stefan Draskovits
 authors:
 - stefan-draskovits
+bio: null
+email: stefan.draskovits@tuwien.ac.at
+name: Stefan Draskovits
 pairs:
 - key: Mail
   link: mailto:stefan.draskovits@tuwien.ac.at
   value: stefan.draskovits@tuwien.ac.at
+role: None
 superuser: false
-role: null
-bio: null
 user_groups:
 - Visitors and Friends
 ---

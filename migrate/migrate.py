@@ -1,6 +1,6 @@
 import os
 import shutil
-import urllib
+import urllib.request
 
 import frontmatter
 import html2markdown
@@ -38,22 +38,24 @@ for ref in profile_refs:
     raw_html = r.content.decode()
     soup = BeautifulSoup(raw_html, 'html.parser')
 
-    title = soup.select('#person-title')[0].string
-    name = soup.select('#person-name')[0].string
+    title = str(soup.select('#person-title')[0].string)
+    name = str(soup.select('#person-name')[0].string)
     identifier = _id(name)
 
     email = soup.select('#email .general-info-text')
-    email = email[0].string if len(email) > 0 else None
+    email = str(email[0].string) if len(email) > 0 else None
     telephone = soup.select('#telephone .general-info-text')
-    telephone = telephone[0].string if len(telephone) > 0 else None
+    telephone = str(telephone[0].string) if len(telephone) > 0 else None
     location = soup.select('#location .general-info-text')
-    location = location[0].string if len(location) > 0 else None
+    location = str(location[0].string) if len(location) > 0 else None
     office_hours = soup.select('#office-hours .general-info-text')
-    office_hours = office_hours[0].string if len(office_hours) > 0 else None
+    office_hours = str(office_hours[0].string) if len(office_hours) > 0 else None
     content_html = soup.select('#profile')
     content_html = str(content_html[0]) if len(content_html) > 0 else ''
     content_html = content_html.replace('<div id="profile">', '').replace('<h3>Profile</h3>', '').replace('</div>', '')
     content_markdown = html2markdown.convert(content_html).replace('&nbsp;', '')
+    picture_uri = soup.select('#person-image')
+    picture_uri = picture_uri[0]['src'] if len(picture_uri) > 0 else None
 
     # create folder
     directory = f'{PEOPLE_DIR}/{identifier}'
@@ -66,11 +68,11 @@ for ref in profile_refs:
         continue
 
     # download profile pic or copy default
-    # pic_dest = directory + '/avatar.jpg'
-    # if person['picture_uri']:
-    #     urllib.request.urlretrieve(TISS_BASE + person['picture_uri'], pic_dest)
-    # else:
-    #     shutil.copyfile(TEMPLATE_DIR + '/authors/user/avatar.jpg', pic_dest)
+    pic_dest = directory + '/avatar.jpg'
+    if picture_uri:
+        urllib.request.urlretrieve(picture_uri, pic_dest)
+    else:
+        shutil.copyfile(TEMPLATE_DIR + '/authors/user/avatar.jpg', pic_dest)
 
     # apply metadata to markdown front matter
     post = frontmatter.load(TEMPLATE_DIR + '/authors/user/_index.md')
@@ -83,7 +85,13 @@ for ref in profile_refs:
         pairs.append({'key': 'Mail', 'value': email, 'link': f'mailto:{email}'})
     if telephone:
         pairs.append({'key': 'Phone', 'value': telephone, 'link': f'tel:{telephone}'})
+    if location:
+        pairs.append({'key': 'Location', 'value': location})
+    if office_hours:
+        pairs.append({'key': 'Office hours', 'value': office_hours})
     post['pairs'] = pairs
+
+    post.content = content_markdown
 
     with open(f'{directory}/_index.md', 'w+', encoding='utf-8') as f:
         f.write(frontmatter.dumps(post))
