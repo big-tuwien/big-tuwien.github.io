@@ -17,7 +17,7 @@ BIG_OID = 18460477
 LECTURE_EXERCISE_COURSE_TYPES = ['VO', 'VU']
 SEMINAR_PROJECT_COURSE_TYPES = ['SE', 'PV', 'PR']
 
-CI_TEMPLATE_DIR = 'templates'
+TEMPLATE_DIR = 'templates'
 
 DATA_DIR = '../data'
 CONTENT_DIR = '../content'
@@ -330,10 +330,10 @@ def main():
         if person['picture_uri']:
             urllib.request.urlretrieve(TISS_BASE + person['picture_uri'], pic_dest)
         else:
-            shutil.copyfile(CI_TEMPLATE_DIR + '/authors/user/avatar.jpg', pic_dest)
+            shutil.copyfile(TEMPLATE_DIR + '/authors/user/avatar.jpg', pic_dest)
 
         # apply metadata to markdown front matter
-        post = frontmatter.load(CI_TEMPLATE_DIR + '/authors/user/_index.md')
+        post = frontmatter.load(TEMPLATE_DIR + '/authors/user/_index.md')
         post['name'] = name
         post['authors'] = [person["identifier"]]
         post['role'] = person['preceding_titles']

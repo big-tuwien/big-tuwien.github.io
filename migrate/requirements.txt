@@ -1,0 +1,4 @@
+requests
+python-frontmatter
+html2markdown
+beautifulsoup4
