@@ -27,7 +27,7 @@
 
     {{ $courses := getJSON (printf "%s/%s.json" $datafolder $sem) }}
 
-    <div class="grid-sizer col-lg-12 isotope-item semester semester-{{ $sem }}">
+    <div class="col-lg-12 semester semester-{{ $sem }}">
       <h2>{{ $sem }}</h2>
       <h3>Lectures and Exercises</h3>
       <div class="full-width">{{ partial "course_table" $courses.lectures_exercises }}</div>
