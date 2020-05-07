@@ -13,13 +13,15 @@ def _id(name):
            .replace('ß', 'sz').replace(' ', '')
 
 
-def migrate_big_profile(profile_url, picture=True):
+def migrate_big_profile(profile_url, create=True, picture=True):
     r = s.get(profile_url)
     raw_html = r.content.decode()
     soup = BeautifulSoup(raw_html, 'html.parser')
 
-    title = str(soup.select('#person-title')[0].string)
+    title = soup.select('#person-title')[0].string
+    title = str(title) if title else None
     name = str(soup.select('#person-name')[0].string)
+    name = str(name) if name else None
     identifier = _id(name)
 
     email = soup.select('#email .general-info-text')
@@ -42,6 +44,8 @@ def migrate_big_profile(profile_url, picture=True):
     template_source = TEMPLATE_DIR + '/authors/user/_index.md'
 
     if not os.path.exists(directory):
+        if not create:
+            return
         print(f'Creating author files for {name}')
         os.makedirs(directory)
     else:

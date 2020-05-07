@@ -5,7 +5,7 @@ bio: null
 email: null
 name: Maximilian Schrack
 pairs: []
-role: None
+role: null
 superuser: false
 user_groups:
 - Visitors and Friends

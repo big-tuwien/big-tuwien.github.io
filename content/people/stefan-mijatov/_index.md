@@ -8,7 +8,7 @@ pairs:
 - key: Mail
   link: mailto:e1128521@student.tuwien.ac.at
   value: e1128521@student.tuwien.ac.at
-role: None
+role: null
 superuser: false
 user_groups:
 - Visitors and Friends

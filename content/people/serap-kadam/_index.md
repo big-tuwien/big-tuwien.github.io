@@ -8,7 +8,7 @@ pairs:
 - key: Mail
   link: mailto:kadam@big.tuwien.ac.at
   value: kadam@big.tuwien.ac.at
-role: None
+role: null
 superuser: false
 user_groups:
 - Visitors and Friends

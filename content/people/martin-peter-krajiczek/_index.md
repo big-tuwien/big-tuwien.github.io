@@ -11,7 +11,7 @@ pairs:
 - key: Phone
   link: tel:+43 (1) 58801 - 18885
   value: +43 (1) 58801 - 18885
-role: None
+role: null
 superuser: false
 user_groups:
 - Administration

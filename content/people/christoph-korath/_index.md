@@ -8,7 +8,7 @@ pairs:
 - key: Mail
   link: mailto:korath@big.tuwien.ac.at
   value: korath@big.tuwien.ac.at
-role: None
+role: null
 superuser: false
 user_groups:
 - Visitors and Friends

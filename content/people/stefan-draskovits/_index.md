@@ -8,7 +8,7 @@ pairs:
 - key: Mail
   link: mailto:stefan.draskovits@tuwien.ac.at
   value: stefan.draskovits@tuwien.ac.at
-role: None
+role: null
 superuser: false
 user_groups:
 - Visitors and Friends

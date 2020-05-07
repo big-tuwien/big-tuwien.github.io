@@ -11,7 +11,7 @@ pairs:
 - key: Phone
   link: tel:+43 (1) 58801 - 188699
   value: +43 (1) 58801 - 188699
-role: None
+role: null
 superuser: false
 user_groups:
 - Visitors and Friends

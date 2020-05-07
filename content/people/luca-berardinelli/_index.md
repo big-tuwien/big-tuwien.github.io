@@ -9,7 +9,7 @@ pairs:
   value: 'Wednesday, 10:00 to 11:00
 
     During the summer and winter break, office hours are only held by appointment.'
-role: None
+role: null
 superuser: false
 user_groups:
 - Visitors and Friends
