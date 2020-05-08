@@ -19,8 +19,8 @@ def _id(name):
 
 def _title(title):
     # hyphenize title, remove non ascii chars and convert to lower
-    title = title.lower().replace(' ', '-')
-    return ''.join([i if ord(i) < 128 else ' ' for i in title])
+    title = title.lower().replace(':', '').replace('?', '').replace('-', '').strip().replace(' ', '-')
+    return ''.join([i if ord(i) < 128 else '' for i in title])
 
 
 def migrate_big_profile(profile_url, create=True, picture=True):
@@ -92,7 +92,7 @@ def migrate_big_profile(profile_url, create=True, picture=True):
         f.write(frontmatter.dumps(post))
 
 
-def migrate_thesis(thesis_url, ongoing, create=True):
+def migrate_thesis(thesis_url, output_dir, ongoing, create=True):
     thes_r = s.get(thesis_url)
     thes_raw_html = thes_r.content.decode()
     thes_soup = BeautifulSoup(thes_raw_html, 'html.parser')
@@ -117,7 +117,7 @@ def migrate_thesis(thesis_url, ongoing, create=True):
                             '*'
 
     # create folder
-    directory = f'{MASTER_THESES_DIR}/{identifier}'
+    directory = f'{output_dir}/{identifier}'
     file = 'index.md'
     template_source = TEMPLATE_DIR + '/master-theses/thesis/index.md'
 
@@ -190,7 +190,13 @@ r = s.get(MTH_URL)
 raw_html = r.content.decode()
 soup = BeautifulSoup(raw_html, 'html.parser')
 ongoing_refs = soup.select('#main td[headers="thesisTitle ongoing"] a')
+finished_refs = soup.select('#main td[headers="thesisTitle finished"] a')
 
 for ref in ongoing_refs:
     url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
-    migrate_thesis(url, ongoing=True)
+    migrate_thesis(url, MASTER_THESES_DIR, ongoing=True)
+
+for ref in finished_refs:
+    url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
+    migrate_thesis(url, MASTER_THESES_DIR, ongoing=False)
+
