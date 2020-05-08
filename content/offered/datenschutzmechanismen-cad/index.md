@@ -8,7 +8,7 @@ data enriched by meta-information. On the other hand, it stands for the entire p
 of a building – with the simultaneous engagement of all stakeholders in the development of a common model containing 
 all relevant information."
 authors:
-- Gerti Kappel
+- Gertrude Kappel
 - Galina Paskaleva
 tags: []
 categories: []

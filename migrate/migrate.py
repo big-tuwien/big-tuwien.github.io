@@ -25,7 +25,7 @@ def _title(title):
     return ''.join([i if ord(i) < 128 else '' for i in title])
 
 
-def migrate_big_profile(profile_url, create=True, picture=True):
+def migrate_big_profile(profile_url, output_dir, create=True, picture=True):
     prof_r = s.get(profile_url)
     prof_raw_html = prof_r.content.decode()
     prof_soup = BeautifulSoup(prof_raw_html, 'html.parser')
@@ -52,7 +52,7 @@ def migrate_big_profile(profile_url, create=True, picture=True):
     picture_uri = picture_uri[0]['src'] if len(picture_uri) > 0 else None
 
     # create folder
-    directory = f'{PEOPLE_DIR}/{identifier}'
+    directory = f'{output_dir}/{identifier}'
     template_source = TEMPLATE_DIR + '/authors/user/_index.md'
 
     if not os.path.exists(directory):
@@ -121,7 +121,7 @@ def migrate_thesis(thesis_url, output_dir, ongoing, create=True):
     # create folder
     directory = f'{output_dir}/{identifier}'
     file = 'index.md'
-    template_source = TEMPLATE_DIR + '/master-theses/thesis/index.md'
+    template_source = TEMPLATE_DIR + '/theses/thesis/index.md'
 
     if not os.path.exists(directory):
         if not create:
@@ -146,78 +146,97 @@ def migrate_thesis(thesis_url, output_dir, ongoing, create=True):
 
 TEMPLATE_DIR = 'templates'
 CONTENT_DIR = '../content'
-PEOPLE_DIR = CONTENT_DIR + '/people'
-MASTER_THESES_DIR = CONTENT_DIR + '/master-theses'
-PHD_THESES_DIR = CONTENT_DIR + '/phd-theses'
 
 BIG_BASE = 'https://big.tuwien.ac.at'
 
 s = requests.Session()
 
-# migrate people at big
-"""PPL_URL = f'{BIG_BASE}/people/'
 
-r = s.get(PPL_URL)
-raw_html = r.content.decode()
-soup = BeautifulSoup(raw_html, 'html.parser')
-profile_refs = soup.select('#main a')
-profile_refs = [a for a in profile_refs if a['href'].startswith('/people') and not 'visitors-and-friends' in a['href']]
+def migrate_people():
+    url = f'{BIG_BASE}/people/'
+    output_dir = CONTENT_DIR + '/people'
 
-for ref in profile_refs:
-    url = f'{BIG_BASE}{ref["href"]}'
-    if BIG_BASE not in url:
-        print(url)
-        continue
-    migrate_big_profile(url, picture=False)
+    r = s.get(url)
+    raw_html = r.content.decode()
+    soup = BeautifulSoup(raw_html, 'html.parser')
+    profile_refs = soup.select('#main a')
+    profile_refs = [a for a in profile_refs if a['href'].startswith('/people') and not 'visitors-and-friends' in a['href']]
 
-# migrate visitors and friends
-VAF_URL = f'{BIG_BASE}/people/visitors-and-friends/'
-
-r = s.get(VAF_URL)
-raw_html = r.content.decode()
-soup = BeautifulSoup(raw_html, 'html.parser')
-profile_refs = soup.select('#main a')
-
-for ref in profile_refs:
-    url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
-    if BIG_BASE not in url:
-        print(url)
-        continue
-    migrate_big_profile(url)
-"""
-
-# migrate master theses
-MTH_URL = 'https://big.tuwien.ac.at/teaching/masters-theses/'
-
-r = s.get(MTH_URL)
-raw_html = r.content.decode()
-soup = BeautifulSoup(raw_html, 'html.parser')
-ongoing_refs = soup.select('#main td[headers="thesisTitle ongoing"] a')
-finished_refs = soup.select('#main td[headers="thesisTitle finished"] a')
-
-for ref in ongoing_refs:
-    url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
-    migrate_thesis(url, MASTER_THESES_DIR, ongoing=True)
-
-for ref in finished_refs:
-    url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
-    migrate_thesis(url, MASTER_THESES_DIR, ongoing=False)
+    for ref in profile_refs:
+        url = f'{BIG_BASE}{ref["href"]}'
+        if BIG_BASE not in url:
+            print(url)
+            continue
+        migrate_big_profile(url, output_dir, picture=False)
 
 
-# migrate master theses
-PTH_URL = 'https://big.tuwien.ac.at/teaching/phd-theses/'
+def migrate_visitors_and_friends():
+    url = f'{BIG_BASE}/people/visitors-and-friends/'
+    output_dir = CONTENT_DIR + '/people'
 
-r = s.get(PTH_URL)
-raw_html = r.content.decode()
-soup = BeautifulSoup(raw_html, 'html.parser')
-ongoing_refs = soup.select('#main td[headers="thesisTitle ongoing"] a')
-finished_refs = soup.select('#main td[headers="thesisTitle finished"] a')
+    r = s.get(url)
+    raw_html = r.content.decode()
+    soup = BeautifulSoup(raw_html, 'html.parser')
+    profile_refs = soup.select('#main a')
 
-for ref in ongoing_refs:
-    url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
-    migrate_thesis(url, PHD_THESES_DIR, ongoing=True)
+    for ref in profile_refs:
+        url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
+        if BIG_BASE not in url:
+            print(url)
+            continue
+        migrate_big_profile(url, output_dir)
 
-for ref in finished_refs:
-    url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
-    migrate_thesis(url, PHD_THESES_DIR, ongoing=False)
 
+def migrate_master_theses():
+    url = f'{BIG_BASE}/teaching/masters-theses/'
+    output_dir = CONTENT_DIR + '/master-theses'
+
+    r = s.get(url)
+    raw_html = r.content.decode()
+    soup = BeautifulSoup(raw_html, 'html.parser')
+    ongoing_refs = soup.select('#main td[headers="thesisTitle ongoing"] a')
+    finished_refs = soup.select('#main td[headers="thesisTitle finished"] a')
+
+    for ref in ongoing_refs:
+        url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
+        migrate_thesis(url, output_dir, ongoing=True)
+
+    for ref in finished_refs:
+        url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
+        migrate_thesis(url, output_dir, ongoing=False)
+
+
+def migrate_phd_theses():
+    url = f'{BIG_BASE}/teaching/phd-theses/'
+    output_dir = CONTENT_DIR + '/phd-theses'
+
+    r = s.get(url)
+    raw_html = r.content.decode()
+    soup = BeautifulSoup(raw_html, 'html.parser')
+    ongoing_refs = soup.select('#main td[headers="thesisTitle ongoing"] a')
+    finished_refs = soup.select('#main td[headers="thesisTitle finished"] a')
+
+    for ref in ongoing_refs:
+        url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
+        migrate_thesis(url, output_dir, ongoing=True)
+
+    for ref in finished_refs:
+        url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
+        migrate_thesis(url, output_dir, ongoing=False)
+
+
+def migrate_projects():
+    url = f'{BIG_BASE}/projects/'
+    output_dir = CONTENT_DIR + '/phd-theses'
+
+
+def main():
+    # migrate_people()
+    # migrate_visitors_and_friends()
+    # migrate_master_theses()
+    # migrate_phd_theses()
+    migrate_projects()
+
+
+if __name__ == '__main__':
+    main()
