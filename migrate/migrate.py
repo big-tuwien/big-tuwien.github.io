@@ -19,7 +19,9 @@ def _id(name):
 
 def _title(title):
     # hyphenize title, remove non ascii chars and convert to lower
-    title = title.lower().replace(':', '').replace('?', '').replace('-', '').strip().replace(' ', '-')
+    title = title.lower().replace(':', '').replace('?', '').replace(' - ', '-')\
+        .replace('(', '').replace(')', '').replace('@', ' ').replace('.', '-').replace(' & ', '-')\
+        .strip().replace(' ', '-')
     return ''.join([i if ord(i) < 128 else '' for i in title])
 
 
