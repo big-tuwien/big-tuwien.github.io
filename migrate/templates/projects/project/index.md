@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Hybridlux"
+title: "Thesis1"
 summary: ""
-authors: [Victor-Gabriel Dulca, Philip Langer, Manuel Wimmer, Gertrude Kappel]
+authors: []
 tags: [Ongoing]
 categories: []
-date: 2019-03-01T01:05:23+02:00
+date: 2020-04-25T22:34:01+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -39,11 +39,3 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-
-HybriDLUX entwickelt neuartige Techniken und Werkzeuge zur hybriden, kollaborativen Modellierung und zum 
-modellbasierten Debugging in hybriden Modellen, zwei Techniken, die als kritisch für die Einführung von modellbasierter 
-Softwareentwicklung identifiziert wurden. Diese Techniken und Werkzeuge werden außerdem speziell für domänenspezifische 
-Softwaresprachen, die von AVL im Anwendungsgebiet der Fahrzeugmess- und – prüftechnik evaluiert werden, implementiert 
-und anhand einer erweiterten und verbesserten Version des im vorangegangenen DLUX Projekts entwickelten 
-Evaluierungsrahmenwerks hinsichtlich Benutzerfreundlichkeit evaluiert. Damit einhergehende Erweiterungen von 
-eingesetzten Open-Source-Frameworks werden auch nach dem Projekt öffentlich verfügbar sein.
