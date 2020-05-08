@@ -29,7 +29,7 @@ def _title_id(title):
     # hyphenize title, remove non ascii chars and convert to lower
     title = title.lower().replace(':', '').replace('?', '').replace(' - ', '-').replace(' – ', '-')\
         .replace('(', '').replace(')', '').replace('@', ' ').replace('.', '-').replace(' & ', '-')\
-        .replace('/', '-').replace('"', '')\
+        .replace('/', '-').replace('"', '').replace(',', '')\
         .strip().replace(' ', '-')
     return ''.join([i if ord(i) < 128 else '' for i in title])
 
@@ -291,12 +291,57 @@ def migrate_projects():
         migrate_project(url, output_dir, ongoing=False)
 
 
+def migrate_news():
+    url = f'{BIG_BASE}/news/'
+    output_dir = CONTENT_DIR + '/news'
+
+    r = s.get(url)
+    raw_html = r.content.decode()
+    soup = BeautifulSoup(raw_html, 'html.parser')
+    news_refs = soup.select('#main > *')
+
+    year = None
+    for ref in news_refs:
+        if ref.name == 'h2':
+            year = str(ref.string)
+            continue
+        content = ref.select('li > *')
+        title = str(content[0].string)
+        identifier = _title_id(title)
+        date = f'{year}-01-01T00:00:00+02:00'
+        content_html = str(content[1]).replace('<div>', '').replace('</div>', '')\
+            .replace('<span class="markdown">', '').replace('</span>', '').strip()
+        content_markdown = html2markdown.convert(content_html)
+
+        # create folder
+        directory = f'{output_dir}/{identifier}'
+        file = 'index.md'
+        template_source = TEMPLATE_DIR + '/news/demo/index.md'
+
+        if not os.path.exists(directory):
+            print(f'Creating news files for "{title}"')
+            os.makedirs(directory)
+        else:
+            template_source = directory + '/' + file
+
+        # apply metadata to markdown front matter
+        post = frontmatter.load(template_source)
+        post['title'] = title
+        post['date'] = date
+
+        post.content = content_markdown
+
+        with open(f'{directory}/{file}', 'w+', encoding='utf-8') as f:
+            f.write(frontmatter.dumps(post))
+
+
 def main():
     # migrate_people()
     # migrate_visitors_and_friends()
     # migrate_master_theses()
     # migrate_phd_theses()
-    migrate_projects()
+    # migrate_projects()
+    migrate_news()
 
 
 if __name__ == '__main__':
