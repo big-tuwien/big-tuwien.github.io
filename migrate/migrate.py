@@ -148,6 +148,7 @@ TEMPLATE_DIR = 'templates'
 CONTENT_DIR = '../content'
 PEOPLE_DIR = CONTENT_DIR + '/people'
 MASTER_THESES_DIR = CONTENT_DIR + '/master-theses'
+PHD_THESES_DIR = CONTENT_DIR + '/phd-theses'
 
 BIG_BASE = 'https://big.tuwien.ac.at'
 
@@ -201,4 +202,22 @@ for ref in ongoing_refs:
 for ref in finished_refs:
     url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
     migrate_thesis(url, MASTER_THESES_DIR, ongoing=False)
+
+
+# migrate master theses
+PTH_URL = 'https://big.tuwien.ac.at/teaching/phd-theses/'
+
+r = s.get(PTH_URL)
+raw_html = r.content.decode()
+soup = BeautifulSoup(raw_html, 'html.parser')
+ongoing_refs = soup.select('#main td[headers="thesisTitle ongoing"] a')
+finished_refs = soup.select('#main td[headers="thesisTitle finished"] a')
+
+for ref in ongoing_refs:
+    url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
+    migrate_thesis(url, PHD_THESES_DIR, ongoing=True)
+
+for ref in finished_refs:
+    url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
+    migrate_thesis(url, PHD_THESES_DIR, ongoing=False)
 
