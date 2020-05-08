@@ -4,7 +4,8 @@
 title: "Integration von Payment-Systemen in Web of Needs"
 subtitle: ""
 summary: "Die Basis für die Diplomarbeit bildet Web of Needs (WoN), welches vom Research Studio Smart Agent Technologies (SAT) in Kooperation mit der Business Informatics Group (BIG) der TU Wien entwickelt wird."
-authors: []
+authors:
+- Christian Huemer
 tags: []
 categories: []
 date: 2020-04-25T20:43:44+02:00

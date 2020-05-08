@@ -14,7 +14,7 @@ pairs:
 - key: Location
   value: HG0201
 - key: Office hours
-  value: None
+  value: see profile
 role: Ao.Univ.Prof. Mag.rer.soc.oec. Dr.rer.soc.oec.
 superuser: false
 user_groups:
@@ -30,3 +30,9 @@ In addition, Christian Huemer serves on the Board of Directors of [Austria Pro](
 Christian Huemer has been involved in national and international project, both governmental and industry funded. His project proposal on “Business Semantics on top of Process Technology ([BSopt](http://www.bsopt.at/)) ranked number one an the one on “E-Business Registry Permitting Enterprise Liaisons (ERPEL)” ranked number two in the awards of the Austrian FIT-IT program on semantic systems.
 
 Christian Huemer is on the PC committee of several major e-business related conferences. He is member of the steering committee of the IEEE Conference on Business Informatics (CBI). Moreover, he serves as chair of the Section 5.5 e-Commerce of the German Computer Society (GI).
+
+### Office hours
+* on topics for the Dean of Academic Affairs: (only after prior arrangement with Christoph Neuherz - 
+  christoph.neuherz@tuwien.ac.at) Tuesday, 09:00 to 10:30 at the Dean's Office, Erzherzog-Johannplatz 1
+* on topics regarding his own lectures (only after prior arrangement by mail): Tuesday, 15:00 to 16:00 at the 
+  office Favoritenstrasse 9-11

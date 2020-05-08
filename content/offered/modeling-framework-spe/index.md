@@ -4,7 +4,9 @@
 title: "Modeling Framework for Smart Production Environments"
 subtitle: ""
 summary: "Model-driven approach to tackle the challenges of vertical and horizontal integration in the production industry."
-authors: []
+authors:
+- Bernhard Wally
+- Christian Huemer
 tags: []
 categories: []
 date: 2020-04-25T20:44:27+02:00
@@ -32,11 +34,17 @@ If you are interested, please contact Christian Huemer or Bernhard Wally.
 
 *Model-driven approach* to tackle the challenges of vertical and horizontal integration in the production industry.
 
-This thesis consists of an implementation part with the goal to provide a running modeling environment based on either the Eclipse modeling framework (http://www.eclipse.org/modeling/), or the ADOxx meta-modeling platform (https://www.adoxx.org/).
+This thesis consists of an implementation part with the goal to provide a running modeling environment based on either 
+the [Eclipse modeling framework](http://www.eclipse.org/modeling/), or the 
+[ADOxx meta-modeling platform](https://www.adoxx.org/).
 
-Smart production systems require integrated systems in order to efficiently utilize data from one system level in another one (e.g. business data from ERP systems for the configuration of production systems). However, typically a plethora of non-integrated tools is used in real production systems. We therefore propose a standards-driven approach, where systems integration is realized on an abstract level.
+Smart production systems require integrated systems in order to efficiently utilize data from one system level in 
+another one (e.g. business data from ERP systems for the configuration of production systems). However, 
+typically a plethora of non-integrated tools is used in real production systems. We therefore propose a 
+standards-driven approach, where systems integration is realized on an abstract level.
 
-In this thesis, relevant industry standards as well as academic modeling standards are used for integrating runtime data across functional software domains.
+In this thesis, relevant industry standards as well as academic modeling standards are used for integrating 
+runtime data across functional software domains.
 
 The standards and frameworks to be considered include:
 * Resource-Event-Agent (REA) Business Ontology
