@@ -1,42 +1,52 @@
 import os
 import shutil
 import urllib.request
+from datetime import datetime
 
 import frontmatter
 import html2markdown
+import pytz
 import requests
 from bs4 import BeautifulSoup
 
 
 def _id(name):
+    if name == 'Gerti Kappel':
+        return 'gertrude-kappel'
     return name.lower().replace(' ', '-').replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue') \
            .replace('ß', 'sz').replace(' ', '')
 
 
-def migrate_big_profile(profile_url, create=True, picture=True):
-    r = s.get(profile_url)
-    raw_html = r.content.decode()
-    soup = BeautifulSoup(raw_html, 'html.parser')
+def _title(title):
+    # hyphenize title, remove non ascii chars and convert to lower
+    title = title.lower().replace(' ', '-')
+    return ''.join([i if ord(i) < 128 else ' ' for i in title])
 
-    title = soup.select('#person-title')[0].string
+
+def migrate_big_profile(profile_url, create=True, picture=True):
+    prof_r = s.get(profile_url)
+    prof_raw_html = prof_r.content.decode()
+    prof_soup = BeautifulSoup(prof_raw_html, 'html.parser')
+
+    title = prof_soup.select('#person-title')[0].string
     title = str(title) if title else None
-    name = str(soup.select('#person-name')[0].string)
+    name = str(prof_soup.select('#person-name')[0].string)
     name = str(name) if name else None
     identifier = _id(name)
 
-    email = soup.select('#email .general-info-text')
+    email = prof_soup.select('#email .general-info-text')
     email = str(email[0].string) if len(email) > 0 else None
-    telephone = soup.select('#telephone .general-info-text')
+    telephone = prof_soup.select('#telephone .general-info-text')
     telephone = str(telephone[0].string) if len(telephone) > 0 else None
-    location = soup.select('#location .general-info-text')
+    location = prof_soup.select('#location .general-info-text')
     location = str(location[0].string) if len(location) > 0 else None
-    office_hours = soup.select('#office-hours .general-info-text')
+    office_hours = prof_soup.select('#office-hours .general-info-text')
     office_hours = str(office_hours[0].string) if len(office_hours) > 0 else None
-    content_html = soup.select('#profile')
+    content_html = prof_soup.select('#profile')
     content_html = str(content_html[0]) if len(content_html) > 0 else ''
     content_html = content_html.replace('<div id="profile">', '').replace('<h3>Profile</h3>', '').replace('</div>', '')
     content_markdown = html2markdown.convert(content_html).replace('&nbsp;', '')
-    picture_uri = soup.select('#person-image')
+    picture_uri = prof_soup.select('#person-image')
     picture_uri = picture_uri[0]['src'] if len(picture_uri) > 0 else None
 
     # create folder
@@ -46,7 +56,7 @@ def migrate_big_profile(profile_url, create=True, picture=True):
     if not os.path.exists(directory):
         if not create:
             return
-        print(f'Creating author files for {name}')
+        print(f'Creating profile files for {name}')
         os.makedirs(directory)
     else:
         template_source = directory + '/_index.md'
@@ -82,21 +92,72 @@ def migrate_big_profile(profile_url, create=True, picture=True):
         f.write(frontmatter.dumps(post))
 
 
+def migrate_thesis(thesis_url, ongoing, create=True):
+    thes_r = s.get(thesis_url)
+    thes_raw_html = thes_r.content.decode()
+    thes_soup = BeautifulSoup(thes_raw_html, 'html.parser')
+    base = thes_soup.select('#main')[0]
+
+    title = str(base.find('h2').string)
+    identifier = _title(title)
+    kind = "Ongoing" if ongoing else "Finished"
+    date = datetime.utcnow().replace(tzinfo=pytz.utc).isoformat(' ', 'seconds')
+    ps = base.select('p')
+    metadata = ps.pop(0)
+    authors = metadata.find_all('em')
+    authors = [str(a.string) for a in authors]
+    supervisors = metadata.find_all('a')
+    supervisors = [_id(str(sup.string)) for sup in supervisors]
+    ps = [str(p) for p in ps]
+    content_html = ''.join(ps).replace('<span class="markdown">', '').replace('</span>', '')
+    content_markdown = html2markdown.convert(content_html)
+    if len(supervisors) > 0:
+        content_markdown += '\n\n' + '*Advised by ' + \
+                            ', '.join(['{{% mention "' + sup + '" %}}' for sup in supervisors]) + \
+                            '*'
+
+    # create folder
+    directory = f'{MASTER_THESES_DIR}/{identifier}'
+    file = 'index.md'
+    template_source = TEMPLATE_DIR + '/master-theses/thesis/index.md'
+
+    if not os.path.exists(directory):
+        if not create:
+            return
+        print(f'Creating thesis files for "{title}"')
+        os.makedirs(directory)
+    else:
+        template_source = directory + '/' + file
+
+    # apply metadata to markdown front matter
+    post = frontmatter.load(template_source)
+    post['title'] = title
+    post['authors'] = authors
+    post['tags'] = [kind]
+    post['date'] = date
+
+    post.content = content_markdown
+
+    with open(f'{directory}/{file}', 'w+', encoding='utf-8') as f:
+        f.write(frontmatter.dumps(post))
+
+
 TEMPLATE_DIR = 'templates'
 CONTENT_DIR = '../content'
 PEOPLE_DIR = CONTENT_DIR + '/people'
+MASTER_THESES_DIR = CONTENT_DIR + '/master-theses'
 
 BIG_BASE = 'https://big.tuwien.ac.at'
 
 s = requests.Session()
 
 # migrate people at big
-PPL_URL = f'{BIG_BASE}/people/'
+"""PPL_URL = f'{BIG_BASE}/people/'
 
-ppl_r = s.get(PPL_URL)
-ppl_raw_html = ppl_r.content.decode()
-ppl_soup = BeautifulSoup(ppl_raw_html, 'html.parser')
-profile_refs = ppl_soup.select('#main a')
+r = s.get(PPL_URL)
+raw_html = r.content.decode()
+soup = BeautifulSoup(raw_html, 'html.parser')
+profile_refs = soup.select('#main a')
 profile_refs = [a for a in profile_refs if a['href'].startswith('/people') and not 'visitors-and-friends' in a['href']]
 
 for ref in profile_refs:
@@ -109,10 +170,10 @@ for ref in profile_refs:
 # migrate visitors and friends
 VAF_URL = f'{BIG_BASE}/people/visitors-and-friends/'
 
-vaf_r = s.get(VAF_URL)
-vaf_raw_html = vaf_r.content.decode()
-vaf_soup = BeautifulSoup(vaf_raw_html, 'html.parser')
-profile_refs = vaf_soup.select('#main a')
+r = s.get(VAF_URL)
+raw_html = r.content.decode()
+soup = BeautifulSoup(raw_html, 'html.parser')
+profile_refs = soup.select('#main a')
 
 for ref in profile_refs:
     url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
@@ -120,5 +181,16 @@ for ref in profile_refs:
         print(url)
         continue
     migrate_big_profile(url)
+"""
 
+# migrate master theses
+MTH_URL = 'https://big.tuwien.ac.at/teaching/masters-theses/'
 
+r = s.get(MTH_URL)
+raw_html = r.content.decode()
+soup = BeautifulSoup(raw_html, 'html.parser')
+ongoing_refs = soup.select('#main td[headers="thesisTitle ongoing"] a')
+
+for ref in ongoing_refs:
+    url = ref["href"] if ref["href"].startswith('http') else f'{BIG_BASE}{ref["href"]}'
+    migrate_thesis(url, ongoing=True)
