@@ -2,7 +2,7 @@
 authors:
 - Selin Altan
 categories: []
-date: '2020-05-08 15:18:27+00:00'
+date: '2020-05-08 15:28:02+00:00'
 external_link: ''
 image:
   caption: ''
