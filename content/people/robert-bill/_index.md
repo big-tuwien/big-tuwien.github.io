@@ -15,7 +15,7 @@ pairs:
   value: HG0206
 - key: Office hours
   value: by appointment
-role: Projektass. Dipl.-Ing.
+role: Projektass. Dipl.-Ing. Dr.techn.
 superuser: false
 user_groups:
 - Research
