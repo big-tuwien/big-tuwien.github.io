@@ -341,7 +341,8 @@ def main():
     # migrate_master_theses()
     # migrate_phd_theses()
     # migrate_projects()
-    migrate_news()
+    # migrate_news()
+    pass
 
 
 if __name__ == '__main__':
