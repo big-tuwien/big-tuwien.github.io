@@ -65,5 +65,5 @@ projects: []
 math: true
 ---
 
-**When:** 06.07.2020, 10:00 Uhr - 12:00 Uhr
+**When:** 06.07.2020, 10:00 Uhr - 12:00 Uhr  
 **Where:** Besprechungsraum 2. Stock (HD 0215)  
