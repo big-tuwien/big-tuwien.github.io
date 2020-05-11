@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Philipp Huber
 categories: []
-date: '2020-05-08 15:44:49+00:00'
+date: '2020-05-11 21:33:15+00:00'
 external_link: ''
 image:
   caption: ''
@@ -33,5 +36,3 @@ Krzysztof Czarnecki and Simon Helsen. Classification of model transformation app
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Huber_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Huber_poster.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

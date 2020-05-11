@@ -1,8 +1,11 @@
 ---
+advisors:
+- christian-huemer
+- gertrude-kappel
 authors:
 - Dieter Mayrhofer
 categories: []
-date: '2020-05-08 18:02:37+00:00'
+date: '2020-05-11 21:33:30+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +35,3 @@ Given these limitations, in this thesis we have taken upon the challenge to deve
 The presented REA-DSL serves as an unambiguous and powerful business modeling language which can be used by IT and business experts for faster designing a robust AIS.
 
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=223117&amp;lang=2">publication database</a>.
-
-*Advised by {{% mention "christian-huemer" %}}, {{% mention "gertrude-kappel" %}}*

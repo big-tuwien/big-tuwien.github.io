@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Günter Preuner
 categories: []
-date: '2020-05-08 18:02:39+00:00'
+date: '2020-05-11 21:33:31+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +32,3 @@ Users define their views as they perceive processing of business objects in ever
 The goal of view integration is to define the complete set of object types and business processes in the conceptual database schema. Thus, information relevant for the business processes is extracted from the workflows, the object types of the integrated schema are determined, and a business process as well as the activity specifications are defined for each object type. The goal of view integration is to define object types with business processes in a way that the processing of objects according to a business process in the conceptual schema can be observed as a correct processing in each view if information that is not defined in the view is ignored.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

@@ -1,8 +1,11 @@
 ---
+advisors:
+- philipp-liegl
+- christian-huemer
 authors:
 - Christian Zehetmayer
 categories: []
-date: '2020-05-08 15:44:58+00:00'
+date: '2020-05-11 21:33:25+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +31,3 @@ Before we can actually try to solve such interoperability issues, we need to hav
 Tasks in the master’s thesis include:
 
 &nbsp;
-
-*Advised by {{% mention "philipp-liegl" %}}, {{% mention "christian-huemer" %}}*

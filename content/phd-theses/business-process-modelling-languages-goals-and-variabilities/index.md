@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Birgit Korherr
 categories: []
-date: '2020-05-08 18:02:36+00:00'
+date: '2020-05-11 21:33:29+00:00'
 external_link: ''
 image:
   caption: ''
@@ -36,5 +38,3 @@ The third problem is that current conceptual BPMLs do not provide explicit model
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Korherr_B.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

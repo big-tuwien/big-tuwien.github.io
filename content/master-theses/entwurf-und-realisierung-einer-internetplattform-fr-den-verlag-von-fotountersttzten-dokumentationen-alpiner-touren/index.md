@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Walter Sunk
 categories: []
-date: '2020-05-08 15:44:56+00:00'
+date: '2020-05-11 21:33:23+00:00'
 external_link: ''
 image:
   caption: ''
@@ -41,5 +43,3 @@ Die Realisierung der Plattform stellt sich diesbezüglich als ein multidisziplin
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Skunk_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Skunk_poster.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

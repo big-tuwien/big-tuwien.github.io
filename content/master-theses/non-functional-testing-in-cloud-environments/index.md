@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Philipp Naderer
 categories: []
-date: '2020-05-08 15:44:52+00:00'
+date: '2020-05-11 21:33:18+00:00'
 external_link: ''
 image:
   caption: ''
@@ -20,5 +23,3 @@ url_video: ''
 ---
 
 This work has been finished in July 2016.
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

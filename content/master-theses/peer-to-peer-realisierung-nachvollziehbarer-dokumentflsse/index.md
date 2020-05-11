@@ -1,8 +1,11 @@
 ---
+advisors:
+- martin-bernauer
+- gertrude-kappel
 authors:
 - Florian Sonntag
 categories: []
-date: '2020-05-08 15:44:56+00:00'
+date: '2020-05-11 21:33:22+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +35,3 @@ Dokumente können andere Dokumente abonnieren, um das Ereignis zu empfangen, das
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Sonntag_poster.pdf)
-
-*Advised by {{% mention "martin-bernauer" %}}, {{% mention "gertrude-kappel" %}}*

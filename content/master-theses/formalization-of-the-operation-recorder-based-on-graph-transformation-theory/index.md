@@ -1,8 +1,12 @@
 ---
+advisors:
+- martina-seidl
+- petra-kaufmann
+- gertrude-kappel
 authors:
 - Sebastian Gabmeyer
 categories: []
-date: '2020-05-08 15:44:47+00:00'
+date: '2020-05-11 21:33:13+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +34,3 @@ The Operation Recorder, however, lacks a concise, formal basis which prevents th
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=196648&amp;lang=2">publication database</a>.
 
  Download the [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Gabmeyer_poster.pdf)
-
-*Advised by {{% mention "martina-seidl" %}}, {{% mention "petra-kaufmann" %}}, {{% mention "gertrude-kappel" %}}*

@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Werner Obermair
 categories: []
-date: '2020-05-08 18:02:39+00:00'
+date: '2020-05-11 21:33:31+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +32,3 @@ We introduce Active Object/Behavior Diagrams for the conceptual design of active
 During logical design, a schema developed with Active Object/Behavior Diagrams is mapped to a logical schema of an existing active object-oriented database system. We present such a mapping for TriGS, a prototype of an active object-oriented database system built on top of the commercial object-oriented database system GemStone (GemStone Systems, Inc.). The mapping decomposes the high-level constructs of Active Object/Behavior Diagrams into lower-level constructs of TriGS. The presented mapping covers all three dimensions of a schema specified with Active Object/Behavior Diagrams: object structure, passive object behavior, and active object behavior.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

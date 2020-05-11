@@ -1,8 +1,11 @@
 ---
+advisors:
+- martina-seidl
+- gertrude-kappel
 authors:
 - Petra Brosch
 categories: []
-date: '2020-05-08 18:02:35+00:00'
+date: '2020-05-11 21:33:27+00:00'
 external_link: ''
 image:
   caption: ''
@@ -26,5 +29,3 @@ In most engineering disciplines, models are built as pragmatic, yet precise abst
 In this thesis, we first analyze specifics of model versioning and elaborate on the notion of conflict to improve conflict resolution respecting the central role of models. To cope with the human-centric aspect, we present a conflict aware merge strategy to calculate a tentatively merged _conflict diagram_ as accelerator for conflict resolution retaining the graphical representation of the model. The conflict diagram unifies non-conflicting changes and materializes merge conflicts in form of annotations, rendering a coherent picture of the model’s evolution. To further support the conflict resolution process, we elaborate on a _conflict resolution recommender system_ on top of the conflict diagram, which recommends automatically executable conflict resolution patterns. Finally, to satisfy validity conditions of the computation-centric aspect, we establish a _formal framework_ based on graph transformation theory, to showcase the feasibility of our approach.
 
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=208975&amp;lang=2">publication database</a>.
-
-*Advised by {{% mention "martina-seidl" %}}, {{% mention "gertrude-kappel" %}}*

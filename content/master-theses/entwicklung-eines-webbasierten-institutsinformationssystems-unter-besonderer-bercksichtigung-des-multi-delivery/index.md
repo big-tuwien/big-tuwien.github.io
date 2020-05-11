@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Alexander Heumayer
 categories: []
-date: '2020-05-08 15:44:48+00:00'
+date: '2020-05-11 21:33:14+00:00'
 external_link: ''
 image:
   caption: ''
@@ -35,5 +37,3 @@ Neben diesem Kerngebiet beinhaltet die Diplomarbeit Instruktionen zur Realisieru
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Heumayer_paper.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

@@ -1,8 +1,11 @@
 ---
+advisors:
+- andrea-schauerhuber
+- gertrude-kappel
 authors:
 - Rudolf Mayer
 categories: []
-date: '2020-05-08 15:44:51+00:00'
+date: '2020-05-11 21:33:17+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +35,3 @@ Die Adaptierung an das Endgerät ist Teil der Customization der ubiquitären Web
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Mayer_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Mayer_poster.pdf)
-
-*Advised by {{% mention "andrea-schauerhuber" %}}, {{% mention "gertrude-kappel" %}}*

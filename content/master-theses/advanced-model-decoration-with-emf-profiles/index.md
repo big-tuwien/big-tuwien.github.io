@@ -1,8 +1,11 @@
 ---
+advisors:
+- philip-langer
+- gertrude-kappel
 authors:
 - Becir Basic
 categories: []
-date: '2020-05-08 15:44:45+00:00'
+date: '2020-05-11 21:33:11+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +31,3 @@ With EMF Profiles, users can apply profiles within graphical modeling editors th
 This thesis aims at providing decoration methods for applied stereotype in EMF Profiles going beyond simple icons. Therefore, we investigate the decoration facilities in GMF and Graphiti and extend the profile definition language to allow users to define specific decorations for stereotypes. Once a specific decoration is defined, applications of these stereotypes are visualized using the defined decorations in any GMF-based and Graphiti-based modeling editor. The results and benefits of the extensions developed in this thesis are evaluated in the context of a case study. In particular, we will assess how the runtime information of executable models can be visualized appropriately and dynamically updated during the execution with EMF Profiles.
 
 &nbsp;
-
-*Advised by {{% mention "philip-langer" %}}, {{% mention "gertrude-kappel" %}}*

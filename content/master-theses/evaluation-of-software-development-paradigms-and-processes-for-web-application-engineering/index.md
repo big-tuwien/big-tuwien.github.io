@@ -1,8 +1,11 @@
 ---
+advisors:
+- petra-kaufmann
+- gertrude-kappel
 authors:
 - Thomas Lichtenecker
 categories: []
-date: '2020-05-08 15:44:50+00:00'
+date: '2020-05-11 21:33:16+00:00'
 external_link: ''
 image:
   caption: ''
@@ -31,5 +34,3 @@ Subsequently this work gives an introduction into common software development pa
 The practical part of the thesis capitalizes on the insights retrieved in the theoretical chapters. The ambition is to create a development framework consisting of templates for the Microsoft Team Foundation Server (TFS) reflecting all steps of the software development cycle. The TFS provides source control, data collection, reporting, and project tracking, and so provides a platform for collaborative software development projects. The implemented development framework leverages these features leading to efficient processes and usable work items. The latter is demonstrated by utilizing this basis to conduct a web software project involving a team of developers, designers and project managers.
 
 &nbsp;
-
-*Advised by {{% mention "petra-kaufmann" %}}, {{% mention "gertrude-kappel" %}}*

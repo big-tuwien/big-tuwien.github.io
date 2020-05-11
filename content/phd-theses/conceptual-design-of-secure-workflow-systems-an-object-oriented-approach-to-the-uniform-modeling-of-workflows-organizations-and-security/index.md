@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Peter Bichler
 categories: []
-date: '2020-05-08 18:02:35+00:00'
+date: '2020-05-11 21:33:27+00:00'
 external_link: ''
 image:
   caption: ''
@@ -31,5 +33,3 @@ The structure of organizations is typically organized around business functions 
 The security requirements of organizational processes say to which actors authorizations can be issued, in which form particular authorizations must be represented (e.g., key cards), and how authorizations that have been issued to actors must be maintained. Basic security requirements for workflow systems are: (1) Accesses of actors that do not possess appropriate authorizations must be denied. (2) Authorizations that are in conflict with the security requirements of organizational processes must not be issued. We specify the security requirements of a workflow system in an authorization schema. A workflow management system can use such an authorization schema as a filter to exclude authorizations that are illegal wrt. the protection requirements of organizational processes from its authorization base.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

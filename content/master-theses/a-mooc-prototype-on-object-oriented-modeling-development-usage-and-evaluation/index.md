@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Anita Siemayr
 categories: []
-date: '2020-05-08 15:44:55+00:00'
+date: '2020-05-11 21:33:21+00:00'
 external_link: ''
 image:
   caption: ''
@@ -24,5 +26,3 @@ Learning methods have changed over the years mainly due to technological innovat
 Abstract and paper may be found in our [publication database](https://publik.tuwien.ac.at/showentry.php?ID=258048&amp;lang=1&amp;head=%3Clink+rel%3D%22stylesheet%22+type%3D%22text%2Fcss%22+href%3D%22https%3A%2F%2Fpublik.tuwien.ac.at%2Fpubdat.css%22%3E%3C%2Fhead%3E%3Cbody%3E).
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

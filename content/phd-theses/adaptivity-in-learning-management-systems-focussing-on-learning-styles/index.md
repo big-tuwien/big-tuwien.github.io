@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Sabine Graf
 categories: []
-date: '2020-05-08 18:02:35+00:00'
+date: '2020-05-11 21:33:28+00:00'
 external_link: ''
 image:
   caption: ''
@@ -34,5 +36,3 @@ By extending LMSs with adaptivity, a learning environment is built that supports
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Graf_S.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

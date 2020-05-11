@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Manuel Wimmer
 categories: []
-date: '2020-05-08 18:02:41+00:00'
+date: '2020-05-11 21:33:33+00:00'
 external_link: ''
 image:
   caption: ''
@@ -27,5 +29,3 @@ Model-Driven Engineering (MDE) gains momentum in academia as well as in practice
 This thesis contributes to the above mentioned problems. It proposes a comprehensive approach for realizing model-based tool integration, which is inspired from techniques originating from the field of database integration, but employed in the context of MDE. For tackling the problem of missing metamodel descriptions, a semi-automatic approach for mining metamodels and models from textual language definitions is presented, being a prerequisite for the subsequent steps which are based on metamodels and models, only. For raising the level of abstraction and for ensuring the reuse of mappings between metamodels, a framework is proposed for building, applying, and executing reusable mapping operators. To demonstrate the applicability of the framework, it is applied to the definition of mapping operators which are intended to resolve typical structural heterogeneities occurring between the core concepts of metamodels. Finally, for ensuring roundtrip capabilities of transformations, two approaches are proposed evolving non-roundtripping transformations with roundtrip capabilities.
 
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=141768&amp;lang=2">publication database</a>.
-
-*Advised by {{% mention "gertrude-kappel" %}}*

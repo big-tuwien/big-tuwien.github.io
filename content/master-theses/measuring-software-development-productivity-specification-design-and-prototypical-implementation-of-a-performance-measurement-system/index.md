@@ -1,8 +1,11 @@
 ---
+advisors:
+- beate-list
+- gertrude-kappel
 authors:
 - Veronika Stefanov
 categories: []
-date: '2020-05-08 15:44:56+00:00'
+date: '2020-05-11 21:33:22+00:00'
 external_link: ''
 image:
   caption: ''
@@ -27,5 +30,3 @@ Companies require software process performance measurement systems in order to r
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Stefanov_paper.pdf)
-
-*Advised by {{% mention "beate-list" %}}, {{% mention "gertrude-kappel" %}}*

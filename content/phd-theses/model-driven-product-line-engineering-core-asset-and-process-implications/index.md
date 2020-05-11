@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Maider Azanza Sesé
 categories: []
-date: '2020-05-08 18:02:41+00:00'
+date: '2020-05-11 21:33:32+00:00'
 external_link: ''
 image:
   caption: ''
@@ -24,5 +26,3 @@ This work has been finished in February 2011.
 Reuse is at the heart of major improvements in productivity and quality in Software Engineering. Both Model Driven Engineering (MDE) and Software Product Line Engineering (SPLE) are software development paradigm that promote reuse. Specifically, they promote systematic reuse and a departure from craftsmanship towards an industrialization of the software development process. MDE and SPLE have established their benefits separately. Their combination in Model Driven Product Line Engineering (MDPLE), gathers together the advantages of both.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

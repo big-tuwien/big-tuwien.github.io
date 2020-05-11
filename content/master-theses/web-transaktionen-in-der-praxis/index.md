@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Christian Schlosser
 categories: []
-date: '2020-05-08 15:44:55+00:00'
+date: '2020-05-11 21:33:21+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +34,3 @@ Um den praktischen Einsatz von Transaktionsprotokollen für Web Services zu demo
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Schlosser_paper.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

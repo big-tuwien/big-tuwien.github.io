@@ -1,8 +1,11 @@
 ---
+advisors:
+- gerhard-kramler
+- gertrude-kappel
 authors:
 - Andreas Staribacher
 categories: []
-date: '2020-05-08 15:44:56+00:00'
+date: '2020-05-11 21:33:22+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +31,3 @@ Diese Arbeit befasst sich mit allgemeinen Aspekten von Content Management System
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Staribacher_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/staribacher_poster.pdf)
-
-*Advised by {{% mention "gerhard-kramler" %}}, {{% mention "gertrude-kappel" %}}*

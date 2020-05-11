@@ -1,8 +1,12 @@
 ---
+advisors:
+- philip-langer
+- tanja-mayerhofer
+- gertrude-kappel
 authors:
 - Patrick Neubauer
 categories: []
-date: '2020-05-08 15:44:52+00:00'
+date: '2020-05-11 21:33:19+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +36,3 @@ While conducting several case studies, experiences have been gained that led to 
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=227306&amp;lang=2">publication database</a>.
 
  Download the [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Neubauer_poster.pdf)
-
-*Advised by {{% mention "philip-langer" %}}, {{% mention "tanja-mayerhofer" %}}, {{% mention "gertrude-kappel" %}}*

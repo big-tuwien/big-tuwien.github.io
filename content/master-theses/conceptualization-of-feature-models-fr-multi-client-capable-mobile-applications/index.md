@@ -1,8 +1,10 @@
 ---
+advisors:
+- christian-huemer
 authors:
 - Philip Messlehner
 categories: []
-date: '2020-05-08 15:44:52+00:00'
+date: '2020-05-11 21:33:18+00:00'
 external_link: ''
 image:
   caption: ''
@@ -18,7 +20,3 @@ url_pdf: ''
 url_slides: ''
 url_video: ''
 ---
-
-
-
-*Advised by {{% mention "christian-huemer" %}}*

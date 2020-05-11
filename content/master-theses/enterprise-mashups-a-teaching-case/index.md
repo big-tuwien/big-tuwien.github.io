@@ -1,8 +1,10 @@
 ---
+advisors:
+- christian-huemer
 authors:
 - Gerog Ungerböck
 categories: []
-date: '2020-05-08 15:44:57+00:00'
+date: '2020-05-11 21:33:23+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +34,3 @@ Mit dem exemplarisch umgesetzten Mashup wird die schnelle und unkomplizierte Kom
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=216156&amp;lang=2">publication database</a>.
 
  Download the [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Ungerböck_poster.pdf)
-
-*Advised by {{% mention "christian-huemer" %}}*

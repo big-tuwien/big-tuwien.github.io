@@ -1,8 +1,11 @@
 ---
+advisors:
+- petra-kaufmann
+- gertrude-kappel
 authors:
 - Thomas Bruckmayer
 categories: []
-date: '2020-05-08 15:44:45+00:00'
+date: '2020-05-11 21:33:11+00:00'
 external_link: ''
 image:
   caption: ''
@@ -37,5 +40,3 @@ All these aspects have been elaborated theoretically and explained practically w
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Bruckmayer_papers.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Bruckmayer_poster.pdf)
-
-*Advised by {{% mention "petra-kaufmann" %}}, {{% mention "gertrude-kappel" %}}*

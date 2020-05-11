@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Johannes Schoenboeck
 categories: []
-date: '2020-05-08 18:02:40+00:00'
+date: '2020-05-11 21:33:32+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +33,3 @@ To tackle the aforementioned limitations, this thesis provides three main contri
 To evaluate the contributions, relations to competing approaches are drawn in a first step. Second, case studies are used to show the applicability of the presented approaches. To evaluate the runtime model, the operational semantics of dedicated transformation languages is made explicit in terms of Transformation Nets. Finally, the debugging support is evaluated again by case studies and a first user study.
 
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=209018&amp;lang=2">publication database</a>.
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

@@ -1,8 +1,11 @@
 ---
+advisors:
+- sabine-graf
+- gertrude-kappel
 authors:
 - Carina Zöchmeister
 categories: []
-date: '2020-05-08 15:44:59+00:00'
+date: '2020-05-11 21:33:25+00:00'
 external_link: ''
 image:
   caption: ''
@@ -27,5 +30,3 @@ Diese Arbeit beschäftigt sich mit e-Learning und e-Learning Plattformen. Das Zi
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Zöchmeister_paper.pdf)
-
-*Advised by {{% mention "sabine-graf" %}}, {{% mention "gertrude-kappel" %}}*

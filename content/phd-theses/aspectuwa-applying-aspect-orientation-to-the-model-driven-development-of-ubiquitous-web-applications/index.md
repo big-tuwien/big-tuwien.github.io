@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Andrea Schauerhuber
 categories: []
-date: '2020-05-08 18:02:40+00:00'
+date: '2020-05-11 21:33:32+00:00'
 external_link: ''
 image:
   caption: ''
@@ -29,5 +31,3 @@ The overall aim of this thesis is the exhaustive use of aspect-orientation as dr
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Schauerhuber_A.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

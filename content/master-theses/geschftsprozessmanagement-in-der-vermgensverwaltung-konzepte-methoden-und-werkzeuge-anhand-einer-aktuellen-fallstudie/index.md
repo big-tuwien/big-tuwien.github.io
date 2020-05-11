@@ -1,9 +1,12 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Hildegund Horner
 - Claudia Stockinger
 categories: []
-date: '2020-05-08 15:44:48+00:00'
+date: '2020-05-11 21:33:15+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +35,3 @@ Fazit ist, dass kontinuierliches Geschäftsprozessmangement für Unternehmen ein
 &nbsp;
 
  Download the [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Horner_Stockinger_poster.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

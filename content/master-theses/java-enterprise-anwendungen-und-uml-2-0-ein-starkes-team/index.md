@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Christian Sokop
 categories: []
-date: '2020-05-08 15:44:56+00:00'
+date: '2020-05-11 21:33:22+00:00'
 external_link: ''
 image:
   caption: ''
@@ -34,5 +37,3 @@ Ein weiteres Ziel der Arbeit ist, einen generellen Überblick von UML 2.0 Diagra
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Sokop_paper2.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Sokop_poster2.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

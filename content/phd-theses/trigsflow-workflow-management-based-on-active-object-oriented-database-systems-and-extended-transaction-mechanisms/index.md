@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Stefan Rausch-Schott
 categories: []
-date: '2020-05-08 18:02:39+00:00'
+date: '2020-05-11 21:33:31+00:00'
 external_link: ''
 image:
   caption: ''
@@ -27,5 +29,3 @@ Effective business process management is a key success factor of today’s organ
 The book is directed likewise at researchers and practitioners interested in the broad field of workflow technology. It gives a comprehensive survey of the various aspects of business process research. The overview of prominent representatives of commercial workflow management systems and the rich bibliography provide an invaluable guide for further reading
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

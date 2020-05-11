@@ -1,8 +1,11 @@
 ---
+advisors:
+- sabine-graf
+- gertrude-kappel
 authors:
 - Katarzyna Potocka
 categories: []
-date: '2020-05-08 15:44:53+00:00'
+date: '2020-05-11 21:33:19+00:00'
 external_link: ''
 image:
   caption: ''
@@ -26,5 +29,3 @@ Der Einsatz von E-Learning Kursen hat sich in der Arbeits- und Ausbildungswelt i
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Potocka_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Potocka_poster.pdf)
-
-*Advised by {{% mention "sabine-graf" %}}, {{% mention "gertrude-kappel" %}}*

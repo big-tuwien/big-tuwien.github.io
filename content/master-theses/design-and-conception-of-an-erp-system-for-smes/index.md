@@ -1,8 +1,11 @@
 ---
+advisors:
+- philipp-liegl
+- christian-huemer
 authors:
 - Tobias Graf
 categories: []
-date: '2020-05-08 15:44:48+00:00'
+date: '2020-05-11 21:33:14+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +33,3 @@ Hence, if a new ERP solution for SMEs should be developed, it is beneficial to u
 All basic features are described shortly, together with the way they are implemented in different ERP solutions. The focus lies on sale and warehouse management functionalities, due to the requirements of the research project ERPEL. Other features are examined as well, but not in detail. The final artifacts are among other things wireframes, showing the functional requirements for a basic ERP system. The goal is to design a widespread ERP adoption for SMEs, supporting seamless communication between different enterprises.
 
 &nbsp;
-
-*Advised by {{% mention "philipp-liegl" %}}, {{% mention "christian-huemer" %}}*

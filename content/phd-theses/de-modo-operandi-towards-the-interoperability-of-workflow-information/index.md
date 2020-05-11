@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Siegfried Reich
 categories: []
-date: '2020-05-08 18:02:40+00:00'
+date: '2020-05-11 21:33:31+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +30,3 @@ HyTime is an international standard for the exchange of time-dependent, structur
 We investigate the publishing process and derive requirements for system support. Existing systems, both research prototypes as well as commercial systems are subject of the following investigation. Based on these investigations we have specified an architecture for workflow systems. Specification and Implementation of a prototypical system developed in Visualworks\\Smalltalk demonstrate the usability of the concept by a running system. The role of workflow within CSCW (Computer Supported Cooperative Work) is investigated. Concluding remarks including the significance of our approach as well as future work finish the dissertation.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

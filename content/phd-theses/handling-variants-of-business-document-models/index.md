@@ -1,8 +1,10 @@
 ---
+advisors:
+- christian-huemer
 authors:
 - Christian Pichler
 categories: []
-date: '2020-05-08 18:02:39+00:00'
+date: '2020-05-11 21:33:31+00:00'
 external_link: ''
 image:
   caption: ''
@@ -26,5 +28,3 @@ The United Nations Centre for Trade Facilitation and Electronic Business (UN/CEF
 Having used this approach for three years in practice, it became evident that managing document model versions is a prerequisite for successfully utilizing Core Components. While managing software versions in the area of Software Engineering is well understood and successfully applied in industrial projects, the direct application of the same techniques for versioning models is conditionally appropriate. The thesis presents a model registry based on combining techniques from traditional Software Configuration Management with the concepts of Reference Modeling, where similar problems are addressed based on a different background. The benefits of such a registry include a repository for storing models and their variants, proper concepts for preserving consistency across model variants, as well as detecting similar model variants in order to reduce model complexity and duplication.
 
 &nbsp;
-
-*Advised by {{% mention "christian-huemer" %}}*

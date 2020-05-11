@@ -1,8 +1,12 @@
 ---
+advisors:
+- philip-langer
+- tanja-mayerhofer
+- gertrude-kappel
 authors:
 - Florian Zoubek
 categories: []
-date: '2020-05-08 15:44:59+00:00'
+date: '2020-05-11 21:33:25+00:00'
 external_link: ''
 image:
   caption: ''
@@ -29,5 +33,3 @@ In Model-Driven Engineering, models are the most important artifacts of a softwa
 The aim of this thesis is to develop a set of visualization techniques to visualize graphical models in the context of review processes. Prototype implementations of the resulting techniques and case studies will be used to verify the results. These prototypes will be built on top of popular open source frameworks and tools used in Model-Driven Engineering, such as Eclipse, and the Eclipse Modeling Framework.
 
 &nbsp;
-
-*Advised by {{% mention "philip-langer" %}}, {{% mention "tanja-mayerhofer" %}}, {{% mention "gertrude-kappel" %}}*

@@ -1,8 +1,11 @@
 ---
+advisors:
+- johannes-schoenboeck
+- gertrude-kappel
 authors:
 - Patrick Zwickl
 categories: []
-date: '2020-05-08 15:44:59+00:00'
+date: '2020-05-11 21:33:25+00:00'
 external_link: ''
 image:
   caption: ''
@@ -26,5 +29,3 @@ Model transformations (MT) play a key role in the Model Driven Engineering (MDE)
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Zwickl_paper1.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Zwickl_poster1.pdf)
-
-*Advised by {{% mention "johannes-schoenboeck" %}}, {{% mention "gertrude-kappel" %}}*

@@ -1,8 +1,11 @@
 ---
+advisors:
+- christian-huemer
+- gertrude-kappel
 authors:
 - Horst Kargl
 categories: []
-date: '2020-05-08 18:02:36+00:00'
+date: '2020-05-11 21:33:28+00:00'
 external_link: ''
 image:
   caption: ''
@@ -37,5 +40,3 @@ This thesis addresses the heterogeneity problems, as well as the lack of reusabl
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Kargl_H.pdf)
-
-*Advised by {{% mention "christian-huemer" %}}, {{% mention "gertrude-kappel" %}}*

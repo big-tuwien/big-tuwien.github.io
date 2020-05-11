@@ -1,8 +1,11 @@
 ---
+advisors:
+- horst-kargl
+- gertrude-kappel
 authors:
 - Oliver Motschiunigg
 categories: []
-date: '2020-05-08 15:44:52+00:00'
+date: '2020-05-11 21:33:18+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +33,3 @@ Diese Arbeit untersucht Clio in Anwendung auf Ecore-basierte Metamodelle. Es sol
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Motschiunigg_paper.pdf)
-
-*Advised by {{% mention "horst-kargl" %}}, {{% mention "gertrude-kappel" %}}*

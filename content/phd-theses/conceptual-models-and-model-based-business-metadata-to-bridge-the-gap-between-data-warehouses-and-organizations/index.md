@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Veronika Stefanov
 categories: []
-date: '2020-05-08 18:02:41+00:00'
+date: '2020-05-11 21:33:32+00:00'
 external_link: ''
 image:
   caption: ''
@@ -35,5 +37,3 @@ This thesis also introduces an approach to using models to enhance the way users
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Stefanov_pdf.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

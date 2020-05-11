@@ -1,4 +1,5 @@
 import os
+import re
 import shutil
 import urllib.request
 from datetime import datetime
@@ -26,12 +27,10 @@ def _person_id(name):
 
 
 def _title_id(title):
-    # hyphenize title, remove non ascii chars and convert to lower
-    title = title.lower().replace(':', '').replace('?', '').replace(' - ', '-').replace(' – ', '-')\
-        .replace('(', '').replace(')', '').replace('@', ' ').replace('.', '-').replace(' & ', '-')\
-        .replace('/', '-').replace('"', '').replace(',', '')\
-        .strip().replace(' ', '-')
-    return ''.join([i if ord(i) < 128 else '' for i in title])
+    # hyphenize title, remove non ascii chars and convert to lower (ik, pretty ugly)
+    title = title.lower().replace('–', '-').replace('&', '-').replace('/', '-').replace(' - ', '-').replace('.', '-')\
+        .strip().replace(' ', '-').replace('--', '-')
+    return re.sub(r'[^a-zA-Z0-9\-]+', '', title)
 
 
 def migrate_big_profile(profile_url, output_dir, create=True, picture=True):
@@ -117,15 +116,11 @@ def migrate_thesis(thesis_url, output_dir, ongoing, create=True):
     metadata = ps.pop(0)
     authors = metadata.find_all('em')
     authors = [str(a.string) for a in authors]
-    supervisors = metadata.find_all('a')
-    supervisors = [_person_id(str(sup.string)) for sup in supervisors]
+    advisors = metadata.find_all('a')
+    advisors = [_person_id(str(sup.string)) for sup in advisors]
     ps = [str(p) for p in ps]
     content_html = ''.join(ps).replace('<span class="markdown">', '').replace('</span>', '')
     content_markdown = html2markdown.convert(content_html)
-    if len(supervisors) > 0:
-        content_markdown += '\n\n' + '*Advised by ' + \
-                            ', '.join(['{{% mention "' + sup + '" %}}' for sup in supervisors]) + \
-                            '*'
 
     # create folder
     directory = f'{output_dir}/{identifier}'
@@ -144,6 +139,7 @@ def migrate_thesis(thesis_url, output_dir, ongoing, create=True):
     post = frontmatter.load(template_source)
     post['title'] = title
     post['authors'] = authors
+    post['advisors'] = advisors
     post['tags'] = [kind]
     post['date'] = date
 
@@ -338,8 +334,8 @@ def migrate_news():
 def main():
     # migrate_people()
     # migrate_visitors_and_friends()
-    # migrate_master_theses()
-    # migrate_phd_theses()
+    migrate_master_theses()
+    migrate_phd_theses()
     # migrate_projects()
     # migrate_news()
     pass

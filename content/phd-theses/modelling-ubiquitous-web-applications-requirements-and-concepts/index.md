@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Wieland Schwinger
 categories: []
-date: '2020-05-08 18:02:40+00:00'
+date: '2020-05-11 21:33:32+00:00'
 external_link: ''
 image:
   caption: ''
@@ -26,5 +28,3 @@ E-commerce and m-commerce have dramatically boosted the demand for services whic
 This thesis proposes a modelling method for ubiquitous web applications. Customisation is regarded as a new modelling dimension, influencing all other dimensions of ubiquitous web application modelling. As a prerequisite for supporting customisaiton, a set of generic models is introduced comprising a context model and arule model, togehter with several sub models. Generic means that the models provide, in the sense of an object-oriented framework, pre-defined classes and language constructs in order to model customisation. For separation of concerns the application is divided into a stable part, comprising the default, i.e., context-independent structure and behaviour and a variable, context-dependent part, thus being subject to adaptations. A set of generic adaptation operations is provided which can be complemented by application specific ones. These adaptation operations can be integrated into the ubiquitous web application on the basis of adaptation hooks. A customisation toolkit in terms of a customisation rule editor and browser supports an integrated modelling process and facilitates reusability on the basis of a repository of customisation rules, macros and patterns. Finally, a process is introduced, covering the whole task of customisation modelling, with a special focus on reusability, herewith providing a holistic view on the development process of ubiquitous web applications.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

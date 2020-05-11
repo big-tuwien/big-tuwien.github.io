@@ -1,8 +1,10 @@
 ---
+advisors:
+- christian-huemer
 authors:
 - Andreas Mehlführer
 categories: []
-date: '2020-05-08 15:44:51+00:00'
+date: '2020-05-11 21:33:18+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +32,3 @@ This application should be a domain-specific web crawler. It gathers information
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Mehlführer_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Mehlführer_poster.pdf)
-
-*Advised by {{% mention "christian-huemer" %}}*

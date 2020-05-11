@@ -1,8 +1,11 @@
 ---
+advisors:
+- gerhard-kramler
+- gertrude-kappel
 authors:
 - Manuel Wimmer
 categories: []
-date: '2020-05-08 15:44:58+00:00'
+date: '2020-05-11 21:33:24+00:00'
 external_link: ''
 image:
   caption: ''
@@ -33,5 +36,3 @@ Inwieweit die MDA-Werkzeuge diese Aufgabe automatisch erledigen können, oder an
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Wimmer_paper.pdf)
-
-*Advised by {{% mention "gerhard-kramler" %}}, {{% mention "gertrude-kappel" %}}*

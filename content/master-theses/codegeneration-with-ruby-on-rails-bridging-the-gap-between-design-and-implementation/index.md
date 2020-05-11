@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Alexander Dick
 categories: []
-date: '2020-05-08 15:44:46+00:00'
+date: '2020-05-11 21:33:12+00:00'
 external_link: ''
 image:
   caption: ''
@@ -36,5 +39,3 @@ Schließlich soll am Ende ein Framework entstehen, das zuerst zur Modellierung v
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Dick_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Dick_poster.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

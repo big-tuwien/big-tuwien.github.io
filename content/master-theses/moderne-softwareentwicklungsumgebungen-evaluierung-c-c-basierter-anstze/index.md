@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Florian Skopik
 categories: []
-date: '2020-05-08 15:44:55+00:00'
+date: '2020-05-11 21:33:21+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +35,3 @@ Eine weitere Arbeit, welche IDEs mit Java-basierten Ansätzen untersucht, wurde 
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Skopik_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Skopik_poster.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

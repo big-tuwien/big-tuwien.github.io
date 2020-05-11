@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Markus Knasmüller
 categories: []
-date: '2020-05-08 18:02:36+00:00'
+date: '2020-05-11 21:33:28+00:00'
 external_link: ''
 image:
   caption: ''
@@ -21,5 +23,3 @@ url_video: ''
 ---
 
 This work has been finished in October 1997.
-
-*Advised by {{% mention "gertrude-kappel" %}}*

@@ -1,8 +1,10 @@
 ---
+advisors:
+- manuel-wimmer
 authors:
 - Dorian Leroy
 categories: []
-date: '2020-05-08 18:02:33+00:00'
+date: '2020-05-11 21:33:26+00:00'
 external_link: ''
 image:
   caption: ''
@@ -24,5 +26,3 @@ url_video: ''
 <span style="font-family: 'Calibri',sans-serif; color: black;">Test model generation will be done following a white-box approach, leveraging the code of the transformation to achieve better results.</span>
 
 <span style="font-family: 'Calibri',sans-serif; color: black;">As the framework is aimed to be generic to any model transformation languages and to any domain-specific language, this opens up challenges such as defining generic coverage criteria.</span>
-
-*Advised by {{% mention "manuel-wimmer" %}}*

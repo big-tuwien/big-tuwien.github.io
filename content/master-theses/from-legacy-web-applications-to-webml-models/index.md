@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Max Rieder
 categories: []
-date: '2020-05-08 15:44:54+00:00'
+date: '2020-05-11 21:33:20+00:00'
 external_link: ''
 image:
   caption: ''
@@ -26,5 +29,3 @@ In the last decade the adoption of web applications instead of desktop applicati
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Rieder_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Rieder_poster.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

@@ -1,8 +1,11 @@
 ---
+advisors:
+- alexander-bergmayr
+- manuel-wimmer
 authors:
 - David Madner
 categories: []
-date: '2020-05-08 15:44:51+00:00'
+date: '2020-05-11 21:33:17+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +35,3 @@ Furthermore, the master’s thesis proposes a process, which is subdivided into 
 Existing solutions only address partial aspects of the whole problem, focusing on other objectives. One of the main goal of this thesis is the creation of a unified and model-based solution, whose processes and tools support the application modeler and make a (semi-)automatic execution of the deployment and provisioning of an application in the cloud possible.
 
 &nbsp;
-
-*Advised by {{% mention "alexander-bergmayr" %}}, {{% mention "manuel-wimmer" %}}*

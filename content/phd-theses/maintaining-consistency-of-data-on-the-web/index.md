@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Martin Bernauer
 categories: []
-date: '2020-05-08 18:02:35+00:00'
+date: '2020-05-11 21:33:27+00:00'
 external_link: ''
 image:
   caption: ''
@@ -34,5 +36,3 @@ The proposed approach provides for consistent, up-to-date Web pages any time. It
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Bernauer_M.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

@@ -1,8 +1,11 @@
 ---
+advisors:
+- christian-huemer
+- gertrude-kappel
 authors:
 - Marion Murzek
 categories: []
-date: '2020-05-08 18:02:38+00:00'
+date: '2020-05-11 21:33:30+00:00'
 external_link: ''
 image:
   caption: ''
@@ -29,5 +32,3 @@ This thesis analyzes the different ways of how business process modeling aspects
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Murzek_M.pdf)
-
-*Advised by {{% mention "christian-huemer" %}}, {{% mention "gertrude-kappel" %}}*

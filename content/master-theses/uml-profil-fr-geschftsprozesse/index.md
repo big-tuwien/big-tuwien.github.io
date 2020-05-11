@@ -1,8 +1,11 @@
 ---
+advisors:
+- beate-list
+- gertrude-kappel
 authors:
 - Birgit Korherr
 categories: []
-date: '2020-05-08 15:44:49+00:00'
+date: '2020-05-11 21:33:16+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +31,3 @@ Das UML-Profil besteht aus zwei Sichten, aus einer Überblickssicht (generelles 
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Korherr_papers.pdf)
-
-*Advised by {{% mention "beate-list" %}}, {{% mention "gertrude-kappel" %}}*

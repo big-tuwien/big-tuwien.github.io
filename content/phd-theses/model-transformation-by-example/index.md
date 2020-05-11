@@ -1,8 +1,11 @@
 ---
+advisors:
+- christian-huemer
+- gertrude-kappel
 authors:
 - Michael Strommer
 categories: []
-date: '2020-05-08 18:02:41+00:00'
+date: '2020-05-11 21:33:33+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +35,3 @@ Finally, we evaluate our approach by means of two case studies covering the stru
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Strommer_M.pdf)
-
-*Advised by {{% mention "christian-huemer" %}}, {{% mention "gertrude-kappel" %}}*

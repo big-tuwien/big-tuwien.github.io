@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Peter Lang
 categories: []
-date: '2020-05-08 18:02:37+00:00'
+date: '2020-05-11 21:33:29+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +34,3 @@ In order to cope with the complex domain of business applications, concepts for 
 The usage of modeling concepts is constrained by a set of consistency rules. They have the designer stick to a correct usage of the modeling concepts in order to achieve a consistent database schema. Even if all consistency rules are obeyed, different designers may yield different consistent database schemata, which may differ in their quality. This thesis presents guidelines for the conceptual design of active behavior in active object-oriented databases. These design guidelines should help the designer to achieve a consistent as well as a high-quality database schema, i.e., a comprehensible and maintainable database schema.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

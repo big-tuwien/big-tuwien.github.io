@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Laszlo Kiraly
 categories: []
-date: '2020-05-08 15:44:49+00:00'
+date: '2020-05-11 21:33:15+00:00'
 external_link: ''
 image:
   caption: ''
@@ -36,5 +38,3 @@ Der letzte Teil der Arbeit fasst die gewonnen Erkenntnisse zusammen, zieht eine 
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Kiraly_papers.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

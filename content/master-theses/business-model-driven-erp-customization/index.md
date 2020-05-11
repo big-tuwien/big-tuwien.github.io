@@ -1,8 +1,11 @@
 ---
+advisors:
+- dieter-mayrhofer
+- christian-huemer
 authors:
 - Thomas Gürth
 categories: []
-date: '2020-05-08 15:44:48+00:00'
+date: '2020-05-11 21:33:14+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +33,3 @@ The aim of this thesis is to undertake the first steps of the REAlist project an
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Gürth_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Gürth_poster.pdf)
-
-*Advised by {{% mention "dieter-mayrhofer" %}}, {{% mention "christian-huemer" %}}*

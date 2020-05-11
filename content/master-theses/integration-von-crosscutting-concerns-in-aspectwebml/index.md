@@ -1,8 +1,11 @@
 ---
+advisors:
+- andrea-schauerhuber
+- gertrude-kappel
 authors:
 - Cornelia Tomasek
 categories: []
-date: '2020-05-08 15:44:57+00:00'
+date: '2020-05-11 21:33:23+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +31,3 @@ Das Ziel dieser Arbeit ist daher die Implementierung eines Algorithmus zur Integ
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Tomasek_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Tomasek_poster.pdf)
-
-*Advised by {{% mention "andrea-schauerhuber" %}}, {{% mention "gertrude-kappel" %}}*

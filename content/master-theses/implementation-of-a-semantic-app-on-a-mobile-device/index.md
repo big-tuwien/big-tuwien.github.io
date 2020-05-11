@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Aleksandar Djordjevic
 categories: []
-date: '2020-05-08 15:44:46+00:00'
+date: '2020-05-11 21:33:12+00:00'
 external_link: ''
 image:
   caption: ''
@@ -26,5 +29,3 @@ The aim of this work is to implement a prototype of an android app in domain of 
 The bridge to the semantic technologies will be the second part of the work, coming out to the part while receiving extracted text. The text will be not only translated, but also semantically enriched by the information and pictures, so that a user can find out more about the content text. Another type of information the user gets, is the nutrition description of the food and their category in sense of vegetarian, vegan, etc.
 
 &nbsp;
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

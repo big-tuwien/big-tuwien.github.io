@@ -27,6 +27,7 @@
     {{ end }}
     <div class="card-text">
       <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
+      {{ partial "portfolio_metadata" $item }}
       {{ with $summary }}
       <div class="article-style">
         <p>{{ . }}</p>

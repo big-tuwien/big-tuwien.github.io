@@ -1,9 +1,12 @@
 ---
+advisors:
+- michael-strommer
+- gertrude-kappel
 authors:
 - Gerald Müller
 - Abraham Müller
 categories: []
-date: '2020-05-08 15:44:52+00:00'
+date: '2020-05-11 21:33:18+00:00'
 external_link: ''
 image:
   caption: ''
@@ -27,5 +30,3 @@ Viele momentan existierenden Ansätze sowie Sprachen zur Modelltransformation si
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Müller_Müller_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Müller_Müller_poster.pdf)
-
-*Advised by {{% mention "michael-strommer" %}}, {{% mention "gertrude-kappel" %}}*

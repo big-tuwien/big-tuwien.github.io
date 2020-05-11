@@ -1,8 +1,11 @@
 ---
+advisors:
+- bernhard-wally
+- christian-huemer
 authors:
 - Markus Reichstädter
 categories: []
-date: '2020-05-08 15:44:44+00:00'
+date: '2020-05-11 21:33:10+00:00'
 external_link: ''
 image:
   caption: ''
@@ -19,7 +22,3 @@ url_pdf: ''
 url_slides: ''
 url_video: ''
 ---
-
-
-
-*Advised by {{% mention "bernhard-wally" %}}, {{% mention "christian-huemer" %}}*

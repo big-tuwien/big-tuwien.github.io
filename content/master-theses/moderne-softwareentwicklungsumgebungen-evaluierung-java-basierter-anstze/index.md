@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Michael Wihsböck
 categories: []
-date: '2020-05-08 15:44:58+00:00'
+date: '2020-05-11 21:33:24+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +31,3 @@ In dieser Arbeit sollen die Möglichkeiten gängiger integrierter Entwicklungsum
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Wihsböck_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Wihsböck_poster.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

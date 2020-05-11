@@ -1,8 +1,11 @@
 ---
+advisors:
+- michael-strommer
+- gertrude-kappel
 authors:
 - Jeremy Solarz
 categories: []
-date: '2020-05-08 15:44:56+00:00'
+date: '2020-05-11 21:33:22+00:00'
 external_link: ''
 image:
   caption: ''
@@ -26,5 +29,3 @@ Modellgetriebene Softwareentwicklung (MDSD) soll dabei helfen, Softwaresysteme h
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Solarz_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Solarz_poster.pdf)
-
-*Advised by {{% mention "michael-strommer" %}}, {{% mention "gertrude-kappel" %}}*

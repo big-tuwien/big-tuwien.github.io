@@ -1,8 +1,10 @@
 ---
+advisors:
+- manuel-wimmer
 authors:
 - Alexander Eigner
 categories: []
-date: '2020-05-08 15:44:47+00:00'
+date: '2020-05-11 21:33:13+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +32,3 @@ Domain experts often use Domain Specific Languages (DSL) for creating their mode
  A transformation engine will be developed, which will handle the generation of the query language’s meta-model based on AutomationML’s meta-model.  
  Afterwards an engine based on VIATRA will be developed to process the queries that were designed in the generated query language.  
  The resulting query engine will be evaluated in terms of efficiency (average query-length,intuitiveness,execution time,…) and effectiveness (amount of supported functions).
-
-*Advised by {{% mention "manuel-wimmer" %}}*

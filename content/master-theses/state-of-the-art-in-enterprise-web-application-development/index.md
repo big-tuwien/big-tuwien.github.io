@@ -1,8 +1,11 @@
 ---
+advisors:
+- gerhard-kramler
+- gertrude-kappel
 authors:
 - Markus Demolsky
 categories: []
-date: '2020-05-08 15:44:46+00:00'
+date: '2020-05-11 21:33:12+00:00'
 external_link: ''
 image:
   caption: ''
@@ -36,5 +39,3 @@ The diploma thesis is attended by a practical example which demonstrates the emp
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Demolsky_papers.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Demolsky_posters.pdf)
-
-*Advised by {{% mention "gerhard-kramler" %}}, {{% mention "gertrude-kappel" %}}*

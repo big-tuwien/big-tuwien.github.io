@@ -1,8 +1,11 @@
 ---
+advisors:
+- andrea-schauerhuber
+- gertrude-kappel
 authors:
 - Gerhard Preisinger
 categories: []
-date: '2020-05-08 15:44:53+00:00'
+date: '2020-05-11 21:33:20+00:00'
 external_link: ''
 image:
   caption: ''
@@ -31,5 +34,3 @@ The primary objective of this work is to propose an Graphical Integrated Develom
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Preisinger_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Preisinger_poster.pdf)
-
-*Advised by {{% mention "andrea-schauerhuber" %}}, {{% mention "gertrude-kappel" %}}*

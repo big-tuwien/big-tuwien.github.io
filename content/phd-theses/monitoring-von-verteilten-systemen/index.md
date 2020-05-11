@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Werner Kurschl
 categories: []
-date: '2020-05-08 18:02:37+00:00'
+date: '2020-05-11 21:33:29+00:00'
 external_link: ''
 image:
   caption: ''
@@ -40,5 +42,3 @@ The sixth chapter describes the monitoring system Orwell. The architecture of th
 This work concludes with a summary of results as well as a discussion of future developments and possible research directions.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

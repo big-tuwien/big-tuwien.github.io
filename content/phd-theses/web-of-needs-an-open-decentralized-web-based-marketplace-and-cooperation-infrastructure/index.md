@@ -1,8 +1,10 @@
 ---
+advisors:
+- christian-huemer
 authors:
 - Florian Kleedorfer
 categories: []
-date: '2020-05-08 18:02:33+00:00'
+date: '2020-05-11 21:33:26+00:00'
 external_link: ''
 image:
   caption: ''
@@ -19,7 +21,3 @@ url_pdf: ''
 url_slides: ''
 url_video: ''
 ---
-
-
-
-*Advised by {{% mention "christian-huemer" %}}*

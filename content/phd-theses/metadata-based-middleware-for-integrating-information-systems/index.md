@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Elisabeth Kapsammer
 categories: []
-date: '2020-05-08 18:02:36+00:00'
+date: '2020-05-11 21:33:28+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +32,3 @@ All these systems achieve logical integration. They provide transparency with re
 Based on the experience gained by developing these three systems, a criteria catalogue is developed allowing to categorize and evaluate different kinds of metadata-based middleware. The applicability of this catalogue is demonstrated by comparing the three introduced approaches by means of the proposed criteria.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

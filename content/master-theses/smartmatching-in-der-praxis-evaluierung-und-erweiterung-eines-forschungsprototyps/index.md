@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Dominik Karall
 categories: []
-date: '2020-05-08 15:44:49+00:00'
+date: '2020-05-11 21:33:15+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +31,3 @@ SmartMatcher is a schema matching tool prototype, which has been developed at th
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=184543&amp;lang=2">publication database</a>.
 
  Download the [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Karall_posters.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

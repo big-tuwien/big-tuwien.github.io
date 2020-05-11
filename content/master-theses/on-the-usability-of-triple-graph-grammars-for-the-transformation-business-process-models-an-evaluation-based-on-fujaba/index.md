@@ -1,8 +1,11 @@
 ---
+advisors:
+- marion-murzek
+- gertrude-kappel
 authors:
 - Selin Altan
 categories: []
-date: '2020-05-08 15:44:44+00:00'
+date: '2020-05-11 21:33:10+00:00'
 external_link: ''
 image:
   caption: ''
@@ -39,5 +42,3 @@ In order to make a statement on how suitable the described approach is, a list o
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Altan_papers.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Altan_poster.pdf)
-
-*Advised by {{% mention "marion-murzek" %}}, {{% mention "gertrude-kappel" %}}*

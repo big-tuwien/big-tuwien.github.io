@@ -1,8 +1,11 @@
 ---
+advisors:
+- gerhard-kramler
+- gertrude-kappel
 authors:
 - Christian Lentsch
 categories: []
-date: '2020-05-08 15:44:50+00:00'
+date: '2020-05-11 21:33:16+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +31,3 @@ Die Realisierung erfolgte mithilfe der ArgoUML4BOTL-Applikation, welche die „B
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Lentsch_paper.pdf)
-
-*Advised by {{% mention "gerhard-kramler" %}}, {{% mention "gertrude-kappel" %}}*

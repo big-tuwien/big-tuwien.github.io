@@ -1,8 +1,11 @@
 ---
+advisors:
+- gerhard-kramler
+- gertrude-kappel
 authors:
 - Mathias Reichhold
 categories: []
-date: '2020-05-08 15:44:54+00:00'
+date: '2020-05-11 21:33:20+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +35,3 @@ Als erstes werden die relevanten Geschäftsprozesse der Buchhandlung mit UML mod
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Reichhold_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Reichhold_poster.pdf)
-
-*Advised by {{% mention "gerhard-kramler" %}}, {{% mention "gertrude-kappel" %}}*

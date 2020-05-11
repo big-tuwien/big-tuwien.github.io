@@ -1,8 +1,11 @@
 ---
+advisors:
+- alexandra-mazak
+- gertrude-kappel
 authors:
 - Alexander Wurl
 categories: []
-date: '2020-05-08 18:02:34+00:00'
+date: '2020-05-11 21:33:27+00:00'
 external_link: ''
 image:
   caption: ''
@@ -20,5 +23,3 @@ url_video: ''
 ---
 
 The dissertation project CODA addresses new, important research questions to combine operation data and configuration models/data for optimization of system configuration (engineering, planning, construction, maintenance) and operation. The results of CODA will be novel analytics methods and algorithms which will be exemplary evaluated for railway automation, but will be applicable to other domains as well. CODA will help Siemens to make rail traffic safer and more efficient, and support a promising young researcher to develop a career in industrial research.
-
-*Advised by {{% mention "alexandra-mazak" %}}, {{% mention "gertrude-kappel" %}}*

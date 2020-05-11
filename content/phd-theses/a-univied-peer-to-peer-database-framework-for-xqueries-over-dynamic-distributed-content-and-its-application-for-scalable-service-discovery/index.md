@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Wolfgang Hoschek
 categories: []
-date: '2020-05-08 18:02:36+00:00'
+date: '2020-05-11 21:33:28+00:00'
 external_link: ''
 image:
   caption: ''
@@ -33,5 +35,3 @@ The uniformity and wide applicability of our approach is distinguished from rela
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Hoschek_W.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

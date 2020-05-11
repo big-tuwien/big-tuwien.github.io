@@ -1,8 +1,11 @@
 ---
+advisors:
+- philipp-liegl
+- christian-huemer
 authors:
 - Michal Skackov
 categories: []
-date: '2020-05-08 15:44:55+00:00'
+date: '2020-05-11 21:33:21+00:00'
 external_link: ''
 image:
   caption: ''
@@ -82,5 +85,3 @@ The master’s programme in Software Engineering &amp; Internet Computing deals 
 \[20\] Gerti Kappel, Hosrt Kargl, Gerhard Kramler, Andrea Schauerhuber, Martina Seidl, Michael Strommer and Manual Wimmer, Matching Metamodels with Semantic Systems – An Experience Report, Vienna University of Technology, Verlag Mainz, 2007.
 
 &nbsp;
-
-*Advised by {{% mention "philipp-liegl" %}}, {{% mention "christian-huemer" %}}*

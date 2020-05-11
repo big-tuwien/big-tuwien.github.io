@@ -1,8 +1,12 @@
 ---
+advisors:
+- manuel-wimmer
+- andrea-schauerhuber
+- gertrude-kappel
 authors:
 - Mario Prinz
 categories: []
-date: '2020-05-08 15:44:54+00:00'
+date: '2020-05-11 21:33:20+00:00'
 external_link: ''
 image:
   caption: ''
@@ -31,5 +35,3 @@ Die Evaluierung soll aufzeigen, ob eine modellgetriebene Entwicklung mit aktuell
 &nbsp;
 
  Download the [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Prinz_poster.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "andrea-schauerhuber" %}}, {{% mention "gertrude-kappel" %}}*

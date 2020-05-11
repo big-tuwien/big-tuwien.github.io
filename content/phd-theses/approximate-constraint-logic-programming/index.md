@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Stefan Ratschan
 categories: []
-date: '2020-05-08 18:02:39+00:00'
+date: '2020-05-11 21:33:31+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +34,3 @@ Programming (Language Design and Implementation): The syntax and semantics of a 
 Constraint (Solving): A new algorithm for approximately solving first-order constraints with approximate quantifiers has been devised. The algorithm has been implemented over the domain of the real numbers.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

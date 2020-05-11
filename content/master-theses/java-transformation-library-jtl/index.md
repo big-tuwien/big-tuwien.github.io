@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Bernhard Eischer
 categories: []
-date: '2020-05-08 15:44:47+00:00'
+date: '2020-05-11 21:33:13+00:00'
 external_link: ''
 image:
   caption: ''
@@ -26,5 +29,3 @@ Transformation is an important field of software migration and modernization. Al
 To test and demonstrate parts of the jTL, a transformation of PL/I source code to Java source code should serve as examples. There is also a special interest in transforming legacy code to state-of-the-art programming language, since the challenge of migrating over decades growing legacy software application is a well-known problem since many years in industry. A well-designed transformation can be the answer to this problem or at least can act as a main element of source code migration.
 
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=247865&amp;lang=2">publication database</a>.
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

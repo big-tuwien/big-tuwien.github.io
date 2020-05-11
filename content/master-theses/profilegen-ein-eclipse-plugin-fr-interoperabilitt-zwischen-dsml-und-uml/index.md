@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Assad Lodhi
 categories: []
-date: '2020-05-08 15:44:50+00:00'
+date: '2020-05-11 21:33:17+00:00'
 external_link: ''
 image:
   caption: ''
@@ -26,5 +29,3 @@ Current software development projects comprise the development of complex softwa
 This thesis presents a tool named ProfileGen, which tackles this challenge by proposing a semi-automatic approach for generating such transformations needed for interoperability between DSMLs and UML. In particular, a mapping language is presented which allows to manually link DSML elements with UML elements on a high-level of abstraction. From such mappings, a generator framework automatically creates all artifacts needed for interoperability, including transformations from the DSMLs to UML and vice versa, as well as UML profiles for ensuring information loss free transformations .The approach is evaluated by a real-world case study, namely integrating WebML (a DSML for data-intensive Web applications) with UML.
 
 &nbsp;
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

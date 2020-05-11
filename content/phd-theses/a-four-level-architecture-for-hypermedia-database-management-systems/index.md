@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Thomas Prückler
 categories: []
-date: '2020-05-08 18:02:39+00:00'
+date: '2020-05-11 21:33:31+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +30,3 @@ One focus of the work is to show that the concept of physical and logical data i
 This thesis also shows how the HyperD architecture can be extended with the concept of Corresponding Information Content (CIC). CIC allows to model the amount and quality of the pieces of information in one media object in relationship to the pieces of information in another media object.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

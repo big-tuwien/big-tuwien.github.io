@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Dieter Merkl
 categories: []
-date: '2020-05-08 18:02:38+00:00'
+date: '2020-05-11 21:33:30+00:00'
 external_link: ''
 image:
   caption: ''
@@ -20,5 +22,3 @@ url_video: ''
 ---
 
 This work has been finished in November 1994.
-
-*Advised by {{% mention "gertrude-kappel" %}}*

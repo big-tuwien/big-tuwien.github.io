@@ -1,8 +1,11 @@
 ---
+advisors:
+- tanja-mayerhofer
+- gertrude-kappel
 authors:
 - Uwe Brunflicker
 categories: []
-date: '2020-05-08 15:44:46+00:00'
+date: '2020-05-11 21:33:12+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +33,3 @@ The main question that is dealt with in this master’s thesis is therefore: Can
 This master’s thesis focuses on the commercial UML tool Enterprise Architect \[http://www.sparxsystems.com/products/ea/index.html\], and the simulation engine provided by the plugin AMUSE \[http://www.lieberlieber.com/amuse/\] – a proprietary UML simulation tool based on code generation. For the purpose of this thesis, AMUSE’s execution engine is modified to execute fUML standard-compliant models using the execution engine specified in the fUML standard instead of using its own, proprietary engine.
 
 &nbsp;
-
-*Advised by {{% mention "tanja-mayerhofer" %}}, {{% mention "gertrude-kappel" %}}*

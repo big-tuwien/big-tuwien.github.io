@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Elke Michlmayr
 categories: []
-date: '2020-05-08 18:02:38+00:00'
+date: '2020-05-11 21:33:30+00:00'
 external_link: ''
 image:
   caption: ''
@@ -32,5 +34,3 @@ Ant algorithms include an evaporation feature for integrating a time factor when
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Michlmayr_E.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

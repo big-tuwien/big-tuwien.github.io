@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Andreas Munk
 categories: []
-date: '2020-05-08 15:44:52+00:00'
+date: '2020-05-11 21:33:18+00:00'
 external_link: ''
 image:
   caption: ''
@@ -24,5 +27,3 @@ This work has been finished in November 2011.
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=206543&amp;lang=2">publication database</a>.
 
  Download the [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Munk_poster.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

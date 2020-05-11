@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Thomas Herzog
 categories: []
-date: '2020-05-08 15:44:48+00:00'
+date: '2020-05-11 21:33:14+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +30,3 @@ It provides sufficient information for a small or medium enterprise to choose a 
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Herzog_paper.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

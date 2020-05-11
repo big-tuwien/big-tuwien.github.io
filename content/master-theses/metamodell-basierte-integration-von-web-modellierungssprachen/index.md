@@ -1,8 +1,11 @@
 ---
+advisors:
+- manuel-wimmer
+- gertrude-kappel
 authors:
 - Ahu Zeynep Yücel
 categories: []
-date: '2020-05-08 15:44:58+00:00'
+date: '2020-05-11 21:33:24+00:00'
 external_link: ''
 image:
   caption: ''
@@ -30,5 +33,3 @@ Diese Arbeit versucht eine erste Lösung für das Interoperabilitätsproblem zwi
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Yücel_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Yücel_poster.pdf)
-
-*Advised by {{% mention "manuel-wimmer" %}}, {{% mention "gertrude-kappel" %}}*

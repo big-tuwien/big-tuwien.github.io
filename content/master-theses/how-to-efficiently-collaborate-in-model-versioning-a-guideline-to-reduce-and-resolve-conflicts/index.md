@@ -1,8 +1,12 @@
 ---
+advisors:
+- martina-seidl
+- petra-kaufmann
+- gertrude-kappel
 authors:
 - Melanie Kapellner
 categories: []
-date: '2020-05-08 15:44:49+00:00'
+date: '2020-05-11 21:33:15+00:00'
 external_link: ''
 image:
   caption: ''
@@ -25,5 +29,3 @@ This work has been finished in August 2010.
 Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=187690&amp;lang=2">publication database</a>.
 
  Download the [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Kapellner_poster.pdf)
-
-*Advised by {{% mention "martina-seidl" %}}, {{% mention "petra-kaufmann" %}}, {{% mention "gertrude-kappel" %}}*

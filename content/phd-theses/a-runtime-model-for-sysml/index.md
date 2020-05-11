@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Sabine Wolny
 categories: []
-date: '2020-05-08 18:02:34+00:00'
+date: '2020-05-11 21:33:27+00:00'
 external_link: ''
 image:
   caption: ''
@@ -24,5 +26,3 @@ Sabine Wolny ist Dissertantin im Doktorratskolleg CPPS – <a href="https://dc-c
 Details ihrer Arbeit finden sich <a href="https://dc-cpps.tuwien.ac.at/dissertation_subjects/modeling_of_cpps/" rel="noopener" target="_blank">hier</a>.
 
 &nbsp;
-
-*Advised by {{% mention "gertrude-kappel" %}}*

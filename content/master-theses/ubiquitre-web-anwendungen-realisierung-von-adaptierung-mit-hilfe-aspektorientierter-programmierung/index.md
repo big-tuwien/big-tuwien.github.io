@@ -1,8 +1,11 @@
 ---
+advisors:
+- andrea-schauerhuber
+- gertrude-kappel
 authors:
 - Petra Brosch
 categories: []
-date: '2020-05-08 15:44:45+00:00'
+date: '2020-05-11 21:33:11+00:00'
 external_link: ''
 image:
   caption: ''
@@ -31,5 +34,3 @@ Der Fokus dieser Arbeit liegt auf Aspektorientierung in der Entwicklung von ubiq
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Brosch_paper.pdf) and [poster](https://www.big.tuwien.ac.at/app/uploads/2016/10/Brosch_poster.pdf)
-
-*Advised by {{% mention "andrea-schauerhuber" %}}, {{% mention "gertrude-kappel" %}}*

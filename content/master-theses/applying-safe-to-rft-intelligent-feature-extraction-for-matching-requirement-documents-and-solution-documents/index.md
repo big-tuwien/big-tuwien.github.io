@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Alexander Schörghuber
 categories: []
-date: '2020-05-08 15:44:55+00:00'
+date: '2020-05-11 21:33:21+00:00'
 external_link: ''
 image:
   caption: ''
@@ -19,7 +21,3 @@ url_pdf: ''
 url_slides: ''
 url_video: ''
 ---
-
-
-
-*Advised by {{% mention "gertrude-kappel" %}}*

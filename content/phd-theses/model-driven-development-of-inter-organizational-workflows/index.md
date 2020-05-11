@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Gerhard Kramler
 categories: []
-date: '2020-05-08 18:02:36+00:00'
+date: '2020-05-11 21:33:29+00:00'
 external_link: ''
 image:
   caption: ''
@@ -28,5 +30,3 @@ The goal of this thesis is to exploit the application of MDA for model driven de
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Kramler_G.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*

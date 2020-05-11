@@ -1,8 +1,10 @@
 ---
+advisors:
+- gertrude-kappel
 authors:
 - Andrea Schauerhuber
 categories: []
-date: '2020-05-08 15:44:54+00:00'
+date: '2020-05-11 21:33:20+00:00'
 external_link: ''
 image:
   caption: ''
@@ -29,5 +31,3 @@ Der Schwerpunkt der vorliegenden Diplomarbeit ist die Entwicklung eines Architek
 &nbsp;
 
  Download the [paper](https://www.big.tuwien.ac.at/app/uploads/2016/10/Schauerhuber_paper.pdf)
-
-*Advised by {{% mention "gertrude-kappel" %}}*
