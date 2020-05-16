@@ -8,26 +8,6 @@ menu:
   teaching:
     name: Rooms
     weight: 6
-
-widget: blank
-headless: true
-active: true
-weight: 60
-title: Rooms
-subtitle: ''
-design:
-  columns: '1'
-  background:
-    text_color_light: false
-  spacing:
-    padding:
-      - 20px
-      - '0'
-      - 20px
-      - '0'
-advanced:
-  css_style: ''
-  css_class: ''
 ---
 
 ## Reservation List
