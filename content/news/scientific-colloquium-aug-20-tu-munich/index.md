@@ -17,4 +17,4 @@ title: 'Scientific Colloquium: Aug. 20, TU Munich'
 ---
 
 Topic: „Model-coupling / Inconsistency management and Optimization across models“. 
-{{% staticref "files/FlyerSFBWisKol.pdf" "newtab" %}}Program{{% /staticref %}}
+{{% staticref "files/news/FlyerSFBWisKol.pdf" "newtab" %}}Program{{% /staticref %}}

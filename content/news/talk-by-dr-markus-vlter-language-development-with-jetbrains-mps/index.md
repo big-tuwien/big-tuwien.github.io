@@ -18,4 +18,4 @@ title: 'Talk by Dr. Markus Völter: „Language Development with Jetbrains MPS�
 
 **When?** January 14th, 2019, 1.15 p.m.  
 **Where?** Karlsplatz 13, HS 13, staircase 7, 2nd floor  
-{{% staticref "files/TalkVölter140119.pdf" "newtab" %}}Talk Völter 140119{{% /staticref %}}
+{{% staticref "files/news/TalkVölter140119.pdf" "newtab" %}}Talk Völter 140119{{% /staticref %}}

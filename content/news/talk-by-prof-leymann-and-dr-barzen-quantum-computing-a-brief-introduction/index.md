@@ -18,4 +18,4 @@ title: 'Talk by Prof. Leymann and Dr. Barzen: „Quantum Computing: A Brief Intr
 
 **When?** October 25th, 2019, 2 p.m.  
 **Where?** TU Wien, 1040 Vienna, Favoritenstraße 9-11, lecture room Zemanek, ground floor  
-{{% staticref "files/AnnouncementLeymannBarzen.pdf" "newtab" %}}Announcement Leymann Barzen{{% /staticref %}}
+{{% staticref "files/news/AnnouncementLeymannBarzen.pdf" "newtab" %}}Announcement Leymann Barzen{{% /staticref %}}

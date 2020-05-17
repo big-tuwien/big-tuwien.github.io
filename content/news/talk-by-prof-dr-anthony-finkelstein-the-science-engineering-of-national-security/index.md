@@ -19,4 +19,4 @@ title: 'Talk by Prof. Dr. Anthony Finkelstein: „The Science & Engineering of N
 
 **When?** March 14th, 2019, 5 p.m.  
 **Where?** TU Wien, 1040 Vienna, Favoritenstraße 9-11, lecture room Zemanek, ground floor  
-{{% staticref "files/TalkAnnouncementFinkelstein.pdf" "newtab" %}}Talk Announcement Finkelstein{{% /staticref %}}
+{{% staticref "files/news/TalkAnnouncementFinkelstein.pdf" "newtab" %}}Talk Announcement Finkelstein{{% /staticref %}}

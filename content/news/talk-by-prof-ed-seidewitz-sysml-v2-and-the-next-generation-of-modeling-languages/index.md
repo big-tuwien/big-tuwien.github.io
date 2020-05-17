@@ -19,4 +19,4 @@ title: 'Talk by Prof. Ed Seidewitz: „SysML v2 and the Next Generation of Model
 
 **When?** February 18th, 2019, 4 p.m.  
 **Where?** TU Wien, 1040 Vienna, Favoritenstraße 9-11, lecture room Zemanek, groundfloor  
-{{% staticref "files/TalkAnnouncementSeidewitz.pdf" "newtab" %}}Talk Announcement Seidewitz{{% /staticref %}}
+{{% staticref "files/news/TalkAnnouncementSeidewitz.pdf" "newtab" %}}Talk Announcement Seidewitz{{% /staticref %}}

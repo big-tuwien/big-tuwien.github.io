@@ -7,19 +7,7 @@
       {{ partial "docs_sidebar" . }}
     </div>
 
-    {{ if .Params.toc }}
-    <div class="d-none d-xl-block col-xl-2 docs-toc">
-      <ul class="nav toc-top">
-        <li><a href="#" id="back_to_top" class="docs-toc-title">{{ i18n "on_this_page" }}</a></li>
-      </ul>
-
-      {{ .TableOfContents }}
-
-      {{ partial "docs_toc_foot" . }}
-    </div>
-    {{ end }}
-
-    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+    <main class="col-12 col-md-9 col-xl-10 py-md-3 pl-md-5 docs-content" role="main">
 
       <article class="article">
       {{ if $widget }}
@@ -33,19 +21,15 @@
         {{ $widget_args := dict "root" $ "page" . "hash_id" $hash_id }}
         {{ $css_classes := .Params.advanced.css_class | default "" }}
         {{ $extra_attributes := "" }}
-        {{ $use_container := true }}
 
         {{/* Special case: Slider widget. */}}
         {{ if in (slice "slider") $widget }}
           {{ $css_classes = print $css_classes " carousel slide" }}
           {{ $extra_attributes = printf "data-ride=\"carousel\" data-interval=\"%s\"" (string .Params.interval | default "5000") }}
-          {{ $use_container = false }}
         {{ end }}
 
-        <div class="docs-article-container {{printf "wg-%s" (replace $widget "_" "-")}} {{with $css_classes}}{{.}}{{end}}" {{print $extra_attributes | safeHTMLAttr}}>
-          {{if $use_container}}<div class="container">{{end}}
-            {{ partial $widget_path $widget_args }}
-          {{if $use_container}}</div>{{end}}
+        <div class="{{printf "wg-%s" (replace $widget "_" "-")}} {{with $css_classes}}{{.}}{{end}}" {{print $extra_attributes | safeHTMLAttr}}>
+          {{ partial $widget_path $widget_args }}
         </div>
       {{ else }}
         <div class="docs-article-container">

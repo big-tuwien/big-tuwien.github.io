@@ -19,4 +19,4 @@ title: Guest talk by Prof. Benoit Combemale
 Topic: Modeling for Sustainability - Or How to Make Smart CPS Smarter?
 When: **May 15th, 2018, 5 p.m.** Where: **TU Vienna**, seminar room 183/2, Favoritenstraße 9-11, 1040 Vienna, 
 staircase 1, 4th floor, room HA0403 
-{{% staticref "files/ModelingforSustainability.pdf" "newtab" %}}Talk Details{{% /staticref %}}
+{{% staticref "files/news/ModelingforSustainability.pdf" "newtab" %}}Talk Details{{% /staticref %}}

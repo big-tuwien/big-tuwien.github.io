@@ -20,4 +20,4 @@ March 2nd, 2016, 5 p.m.
 Technische Universität Wien  
 Favoritenstraße 11 / Ground Floor  
 Seminarraum Zemanek  
-{{% staticref "files/TalkByBernhardRumpe.pdf" "newtab" %}}Announcement{{% /staticref %}}
+{{% staticref "files/news/TalkByBernhardRumpe.pdf" "newtab" %}}Announcement{{% /staticref %}}

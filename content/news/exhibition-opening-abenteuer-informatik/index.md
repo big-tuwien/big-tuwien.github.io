@@ -17,4 +17,4 @@ title: Exhibition opening „Abenteuer Informatik“
 ---
 
 Our exhibition "Abenteuer Informatik" in the Foyer of the Favoritenstraße 9-11 will officially be opened on June, 11th 
-{{% staticref "files/EinladungEroeffnungAbenteuerInformatik.pdf" "newtab" %}}program of the opening{{% /staticref %}}
+{{% staticref "files/news/EinladungEroeffnungAbenteuerInformatik.pdf" "newtab" %}}program of the opening{{% /staticref %}}

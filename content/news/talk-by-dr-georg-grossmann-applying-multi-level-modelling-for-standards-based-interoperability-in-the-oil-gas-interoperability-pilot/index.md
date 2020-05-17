@@ -19,4 +19,4 @@ title: 'Talk by Dr. Georg Grossmann: „Applying Multi-Level Modelling for Stand
 
 **When?** January 28<sup>th</sup>, 2019,&nbsp;1 p.m.  
 **Where?** TU Wien, 1040 Wien, Favoritenstraße 9-11, meeting room HD 0215, 2<sup>nd</sup> floor  
-{{% staticref "files/TalkAnnouncementGrossmann.pdf" "newtab" %}}Talk AnnouncementGrossmann{{% /staticref %}}
+{{% staticref "files/news/TalkAnnouncementGrossmann.pdf" "newtab" %}}Talk AnnouncementGrossmann{{% /staticref %}}
