@@ -9,7 +9,6 @@
   }
 
   flex-direction: column;
-  align-items: center;
 }
 
 #container-courses {
@@ -25,4 +24,8 @@
 
 .card h4 {
   text-transform: none;
+}
+
+.anchorjs-link {
+  display: none;
 }

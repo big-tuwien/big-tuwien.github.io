@@ -34,21 +34,21 @@
         </section>
       {{ else }}
       <article class="article">
-        <div class="docs-article-container">
+        <div class="center-text">
           <h1>{{ .Title }}</h1>
-
-          <div class="article-style">
-            {{ .Content }}
-          </div>
-
-          {{ partial "tags.html" . }}
-
-          {{ if site.Params.docs_section_pager }}
-          <div class="article-widget">
-            {{ partial "section_pager" . }}
-          </div>
-          {{ end }}
         </div>
+
+        <div class="article-style">
+          {{ .Content }}
+        </div>
+
+        {{ partial "tags.html" . }}
+
+        {{ if site.Params.docs_section_pager }}
+        <div class="article-widget">
+          {{ partial "section_pager" . }}
+        </div>
+        {{ end }}
       </article>
       {{ end }}
 

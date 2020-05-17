@@ -3,42 +3,25 @@
 {{ $datafolder := "/data/teaching/courses" }}
 
 {{ $semesters := getJSON (printf "%s/semesters.json" $datafolder) }}
+{{ $idx := $page.Param "element" }}
+{{ $sem := index $semesters $idx }}
+{{ $courses := getJSON (printf "%s/%s.json" $datafolder $sem) }}
 
-<div class="row courses-widget pt-4">
+<div class="row col-lg-12 courses-widget">
   {{ with $page.Title }}
-  <div class="col-md-12 section-heading mb-4">
+  <div class="col-md-12 section-heading">
     <h1>{{ . | markdownify | emojify }}</h1>
     {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
   </div>
   {{ end }}
 
-  <div class="form-row">
-    <div class="col-auto">
-      <select class="courses-filter form-control form-control-sm" data-filter="semester">
-        {{range $semesters }}
-        <option value="{{ . }}">{{ . }}</option>
-        {{ end }}
-      </select>
-    </div>
-  </div>
-
-  <div id="container-courses">
-    {{ range $sem := $semesters }}
-
-    {{ $courses := getJSON (printf "%s/%s.json" $datafolder $sem) }}
-
-    <div class="col-lg-12 semester semester-{{ $sem }}">
-      <h2>{{ $sem }}</h2>
-      <h3>Lectures and Exercises</h3>
-      <div class="full-width">{{ partial "course_table" $courses.lectures_exercises }}</div>
-      <h3>Seminars and Projects</h3>
-      <div class="full-width">{{ partial "course_table" $courses.seminars_projects }}</div>
-      {{ if (ne ($courses.other | len) 0) }}
-      <h3>Other</h3>
-      <div class="full-width">{{ partial "course_table" $courses.other }}</div>
-      {{ end }}
-    </div>
-
-    {{ end }}
-  </div>
+  <h2>{{ $sem }}</h2>
+  <h3>Lectures and Exercises</h3>
+  <div class="full-width">{{ partial "course_table" $courses.lectures_exercises }}</div>
+  <h3>Seminars and Projects</h3>
+  <div class="full-width">{{ partial "course_table" $courses.seminars_projects }}</div>
+  {{ if (ne ($courses.other | len) 0) }}
+  <h3>Other</h3>
+  <div class="full-width">{{ partial "course_table" $courses.other }}</div>
+  {{ end }}
 </div>

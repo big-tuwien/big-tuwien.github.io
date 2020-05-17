@@ -18,6 +18,7 @@ menu:
 
 # Courses widget.
 widget: courses  # See https://sourcethemes.com/academic/docs/page-builder/
+element: 0
 title: Courses
 headless: true  # This file represents a page section.
 active: true  # Activate this widget? true/false
