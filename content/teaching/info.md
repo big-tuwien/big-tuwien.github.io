@@ -10,8 +10,6 @@ menu:
     weight: 7
 ---
 
-## Further Information @ BIG
-
 ### Studying Business Informatics or Informatics
 
 *   [Business informatics at TU Vienna](http://www.informatik.tuwien.ac.at/lehre/studienplaene/wirtschaftsinformatik)
@@ -23,18 +21,18 @@ menu:
 ### Guidelines for seminars and theses
 
 *   [Master’s thesis template](http://www.informatik.tuwien.ac.at/dekanat/diplomarbeit-template-en-LaTeX.zip)
-*   [Seminar paper template (german)](http://www.big.tuwien.ac.at/files/teaching/guidelines/Seminararbeit.zip)
-*   [Seminar paper template (english)](http://www.big.tuwien.ac.at/files/teaching/guidelines/Seminararbeit_en.zip)
-*   [BIG logos](http://www.big.tuwien.ac.at/files/teaching/guidelines/logo.zip)
+*   {{% staticref "files/teaching/info/Seminararbeit.zip" "newtab" %}}Seminar paper template (german){{% /staticref %}}
+*   {{% staticref "files/teaching/info/Seminararbeit_en.zip" "newtab" %}}Seminar paper template (english){{% /staticref %}}
+*   {{% staticref "files/teaching/info/logo.zip" "newtab" %}}BIG logos{{% /staticref %}}
 
 All papers and theses written at the Business Informatics Group must be written in LaTex and must follow the rules defined in the templates above. Furthermore master’s theses and bachelor’s theses must be in accordance with the [rules and guidelines of the faculty of informatics.](http://www.informatik.tuwien.ac.at/studium/richtlinien/)
 
 ### Research Guidelines
 
-*   [Guidelines for seminar talks](http://www.big.tuwien.ac.at/files/teaching/guidelines/seminarvortrag.pdf)
-*   [How to give a good research talk](http://www.big.tuwien.ac.at/files/teaching/guidelines/how_to_give_a_good_talk.pdf)
-*   [Guide for searching literature](http://www.big.tuwien.ac.at/files/teaching/guidelines/AnleitungZurLiteratursuche.pdf)
-*   [Presentation checklist](http://www.big.tuwien.ac.at/files/teaching/guidelines/Presentation_CheckList.pdf)
+*   {{% staticref "files/teaching/info/seminarvortrag.pdf" "newtab" %}}Guidelines for seminar talks{{% /staticref %}}
+*   {{% staticref "files/teaching/info/how_to_give_a_good_talk.pdf" "newtab" %}}How to give a good research talk{{% /staticref %}}
+*   {{% staticref "files/teaching/info/AnleitungZurLiteratursuche.pdf" "newtab" %}}Guide for searching literature{{% /staticref %}}
+*   {{% staticref "files/teaching/info/Presentation_CheckList.pdf" "newtab" %}}Presentation checklist{{% /staticref %}}
 
 ### <a id="digitalLibraries"></a>Digital Libraries
 
@@ -59,7 +57,7 @@ All papers and theses written at the Business Informatics Group must be written 
 *   [Applying to Ph.D. Programs in Computer Science](http://www.cs.cmu.edu/~harchol/gradschooltalk.pdf) by[Mor Harchol-Balter](http://www-2.cs.cmu.edu/~harchol/)
 *   [Advice to a Beginning Graduate Student](http://www-2.cs.cmu.edu/~mblum/research/pdf/grad.html) by[Manuel Blum](http://www.cs.cmu.edu/~mblum/)
 *   [The Researchers Bible](http://homepages.inf.ed.ac.uk/bundy/how-tos/resbible.html) by[Alan Bundy et al.](http://www.cs.cmu.edu/~mblum/)
-*   [The Researchers Bible (Modified)](http://www.big.tuwien.ac.at/files/teaching/guidelines/researchers_bible.pdf) by Vance Gledhill
+*   {{% staticref "files/teaching/info/researchers_bible.pdf" "newtab" %}}The Researchers Bible (Modified){{% /staticref %}}
 *   [Tips and Tricks for Communication in Computer Science: Reviews, Papers and Talks ](http://users-cs.au.dk/danvy/tips-and-tricks.html)by Olivier Danvy
 *   [The illustrated guide to a Ph.D.](http://matt.might.net/articles/phd-school-in-pictures/) by Matt Might
 
@@ -70,9 +68,9 @@ All papers and theses written at the Business Informatics Group must be written 
 
 #### Presenting and Reviewing
 
-*   [How to give a good research talk](http://www.big.tuwien.ac.at/files/teaching/guidelines/how_to_give_a_good_talk.pdf) by Simon P. Jones et al.
-*   [How to give a good research talk: Slides](http://www.big.tuwien.ac.at/files/teaching/guidelines/good_research_talk_slides.pdf) by Simon P. Jones
-*   [The Task of the Referee](http://www.big.tuwien.ac.at/files/teaching/guidelines/task_of_the_referee.pdf) by Alan Jay Smith
+*   {{% staticref "files/teaching/info/how_to_give_a_good_talk.pdf" "newtab" %}}How to give a good research talk{{% /staticref %}}
+*   {{% staticref "files/teaching/info/good_research_talk_slides.pdf" "newtab" %}}How to give a good research talk: Slides{{% /staticref %}}
+*   {{% staticref "files/teaching/info/task_of_the_referee.pdf" "newtab" %}}The Task of the Referee{{% /staticref %}}
 
 #### Research Methodologies
 
@@ -83,8 +81,8 @@ All papers and theses written at the Business Informatics Group must be written 
 *   [Should computer scientists experiment more?](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=675631&isnumber=14870) by Walter F. Tichy in IEEE Computer Vol. 31, No. 5\. pp. 32-40, 1998.
 *   [Experimental models for validating technology](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=675630&isnumber=14870) by Marvin V. Zelkowitz, and Dolores R. Wallace in IEEE Computer Vol. 31, No. 5\. pp. 23-31, 1998.
 *   A Theoreticians Guide to the Experimental Analysis of Algorithms by David S. Johnson in the Proceedings of the 5th and 6th DIMACS Implementation Challenges, Goldwasser, Johnson, and McGeoch (eds.), American Mathematical Society, 2002.
-*   [A Multi-Perspective Framework for Evaluating Conceptual Models in Organisational Change](http://www.big.tuwien.ac.at/files/teaching/guidelines/evaluating_conceptual_models.pdf) by Frank Wolff, and Ulrich Frank
-*   [Multi-Perspective Enterprise Modeling (MEMO) – Conceptual Framework and Modeling Languages](http://www.big.tuwien.ac.at/files/teaching/guidelines/Enterprise_Modeling.pdf) by Ulrich Frank
+*   {{% staticref "files/teaching/info/evaluating_conceptual_models.pdf" "newtab" %}}A Multi-Perspective Framework for Evaluating Conceptual Models in Organisational Change{{% /staticref %}} by Frank Wolff, and Ulrich Frank
+*   {{% staticref "files/teaching/info/Enterprise_Modeling.pdf" "newtab" %}}Multi-Perspective Enterprise Modeling (MEMO) – Conceptual Framework and Modeling Languages{{% /staticref %}} by Ulrich Frank
 *   [Conceptual Modelling as the Core of the Information Systems Discipline – Perspectives and Epistemological Challenges](http://www.wit.at/research/tips/conceptual_modellingAMCIS99.pdf) by Ulrich Frank
 *   [A bibliography of Cognitive Dimensions papers](http://www.cl.cam.ac.uk/%7Eafb21/CognitiveDimensions/CDbibliography.html) by Alan Blackwell
 
