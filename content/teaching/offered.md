@@ -26,6 +26,7 @@ content:
     author: ''
     exclude_featured: false
 design:
+  columns: '1'
   view: 3
 advanced:
   css_style: ''

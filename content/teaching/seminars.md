@@ -29,6 +29,7 @@ content:
     exclude_past: false
     exclude_future: false
 design:
+  columns: '1'
   view: 2
 advanced:
   css_style: ''
