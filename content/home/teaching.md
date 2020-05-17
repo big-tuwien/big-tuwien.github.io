@@ -52,4 +52,4 @@ gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum d
 elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 At vero eos et accusam et justo duo dolores et ea rebum.
 
-[View offered topics and courses]({{< ref "/teaching" >}})
+[More on teaching @ BIG]({{< ref "/teaching" >}})

@@ -9,8 +9,9 @@
 
     <main class="col-12 col-md-9 col-xl-10 py-md-3 pl-md-5 docs-content" role="main">
 
-      <article class="article">
       {{ if $widget }}
+        <span class="js-widget-page d-none"></span>
+
         {{/* Fix Hugo's ContentBaseName returning wrong file base name when page section is within a bundle. */}}
         {{ $hash_id := replace .File.ContentBaseName "index" (path.Base (path.Split .Path).Dir) }}
 
@@ -28,10 +29,11 @@
           {{ $extra_attributes = printf "data-ride=\"carousel\" data-interval=\"%s\"" (string .Params.interval | default "5000") }}
         {{ end }}
 
-        <div class="{{printf "wg-%s" (replace $widget "_" "-")}} {{with $css_classes}}{{.}}{{end}}" {{print $extra_attributes | safeHTMLAttr}}>
+        <section class="{{printf "wg-%s" (replace $widget "_" "-")}} {{with $css_classes}}{{.}}{{end}}" {{print $extra_attributes | safeHTMLAttr}}>
           {{ partial $widget_path $widget_args }}
-        </div>
+        </section>
       {{ else }}
+      <article class="article">
         <div class="docs-article-container">
           <h1>{{ .Title }}</h1>
 
@@ -47,9 +49,8 @@
           </div>
           {{ end }}
         </div>
-      {{ end }}
-
       </article>
+      {{ end }}
 
       {{ partial "site_footer" . }}
 
