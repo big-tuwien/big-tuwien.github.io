@@ -16,12 +16,10 @@ pairs:
 role: Assistant Prof. Mag.rer.soc.oec. Dr.rer.soc.oec.
 superuser: false
 user_groups:
-- Visitors and Friends
+- Former Staff
 ---
 
 ##### Short CV
-
-
 
 Since March 2019, Manuel Wimmer is Full Professor and Head of the Department of Business Informatics – Software Engineering at JKU Linz, Austria.  
  Manuel Wimmer was assistant professor at the Business Informatics Group (BIG), TU Wien, Austria. He received his Ms and PhD degrees in business informatics from the TU Wien in 2005 and 2008, respectively. He is one of the prize winners of the Award of Excellence 2008 assigned by the Austrian Federal Ministry of Science and Research for his PhD thesis. In 2014, he received his Habilitation (venia docendi) in Informatics from the Vienna University of Technology.

@@ -11,4 +11,4 @@ user_groups:
 - Visitors and Friends
 ---
 
-<span class="markdown">I am studying Business Informatics („Wirtschaftsinformatik“) at the Vienna University of Technology since 2003. During my study I worked as tutor and Teaching Assistant at the Business Informatics Group (BIG).</span>
+I am studying Business Informatics („Wirtschaftsinformatik“) at the Vienna University of Technology since 2003. During my study I worked as tutor and Teaching Assistant at the Business Informatics Group (BIG).

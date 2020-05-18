@@ -11,5 +11,5 @@ pairs:
 role: null
 superuser: false
 user_groups:
-- Visitors and Friends
+- Former Staff
 ---
