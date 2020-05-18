@@ -13,5 +13,5 @@ pairs:
 role: Univ.Ass. Dipl.-Ing. Dr.sc. BSc
 superuser: false
 user_groups:
-- Research
+- Teaching
 ---

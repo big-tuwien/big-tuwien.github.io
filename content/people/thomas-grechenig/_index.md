@@ -14,7 +14,7 @@ pairs:
 role: Ao.Univ.Prof. Dipl.-Ing. Dr.techn.
 superuser: false
 user_groups:
-- Research
+- Teaching
 ---
 
 see: [www.inso.tuwien.ac.at](http://www.inso.tuwien.ac.at/)
