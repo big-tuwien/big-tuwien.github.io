@@ -186,7 +186,8 @@ def parse_publications(publications, bib_db, author_transform_map):
         if pub_type in type_map:
             pub_type = type_map[pub_type]
         else:
-            print(f'Unknown Type: {pub_type} @ {pub_id}')
+            # if this error occurs, there is not mapping for the given pub_type in the dicts above.
+            print(f'Skipping publication "{pub_id}" due to unknown pub-type: {pub_type}.')
             continue
 
         # get abstract and strip all <br> tags
@@ -271,11 +272,18 @@ def parse_publications(publications, bib_db, author_transform_map):
             extra_data['starts'] = pub[pub_type]['datum_von']
             extra_data['pages'] = pub[pub_type]['seite_von_bis']"""
 
+        reference_search = re.search(r';(.*)<a href', pub['reference'])
+
+        extra = None
+        if reference_search:
+            extra = reference_search.group(1)
+            extra = re.sub(r' {2,}', ' ', re.sub('<[^<]+?>', '', extra).strip())  # remove html and normalize whitespace
+
         # create the post
         post = frontmatter.Post(content='', title=title, authors=authors, date=f'{year}-{month}-{day}',
                                 publishDate=f'{year}-{month}-{day}', publication_types=[str(academic_type)],
-                                abstract=abstract, featured=False, url_pdf=pdf_link,
-                                links=[{'name': 'Publik', 'url': publik_link}], **extra_data)
+                                abstract=abstract, featured=False, url_pdf=pdf_link, specifics=extra,
+                                links=[{'name': 'Publik', 'url': publik_link}])
 
         posts.append((pub_id, post))
 
@@ -308,14 +316,14 @@ def parse_bibtex(bibtex):
     return bib_database
 
 
-def save_publications(posts, bib_db, pub_dir):
+def save_publications(posts, bib_db, pub_dir, override=False):
     for identifier, post in posts:
         directory = f'{pub_dir}/{identifier}'
 
         # create folder
         if not os.path.exists(directory):
             os.makedirs(directory)
-        else:
+        elif not override:
             continue
 
         bib_entry = None
@@ -366,6 +374,9 @@ def main():
         print('Aborting as there is nothing to do. Run with "-h" for help.')
         return
 
+    if not args.override:
+        print('Override is disabled. Existing files will not be touched. Run with "-o" to enable override.')
+
     base_dir = args.base_path.rstrip('/')
     data_dir = base_dir + '/data'
     content_dir = base_dir + '/content'
@@ -409,8 +420,7 @@ def main():
             if not os.path.exists(directory):
                 print(f'Creating author files for {name}')
                 os.makedirs(directory)
-            else:
-                print(f'Skipping {name} ({person["identifier"]}) - profile already exists')
+            elif not args.override:
                 continue
 
             # download profile pic or copy default
