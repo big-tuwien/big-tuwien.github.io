@@ -24,12 +24,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=228607&lang=2
+publication: 'Vortrag: The 16th IEEE Conference on Business Informatics (CBI), Geneva,
+  Switzerland; 14.07.2014 - 17.07.2014; in: "Proceedings of The 16th IEEE Conference
+  on Business Informatics (CBI)", IEEE, (2014), S. 17 - 24'
 publication_types:
 - '1'
 publishDate: '2014-07-14'
-specifics: 'Vortrag: The 16th IEEE Conference on Business Informatics (CBI), Geneva,
-  Switzerland; 14.07.2014 - 17.07.2014; in: "Proceedings of The 16th IEEE Conference
-  on Business Informatics (CBI)", IEEE, (2014), S. 17 - 24.'
 title: A Framework for Inter-organizational Performance Analysis from EDI Messages
 url_pdf: ''
 ---

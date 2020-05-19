@@ -29,12 +29,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=267878&lang=2
+publication: 'Vortrag: 2nd Suicide & Self-Harm Early Career Researchers´ Forum (ECRF17),
+  Glasgow, UK (eingeladen); 08.06.2017 - 09.06.2017; in: "2nd Suicide & Self-Harm
+  Early Career Researchers´ Forum (ECRF17)", SBRL, (2017), S. 14'
 publication_types:
 - '1'
 publishDate: '2017-06-08'
-specifics: 'Vortrag: 2nd Suicide & Self-Harm Early Career Researchers´ Forum (ECRF17),
-  Glasgow, UK (eingeladen); 08.06.2017 - 09.06.2017; in: "2nd Suicide & Self-Harm
-  Early Career Researchers´ Forum (ECRF17)", SBRL, (2017), S. 14.'
 title: 'Designing for change: uncovering the patient perspective in developing mobile
   apps for borderline and self-injury'
 url_pdf: ''

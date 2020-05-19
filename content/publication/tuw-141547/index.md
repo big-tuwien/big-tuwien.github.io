@@ -17,14 +17,14 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141547&lang=2
+publication: 'Vortrag: Conference & Workshop on Assistive Technologies for People
+  with Vision & Hearing Impairments: Assistive Technology for All Ages, CVHI 2007,
+  Granada, Spain; 28.08.2007 - 31.08.2007; in: "Proceedings of the Conference and
+  Workshop on Assistive Technology for People with Vision and Hearing Impairments",
+  M. Hersh (Hrg.); (2007), 6 S'
 publication_types:
 - '1'
 publishDate: '2007-08-28'
-specifics: 'Vortrag: Conference & Workshop on Assistive Technologies for People with
-  Vision & Hearing Impairments: Assistive Technology for All Ages, CVHI 2007, Granada,
-  Spain; 28.08.2007 - 31.08.2007; in: "Proceedings of the Conference and Workshop
-  on Assistive Technology for People with Vision and Hearing Impairments", M. Hersh
-  (Hrg.); (2007), 6 S.'
 title: Design Implications for a Ubiquitous Ambient Sound Display for the Deaf
 url_pdf: ''
 ---

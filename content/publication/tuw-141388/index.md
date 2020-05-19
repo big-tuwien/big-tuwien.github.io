@@ -22,13 +22,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141388&lang=2
+publication: 'Vortrag: 2007 IEEE International Conference on Services Computing, Salt
+  Lake City, Utah, USA; 09.07.2007 - 13.07.2007; in: "2007 IEEE International Conference
+  on Services Computing", IEEE Computer Society, Los Alamitos, CA, USA (2007), ISBN:
+  0-7695-2925-9; S. 178 - 186'
 publication_types:
 - '1'
 publishDate: '2007-07-09'
-specifics: 'Vortrag: 2007 IEEE International Conference on Services Computing, Salt
-  Lake City, Utah, USA; 09.07.2007 - 13.07.2007; in: "2007 IEEE International Conference
-  on Services Computing", IEEE Computer Society, Los Alamitos, CA, USA (2007), ISBN:
-  0-7695-2925-9; S. 178 - 186.'
 title: Deriving executable BPEL from UMM Business Transactions
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5003.pdf
 ---

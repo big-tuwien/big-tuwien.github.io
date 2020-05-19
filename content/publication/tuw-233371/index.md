@@ -27,10 +27,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=233371&lang=2
+publication: 'Springer, Heidelberg, 2015, ISBN: 978-3-319-12741-5; 206 S'
 publication_types:
 - '5'
 publishDate: '2015-01-01'
-specifics: 'Springer, Heidelberg, 2015, ISBN: 978-3-319-12741-5; 206 S.'
 title: 'UML@Classroom: An Introduction to Object-Oriented Modeling'
 url_pdf: http://www.springer.com/computer/swe/book/978-3-319-12741-5
 ---

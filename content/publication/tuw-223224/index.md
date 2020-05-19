@@ -20,13 +20,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=223224&lang=2
+publication: 'Vortrag: IEEE International Conference on Service Oriented Computing
+  and Applications (SOCA 2013), USA; 16.12.2013 - 18.12.2013; in: "Proceedings of
+  the 6th IEEE International Conference on Service Oriented Computing and Applications
+  (SOCA 2013)", IEEE, (2013)'
 publication_types:
 - '1'
 publishDate: '2013-12-16'
-specifics: 'Vortrag: IEEE International Conference on Service Oriented Computing and
-  Applications (SOCA 2013), USA; 16.12.2013 - 18.12.2013; in: "Proceedings of the
-  6th IEEE International Conference on Service Oriented Computing and Applications
-  (SOCA 2013)", IEEE, (2013).'
 title: Putting Services in Context
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_223224.pdf
 ---

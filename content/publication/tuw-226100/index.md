@@ -20,14 +20,14 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226100&lang=2
-publication_types:
-- '1'
-publishDate: '2013-05-20'
-specifics: 'Vortrag: 21st International Conference on Program Comprehension (ICPC
+publication: 'Vortrag: 21st International Conference on Program Comprehension (ICPC
   2013), San Francisco, USA; 20.05.2013 - 21.05.2013; in: "Proceedings of the 21st
   International Conference on Program Comprehension", H. Kagdi et al. (Hrg.); Conference
   Publishing Consulting, Passau, Germany (2013), ISBN: 978-1-4673-3092-3; S. 192 -
-  198.'
+  198'
+publication_types:
+- '1'
+publishDate: '2013-05-20'
 title: On the understanding of programs with continuous code reviews
 url_pdf: ''
 ---

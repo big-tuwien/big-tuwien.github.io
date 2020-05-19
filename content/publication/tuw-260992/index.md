@@ -17,13 +17,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=260992&lang=2
+publication: 'Vortrag: 13th IEEE Conference on Automation Science and Engineering
+  (CASE 2017), Xi''an, China; 20.08.2017 - 23.08.2017; in: "Proceedings of the 13th
+  IEEE Conference on Automation Science and Engineering", IEEE, (2017), ISBN: 978-1-5090-6780-0;
+  S. 1012 - 1018'
 publication_types:
 - '1'
 publishDate: '2017-08-20'
-specifics: 'Vortrag: 13th IEEE Conference on Automation Science and Engineering (CASE
-  2017), Xi''an, China; 20.08.2017 - 23.08.2017; in: "Proceedings of the 13th IEEE
-  Conference on Automation Science and Engineering", IEEE, (2017), ISBN: 978-1-5090-6780-0;
-  S. 1012 - 1018.'
 title: 'A View on Model-Driven Vertical Integration: Alignment of Production Facility
   Models and Business Models'
 url_pdf: ''

@@ -22,14 +22,14 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141790&lang=2
-publication_types:
-- '1'
-publishDate: '2008-06-16'
-specifics: 'Vortrag: Third International Workshop on Business/IT Alignment and Interoperability
+publication: 'Vortrag: Third International Workshop on Business/IT Alignment and Interoperability
   (BUSITAL''08) held in conjunction with CAiSE''08 Conference, Montpellier, Frankreich;
   16.06.2008; in: "Proceedings of the Third International Workshop on Business/IT
   Alignment and Interoperability (BUSITAL''08) held in conjunction with CAiSE''08
-  Conference", CEUR-WS, Vol-336 (2008), ISSN: 1613-0073; Paper-Nr. 1, 15 S.'
+  Conference", CEUR-WS, Vol-336 (2008), ISSN: 1613-0073; Paper-Nr. 1, 15 S'
+publication_types:
+- '1'
+publishDate: '2008-06-16'
 title: A UML Profile for the e3-Value e-Business Model Ontology
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5421.pdf
 ---

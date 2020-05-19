@@ -22,13 +22,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=284697&lang=2
+publication: 'Vortrag: 18th International Conference on Mobile and Ubiquitous Multimedia
+  (MUM ''19), Pisa, Italy; 27.11.2019 - 29.11.2019; in: "Proceedings of the 18th International
+  Conference on Mobile and Ubiquitous Multimedia", ACM New York, NY, USA, 8 (2019),
+  ISBN: 978-1-4503-7624-2; S. 1 - 11'
 publication_types:
 - '1'
 publishDate: '2019-11-27'
-specifics: 'Vortrag: 18th International Conference on Mobile and Ubiquitous Multimedia
-  (MUM ''19), Pisa, Italy; 27.11.2019 - 29.11.2019; in: "Proceedings of the 18th International
-  Conference on Mobile and Ubiquitous Multimedia", ACM New York, NY, USA, 8 (2019),
-  ISBN: 978-1-4503-7624-2; S. 1 - 11.'
 title: Measuring Mobile Text Entry Performance and Behaviour in the Wild with a Serious
   Game
 url_pdf: ''

@@ -22,13 +22,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=220690&lang=2
+publication: 'Vortrag: The 10th IEEE International Conference on e-Business Engineering
+  (ICEBE 2013), Coventry, The United Kingdom; 11.09.2013 - 13.09.2013; in: "Proceedings
+  of the 10th IEEE International Conference on e-Business Engineering (ICEBE 2013)",
+  (2013), S. 236 - 243'
 publication_types:
 - '1'
 publishDate: '2013-09-11'
-specifics: 'Vortrag: The 10th IEEE International Conference on e-Business Engineering
-  (ICEBE 2013), Coventry, The United Kingdom; 11.09.2013 - 13.09.2013; in: "Proceedings
-  of the 10th IEEE International Conference on e-Business Engineering (ICEBE 2013)",
-  (2013), S. 236 - 243.'
 title: Contextualizing Business Documents
 url_pdf: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6686269
 ---

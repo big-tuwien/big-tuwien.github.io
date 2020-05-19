@@ -10,10 +10,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=208985&lang=2
+publication: 'dpunkt.verlag, Heidelberg, 2012, ISBN: 978-3-89864-776-2; 250 S'
 publication_types:
 - '5'
 publishDate: '2012-01-01'
-specifics: 'dpunkt.verlag, Heidelberg, 2012, ISBN: 978-3-89864-776-2; 250 S.'
 title: UML@Classroom - Eine Einführung in die objektorientierte Modellierung
 url_pdf: http://www.uml.ac.at
 ---

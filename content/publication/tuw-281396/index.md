@@ -20,13 +20,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=281396&lang=2
+publication: 'odarski, R. Sindelar, C. Huemer, A. Mazak, M. Wimmer: "Generating Structured
+  AutomationML Models from IEC 62264 Information"; Vortrag: 5th AutomationML PlugFest
+  2019, Hamburg, Germany; 25.09.2019 - 26.09.2019; in: "Proceedings of the 5th AutomationML
+  PlugFest 2019", (2019), 5 S'
 publication_types:
 - '1'
 publishDate: '2019-09-25'
-specifics: 'odarski, R. Sindelar, C. Huemer, A. Mazak, M. Wimmer: "Generating Structured
-  AutomationML Models from IEC 62264 Information"; Vortrag: 5th AutomationML PlugFest
-  2019, Hamburg, Germany; 25.09.2019 - 26.09.2019; in: "Proceedings of the 5th AutomationML
-  PlugFest 2019", (2019), 5 S.'
 title: Generating Structured AutomationML Models from IEC 62264 Information
 url_pdf: https://publik.tuwien.ac.at/files/publik_281396.pdf
 ---

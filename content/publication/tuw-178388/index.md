@@ -19,11 +19,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=178388&lang=2
+publication: 'in: "Handbook of Enterprise Integration", Auerbach Publications, London,
+  2009, ISBN: 1420078216, S. 307 - 322'
 publication_types:
 - '6'
 publishDate: '2009-01-01'
-specifics: 'in: "Handbook of Enterprise Integration", Auerbach Publications, London,
-  2009, ISBN: 1420078216, S. 307 - 322.'
 title: Service-Oriented Enterprise Modeling and Analysis
 url_pdf: ''
 ---

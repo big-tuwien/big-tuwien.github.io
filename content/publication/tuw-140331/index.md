@@ -57,11 +57,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=140331&lang=2
+publication: 'Betreuer/in(nen), Begutachter/in(nen): M. Sramek; Institut für Computergraphik
+  und Algorithmen, 2006'
 publication_types:
 - '7'
 publishDate: '2006-01-01'
-specifics: 'Betreuer/in(nen), Begutachter/in(nen): M. Sramek; Institut für Computergraphik
-  und Algorithmen, 2006.'
 title: Processing and Visualization of Peripheral CT-Angiography Datasets
 url_pdf: http://www.cg.tuwien.ac.at/research/publications/2006/straka-phd-thesis/
 ---

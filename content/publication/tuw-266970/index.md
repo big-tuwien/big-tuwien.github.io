@@ -18,11 +18,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=266970&lang=2
+publication: Enterprise Modelling and Information Systems Architectures (EMISA), 11
+  (2016), 3; S. 1 - 18
 publication_types:
 - '2'
 publishDate: '2016-01-01'
-specifics: Enterprise Modelling and Information Systems Architectures (EMISA), 11
-  (2016), 3; S. 1 - 18.
 title: A Linked Data Based Messaging Architecture for the Web of Needs
 url_pdf: http://publik.tuwien.ac.at/files/publik_266970.pdf
 ---

@@ -20,10 +20,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205752&lang=2
+publication: i-com, 10 (2011), 2; S. 26 - 33
 publication_types:
 - '2'
 publishDate: '2011-01-01'
-specifics: i-com, 10 (2011), 2; S. 26 - 33.
 title: '"Show-Me" - water conservation through ambient feedback'
 url_pdf: ''
 ---

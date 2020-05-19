@@ -34,11 +34,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=227939&lang=2
+publication: 'Betreuer/in(nen): G. Kappel, P. Kaufmann, S. Gabmeyer; E188 Institut
+  für Softwaretechnik und Interaktive Systeme, 2014; Abschlussprüfung: 10.04.2014'
 publication_types:
 - '7'
 publishDate: '2014-01-01'
-specifics: 'Betreuer/in(nen): G. Kappel, P. Kaufmann, S. Gabmeyer; E188 Institut für
-  Softwaretechnik und Interaktive Systeme, 2014; Abschlussprüfung: 10.04.2014.'
 title: Towards Software Model Checking in the Context of Model-Driven Engineering
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_227939.pdf
 ---

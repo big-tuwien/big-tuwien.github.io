@@ -21,13 +21,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=165760&lang=2
+publication: 'Vortrag: 2008 IEEE International Conference on Services Computing, Honolulu,
+  Hawaii; 08.07.2008 - 11.07.2008; in: "Proceedings of the 2008 IEEE International
+  Conference on Services Computing (SCC 2008)", IEEE Computer Society, 1 (2008), ISBN:
+  978-0-7695-3283-7-01; S. 441 - 450'
 publication_types:
 - '1'
 publishDate: '2008-07-08'
-specifics: 'Vortrag: 2008 IEEE International Conference on Services Computing, Honolulu,
-  Hawaii; 08.07.2008 - 11.07.2008; in: "Proceedings of the 2008 IEEE International
-  Conference on Services Computing (SCC 2008)", IEEE Computer Society, 1 (2008), ISBN:
-  978-0-7695-3283-7-01; S. 441 - 450.'
 title: A 3-level e-Business Registry Meta Model
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_165760.pdf
 ---

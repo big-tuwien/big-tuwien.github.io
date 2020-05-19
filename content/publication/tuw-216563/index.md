@@ -11,10 +11,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=216563&lang=2
+publication: 'Vortrag: 2012 Africa-EU Cooperation Forum on ICT, Lisbon, Portugal (eingeladen);
+  28.11.2012 - 29.11.2012'
 publication_types:
 - '3'
 publishDate: '2012-11-28'
-specifics: null
 title: ICT4DMZ Strengthening universities' capacities for improved access, use and
   application of ICT for social development and economic growth in Mozambique
 url_pdf: ''

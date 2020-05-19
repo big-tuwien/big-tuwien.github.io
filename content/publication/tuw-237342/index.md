@@ -14,12 +14,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=237342&lang=2
+publication: 'Vortrag: 1st Workshop on Enterprise Engineering Theories and Methods,
+  Geneva, Switzerland; 14.07.2014 - 17.07.2014; in: "16th IEEE Conference on Business
+  Informatics (CBI 2014)", IEEE, 2 (2014), S. 9 - 16'
 publication_types:
 - '1'
 publishDate: '2014-07-14'
-specifics: 'Vortrag: 1st Workshop on Enterprise Engineering Theories and Methods,
-  Geneva, Switzerland; 14.07.2014 - 17.07.2014; in: "16th IEEE Conference on Business
-  Informatics (CBI 2014)", IEEE, 2 (2014), S. 9 - 16.'
 title: Defining Business Rules for REA Business Models
 url_pdf: ''
 ---

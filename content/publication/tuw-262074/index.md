@@ -32,10 +32,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=262074&lang=2
+publication: Software and Systems Modeling, 18 (2019), S. 1017 - 1046
 publication_types:
 - '2'
 publishDate: '2019-01-01'
-specifics: Software and Systems Modeling, 18 (2019), S. 1017 - 1046.
 title: A Local and Global Tour on MOMoT
 url_pdf: https://publik.tuwien.ac.at/files/publik_262074.pdf
 ---

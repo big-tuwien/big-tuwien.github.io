@@ -19,13 +19,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=166333&lang=2
+publication: 'Vortrag: IEEE Conference on E-Commerce Technology (CEC''08), Washington
+  D.C., USA; 22.07.2008 - 24.07.2008; in: "IEEE Joint Conference on E-Commerce Technology
+  (CEC''08) and Enterprise Computing, E-Commerce, and E-Services (EEE''08)", IEEE
+  Computer Society, (2008), ISBN: 978-0-7695-3340-7; S. 136 - 145'
 publication_types:
 - '1'
 publishDate: '2008-07-22'
-specifics: 'Vortrag: IEEE Conference on E-Commerce Technology (CEC''08), Washington
-  D.C., USA; 22.07.2008 - 24.07.2008; in: "IEEE Joint Conference on E-Commerce Technology
-  (CEC''08) and Enterprise Computing, E-Commerce, and E-Services (EEE''08)", IEEE
-  Computer Society, (2008), ISBN: 978-0-7695-3340-7; S. 136 - 145.'
 title: 'A model-driven top-down approach to inter-organizational systems: From global
   choreography models to executable BPEL'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_166333.pdf

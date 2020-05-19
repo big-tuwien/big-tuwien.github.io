@@ -36,11 +36,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=228709&lang=2
+publication: 'Betreuer/in(nen): S. Dustdar, Ph. Leitner; Institut für Informationssysteme,
+  Distributed Systems Group, 2014'
 publication_types:
 - '7'
 publishDate: '2014-01-01'
-specifics: 'Betreuer/in(nen): S. Dustdar, Ph. Leitner; Institut für Informationssysteme,
-  Distributed Systems Group, 2014.'
 title: Statistical Methods in Managing Web Performance
 url_pdf: ''
 ---

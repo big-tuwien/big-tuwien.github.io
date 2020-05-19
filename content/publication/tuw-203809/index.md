@@ -9,10 +9,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=203809&lang=2
+publication: ERCIM NEWS, 51 (2002)
 publication_types:
 - '2'
 publishDate: '2002-01-01'
-specifics: null
 title: Towards syntax-independent B2B
 url_pdf: ''
 ---

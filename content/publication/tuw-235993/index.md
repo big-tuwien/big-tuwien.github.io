@@ -22,12 +22,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=235993&lang=2
+publication: 'Vortrag: IEEE Conference on Biomedical Engineering and Sciences (IECBES
+  2014), Miri, Malaysia; 08.12.2014 - 10.12.2014; in: "Proceedings of the Conference
+  on Biomedical Engineering and Sciences", IEEE, (2014)'
 publication_types:
 - '1'
 publishDate: '2014-12-08'
-specifics: 'Vortrag: IEEE Conference on Biomedical Engineering and Sciences (IECBES
-  2014), Miri, Malaysia; 08.12.2014 - 10.12.2014; in: "Proceedings of the Conference
-  on Biomedical Engineering and Sciences", IEEE, (2014).'
 title: WristDroid - a Serious Game to Support and Motivate Patients throughout their
   Wrist Rehabilitation
 url_pdf: ''

@@ -23,12 +23,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=139698&lang=2
+publication: 'Vortrag: Nordic Conference of Pattern Language of Programs (VikingPlop),
+  Otaniemi, Finland; 23.09.2005 - 25.09.2005; in: "Proceedings of the Nordic Conference
+  of Pattern Language of Programs (VikingPlop 2005)", (2005)'
 publication_types:
 - '1'
 publishDate: '2005-09-23'
-specifics: 'Vortrag: Nordic Conference of Pattern Language of Programs (VikingPlop),
-  Otaniemi, Finland; 23.09.2005 - 25.09.2005; in: "Proceedings of the Nordic Conference
-  of Pattern Language of Programs (VikingPlop 2005)", (2005).'
 title: Patterns for ERP-Landscapes
 url_pdf: ''
 ---

@@ -31,13 +31,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=204898&lang=2
+publication: 'Vortrag: 11th European Conference on e-Government, Ljubljana, Slovenia;
+  16.06.2011 - 17.06.2011; in: "Proceedings of the 11th European Conference on e-Government",
+  M. Klun, M. Decman, T. Juki&#263; (Hrg.); Academic Publishing Limited, Reading,
+  UK (2011), ISBN: 978-1-908272-00-3; S. 303 - 309'
 publication_types:
 - '1'
 publishDate: '2011-06-16'
-specifics: 'Vortrag: 11th European Conference on e-Government, Ljubljana, Slovenia;
-  16.06.2011 - 17.06.2011; in: "Proceedings of the 11th European Conference on e-Government",
-  M. Klun, M. Decman, T. Juki&#263; (Hrg.); Academic Publishing Limited, Reading,
-  UK (2011), ISBN: 978-1-908272-00-3; S. 303 - 309.'
 title: An Outline of the Technical Requirements on Governmental Electronic Record
   Systems Derived from the European Legal Environment
 url_pdf: ''

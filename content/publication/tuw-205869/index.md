@@ -19,13 +19,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205869&lang=2
+publication: 'Vortrag: The International Conference on Engineering and Information
+  Management (ICEIM 2011), Chengdu, China; 15.04.2011 - 18.04.2011; in: "Proceedings
+  of the International Conference on Engineering and Information Management", (2011),
+  ISBN: 978-1-4244-9770-6; S. 1 - 5'
 publication_types:
 - '1'
 publishDate: '2011-04-15'
-specifics: 'Vortrag: The International Conference on Engineering and Information Management
-  (ICEIM 2011), Chengdu, China; 15.04.2011 - 18.04.2011; in: "Proceedings of the International
-  Conference on Engineering and Information Management", (2011), ISBN: 978-1-4244-9770-6;
-  S. 1 - 5.'
 title: Toward a Management Catalog of Security Measures against Social Engineering
   Attacks
 url_pdf: ''

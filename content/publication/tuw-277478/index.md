@@ -25,13 +25,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=277478&lang=2
+publication: 'Vortrag: 2018 9th IEEE International Conference on Software Engineering
+  and Service Science (ICSESS 2018), Beijing, China; 23.11.2018 - 25.11.2018; in:
+  "Proceedings of the 2018 9th IEEE International Conference on Software Engineering
+  and Service Science", IEEE Press, (2018), ISBN: 978-1-5386-6564-0; S. 26 - 31'
 publication_types:
 - '1'
 publishDate: '2018-11-23'
-specifics: 'Vortrag: 2018 9th IEEE International Conference on Software Engineering
-  and Service Science (ICSESS 2018), Beijing, China; 23.11.2018 - 25.11.2018; in:
-  "Proceedings of the 2018 9th IEEE International Conference on Software Engineering
-  and Service Science", IEEE Press, (2018), ISBN: 978-1-5386-6564-0; S. 26 - 31.'
 title: A Hands-on Technology Mix for a European Refugee Management System serving
   Migrants and Institutions
 url_pdf: ''

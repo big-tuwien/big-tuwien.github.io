@@ -23,13 +23,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=193561&lang=2
+publication: 'Vortrag: 1st Workshop on Product LinE Approaches in Software Engineering
+  (PLEASE 2010), Cape Town, South Africa; 02.05.2010; in: "Proceedings of the 2010
+  ICSE Workshop on Product Line Approaches in Software Engineering", Acm, New York,
+  NY, USA (2010), ISBN: 978-1-60558-968-8; S. 16 - 23'
 publication_types:
 - '1'
 publishDate: '2010-05-02'
-specifics: 'Vortrag: 1st Workshop on Product LinE Approaches in Software Engineering
-  (PLEASE 2010), Cape Town, South Africa; 02.05.2010; in: "Proceedings of the 2010
-  ICSE Workshop on Product Line Approaches in Software Engineering", Acm, New York,
-  NY, USA (2010), ISBN: 978-1-60558-968-8; S. 16 - 23.'
 title: An experience report on the incremental adoption and evolution of an SPL in
   eHealth
 url_pdf: ''

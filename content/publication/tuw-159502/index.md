@@ -10,10 +10,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=159502&lang=2
+publication: Bericht für Senat der TU-Wien; 2002
 publication_types:
 - '4'
 publishDate: '2002-01-01'
-specifics: null
 title: Entwicklung des Grenzlandes im Zuge der EU-Erweiterung
 url_pdf: ''
 ---

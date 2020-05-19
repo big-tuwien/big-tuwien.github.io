@@ -272,18 +272,18 @@ def parse_publications(publications, bib_db, author_transform_map):
             extra_data['starts'] = pub[pub_type]['datum_von']
             extra_data['pages'] = pub[pub_type]['seite_von_bis']"""
 
-        reference_search = re.search(r';(.*)<a href', pub['reference'])
+        reference_search = re.search(r';(.*?)<br><br>', pub['reference'])
 
         extra = None
         if reference_search:
             extra = reference_search.group(1)
-            extra = re.sub(r' {2,}', ' ', re.sub('<[^<]+?>', '', extra).strip())  # remove html and normalize whitespace
-            print(extra)
+            # remove html and normalize whitespace
+            extra = re.sub(r' {2,}', ' ', re.sub('<[^<]+?>', '', extra).strip().rstrip('.'))
 
         # create the post
         post = frontmatter.Post(content='', title=title, authors=authors, date=f'{year}-{month}-{day}',
                                 publishDate=f'{year}-{month}-{day}', publication_types=[str(academic_type)],
-                                abstract=abstract, featured=False, url_pdf=pdf_link, specifics=extra,
+                                abstract=abstract, featured=False, url_pdf=pdf_link, publication=extra,
                                 links=[{'name': 'Publik', 'url': publik_link}])
 
         posts.append((pub_id, post))
@@ -498,7 +498,7 @@ def main():
 
         posts = parse_publications(publications, bib_db, name_map)
 
-        print(f'Storing results to "content/publication". Skipping existing records.')
+        print(f'Storing results to "content/publication".')
         save_publications(posts, bib_db, publication_dir, override=args.override)
 
 

@@ -23,12 +23,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183627&lang=2
+publication: 'Vortrag: Advances in System Testing and Validation Lifecycle 2009, Porto;
+  20.09.2009 - 25.09.2009; in: "Advances in System Testing and Validation Lifecycle",
+  IEEE, (2009), ISBN: 978-1-4244-4862-3; S. 161 - 166'
 publication_types:
 - '1'
 publishDate: '2009-09-20'
-specifics: 'Vortrag: Advances in System Testing and Validation Lifecycle 2009, Porto;
-  20.09.2009 - 25.09.2009; in: "Advances in System Testing and Validation Lifecycle",
-  IEEE, (2009), ISBN: 978-1-4244-4862-3; S. 161 - 166.'
 title: Problem space and special characteristics of security testing in live and operational
   environments of large systems exemplified by a nationwide IT infrastructure
 url_pdf: http://www.iaria.org/conferences2009/CfPVALID09.html

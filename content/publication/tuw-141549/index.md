@@ -27,13 +27,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141549&lang=2
+publication: 'Vortrag: IADIS International Conference E-Commerce 2007, Algarve, Portugal;
+  07.12.2007 - 09.12.2007; in: "Proceedings of the IADIS International Conference
+  E-Commerce 2007", S. Krishnamurthy, P. Isaias (Hrg.); IADIS Press, (2007), ISBN:
+  978-972-8924-49-2; S. 312 - 316'
 publication_types:
 - '1'
 publishDate: '2007-12-07'
-specifics: 'Vortrag: IADIS International Conference E-Commerce 2007, Algarve, Portugal;
-  07.12.2007 - 09.12.2007; in: "Proceedings of the IADIS International Conference
-  E-Commerce 2007", S. Krishnamurthy, P. Isaias (Hrg.); IADIS Press, (2007), ISBN:
-  978-972-8924-49-2; S. 312 - 316.'
 title: 'Next Generation Shopping: Case Study Research on Future E-Commerce Models'
 url_pdf: ''
 ---

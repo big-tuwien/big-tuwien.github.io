@@ -21,11 +21,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=136984&lang=2
+publication: 'in: "Proceedings of the sixth IASTED International Conference on Software
+  Engineering and Applications", ACTA Press, 2002, ISBN: 08898963237, S. 361 - 366'
 publication_types:
 - '6'
 publishDate: '2002-01-01'
-specifics: 'in: "Proceedings of the sixth IASTED International Conference on Software
-  Engineering and Applications", ACTA Press, 2002, ISBN: 08898963237, S. 361 - 366.'
 title: A Report on the Software Engineering Activity Structure of a Developer for
   Electronic Diesel Engine Control
 url_pdf: ''

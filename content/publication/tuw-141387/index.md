@@ -22,16 +22,16 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141387&lang=2
+publication: 'Vortrag: 9th IEEE International Conference on E-Commerce Technology
+  (CEC 2007) / 4th IEEE International Conference on Enterprise Computing, E-Commerce
+  and E-Services (EEE 2007), Tokyo, Japan; 23.07.2007 - 26.07.2007; in: "Proceedings
+  of the 9th IEEE International Conference on E-Commerce Technology (CEC 2007) / 4th
+  IEEE International Conference on Enterprise Computing, E-Commerce and E-Services
+  (EEE 2007)", IEEE Computer Society, Los Alamitos, CA, USA (2007), ISBN: 0-7695-2913-5;
+  S. 393 - 400'
 publication_types:
 - '1'
 publishDate: '2007-07-23'
-specifics: 'Vortrag: 9th IEEE International Conference on E-Commerce Technology (CEC
-  2007) / 4th IEEE International Conference on Enterprise Computing, E-Commerce and
-  E-Services (EEE 2007), Tokyo, Japan; 23.07.2007 - 26.07.2007; in: "Proceedings of
-  the 9th IEEE International Conference on E-Commerce Technology (CEC 2007) / 4th
-  IEEE International Conference on Enterprise Computing, E-Commerce and E-Services
-  (EEE 2007)", IEEE Computer Society, Los Alamitos, CA, USA (2007), ISBN: 0-7695-2913-5;
-  S. 393 - 400.'
 title: Modeling Business Entity State Centric Choreographies
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5002.pdf
 ---

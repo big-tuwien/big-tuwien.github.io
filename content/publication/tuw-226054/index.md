@@ -11,10 +11,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226054&lang=2
+publication: Ergotherapie, 4 (2013), S. 13 - 16
 publication_types:
 - '2'
 publishDate: '2013-01-01'
-specifics: Ergotherapie, 4 (2013), S. 13 - 16.
 title: Einsatzmöglichkeiten von technischen Devices aus der Spieleindustrie zur Unterstützung
   von SchlaganfallpatientInnen
 url_pdf: ''

@@ -26,12 +26,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=258006&lang=2
+publication: 'in: "IEEE 4th International Conference on Serious Games and Applications
+  for Health", 1; herausgegeben von: IEEE; IEEE, Los Alamitos, CA, USA, 2016, ISBN:
+  978-1-5090-2211-3, S. 1 - 6'
 publication_types:
 - '1'
 publishDate: '2016-01-01'
-specifics: 'in: "IEEE 4th International Conference on Serious Games and Applications
-  for Health", 1; herausgegeben von: IEEE; IEEE, Los Alamitos, CA, USA, 2016, ISBN:
-  978-1-5090-2211-3, S. 1 - 6.'
 title: MyDailyRoutine - A Serious Game to Support People Suffering from a Cerebral
   Dysfunction
 url_pdf: ''

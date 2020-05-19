@@ -20,14 +20,14 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=230604&lang=2
-publication_types:
-- '1'
-publishDate: '2014-07-01'
-specifics: 'Vortrag: 14th International Conference on Web Engineering (ICWE 2014),
+publication: 'Vortrag: 14th International Conference on Web Engineering (ICWE 2014),
   Toulouse, France; 01.07.2014 - 04.07.2014; in: "Web Engineering, 14th International
   Conference, ICWE 2014, Proceedings", S. Casteleyn, G. Rossi, M. Winckler (Hrg.);
   Springer International Publishing, LNCS 8541 (2014), ISBN: 978-3-319-08244-8; S.
-  181 - 199.'
+  181 - 199'
+publication_types:
+- '1'
+publishDate: '2014-07-01'
 title: Identifying Root Causes of Web Performance Degradation Using Changepoint Analysis
 url_pdf: ''
 ---

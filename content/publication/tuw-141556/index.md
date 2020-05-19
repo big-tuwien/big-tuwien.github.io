@@ -15,14 +15,14 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141556&lang=2
-publication_types:
-- '1'
-publishDate: '2007-09-16'
-specifics: 'Vortrag: 9th International Conference on Ubiquitous Computing (UbiComp
+publication: 'Vortrag: 9th International Conference on Ubiquitous Computing (UbiComp
   2007), Innsbruck, Austria; 16.09.2007 - 19.09.2007; in: "Adjunct Proceedings of
   the International Conference on Ubiquitous Computing", J. Bardram, S. Han, M. Kim,
   M. Kranz, C. Linnhoff-Popien et al. (Hrg.); (2007), ISBN: 978-3-00-022600-7; S.
-  268 - 271.'
+  268 - 271'
+publication_types:
+- '1'
+publishDate: '2007-09-16'
 title: 'Reaching for the Ceiling: Exploring Modes of Interaction'
 url_pdf: ''
 ---

@@ -14,12 +14,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141551&lang=2
+publication: 'Poster: CHI 2007 Workshop on "Mobile Spatial Interaction", San Jose,
+  California, USA; 28.04.2007 - 03.05.2007; in: "ACM CHI 2007 Workshop on Mobile Spatial
+  Interaction", (2007), 4 S'
 publication_types:
 - '1'
 publishDate: '2007-04-28'
-specifics: 'Poster: CHI 2007 Workshop on "Mobile Spatial Interaction", San Jose, California,
-  USA; 28.04.2007 - 03.05.2007; in: "ACM CHI 2007 Workshop on Mobile Spatial Interaction",
-  (2007), 4 S.'
 title: Understanding Spatial Mobile Service Discovery using Pointing and Touching
 url_pdf: ''
 ---

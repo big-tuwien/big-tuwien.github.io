@@ -16,10 +16,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=215154&lang=2
+publication: Informatik Spektrum, 0170-6012 (2012), 11; S. 1 - 8
 publication_types:
 - '2'
 publishDate: '2012-01-01'
-specifics: Informatik Spektrum, 0170-6012 (2012), 11; S. 1 - 8.
 title: Kombination von Agil und Lean in der Softwareentwicklung
 url_pdf: ''
 ---

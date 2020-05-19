@@ -19,13 +19,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183633&lang=2
+publication: 'Vortrag: The Fourth IASTED International Conference on Human-Computer
+  Interaction 2009, St. Thomas, US Virgin Islands; 22.11.2009 - 24.11.2009; in: "Proceedings
+  of Computers and Advanced Technology in Education 2009", Acta Press, Vol. 358, Lund,
+  Sweden (2009), ISBN: 978-0-88986-816-8; S. 551 - 554'
 publication_types:
 - '1'
 publishDate: '2009-11-22'
-specifics: 'Vortrag: The Fourth IASTED International Conference on Human-Computer
-  Interaction 2009, St. Thomas, US Virgin Islands; 22.11.2009 - 24.11.2009; in: "Proceedings
-  of Computers and Advanced Technology in Education 2009", Acta Press, Vol. 358, Lund,
-  Sweden (2009), ISBN: 978-0-88986-816-8; S. 551 - 554.'
 title: 'Audio-tactile Location Markers: Accessible Real-world Tagging for the Blind'
 url_pdf: ''
 ---

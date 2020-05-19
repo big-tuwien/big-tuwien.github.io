@@ -42,10 +42,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=230691&lang=2
+publication: Information Systems and E-Business Management, 15 (2015), 3; S. 553 -
+  593
 publication_types:
 - '2'
 publishDate: '2015-01-01'
-specifics: Information Systems and E-Business Management, 15 (2015), 3; S. 553 - 593.
 title: 'Inter-organizational success factors: a cause and effect model'
 url_pdf: http://link.springer.com/article/10.1007/s10257-014-0258-z
 ---

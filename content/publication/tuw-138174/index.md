@@ -9,10 +9,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=138174&lang=2
+publication: '2003'
 publication_types:
 - '4'
 publishDate: '2003-01-01'
-specifics: null
 title: 'Can Mommies become Super Girls (Again)?: Two Professional Female Stereotypes
   and Their Self Image in IT Organizations (TR-RISE 01/03)'
 url_pdf: ''

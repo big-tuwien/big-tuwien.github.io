@@ -22,14 +22,14 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=261306&lang=2
-publication_types:
-- '1'
-publishDate: '2017-11-22'
-specifics: 'Vortrag: 10th IEEE International Conference on Service Oriented Computing
+publication: 'Vortrag: 10th IEEE International Conference on Service Oriented Computing
   and Applications (SOCA 2017), Kanazawa; 22.11.2017 - 25.11.2017; in: "Proceedings
   of the 10th IEEE International Conference on Service Oriented Computing and Applications",
   IEEE Computer Society Conference Publishing Services (CPS), (2017), ISBN: 978-1-5386-1326-9;
-  S. 9 - 17.'
+  S. 9 - 17'
+publication_types:
+- '1'
+publishDate: '2017-11-22'
 title: 'Aligning Business Services with Production Services: The Case of REA and ISA-95'
 url_pdf: ''
 ---

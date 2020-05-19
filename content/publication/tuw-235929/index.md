@@ -22,12 +22,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=235929&lang=2
+publication: 'Vortrag: Agile Conference (AGILE) 2014, Orlando, Florida, USA; 28.07.2014
+  - 01.08.2014; in: "Proceedings of the 2014 Agile Conference (AGILE 2014)", IEEE,
+  (2014), ISBN: 978-1-4799-5798-9; S. 52 - 60'
 publication_types:
 - '1'
 publishDate: '2014-07-28'
-specifics: 'Vortrag: Agile Conference (AGILE) 2014, Orlando, Florida, USA; 28.07.2014
-  - 01.08.2014; in: "Proceedings of the 2014 Agile Conference (AGILE 2014)", IEEE,
-  (2014), ISBN: 978-1-4799-5798-9; S. 52 - 60.'
 title: 'Adapting to Changes in a Project''s DNA: A Descriptive Case Study on the Effects
   of Transforming Agile Single-Site to Distributed Software Development'
 url_pdf: ''

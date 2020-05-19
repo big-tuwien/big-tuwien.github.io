@@ -15,10 +15,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141318&lang=2
+publication: Radiology, 244 (2007), 01; S. 281 - 290
 publication_types:
 - '2'
 publishDate: '2007-01-01'
-specifics: null
 title: Multipath Curved Planar Reformation of the Peripheral Arterial Tree in CT Angiography
 url_pdf: ''
 ---

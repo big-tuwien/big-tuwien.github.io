@@ -11,10 +11,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=140042&lang=2
+publication: 'Poster: European Conference on Model Driven Architecture (ECMDA''06),
+  Bilbao, Spanien; 10.07.2006'
 publication_types:
 - '3'
 publishDate: '2006-07-10'
-specifics: null
 title: 'UMM Add-In: A UML Extension for UN/CEFACT''s Modeling Methodology'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_140042.pdf
 ---

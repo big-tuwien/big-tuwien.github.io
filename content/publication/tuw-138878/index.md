@@ -31,10 +31,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=138878&lang=2
+publication: 'in: "European Radiology", Springer, 2004, S. 524'
 publication_types:
 - '1'
 publishDate: '2004-01-01'
-specifics: 'in: "European Radiology", Springer, 2004, S. 524.'
 title: Accuracy of Automated Centerline Approximation Algorithms for Lower Extremity
   Vessels in CTA Phantom
 url_pdf: ''

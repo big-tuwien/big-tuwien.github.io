@@ -12,10 +12,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=138133&lang=2
+publication: 'in: "European Congress of Radiology", ECR, 2003'
 publication_types:
 - '1'
 publishDate: '2003-01-01'
-specifics: null
 title: A probabilistic atlas of the lower extremity arterial tree for perpheral CT
   angiography
 url_pdf: ''

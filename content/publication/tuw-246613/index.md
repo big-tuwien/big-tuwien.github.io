@@ -25,10 +25,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246613&lang=2
+publication: Informatik Spektrum, 38 (2015), 1; S. 59 - 71
 publication_types:
 - '2'
 publishDate: '2015-01-01'
-specifics: Informatik Spektrum, 38 (2015), 1; S. 59 - 71.
 title: Campus-Management Systeme
 url_pdf: ''
 ---

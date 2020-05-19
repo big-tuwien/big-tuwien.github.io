@@ -19,13 +19,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141013&lang=2
+publication: 'Vortrag: IEEE 23rd International Conference on Data Engineering, Istanbul,
+  Turkey; 15.04.2007 - 20.04.2007; in: "Proceeding of 2007 IEEE 23rd International
+  Conference on Data Engineering Workshop", IEEE Computer Society, IEEE Catalog Number:
+  07EX1627 (2007), ISBN: 1-4244-0832-6; S. 298 - 306'
 publication_types:
 - '1'
 publishDate: '2007-04-15'
-specifics: 'Vortrag: IEEE 23rd International Conference on Data Engineering, Istanbul,
-  Turkey; 15.04.2007 - 20.04.2007; in: "Proceeding of 2007 IEEE 23rd International
-  Conference on Data Engineering Workshop", IEEE Computer Society, IEEE Catalog Number:
-  07EX1627 (2007), ISBN: 1-4244-0832-6; S. 298 - 306.'
 title: A UML Profile for Core Components and their Transformation to XSD
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_4612.pdf
 ---

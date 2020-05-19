@@ -24,10 +24,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=198584&lang=2
+publication: Service Oriented Computing and Applications, 5 (2011), 3; S. 183 - 202
 publication_types:
 - '2'
 publishDate: '2011-01-01'
-specifics: Service Oriented Computing and Applications, 5 (2011), 3; S. 183 - 202.
 title: Registry support for core component-based business document models
 url_pdf: ''
 ---

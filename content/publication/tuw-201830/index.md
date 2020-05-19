@@ -17,13 +17,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=201830&lang=2
+publication: 'Vortrag: IEEE International Conference on Commerce and Enterprise Computing,
+  Luxembourg-Kirchberg, Luxembourg; 05.09.2011 - 07.09.2011; in: "Proceedings of the
+  13th International Conference on Commerce and Enterprise Computing", (2011), S.
+  129 - 136'
 publication_types:
 - '1'
 publishDate: '2011-09-05'
-specifics: 'Vortrag: IEEE International Conference on Commerce and Enterprise Computing,
-  Luxembourg-Kirchberg, Luxembourg; 05.09.2011 - 07.09.2011; in: "Proceedings of the
-  13th International Conference on Commerce and Enterprise Computing", (2011), S.
-  129 - 136.'
 title: Business Document Transformation using Core Components and XSLT
 url_pdf: ''
 ---

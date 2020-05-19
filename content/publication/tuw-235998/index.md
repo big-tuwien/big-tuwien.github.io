@@ -19,12 +19,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=235998&lang=2
+publication: 'in: "Secure Smart Embedded Devices, Platforms and Applications", K.
+  Markantonakis, K. Mayes (Hrg.); Springer Science+Business Media, New York, NY, USA,
+  2014, ISBN: 978-1-4614-7914-7, S. 351 - 367'
 publication_types:
 - '6'
 publishDate: '2014-01-01'
-specifics: 'in: "Secure Smart Embedded Devices, Platforms and Applications", K. Markantonakis,
-  K. Mayes (Hrg.); Springer Science+Business Media, New York, NY, USA, 2014, ISBN:
-  978-1-4614-7914-7, S. 351 - 367.'
 title: Near Field Communication
 url_pdf: ''
 ---

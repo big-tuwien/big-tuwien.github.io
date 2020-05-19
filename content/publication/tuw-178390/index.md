@@ -20,13 +20,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=178390&lang=2
+publication: 'Vortrag: IEEE International Conference on Service-Oriented Computing
+  and Applications, Taipei, Taiwain; 14.12.2009 - 15.12.2009; in: "Proceedings of
+  the IEEE International Conference on Service-Oriented Computing and Applications",
+  IEEE Computer Society, (2009), S. 1 - 6'
 publication_types:
 - '1'
 publishDate: '2009-12-14'
-specifics: 'Vortrag: IEEE International Conference on Service-Oriented Computing and
-  Applications, Taipei, Taiwain; 14.12.2009 - 15.12.2009; in: "Proceedings of the
-  IEEE International Conference on Service-Oriented Computing and Applications", IEEE
-  Computer Society, (2009), S. 1 - 6.'
 title: A registry model for UN/CEFACT's Core Components
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_178390.pdf
 ---

@@ -23,12 +23,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183656&lang=2
+publication: 'Vortrag: 7th International Conference on Software Engineering Reaearch,
+  Management and Applications (SERA 2009), Haikou, Hainan Island, China; 02.12.2009
+  - 04.12.2009; in: "SERA 2009 Proceedings", Conference Publishing Services, (2009)'
 publication_types:
 - '1'
 publishDate: '2009-12-02'
-specifics: 'Vortrag: 7th International Conference on Software Engineering Reaearch,
-  Management and Applications (SERA 2009), Haikou, Hainan Island, China; 02.12.2009
-  - 04.12.2009; in: "SERA 2009 Proceedings", Conference Publishing Services, (2009).'
 title: Definition and Segmentation of Orchestra Companies
 url_pdf: ''
 ---

@@ -21,13 +21,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205759&lang=2
+publication: 'Vortrag: Human-Computer Interaction - INTERACT 2011, Lissabon, PT; 05.09.2011
+  - 09.09.2011; in: "Proceedings of 13th IFIP TC13 Conference on Human-Computer Interaction
+  (INTERACT ´11)", P. Campos et al. (Hrg.); Springer Berlin / Heidelberg, Part III
+  (2011), S. 373 - 390'
 publication_types:
 - '1'
 publishDate: '2011-09-05'
-specifics: 'Vortrag: Human-Computer Interaction - INTERACT 2011, Lissabon, PT; 05.09.2011
-  - 09.09.2011; in: "Proceedings of 13th IFIP TC13 Conference on Human-Computer Interaction
-  (INTERACT ´11)", P. Campos et al. (Hrg.); Springer Berlin / Heidelberg, Part III
-  (2011), S. 373 - 390.'
 title: The Effects of Personal Displays and Transfer Techniques on Collaboration Strategies
   in Multi-touch Based Multi-display Environments
 url_pdf: ''

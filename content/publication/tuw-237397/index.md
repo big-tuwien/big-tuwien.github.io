@@ -22,13 +22,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=237397&lang=2
+publication: 'Vortrag: eChallenges e-2014, Belfast, Ireland; 29.10.2014 - 30.10.2014;
+  in: "eChallenges e-2014 Conference Proceedings", IIMC International Information
+  Management Corporation, New York, NY, USA (2014), ISBN: 978-1-905824-45-8; S. 1
+  - 10'
 publication_types:
 - '1'
 publishDate: '2014-10-29'
-specifics: 'Vortrag: eChallenges e-2014, Belfast, Ireland; 29.10.2014 - 30.10.2014;
-  in: "eChallenges e-2014 Conference Proceedings", IIMC International Information
-  Management Corporation, New York, NY, USA (2014), ISBN: 978-1-905824-45-8; S. 1
-  - 10.'
 title: Implementing Privacy Sensitive Governmental Systems based on the Concept of
   the Austrian Data Retention Exchange Service
 url_pdf: ''

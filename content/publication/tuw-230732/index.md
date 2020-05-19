@@ -20,12 +20,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=230732&lang=2
+publication: 'Vortrag: 8th International Workshop on Value Modeling and Business Ontology
+  (VMBO 2014), Berlin; 03.03.2014 - 04.03.2014; in: "Proceedings of the 8th International
+  Workshop on Value Modeling and Business Ontology (VMBO 2014)", (2014), 8 S'
 publication_types:
 - '1'
 publishDate: '2014-03-03'
-specifics: 'Vortrag: 8th International Workshop on Value Modeling and Business Ontology
-  (VMBO 2014), Berlin; 03.03.2014 - 04.03.2014; in: "Proceedings of the 8th International
-  Workshop on Value Modeling and Business Ontology (VMBO 2014)", (2014), 8 S.'
 title: Pragmatic-based Ontology Design and Alignment
 url_pdf: ''
 ---

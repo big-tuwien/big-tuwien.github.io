@@ -21,13 +21,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=236254&lang=2
+publication: 'Vortrag: International Conference on Advanced Networking, Distributed
+  Systems and Applications (INDS 2014), Béjaia, Algeria; 17.06.2014 - 19.06.2014;
+  in: "Proceedings of the International Conference on Advanced Networking, Distributed
+  Systems and Applications", INDS, (2014), S. 58 - 61'
 publication_types:
 - '1'
 publishDate: '2014-06-17'
-specifics: 'Vortrag: International Conference on Advanced Networking, Distributed
-  Systems and Applications (INDS 2014), Béjaia, Algeria; 17.06.2014 - 19.06.2014;
-  in: "Proceedings of the International Conference on Advanced Networking, Distributed
-  Systems and Applications", INDS, (2014), S. 58 - 61.'
 title: Concept and Design of a Transparent Security Layer to Enable Anonymous VoIP
   Calls
 url_pdf: ''

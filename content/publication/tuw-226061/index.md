@@ -18,13 +18,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226061&lang=2
+publication: 'Vortrag: 7th International Conference on Network and System Security
+  (NSS 2013), Madrid, Spanien; 03.06.2013 - 04.06.2013; in: "Network and System Security",
+  J. Lopez, X. Huang, R. Sandhu (Hrg.); Springer Lecture Notes in Computer Science,
+  Berlin - Heidelberg (2013), ISBN: 978-3-642-38630-5; S. 628 - 634'
 publication_types:
 - '1'
 publishDate: '2013-06-03'
-specifics: 'Vortrag: 7th International Conference on Network and System Security (NSS
-  2013), Madrid, Spanien; 03.06.2013 - 04.06.2013; in: "Network and System Security",
-  J. Lopez, X. Huang, R. Sandhu (Hrg.); Springer Lecture Notes in Computer Science,
-  Berlin - Heidelberg (2013), ISBN: 978-3-642-38630-5; S. 628 - 634.'
 title: Architecture for Trapping Toll Fraud Attacks Using a VoIP Honeynet Approach
 url_pdf: ''
 ---

@@ -17,12 +17,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205727&lang=2
+publication: 'Vortrag: AMA IEEE Medical Technology Conference 2011, Boston, USA; 16.10.2011
+  - 18.10.2011; in: "Proceedings of the AMA IEEE Medical Technology Conference 2011",
+  IEEE, (2011), S. 1 - 2'
 publication_types:
 - '1'
 publishDate: '2011-10-16'
-specifics: 'Vortrag: AMA IEEE Medical Technology Conference 2011, Boston, USA; 16.10.2011
-  - 18.10.2011; in: "Proceedings of the AMA IEEE Medical Technology Conference 2011",
-  IEEE, (2011), S. 1 - 2.'
 title: Using a Rule-Based Service Bus for Controlling Dataflows in Patient Centric
   Hospital Information Systems
 url_pdf: ''

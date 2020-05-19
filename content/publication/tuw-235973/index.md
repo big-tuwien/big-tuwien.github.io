@@ -18,13 +18,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=235973&lang=2
+publication: 'Vortrag: 9th International Conference on Software Paradigm Trends (ICSOFT-PT-2014),
+  Wien; 29.08.2014 - 31.08.2014; in: "Proceedings of the 9th International Conference
+  on Software Paradigm Trends (ICSOFT-PT-2014)", Scitepress, Wien (2014), ISBN: 978-989-758-037-6;
+  S. 67 - 71'
 publication_types:
 - '1'
 publishDate: '2014-08-29'
-specifics: 'Vortrag: 9th International Conference on Software Paradigm Trends (ICSOFT-PT-2014),
-  Wien; 29.08.2014 - 31.08.2014; in: "Proceedings of the 9th International Conference
-  on Software Paradigm Trends (ICSOFT-PT-2014)", Scitepress, Wien (2014), ISBN: 978-989-758-037-6;
-  S. 67 - 71.'
 title: 'Modelling Microservices in Email-marketing: Concepts, Implementation and Experiences'
 url_pdf: ''
 ---

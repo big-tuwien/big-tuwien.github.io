@@ -22,10 +22,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=257816&lang=2
+publication: Computer and Information Science, 9 (2016), 2; S. 68 - 81
 publication_types:
 - '2'
 publishDate: '2016-01-01'
-specifics: Computer and Information Science, 9 (2016), 2; S. 68 - 81.
 title: 'Ten Heuristics from Applying Agile Practices across Different Distribution
   Scenarios: A Multiple-Case Study'
 url_pdf: ''

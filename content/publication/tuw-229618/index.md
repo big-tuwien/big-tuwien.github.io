@@ -21,10 +21,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=229618&lang=2
+publication: Berichts-Nr. BIG-TR-2014-2, 2014; 28 S
 publication_types:
 - '4'
 publishDate: '2014-01-01'
-specifics: Berichts-Nr. BIG-TR-2014-2, 2014; 28 S.
 title: Model Checking of CTL-Extended OCL Specifications
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_229618.pdf
 ---

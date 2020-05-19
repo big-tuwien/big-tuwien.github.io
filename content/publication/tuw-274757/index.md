@@ -31,12 +31,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=274757&lang=2
+publication: 'Vortrag: 7th International Building Physics Conference, IBPC2018, Syracuse,
+  NY, USA; 23.09.2018 - 26.09.2018; in: "IBPC2018 - Healthy, Intelligent and Resilient
+  Buildings and Urban Environments", (2018), S. 1083 - 1088'
 publication_types:
 - '1'
 publishDate: '2018-09-23'
-specifics: 'Vortrag: 7th International Building Physics Conference, IBPC2018, Syracuse,
-  NY, USA; 23.09.2018 - 26.09.2018; in: "IBPC2018 - Healthy, Intelligent and Resilient
-  Buildings and Urban Environments", (2018), S. 1083 - 1088.'
 title: Big-open-real-BIM Data Model - Proof of Concept
 url_pdf: ''
 ---

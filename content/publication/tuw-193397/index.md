@@ -24,13 +24,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=193397&lang=2
+publication: 'Vortrag: 4th IEEE International Conference on Digital Ecosystems and
+  Technologies (IEEE DEST 2010), Dubai; 13.06.2010 - 16.06.2010; in: "Proceedings
+  of the 4th IEEE International Conference on Digital Ecosystems and Technologies",
+  IEEE, (2010), ISBN: 978-1-4244-5553-9; S. 327 - 332'
 publication_types:
 - '1'
 publishDate: '2010-06-13'
-specifics: 'Vortrag: 4th IEEE International Conference on Digital Ecosystems and Technologies
-  (IEEE DEST 2010), Dubai; 13.06.2010 - 16.06.2010; in: "Proceedings of the 4th IEEE
-  International Conference on Digital Ecosystems and Technologies", IEEE, (2010),
-  ISBN: 978-1-4244-5553-9; S. 327 - 332.'
 title: A joint infrastructure of "digital corporate organisms" as facilitator for
   a virtual digital retail ecosystem
 url_pdf: ''

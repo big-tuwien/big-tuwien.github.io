@@ -28,14 +28,14 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183652&lang=2
-publication_types:
-- '1'
-publishDate: '2009-09-17'
-specifics: 'Vortrag: 3rd European Conference on Information Management and Evaluation
+publication: 'Vortrag: 3rd European Conference on Information Management and Evaluation
   (ECIME) 2009, Göteburg, Schweden; 17.09.2009 - 18.09.2009; in: "Proceedings of the
   European Conference on Information Management and Evaluation (ECIME) 2009", J. Ljunberg,
   K. Grundén (Hrg.); Academic Publishing Limited, (2009), ISBN: 978-1-906638-44-3;
-  S. 159 - 166.'
+  S. 159 - 166'
+publication_types:
+- '1'
+publishDate: '2009-09-17'
 title: Technical Criteria for the Comparison of Modern ERP Systems for Usage in Orchestra
   Companies
 url_pdf: ''

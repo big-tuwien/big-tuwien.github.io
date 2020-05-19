@@ -22,13 +22,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=220684&lang=2
+publication: 'Vortrag: Tenth International Conference for Informatics and Information
+  Technology CIIT2013, Bitola, Macedonia; 18.04.2013 - 21.04.2013; in: "Proceedings
+  of the Tenth International Conference for Informatics and Information Technology",
+  (2013)'
 publication_types:
 - '1'
 publishDate: '2013-04-18'
-specifics: 'Vortrag: Tenth International Conference for Informatics and Information
-  Technology CIIT2013, Bitola, Macedonia; 18.04.2013 - 21.04.2013; in: "Proceedings
-  of the Tenth International Conference for Informatics and Information Technology",
-  (2013).'
 title: 'Business Context Sensitive Business Documents: An Ontology Based Business
   Context Model for Core Components'
 url_pdf: ''

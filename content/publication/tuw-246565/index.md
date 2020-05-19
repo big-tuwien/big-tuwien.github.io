@@ -24,12 +24,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246565&lang=2
+publication: 'Vortrag: International Conference on Biomedical and Health Informatics
+  (ICBHI 2015), Haikou, China; 09.10.2015 - 10.10.2015; in: "Proceedings of the International
+  Conference on Biomedical and Health Informatics (ICBHI 2015)", (2015), S. 1 - 4'
 publication_types:
 - '1'
 publishDate: '2015-10-09'
-specifics: 'Vortrag: International Conference on Biomedical and Health Informatics
-  (ICBHI 2015), Haikou, China; 09.10.2015 - 10.10.2015; in: "Proceedings of the International
-  Conference on Biomedical and Health Informatics (ICBHI 2015)", (2015), S. 1 - 4.'
 title: Design of a Serious Game to Increase Physical Activity by Adding Direct Benefits
   to the Game for Conducting Sport Activities
 url_pdf: ''

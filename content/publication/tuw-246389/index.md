@@ -16,13 +16,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246389&lang=2
+publication: 'Poster: 14th International Conference on Mobile and Ubiquitous Multimedia
+  (MUM 2015), Linz; 30.11.2015 - 02.12.2015; in: "Proceedings of the 14th International
+  Conference on Mobile and Ubiquitous Multimedia", ACM, New York, NY, USA, (2015),
+  ISBN: 978-1-4503-3605-5; S. 368 - 372'
 publication_types:
 - '1'
 publishDate: '2015-11-30'
-specifics: 'Poster: 14th International Conference on Mobile and Ubiquitous Multimedia
-  (MUM 2015), Linz; 30.11.2015 - 02.12.2015; in: "Proceedings of the 14th International
-  Conference on Mobile and Ubiquitous Multimedia", ACM, New York, NY, USA, (2015),
-  ISBN: 978-1-4503-3605-5; S. 368 - 372.'
 title: 'Woody: a location-based smartphone game to increase children''s outdoor activities
   in urban environments'
 url_pdf: ''

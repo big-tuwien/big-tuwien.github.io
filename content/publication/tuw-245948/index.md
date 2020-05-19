@@ -13,11 +13,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=245948&lang=2
+publication: 'Springer, Lecture Notes in Business Information Processing (LNBIP),
+  Berlin Heidelberg, 2013, ISBN: 978-3-642-39877-3; 211 S'
 publication_types:
 - '5'
 publishDate: '2013-01-01'
-specifics: 'Springer, Lecture Notes in Business Information Processing (LNBIP), Berlin
-  Heidelberg, 2013, ISBN: 978-3-642-39877-3; 211 S.'
 title: 14th International ConferenceE-Commerce, and Web Technologies (EC-Web 2013),
   Proceedings
 url_pdf: http://link.springer.com/book/10.1007%2F978-3-642-39878-0

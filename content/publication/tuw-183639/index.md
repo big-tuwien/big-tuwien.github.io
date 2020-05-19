@@ -30,10 +30,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183639&lang=2
+publication: IEEE Pervasive Computing, 8 (2009), 1; S. 54 - 57
 publication_types:
 - '2'
 publishDate: '2009-01-01'
-specifics: IEEE Pervasive Computing, 8 (2009), 1; S. 54 - 57.
 title: Pervasive Computing Approaches to Environmental Sustainability
 url_pdf: ''
 ---

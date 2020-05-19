@@ -23,13 +23,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=277474&lang=2
+publication: 'Vortrag: Sixth IEEE Working Conference on Software Visualization (VISSOFT
+  2018), Madrid, Spanien; 24.09.2018 - 25.09.2018; in: "Proceedings of the 2018 IEEE
+  Working Conference on Software Visualization (VISSOFT)", IEEE Computer Society,
+  (2018), ISBN: 978-1-5386-8292-0; S. 76 - 86'
 publication_types:
 - '1'
 publishDate: '2018-09-24'
-specifics: 'Vortrag: Sixth IEEE Working Conference on Software Visualization (VISSOFT
-  2018), Madrid, Spanien; 24.09.2018 - 25.09.2018; in: "Proceedings of the 2018 IEEE
-  Working Conference on Software Visualization (VISSOFT)", IEEE Computer Society,
-  (2018), ISBN: 978-1-5386-8292-0; S. 76 - 86.'
 title: Combining and Visualizing Time-Oriented Data from the Software Engineering
   Toolset
 url_pdf: ''

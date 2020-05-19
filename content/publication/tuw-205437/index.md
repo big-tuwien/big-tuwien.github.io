@@ -23,11 +23,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205437&lang=2
+publication: 'Vortrag: AFRICON 2011, Livingstone, Zambia; 13.09.2011 - 15.09.2011;
+  in: "IEEE Africon 2011", IEEE, 978-1-61284-992-8 (2011), S. 1 - 4'
 publication_types:
 - '1'
 publishDate: '2011-09-13'
-specifics: 'Vortrag: AFRICON 2011, Livingstone, Zambia; 13.09.2011 - 15.09.2011; in:
-  "IEEE Africon 2011", IEEE, 978-1-61284-992-8 (2011), S. 1 - 4.'
 title: Issues and mitigation strategies when using agile industrial software development
   processes in student software engineering projects
 url_pdf: ''

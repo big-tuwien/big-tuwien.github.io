@@ -24,11 +24,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=195632&lang=2
+publication: ACIS International Journal of Computer and Information Science, 11 (2010),
+  2
 publication_types:
 - '2'
 publishDate: '2010-01-01'
-specifics: ACIS International Journal of Computer and Information Science, 11 (2010),
-  2.
 title: Definition and segmentation of orchestra companies
 url_pdf: ''
 ---

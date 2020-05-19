@@ -27,12 +27,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=207339&lang=2
+publication: 'Vortrag: 6th International Workshop on Value Modeling and Business Ontology
+  (VMBO 2012), Vienna, Austria; 20.02.2012 - 21.02.2012; in: "6th International Workshop
+  on Value Modeling and Business Ontology (VMBO 2012)", (2012)'
 publication_types:
 - '1'
 publishDate: '2012-02-20'
-specifics: 'Vortrag: 6th International Workshop on Value Modeling and Business Ontology
-  (VMBO 2012), Vienna, Austria; 20.02.2012 - 21.02.2012; in: "6th International Workshop
-  on Value Modeling and Business Ontology (VMBO 2012)", (2012).'
 title: Business-Model-Driven Data Engineering Using the REA-DSL
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_207339.pdf
 ---

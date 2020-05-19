@@ -7,10 +7,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=247616&lang=2
+publication: 'Betreuer/in(nen): J. Knoop; Institut für Computersprachen, 2015; Abschlussprüfung:
+  15.10.2015'
 publication_types:
 - '7'
 publishDate: '2015-01-01'
-specifics: null
 title: Durability and Contention in Software Transactional Memory
 url_pdf: ''
 ---

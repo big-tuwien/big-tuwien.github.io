@@ -8,10 +8,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=138886&lang=2
+publication: 'Vortrag: ACM Conference on Human Factors in Computing Systems (CHI-2004),
+  Vienna, Austria; 24.04.2004 - 29.04.2004; in: "Proceedings of the 2004 Conference
+  on Human Factors in Computing Systems", ACM, (2004), ISBN: 1-58113-702-8; S. 1175
+  - 1178'
 publication_types:
 - '1'
 publishDate: '2004-04-24'
-specifics: null
 title: Comparing the Immediate Usability of Graffiti 2 and Virtual Keyboard
 url_pdf: ''
 ---

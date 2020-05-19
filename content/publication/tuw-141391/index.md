@@ -22,13 +22,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141391&lang=2
+publication: 'Vortrag: 2007 IEEE International Conference on Web Services (ICWS 2007),
+  Salt Lake City, Utah, USA; 09.07.2007 - 13.07.2007; in: "2007 IEEE International
+  Conference on Web Services (ICWS 2007)", IEEE Computer Society, Los Alamitos, CA,
+  USA (2007), ISBN: 0-7695-2924-0; S. 216 - 224'
 publication_types:
 - '1'
 publishDate: '2007-07-09'
-specifics: 'Vortrag: 2007 IEEE International Conference on Web Services (ICWS 2007),
-  Salt Lake City, Utah, USA; 09.07.2007 - 13.07.2007; in: "2007 IEEE International
-  Conference on Web Services (ICWS 2007)", IEEE Computer Society, Los Alamitos, CA,
-  USA (2007), ISBN: 0-7695-2924-0; S. 216 - 224.'
 title: 'The Web Services-BusinessActivity-Initiator (WS-BA-I) Protocol: an Extension
   to the Web Services-BusinessActivity Specification'
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5006.pdf

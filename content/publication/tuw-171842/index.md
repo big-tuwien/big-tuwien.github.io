@@ -20,13 +20,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=171842&lang=2
+publication: 'Vortrag: 2nd International Conference on Theory and Practice of Eletronic
+  Governance (ICEGOV 2008), Cairo, Egypt; 01.12.2008 - 04.12.2008; in: "Proceedings
+  of the 2nd International Conference on Theory and Practice of Eletronic Governance",
+  (2008), ISBN: 978-1-60558-386-0; S. 245 - 250'
 publication_types:
 - '1'
 publishDate: '2008-12-01'
-specifics: 'Vortrag: 2nd International Conference on Theory and Practice of Eletronic
-  Governance (ICEGOV 2008), Cairo, Egypt; 01.12.2008 - 04.12.2008; in: "Proceedings
-  of the 2nd International Conference on Theory and Practice of Eletronic Governance",
-  (2008), ISBN: 978-1-60558-386-0; S. 245 - 250.'
 title: Outsourcing as a Strategy for IT Harmonization - A Public Sector Case Study
   Proposing an Approach in Independent Stakeholder Scenarios
 url_pdf: ''

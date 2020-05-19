@@ -30,11 +30,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141769&lang=2
+publication: 'Betreuer/in(nen), Begutachter/in(nen): G. Kappel, D. Karagiannis; Institut
+  für Softwaretechnik und Interaktive Systeme, 2008; Rigorosum: 04.03.2008'
 publication_types:
 - '7'
 publishDate: '2008-01-01'
-specifics: 'Betreuer/in(nen), Begutachter/in(nen): G. Kappel, D. Karagiannis; Institut
-  für Softwaretechnik und Interaktive Systeme, 2008; Rigorosum: 04.03.2008.'
 title: The Model Morphing Approach - Horizontal Transformation of Business Process
   Models
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5400.pdf

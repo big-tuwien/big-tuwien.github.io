@@ -19,13 +19,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=266979&lang=2
+publication: 'Vortrag: 12th International Conference on Semantic Systems (SEMANTICS
+  2016), Leipzig; 12.09.2016 - 15.09.2016; in: "Proceedings of the 12th International
+  Conference on Semantic Systems, SEMANTICS 2016", ACM, (2016), ISBN: 978-1-4503-4752-5;
+  S. 97 - 100'
 publication_types:
 - '1'
 publishDate: '2016-09-12'
-specifics: 'Vortrag: 12th International Conference on Semantic Systems (SEMANTICS
-  2016), Leipzig; 12.09.2016 - 15.09.2016; in: "Proceedings of the 12th International
-  Conference on Semantic Systems, SEMANTICS 2016", ACM, (2016), ISBN: 978-1-4503-4752-5;
-  S. 97 - 100.'
 title: Verifiability and Traceability in a Linked Data Based Messaging System
 url_pdf: http://publik.tuwien.ac.at/files/publik_266979.pdf
 ---

@@ -19,13 +19,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205409&lang=2
+publication: 'Vortrag: The Third International Conference on Advances in System Testing
+  and Validation Lifecycle, Barcelona, Spain; 23.10.2011 - 28.10.2011; in: "Proceedings
+  of the Third International Conference on Advances in System Testing and Validation
+  Lifecycle", IARIA, 2011 (2011), ISBN: 978-1-61208-168-7; S. 103 - 108'
 publication_types:
 - '1'
 publishDate: '2011-10-23'
-specifics: 'Vortrag: The Third International Conference on Advances in System Testing
-  and Validation Lifecycle, Barcelona, Spain; 23.10.2011 - 28.10.2011; in: "Proceedings
-  of the Third International Conference on Advances in System Testing and Validation
-  Lifecycle", IARIA, 2011 (2011), ISBN: 978-1-61208-168-7; S. 103 - 108.'
 title: Generic data format approach for generation of security test data
 url_pdf: ''
 ---

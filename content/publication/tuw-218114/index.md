@@ -26,13 +26,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=218114&lang=2
+publication: 'Vortrag: 15th International Conference on Electronic Commerce (ICEC
+  2013), Turku, Finland; 13.08.2013 - 15.08.2013; in: "Effective, Agile and Trusted
+  eServices Co-Creation", Turku Centre for Computer Science, TUCS Lecture Notes 19
+  (2013), S. 51 - 66'
 publication_types:
 - '1'
 publishDate: '2013-08-13'
-specifics: 'Vortrag: 15th International Conference on Electronic Commerce (ICEC 2013),
-  Turku, Finland; 13.08.2013 - 15.08.2013; in: "Effective, Agile and Trusted eServices
-  Co-Creation", Turku Centre for Computer Science, TUCS Lecture Notes 19 (2013), S.
-  51 - 66.'
 title: 'Inter-organizational Business Processes: On Redundancies in Document Exchanges'
 url_pdf: http://www.doria.fi/xmlui/bitstream/handle/10024/91642/LN19.digi.pdf?sequence=3#page=53
 ---

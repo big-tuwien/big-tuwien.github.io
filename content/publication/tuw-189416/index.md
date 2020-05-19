@@ -22,11 +22,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=189416&lang=2
+publication: 'in: "Handbook on Business Process Management 1", J. vom Brocke, M. Rosemann
+  (Hrg.); Springer, Heidelberg, 2010, ISBN: 978-3-642-00415-5, S. 543 - 564'
 publication_types:
 - '6'
 publishDate: '2010-01-01'
-specifics: 'in: "Handbook on Business Process Management 1", J. vom Brocke, M. Rosemann
-  (Hrg.); Springer, Heidelberg, 2010, ISBN: 978-3-642-00415-5, S. 543 - 564.'
 title: Modelling Interorganizational Business Processes
 url_pdf: ''
 ---

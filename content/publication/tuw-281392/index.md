@@ -20,12 +20,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=281392&lang=2
+publication: 'il, P. Novak, C. Huemer, R. Sindelar, P. Kadera, A. Mazak, M. Wimmer:
+  "Flexible Production Systems: Automated Generation of Operations Plans based on
+  ISA-95 and PDDL"; IEEE Robotics and Automation Letters, 4 (2019), 4; S. 4062 - 4069'
 publication_types:
 - '2'
 publishDate: '2019-01-01'
-specifics: 'il, P. Novak, C. Huemer, R. Sindelar, P. Kadera, A. Mazak, M. Wimmer:
-  "Flexible Production Systems: Automated Generation of Operations Plans based on
-  ISA-95 and PDDL"; IEEE Robotics and Automation Letters, 4 (2019), 4; S. 4062 - 4069.'
 title: 'Flexible Production Systems: Automated Generation of Operations Plans based
   on ISA-95 and PDDL'
 url_pdf: ''

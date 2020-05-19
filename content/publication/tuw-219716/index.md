@@ -40,13 +40,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=219716&lang=2
+publication: 'Vortrag: CBI 2013 - 2013 IEEE International Conference on Business Informatics,
+  Wien; 15.07.2013 - 18.07.2013; in: "CBI 2013 - 2013 IEEE International Conference
+  on Business Informatics", B. Hofreiter, K. Lin, C. Huemer, E. Proper, J. Sanz (Hrg.);
+  (2013), 4 S'
 publication_types:
 - '1'
 publishDate: '2013-07-15'
-specifics: 'Vortrag: CBI 2013 - 2013 IEEE International Conference on Business Informatics,
-  Wien; 15.07.2013 - 18.07.2013; in: "CBI 2013 - 2013 IEEE International Conference
-  on Business Informatics", B. Hofreiter, K. Lin, C. Huemer, E. Proper, J. Sanz (Hrg.);
-  (2013), 4 S.'
 title: Towards Living Inter-Organizational Processes
 url_pdf: ''
 ---

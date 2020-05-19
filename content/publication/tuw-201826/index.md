@@ -24,13 +24,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=201826&lang=2
+publication: 'Vortrag: International Workshop on Variability Modeling and Software-intensive
+  Systems, Leipzig, Germany; 25.01.2012 - 27.01.2012; in: "Proceedings of the Sixth
+  International Workshop on Variability Modeling and Software-intensive Systems",
+  (2012), S. 1 - 10'
 publication_types:
 - '1'
 publishDate: '2012-01-25'
-specifics: 'Vortrag: International Workshop on Variability Modeling and Software-intensive
-  Systems, Leipzig, Germany; 25.01.2012 - 27.01.2012; in: "Proceedings of the Sixth
-  International Workshop on Variability Modeling and Software-intensive Systems",
-  (2012), S. 1 - 10.'
 title: Validation of Business Document Types based on Feature Models
 url_pdf: ''
 ---

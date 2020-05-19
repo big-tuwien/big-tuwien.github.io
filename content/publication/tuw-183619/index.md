@@ -20,13 +20,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183619&lang=2
+publication: 'Vortrag: 42nd Hawaiian International Conference on System Science 2009
+  (HICSS 42), Waikoloa, Big Island, Hawaii, USA; 05.01.2009 - 08.01.2009; in: "Proceedings
+  of the 42nd Hawaiian International Conference on System Science 2009", R. H. Sprague
+  (Hrg.); IEEE Computer Society, (2009), ISBN: 978-0-7695-3450-3; S. 45'
 publication_types:
 - '1'
 publishDate: '2009-01-05'
-specifics: 'Vortrag: 42nd Hawaiian International Conference on System Science 2009
-  (HICSS 42), Waikoloa, Big Island, Hawaii, USA; 05.01.2009 - 08.01.2009; in: "Proceedings
-  of the 42nd Hawaiian International Conference on System Science 2009", R. H. Sprague
-  (Hrg.); IEEE Computer Society, (2009), ISBN: 978-0-7695-3450-3; S. 45.'
 title: 'Scalable Social Software Services: Towards a Shopping Community Model Based
   on Analyses of Established Web Service Components and Functions'
 url_pdf: ''

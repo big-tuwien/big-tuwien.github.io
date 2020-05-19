@@ -20,14 +20,14 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=281395&lang=2
-publication_types:
-- '1'
-publishDate: '2019-07-22'
-specifics: 'il, P. Novak, C. Huemer, R. Sindelar, P. Kadera, A. Mazak, M. Wimmer:
+publication: 'il, P. Novak, C. Huemer, R. Sindelar, P. Kadera, A. Mazak, M. Wimmer:
   "Production Planning with IEC 62264 and PDDL"; Vortrag: 17th IEEE International
   Conference on Industrial Informatics (INDIN 2019), Helsinki, Finland; 22.07.2019
   - 25.07.2019; in: "Proceedings of the 17th IEEE International Conference on Industrial
-  Informatics (INDIN 2019)", IEEE, (2019), ISBN: 978-1-7281-2927-3; S. 492 - 499.'
+  Informatics (INDIN 2019)", IEEE, (2019), ISBN: 978-1-7281-2927-3; S. 492 - 499'
+publication_types:
+- '1'
+publishDate: '2019-07-22'
 title: Production Planning with IEC 62264 and PDDL
 url_pdf: ''
 ---

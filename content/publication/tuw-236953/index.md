@@ -25,11 +25,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=236953&lang=2
+publication: Bielefeld Working Papers in Economics and Management, SSRN (2014), 06;
+  17 S
 publication_types:
 - '2'
 publishDate: '2014-01-01'
-specifics: Bielefeld Working Papers in Economics and Management, SSRN (2014), 06;
-  17 S.
 title: Campus Management Systems as Administrative Software Systems
 url_pdf: ''
 ---

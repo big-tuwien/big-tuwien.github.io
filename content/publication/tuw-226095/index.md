@@ -20,14 +20,14 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226095&lang=2
-publication_types:
-- '1'
-publishDate: '2013-07-04'
-specifics: 'Vortrag: The 8th International Conference on Evaluation of Novel Approaches
+publication: 'Vortrag: The 8th International Conference on Evaluation of Novel Approaches
   to Software Engineering (ENASE 2013), Angers, Frankreich; 04.07.2013 - 06.07.2013;
   in: "Proceedings of the 8th International Conference on Evaluation of Novel Approaches
   to Software Engineering", L. Maciaszek, J. Filipe (Hrg.); SciTePress, (2013), ISBN:
-  978-989-8565-62-4; S. 150 - 164.'
+  978-989-8565-62-4; S. 150 - 164'
+publication_types:
+- '1'
+publishDate: '2013-07-04'
 title: Identifying Critical Areas for Improvement in Agile Multi-site Co-development
 url_pdf: ''
 ---

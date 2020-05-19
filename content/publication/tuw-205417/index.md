@@ -21,10 +21,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205417&lang=2
+publication: International Journal On Advances in Security, 4 (2011), 1&2; S. 95 -
+  105
 publication_types:
 - '2'
 publishDate: '2011-01-01'
-specifics: International Journal On Advances in Security, 4 (2011), 1&2; S. 95 - 105.
 title: Security test approach for automated detection of vulnerabilities of sip-based
   voip softphones
 url_pdf: ''

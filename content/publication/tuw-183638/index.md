@@ -22,13 +22,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183638&lang=2
+publication: 'Vortrag: The Fourth International Conference on Persuasive Technology
+  (PERSUASIVE 2009), Claremont, California; 26.04.2009 - 29.04.2009; in: "Proceedings
+  of the 4th international Conference on Persuasive Technology", ACM, New York (2009),
+  ISBN: 978-1-60558-376-1; S. 1 - 6'
 publication_types:
 - '1'
 publishDate: '2009-04-26'
-specifics: 'Vortrag: The Fourth International Conference on Persuasive Technology
-  (PERSUASIVE 2009), Claremont, California; 26.04.2009 - 29.04.2009; in: "Proceedings
-  of the 4th international Conference on Persuasive Technology", ACM, New York (2009),
-  ISBN: 978-1-60558-376-1; S. 1 - 6.'
 title: 'show-me: water consumption at a glance to promote water conservation in the
   shower'
 url_pdf: ''

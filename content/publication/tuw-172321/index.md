@@ -15,12 +15,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=172321&lang=2
+publication: 'Vortrag: Workshop on Future Mobile Experiences: next generation mobile
+  interaction and contextualization, Lund, Sweden; 19.10.2008; in: "Proceedings of
+  the Workshop on Future Mobile Experiences", (2008), 4 S'
 publication_types:
 - '1'
 publishDate: '2008-10-19'
-specifics: 'Vortrag: Workshop on Future Mobile Experiences: next generation mobile
-  interaction and contextualization, Lund, Sweden; 19.10.2008; in: "Proceedings of
-  the Workshop on Future Mobile Experiences", (2008), 4 S.'
 title: 'Real-World Tagging in the Wild: On the Usability and Accessibility of NFC-based
   Interactions'
 url_pdf: ''

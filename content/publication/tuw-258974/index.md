@@ -15,13 +15,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=258974&lang=2
+publication: 'Vortrag: 11th International Workshop on Value Modeling and Business
+  Ontologies (VMBO 2017), Belvaux, Luxemburg; 06.03.2017 - 07.03.2017; in: "Proceedings
+  of the 11th International Workshop on Value Modeling and Business Ontologies", (2017),
+  5 S'
 publication_types:
 - '1'
 publishDate: '2017-03-06'
-specifics: 'Vortrag: 11th International Workshop on Value Modeling and Business Ontologies
-  (VMBO 2017), Belvaux, Luxemburg; 06.03.2017 - 07.03.2017; in: "Proceedings of the
-  11th International Workshop on Value Modeling and Business Ontologies", (2017),
-  5 S.'
 title: ISA-95 based Task Specification Layer for REA in Production Environments
 url_pdf: ''
 ---

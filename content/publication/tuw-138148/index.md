@@ -12,10 +12,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=138148&lang=2
+publication: Journal of Medical Informatics & Technologies, (2003)
 publication_types:
 - '2'
 publishDate: '2003-01-01'
-specifics: null
 title: 3D Watershed Transform Combined with a Probabilistic Atlas for Medical Image
   Segmentation
 url_pdf: ''

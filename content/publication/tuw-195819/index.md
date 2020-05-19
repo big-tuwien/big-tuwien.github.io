@@ -23,10 +23,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=195819&lang=2
+publication: Journal of Location Based Services, 2 (2008), 1; S. 24 - 40
 publication_types:
 - '2'
 publishDate: '2008-01-01'
-specifics: Journal of Location Based Services, 2 (2008), 1; S. 24 - 40.
 title: 'GeoPointing: evaluating the performance of orientation-aware location-based
   interaction under real-world conditions'
 url_pdf: ''

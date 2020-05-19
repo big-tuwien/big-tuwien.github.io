@@ -22,13 +22,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=187834&lang=2
+publication: 'Vortrag: Workshop on Model-driven Product Line Engineering (MDPLE 2010),
+  Paris; 16.06.2010; in: "Proceedings of the 2nd International Workshop on Model-driven
+  Product Line Engineering (MDPLE 2010)", G. Botterweck, P. Heymans, I. Maman, A.
+  Pleuss, J. Rubin (Hrg.); CEUR-WS.org, (2010), ISSN: 1613-0073; S. 61 - 72'
 publication_types:
 - '1'
 publishDate: '2010-06-16'
-specifics: 'Vortrag: Workshop on Model-driven Product Line Engineering (MDPLE 2010),
-  Paris; 16.06.2010; in: "Proceedings of the 2nd International Workshop on Model-driven
-  Product Line Engineering (MDPLE 2010)", G. Botterweck, P. Heymans, I. Maman, A.
-  Pleuss, J. Rubin (Hrg.); CEUR-WS.org, (2010), ISSN: 1613-0073; S. 61 - 72.'
 title: Managing Variability and Evolution of Business Document Models
 url_pdf: http://ceur-ws.org/Vol-625/MDPLE2010-paper6-Pichler.pdf
 ---

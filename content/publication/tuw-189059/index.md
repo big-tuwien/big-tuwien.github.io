@@ -23,12 +23,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=189059&lang=2
+publication: 'Vortrag: 7th IEEE International Conference on e-Business Engineering,
+  Shanghai; 10.11.2010 - 12.11.2010; in: "Proceedings of the 7th IEEE International
+  Conference on e-Business Engineering", IEEE, (2010), S. 56 - 63'
 publication_types:
 - '1'
 publishDate: '2010-11-10'
-specifics: 'Vortrag: 7th IEEE International Conference on e-Business Engineering,
-  Shanghai; 10.11.2010 - 12.11.2010; in: "Proceedings of the 7th IEEE International
-  Conference on e-Business Engineering", IEEE, (2010), S. 56 - 63.'
 title: A bottom-up approach to build XML business document standards
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_189059.pdf
 ---

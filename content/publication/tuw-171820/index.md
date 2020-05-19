@@ -25,12 +25,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=171820&lang=2
+publication: 'Vortrag: 21st Bled eConference 2008, Bled, Slovenia; 15.06.2008 - 18.06.2008;
+  in: "Proceedings of the 21st Bled eConference 2008", J. Hampe et al. (Hrg.); Moderna
+  organizacija, Kranj (2008), ISBN: 978-961-232-217-5; S. 321 - 335'
 publication_types:
 - '1'
 publishDate: '2008-06-15'
-specifics: 'Vortrag: 21st Bled eConference 2008, Bled, Slovenia; 15.06.2008 - 18.06.2008;
-  in: "Proceedings of the 21st Bled eConference 2008", J. Hampe et al. (Hrg.); Moderna
-  organizacija, Kranj (2008), ISBN: 978-961-232-217-5; S. 321 - 335.'
 title: 'Collaborative Shopping Networks: Sharing the Wisdom of Crowds in E-Commerce
   Environments'
 url_pdf: ''

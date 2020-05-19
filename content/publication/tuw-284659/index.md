@@ -15,13 +15,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=284659&lang=2
+publication: 'Vortrag: CHI Conference on Human Factors in Computing Systems (CHI EA
+  ''19), Glasgow, Scotland UK; 04.05.2019 - 09.05.2019; in: "Extended Abstracts of
+  the 2019 CHI Conference on Human Factors in Computing Systems (CHI EA ''19)", ACM,
+  LBW0259 (2019), ISBN: 978-1-4503-5971-9; S. 1 - 6'
 publication_types:
 - '1'
 publishDate: '2019-05-04'
-specifics: 'Vortrag: CHI Conference on Human Factors in Computing Systems (CHI EA
-  ''19), Glasgow, Scotland UK; 04.05.2019 - 09.05.2019; in: "Extended Abstracts of
-  the 2019 CHI Conference on Human Factors in Computing Systems (CHI EA ''19)", ACM,
-  LBW0259 (2019), ISBN: 978-1-4503-5971-9; S. 1 - 6.'
 title: 'Hyper Typer: A Serious Game for Measuring Mobile Text Entry Performance in
   the Wild'
 url_pdf: ''

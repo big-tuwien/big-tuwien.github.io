@@ -21,13 +21,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246366&lang=2
+publication: 'Vortrag: 15th International Conference on Human-Computer Interaction
+  (INTERACT 2015), Bamberg, Deutschland; 14.09.2015 - 18.09.2015; in: "Volume 9296
+  of the series Lecture Notes in Computer Science", Lecture Notes in Computer Science,
+  (2015), ISBN: 978-3-319-22700-9; S. 214 - 231'
 publication_types:
 - '1'
 publishDate: '2015-09-14'
-specifics: 'Vortrag: 15th International Conference on Human-Computer Interaction (INTERACT
-  2015), Bamberg, Deutschland; 14.09.2015 - 18.09.2015; in: "Volume 9296 of the series
-  Lecture Notes in Computer Science", Lecture Notes in Computer Science, (2015), ISBN:
-  978-3-319-22700-9; S. 214 - 231.'
 title: 'Gamification of Online Surveys: Design Process, Case Study, and Evaluation'
 url_pdf: ''
 ---

@@ -8,10 +8,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=203806&lang=2
+publication: International Journal of Electronic Commerce Research, 7 (2006), 3
 publication_types:
 - '2'
 publishDate: '2006-01-01'
-specifics: null
 title: 'Inter-organizational Business: From a Standard Process Model to a Business
   Environment Specific Process'
 url_pdf: ''

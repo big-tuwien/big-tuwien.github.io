@@ -28,11 +28,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246610&lang=2
+publication: 'essentials Springer Vieweg, Wiesbaden, 2015, ISBN: 978-3-658-11594-4;
+  37 S'
 publication_types:
 - '5'
 publishDate: '2015-01-01'
-specifics: 'essentials Springer Vieweg, Wiesbaden, 2015, ISBN: 978-3-658-11594-4;
-  37 S.'
 title: Campus-Management Systeme als Administrative Systeme Basiswissen und Fallbeispiele
   zur Gestaltung und Einführung
 url_pdf: ''

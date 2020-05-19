@@ -25,10 +25,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=173990&lang=2
+publication: Computer Journal, 52 (2009), 8
 publication_types:
 - '2'
 publishDate: '2009-01-01'
-specifics: Computer Journal, 52 (2009), 8.
 title: 'B2B Services: Worksheet-Driven Development of Modeling Artifacts and Code'
 url_pdf: ''
 ---

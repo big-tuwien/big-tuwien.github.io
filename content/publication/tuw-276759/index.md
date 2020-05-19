@@ -26,12 +26,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=276759&lang=2
+publication: 'in: "2018 IEEE 20th Conference on Business Informatics (CBI)", herausgegeben
+  von: IEEE Computer Society; IEEE Computer Society, Los Alamitos, 2018, (eingeladen),
+  ISBN: 978-1-5386-7016-3, S. 175 - 177'
 publication_types:
 - '1'
 publishDate: '2018-01-01'
-specifics: 'in: "2018 IEEE 20th Conference on Business Informatics (CBI)", herausgegeben
-  von: IEEE Computer Society; IEEE Computer Society, Los Alamitos, 2018, (eingeladen),
-  ISBN: 978-1-5386-7016-3, S. 175 - 177.'
 title: Interoperability and Integration in Future Production Systems
 url_pdf: https://publik.tuwien.ac.at/files/publik_276759.pdf
 ---

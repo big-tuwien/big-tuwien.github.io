@@ -12,15 +12,15 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=215523&lang=2
-publication_types:
-- '1'
-publishDate: '2012-11-14'
-specifics: 'Vortrag: Fachtagung des GI-Fachausschusses Management der Anwendungsentwicklung
+publication: 'Vortrag: Fachtagung des GI-Fachausschusses Management der Anwendungsentwicklung
   und -wartung im Fachbereich Wirtschaftsinformatik (WI-MAW), Bielefeld, Deutschland;
   14.11.2012 - 16.11.2012; in: "Lecture Notes in Informatics (LNI)", H. Brandt-Pook,
   A. Fleer, T. Spitta, M. Wattenberg (Hrg.); Lecture Notes in Informatics (LNI) -
   Gesellschaft fu&#776;r Informatik, Volume P-209 (2012), ISBN: 978-3-88579-603-9;
-  S. 135 - 152.'
+  S. 135 - 152'
+publication_types:
+- '1'
+publishDate: '2012-11-14'
 title: Entwicklung und Betrieb eines Campus-Management-Systems - Aspekte zur Nachhaltigkeit
   am Beispiel Tiss
 url_pdf: ''

@@ -21,12 +21,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=215767&lang=2
+publication: 'Vortrag: Educators'' Symposium @ MODELS 2012, Innsbruck; 30.09.2012
+  - 05.10.2012; in: "Proceedings of the 8th Educators'' Symposium @ MODELS 2012: Software
+  Modeling in Education (EduSymp''12)", ACM Digital Library, (2012), S. 21 - 27'
 publication_types:
 - '1'
 publishDate: '2012-09-30'
-specifics: 'Vortrag: Educators'' Symposium @ MODELS 2012, Innsbruck; 30.09.2012 -
-  05.10.2012; in: "Proceedings of the 8th Educators'' Symposium @ MODELS 2012: Software
-  Modeling in Education (EduSymp''12)", ACM Digital Library, (2012), S. 21 - 27.'
 title: Replacing Traditional Classroom Lectures with Lecture Videos - An Experience
   Report
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_215767.pdf

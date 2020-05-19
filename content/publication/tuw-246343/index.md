@@ -23,13 +23,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246343&lang=2
+publication: 'Vortrag: 31st IEEE International Conference on Software Maintenance
+  and Evolution (ICSME 2015), Bremen, Germany; 29.09.2015 - 01.10.2015; in: "Proceedings
+  of the IEEE International Conference on Software Maintenance and Evolution (ICSME
+  2015)", IEEE, (2015), ISBN: 978-1-4673-7532-0; S. 571 - 575'
 publication_types:
 - '1'
 publishDate: '2015-09-29'
-specifics: 'Vortrag: 31st IEEE International Conference on Software Maintenance and
-  Evolution (ICSME 2015), Bremen, Germany; 29.09.2015 - 01.10.2015; in: "Proceedings
-  of the IEEE International Conference on Software Maintenance and Evolution (ICSME
-  2015)", IEEE, (2015), ISBN: 978-1-4673-7532-0; S. 571 - 575.'
 title: Combining software interrelationship data across heterogeneous software repositories
 url_pdf: ''
 ---

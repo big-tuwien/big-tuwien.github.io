@@ -17,11 +17,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=178028&lang=2
+publication: 'Vortrag: Educators'' Symposium @ Models 2009, Denver, USA; 06.10.2009;
+  in: "Educators'' Symposium @ Models 2009", (2009), 8 S'
 publication_types:
 - '1'
 publishDate: '2009-10-06'
-specifics: 'Vortrag: Educators'' Symposium @ Models 2009, Denver, USA; 06.10.2009;
-  in: "Educators'' Symposium @ Models 2009", (2009), 8 S.'
 title: 'Teaching Models@BIG: On Efficiently Assessing Modeling Concepts'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_178028.pdf
 ---

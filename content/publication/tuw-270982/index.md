@@ -18,13 +18,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=270982&lang=2
+publication: 'Vortrag: 23rd International Conference on Emerging Technologies and
+  Factory Automation (ETFA), Torino, Italy; 04.09.2018 - 07.09.2018; in: "Proceedings
+  of the 23rd International Conference on Emerging Technologies and Factory Automation
+  (ETFA)", (2018), ISBN: 978-1-5386-7107-8; S. 1033 - 1036'
 publication_types:
 - '1'
 publishDate: '2018-09-04'
-specifics: 'Vortrag: 23rd International Conference on Emerging Technologies and Factory
-  Automation (ETFA), Torino, Italy; 04.09.2018 - 07.09.2018; in: "Proceedings of the
-  23rd International Conference on Emerging Technologies and Factory Automation (ETFA)",
-  (2018), ISBN: 978-1-5386-7107-8; S. 1033 - 1036.'
 title: A Variability Information Model for OPC UA
 url_pdf: ''
 ---

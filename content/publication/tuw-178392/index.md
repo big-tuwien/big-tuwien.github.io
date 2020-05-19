@@ -20,13 +20,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=178392&lang=2
+publication: 'Vortrag: eChallenges 2009 Conference and Exhibition, Istanbul, Turkey;
+  21.10.2009 - 23.10.2009; in: "Proceedings of the eChallenges 2009 Conference and
+  Exhibition", IIMC International Information Management Corporation, (2009), ISBN:
+  978-1-905824-13-7; S. 1 - 8'
 publication_types:
 - '1'
 publishDate: '2009-10-21'
-specifics: 'Vortrag: eChallenges 2009 Conference and Exhibition, Istanbul, Turkey;
-  21.10.2009 - 23.10.2009; in: "Proceedings of the eChallenges 2009 Conference and
-  Exhibition", IIMC International Information Management Corporation, (2009), ISBN:
-  978-1-905824-13-7; S. 1 - 8.'
 title: A Framework for Managing the Complexity of Business Document Integration
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_178392.pdf
 ---

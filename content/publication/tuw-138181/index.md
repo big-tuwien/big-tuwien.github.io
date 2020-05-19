@@ -9,10 +9,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=138181&lang=2
+publication: 'Vortrag: European Conference on Pattern Languages of Programs, Irsee,
+  Germany; 25.06.2003 - 29.06.2003; in: "Proceedings of Europlop 2003", (2003), ISBN:
+  3-87940-788-6; S. 828 - 849'
 publication_types:
 - '1'
 publishDate: '2003-06-25'
-specifics: null
 title: A pattern language for software quality assurance in small and medium enterprises
 url_pdf: ''
 ---

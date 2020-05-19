@@ -10,10 +10,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=140748&lang=2
+publication: 'Vortrag: International Conference on Software Engineering (ICSE), Shanghai,
+  China; 20.05.2006 - 28.05.2006; in: "Proceedings of the 28th International Conference
+  on Software Engineering - ICSE 2006", ACM Press, (2006), S. 667 - 672'
 publication_types:
 - '1'
 publishDate: '2006-05-20'
-specifics: null
 title: Dimensions of Software Engineering Course Design
 url_pdf: ''
 ---

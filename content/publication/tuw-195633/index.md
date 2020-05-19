@@ -9,10 +9,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=195633&lang=2
+publication: ERP Management Journal, 3 (2010), S. 34 - 36
 publication_types:
 - '2'
 publishDate: '2010-01-01'
-specifics: null
 title: Evaluierung nicht- funktionaler Anforderungen an ERP-Systeme
 url_pdf: ''
 ---

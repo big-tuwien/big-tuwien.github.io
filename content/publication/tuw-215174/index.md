@@ -27,14 +27,14 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=215174&lang=2
+publication: 'Vortrag: 15th International Conference on Fundamental Approaches to
+  Software Engineering (FASE''12), Tallinn, Estonia; 24.03.2012 - 01.04.2012; in:
+  "Proceedings of the 15th international conference on Fundamental Approaches to Software
+  Engineering (FASE''12)", Springer-Verlag, Berlin, Heidelberg (2012), ISBN: 978-3-642-28871-5;
+  S. 301 - 315'
 publication_types:
 - '1'
 publishDate: '2012-03-24'
-specifics: 'Vortrag: 15th International Conference on Fundamental Approaches to Software
-  Engineering (FASE''12), Tallinn, Estonia; 24.03.2012 - 01.04.2012; in: "Proceedings
-  of the 15th international conference on Fundamental Approaches to Software Engineering
-  (FASE''12)", Springer-Verlag, Berlin, Heidelberg (2012), ISBN: 978-3-642-28871-5;
-  S. 301 - 315.'
 title: Tracing your maintenance work - a cross-project validation of an automated
   classification dictionary for commit messages
 url_pdf: ''

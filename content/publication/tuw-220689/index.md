@@ -22,13 +22,13 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=220689&lang=2
+publication: 'Vortrag: IEEE 11th International Conference on Industrial Informatics
+  INDIN´2013, Bochum, Germany; 29.07.2013 - 31.07.2013; in: "Proceedings of the 11th
+  IEEE International Conference on Industrial Informatics (INDIN''2013)", (2013),
+  S. 523 - 528'
 publication_types:
 - '1'
 publishDate: '2013-07-29'
-specifics: 'Vortrag: IEEE 11th International Conference on Industrial Informatics
-  INDIN´2013, Bochum, Germany; 29.07.2013 - 31.07.2013; in: "Proceedings of the 11th
-  IEEE International Conference on Industrial Informatics (INDIN''2013)", (2013),
-  S. 523 - 528.'
 title: 'Business Context Sensitive Business Documents: Business Context Aware Core
   Components Modeling Using the E-UCM Model'
 url_pdf: ''

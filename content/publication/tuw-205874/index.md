@@ -30,11 +30,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205874&lang=2
+publication: International Journal of Managing Information Technology (IJMIT), 3 (2011),
+  3; S. 16 - 26
 publication_types:
 - '2'
 publishDate: '2011-01-01'
-specifics: International Journal of Managing Information Technology (IJMIT), 3 (2011),
-  3; S. 16 - 26.
 title: Assessing the feasibility of developing a federated ERP system
 url_pdf: ''
 ---
