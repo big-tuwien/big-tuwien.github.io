@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 
 TEMPLATE_DIR = 'templates'
-CONTENT_DIR = '../content'
+CONTENT_DIR = '../../content'
 
 BIG_BASE = 'https://big.tuwien.ac.at'
 

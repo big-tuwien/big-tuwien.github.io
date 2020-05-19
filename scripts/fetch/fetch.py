@@ -19,8 +19,8 @@ SEMINAR_PROJECT_COURSE_TYPES = ['SE', 'PV', 'PR']
 
 TEMPLATE_DIR = 'templates'
 
-DATA_DIR = '../data'
-CONTENT_DIR = '../content'
+DATA_DIR = '../../data'
+CONTENT_DIR = '../../content'
 PEOPLE_DIR = CONTENT_DIR + '/people'
 TEACHING_DIR = CONTENT_DIR + '/teaching'
 PUBLICATION_DIR = CONTENT_DIR + '/publication'
