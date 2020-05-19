@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import re
@@ -18,12 +19,6 @@ LECTURE_EXERCISE_COURSE_TYPES = ['VO', 'VU']
 SEMINAR_PROJECT_COURSE_TYPES = ['SE', 'PV', 'PR']
 
 TEMPLATE_DIR = 'templates'
-
-DATA_DIR = '../../data'
-CONTENT_DIR = '../../content'
-PEOPLE_DIR = CONTENT_DIR + '/people'
-TEACHING_DIR = CONTENT_DIR + '/teaching'
-PUBLICATION_DIR = CONTENT_DIR + '/publication'
 
 TISS_BASE = 'https://tiss.tuwien.ac.at'
 PUBLIK_BASE = 'https://publik.tuwien.ac.at'
@@ -107,11 +102,14 @@ def load_courses(lecturers, semester=None, session=requests.Session()):
 def parse_courses(courses, people):
     lectures_exercises = [c for c in courses if c['courseType'] in LECTURE_EXERCISE_COURSE_TYPES]
     seminars_projects = [c for c in courses if c['courseType'] in SEMINAR_PROJECT_COURSE_TYPES]
-    other = [c for c in courses if c['courseType'] not in (LECTURE_EXERCISE_COURSE_TYPES + SEMINAR_PROJECT_COURSE_TYPES)]
+    other = [c for c in courses if c['courseType'] not in
+             (LECTURE_EXERCISE_COURSE_TYPES + SEMINAR_PROJECT_COURSE_TYPES)]
 
     result = {}
 
-    for identifier, courses in [('lectures_exercises', lectures_exercises), ('seminars_projects', seminars_projects), ('other', other)]:
+    for identifier, courses in [('lectures_exercises', lectures_exercises),
+                                ('seminars_projects', seminars_projects),
+                                ('other', other)]:
         result[identifier] = [{
             'authors': [p['identifier'] for p in people if str(p['oid']) in course['lecturers']['oid']],
             'number': course["courseNumber"],
@@ -221,11 +219,63 @@ def parse_publications(publications, bib_db, author_transform_map):
                 break
         academic_type = academic_type_map.get(bib_entry["ENTRYTYPE"], 0) if bib_entry else 0
 
+        # type specific content
+        """extra_data = {}
+
+        if pub_type == 'diss_dipl':
+            extra_data['advisor'] = pub[pub_type]['begutachter']
+        elif pub_type == 'zeitschriftenartikel':
+            extra_data['magazine'] = pub[pub_type]['zeitschrift']
+        elif pub_type == 'vortrag_poster_mit_tagungsband':
+            extra_data['talk'] = pub[pub_type]['veranstaltung']
+            extra_data['in'] = pub[pub_type]['titel_tagungsband']
+            extra_data['location'] = pub[pub_type]['ort']
+            extra_data['starts'] = pub[pub_type]['datum_von']
+        elif pub_type == 'vortrag_poster_ohne_tagungsband':
+            extra_data['talk'] = pub[pub_type]['veranstaltung']
+            extra_data['location'] = pub[pub_type]['ort']
+            extra_data['starts'] = pub[pub_type]['datum_von']
+        elif pub_type == 'buch_herausgabe':
+            extra_data['publisher_name'] = pub[pub_type]['verlag_name']
+            extra_data['publisher_location'] = pub[pub_type]['verlag_ort']
+            extra_data['isbn'] = pub[pub_type]['isbn']
+        elif pub_type == 'buch':
+            extra_data['publisher_name'] = pub[pub_type]['verlag_name']
+            extra_data['publisher_location'] = pub[pub_type]['verlag_ort']
+            extra_data['isbn'] = pub[pub_type]['isbn']
+            # extra_data['pages'] = pub[pub_type]['seiten']
+        elif pub_type == 'elektron_zeitschrift':
+            extra_data['paper_name'] = pub[pub_type]['www_zeitschr']
+            extra_data['edition'] = pub[pub_type]['band_url']
+        elif pub_type == 'buchbeitrag':
+            extra_data['publication_title'] = pub[pub_type]['titel_buch']
+            extra_data['publisher_name'] = pub[pub_type]['verlag_name']
+            extra_data['isbn'] = pub[pub_type]['isbn']
+            extra_data['pages'] = pub[pub_type]['seite_von_bis']
+        elif pub_type == 'beitrag_tagungsband':
+            extra_data['publication_title'] = pub[pub_type]['titel_tagungsband']
+            extra_data['publisher_name'] = pub[pub_type]['verlag_name']
+            extra_data['publisher_location'] = pub[pub_type]['verlag_ort']
+            # extra_data['isbn'] = pub[pub_type]['isbn']
+            extra_data['pages'] = pub[pub_type]['seite_von_bis']
+        elif pub_type == 'vortrag_poster_mit_cd_tagungsband':
+            extra_data['talk'] = pub[pub_type]['veranstaltung']
+            extra_data['in'] = pub[pub_type]['titel_tagungsband']
+            extra_data['location'] = pub[pub_type]['ort']
+            extra_data['starts'] = pub[pub_type]['datum_von']
+            extra_data['pages'] = pub[pub_type]['seiten']
+        elif pub_type == 'vortrag_poster_mit_tagungsband':
+            extra_data['talk'] = pub[pub_type]['veranstaltung']
+            extra_data['in'] = pub[pub_type]['titel_tagungsband']
+            extra_data['location'] = pub[pub_type]['ort']
+            extra_data['starts'] = pub[pub_type]['datum_von']
+            extra_data['pages'] = pub[pub_type]['seite_von_bis']"""
+
         # create the post
         post = frontmatter.Post(content='', title=title, authors=authors, date=f'{year}-{month}-{day}',
                                 publishDate=f'{year}-{month}-{day}', publication_types=[str(academic_type)],
                                 abstract=abstract, featured=False, url_pdf=pdf_link,
-                                links=[{'name': 'Publik', 'url': publik_link}])
+                                links=[{'name': 'Publik', 'url': publik_link}], **extra_data)
 
         posts.append((pub_id, post))
 
@@ -240,7 +290,8 @@ def load_bibtex(publishers, session=requests.Session()):
         r = session.get(BIBTEX_URL, params=query)
         result = r.content.decode('ISO-8859-1')
         for line in result.split(os.linesep):
-            if len(line) == 0 or line.startswith('BibTeX-Export:') or line.endswith('ausgegeben') or line.startswith('@comment'):
+            if len(line) == 0 or line.startswith('BibTeX-Export:') or \
+              line.endswith('ausgegeben') or line.startswith('@comment'):
                 continue
             composite_bibtex += line + '\n'
         composite_bibtex += '\n'
@@ -285,24 +336,58 @@ def save_publications(posts, bib_db, pub_dir):
 
 
 def main():
+    argparser = argparse.ArgumentParser(description='BIG data fetch script.')
+    argparser.add_argument('-m', '--members',
+                           help='fetch member data of the BIG organization in TISS', action='store_true',
+                           dest='fetch_members')
+    argparser.add_argument('-c', '--courses',
+                           help='fetch courses of current and previous semester', action='store_true',
+                           dest='fetch_courses')
+    argparser.add_argument('-p', '--publications',
+                           help='fetch publications affiliated with BIG members', action='store_true',
+                           dest='fetch_publications')
+    argparser.add_argument('-o', '--override',
+                           help='override existing content', action='store_true',
+                           dest='override')
+    argparser.add_argument('-C', '--config',
+                           help='provide the path of the config file. Defaults to "config.yml"',
+                           default=os.path.dirname(__file__) + '/config.yml',
+                           metavar='PATH', dest='config_path')
+    argparser.add_argument('-b', '--base',
+                           help='provide the project base dir. Defaults to "../.."',
+                           default=os.path.dirname(__file__) + '/../..',
+                           metavar='PATH', dest='base_path')
+    argparser.add_argument('-d', '--debug',
+                           help='dumps fetched data to the /data directory', action='store_true',
+                           dest='debug')
+    args = argparser.parse_args()
+
+    if not (args.fetch_members or args.fetch_courses or args.fetch_publications):
+        print('Aborting as there is nothing to do. Run with "-h" for help.')
+        return
+
+    base_dir = args.base_path.rstrip('/')
+    data_dir = base_dir + '/data'
+    content_dir = base_dir + '/content'
+    people_dir = base_dir + '/people'
+    publication_dir = content_dir + '/publication'
+
     # load config
-    with open('config.yml', 'r', encoding='utf-8') as yml:
+    with open(args.config_path, 'r', encoding='utf-8') as yml:
         try:
             config = yaml.safe_load(yml)
         except yaml.YAMLError as e:
-            print('Cannot read config.yml: ', e)
+            print('Cannot read config file: ', e)
             return
 
     s = requests.Session()
 
-    print('Fetching people. Creating files for new people in the "content/authors" directory')
-
-    # fetch people
+    # fetch members
     r = s.get(PEOPLE_URL)
     data = r.json()
     people = data['employees']
 
-    # add short names
+    # add identifiers
     for person in people:
         person['identifier'] = _id(person['first_name'] + ' ' + person['last_name'])
 
@@ -311,90 +396,99 @@ def main():
     whitelist = [_id(name) for name in config['people']['whitelist']]
     people = [p for p in people if p['identifier'] in whitelist]
 
-    for person in people:
-        first_name = person['first_name']
-        last_name = person['last_name']
-        name = f'{first_name} {last_name}'
-        directory = f'{PEOPLE_DIR}/{person["identifier"]}'
+    if args.fetch_members:
+        print('Fetching people. Creating files for new people in the "content/authors" directory')
 
-        # create folder
-        if not os.path.exists(directory):
-            print(f'Creating author files for {name}')
-            os.makedirs(directory)
-        else:
-            print(f'Skipping {name} ({person["identifier"]}) - profile already exists')
-            continue
+        for person in people:
+            first_name = person['first_name']
+            last_name = person['last_name']
+            name = f'{first_name} {last_name}'
+            directory = f'{people_dir}/{person["identifier"]}'
 
-        # download profile pic or copy default
-        pic_dest = directory + '/avatar.jpg'
-        if person['picture_uri']:
-            urllib.request.urlretrieve(TISS_BASE + person['picture_uri'], pic_dest)
-        else:
-            shutil.copyfile(TEMPLATE_DIR + '/authors/user/avatar.jpg', pic_dest)
+            # create folder
+            if not os.path.exists(directory):
+                print(f'Creating author files for {name}')
+                os.makedirs(directory)
+            else:
+                print(f'Skipping {name} ({person["identifier"]}) - profile already exists')
+                continue
 
-        # apply metadata to markdown front matter
-        post = frontmatter.load(TEMPLATE_DIR + '/authors/user/_index.md')
-        post['name'] = name
-        post['authors'] = [person["identifier"]]
-        post['role'] = person['preceding_titles']
-        post['email'] = person['main_email']
-        pairs = [{'key': 'Mail', 'value': person["main_email"], 'link': f'mailto:{person["main_email"]}'}]
-        if person['main_phone_number']:
-            pairs.append(
-                {'key': 'Phone', 'value': person["main_phone_number"], 'link': f'tel:{person["main_phone_number"]}'}
-            )
-        post['pairs'] = pairs
-        with open(f'{directory}/_index.md', 'w+', encoding='utf-8') as f:
-            f.write(frontmatter.dumps(post))
+            # download profile pic or copy default
+            pic_dest = directory + '/avatar.jpg'
+            if person['picture_uri']:
+                urllib.request.urlretrieve(TISS_BASE + person['picture_uri'], pic_dest)
+            else:
+                shutil.copyfile(TEMPLATE_DIR + '/authors/user/avatar.jpg', pic_dest)
 
-    with open(f'{DATA_DIR}/people.json', 'w+', encoding='utf-8') as f:
-        f.write(json.dumps(people, indent=4))
+            # apply metadata to markdown front matter
+            post = frontmatter.load(TEMPLATE_DIR + '/authors/user/_index.md')
+            post['name'] = name
+            post['authors'] = [person["identifier"]]
+            post['role'] = person['preceding_titles']
+            post['email'] = person['main_email']
+            pairs = [{'key': 'Mail', 'value': person["main_email"], 'link': f'mailto:{person["main_email"]}'}]
+            if person['main_phone_number']:
+                pairs.append(
+                    {'key': 'Phone', 'value': person["main_phone_number"], 'link': f'tel:{person["main_phone_number"]}'}
+                )
+            post['pairs'] = pairs
+            with open(f'{directory}/_index.md', 'w+', encoding='utf-8') as f:
+                f.write(frontmatter.dumps(post))
 
-    # fetch courses. has to be done separately for each person (fetching courses for the institute returns an empty set)
-    print('Fetching courses. Creating files for courses in the "content/teaching" directory')
+        if args.debug:
+            with open(f'{data_dir}/people.json', 'w+', encoding='utf-8') as f:
+                f.write(json.dumps(people, indent=4))
 
-    current_semester, prev_semester = _get_semesters()
+    if args.fetch_courses:
+        # fetch courses. has to be done separately for each person
+        # (fetching courses for the institute returns an empty set)
+        print('Fetching courses. Creating files for courses in the "content/teaching" directory')
 
-    semesters = [current_semester, prev_semester]
+        current_semester, prev_semester = _get_semesters()
 
-    lecturer_blacklist = [_id(name) for name in config['courses']['blacklist']]
-    lecturers = [p for p in people if p['identifier'] not in lecturer_blacklist]
+        semesters = [current_semester, prev_semester]
 
-    for semester in semesters:
-        print(f'Fetching courses for semester {semester}')
+        lecturer_blacklist = [_id(name) for name in config['courses']['blacklist']]
+        lecturers = [p for p in people if p['identifier'] not in lecturer_blacklist]
 
-        courses = load_courses(lecturers, semester=semester)
-        parsed_courses = parse_courses(courses, lecturers)
+        for semester in semesters:
+            print(f'Fetching courses for semester {semester}')
 
-        with open(f'{DATA_DIR}/teaching/courses/{semester}.json', 'w+', encoding='utf-8') as f:
-            f.write(json.dumps(parsed_courses, indent=4))
+            courses = load_courses(lecturers, semester=semester)
+            parsed_courses = parse_courses(courses, lecturers)
 
-    # fetch publications
-    publisher_blacklist = [_id(name) for name in config['publications']['blacklist']]
-    publishers = [p for p in people if p['identifier'] not in publisher_blacklist]
+            with open(f'{data_dir}/teaching/courses/{semester}.json', 'w+', encoding='utf-8') as f:
+                f.write(json.dumps(parsed_courses, indent=4))
 
-    print('Loading BibTeX records')
-    bibtex = load_bibtex(publishers)
+    if args.fetch_publications:
+        # fetch publications
+        publisher_blacklist = [_id(name) for name in config['publications']['blacklist']]
+        publishers = [p for p in people if p['identifier'] not in publisher_blacklist]
 
-    print('Parsing BibTeX entries')
-    bib_db = parse_bibtex(bibtex)
+        print('Loading BibTeX records')
+        bibtex = load_bibtex(publishers)
 
-    print('Fetching publications')
-    publications = load_publications(publishers, session=s)
-    with open(f'{DATA_DIR}/publications.json', 'w+', encoding='utf-8') as f:
-        f.write(json.dumps(publications, indent=4))
+        print('Parsing BibTeX entries')
+        bib_db = parse_bibtex(bibtex)
 
-    print('Parsing publications')
-    name_map = {}
-    for entry in config['publications']['transform']:
-        to = entry['to']
-        for fr in entry['from']:
-            name_map[fr] = to
+        print('Fetching publications')
+        publications = load_publications(publishers, session=s)
 
-    posts = parse_publications(publications, bib_db, name_map)
+        if args.debug:
+            with open(f'{data_dir}/publications.json', 'w+', encoding='utf-8') as f:
+                f.write(json.dumps(publications, indent=4))
 
-    print(f'Storing results to "{PUBLICATION_DIR}". Skipping existing records.')
-    save_publications(posts, bib_db, PUBLICATION_DIR)
+        print('Parsing publications')
+        name_map = {}
+        for entry in config['publications']['transform']:
+            to = entry['to']
+            for fr in entry['from']:
+                name_map[fr] = to
+
+        posts = parse_publications(publications, bib_db, name_map)
+
+        print(f'Storing results to "{publication_dir}". Skipping existing records.')
+        save_publications(posts, bib_db, publication_dir)
 
 
 if __name__ == '__main__':
