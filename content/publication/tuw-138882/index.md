@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-09-20'
+specifics: null
 title: A Web Based Feedback Tool for Software Engineering Teams
 url_pdf: ''
 ---

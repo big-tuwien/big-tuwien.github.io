@@ -20,6 +20,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2018-09-10'
+specifics: 'Vortrag: 14th International Conference on Semantic Systems, Vienna; 10.09.2018
+  - 13.09.2018; in: "Proceedings of the Posters and Demos Track of the 14th International
+  Conference on Semantic Systems", ceur-ws, Vol. 2198 (2018), ISSN: 1613-0073; Paper-Nr.
+  103, 4 S.'
 title: Hailing a Taxi on the Web of Needs
 url_pdf: https://publik.tuwien.ac.at/files/publik_276723.pdf
 ---

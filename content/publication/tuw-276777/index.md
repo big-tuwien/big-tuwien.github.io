@@ -43,6 +43,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2018-07-11'
+specifics: 'Vortrag: 2018 IEEE 20th Conference on Business Informatics (CBI), Vienna;
+  11.07.2018 - 14.07.2018; in: "2018 IEEE 20th Conference on Business Informatics
+  (CBI)", IEEE Computer Society, (2018), ISBN: 978-1-5386-7016-3; S. 92 - 96.'
 title: Data Analytics for Industrial Process Improvement - A Vision Paper
 url_pdf: https://publik.tuwien.ac.at/files/publik_276777.pdf
 ---

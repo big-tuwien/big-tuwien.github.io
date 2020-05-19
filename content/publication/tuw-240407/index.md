@@ -24,6 +24,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2015-07-13'
+specifics: 'Vortrag: 17th IEEE Conference on Business Informatics, Lissabon, Portugal;
+  13.07.2015 - 16.07.2015; in: "Proceedings of the 17th IEEE Conference on Business
+  Informatics (CBI)", IEEE, (2015), ISBN: 978-1-4673-7340-1; S. 116 - 124.'
 title: Model-Driven Retail Information System based on REA Business Ontology and Retail-H
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_240407.pdf
 ---

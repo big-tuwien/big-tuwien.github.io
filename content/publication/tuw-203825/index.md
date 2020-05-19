@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-01-01'
+specifics: null
 title: UN/CEFACTs Business Collaboration Framework - Motivation and Basic Concepts
 url_pdf: ''
 ---

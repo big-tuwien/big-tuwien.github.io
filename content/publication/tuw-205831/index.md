@@ -16,6 +16,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2011-08-30'
+specifics: 'Vortrag: 13th International Conference on Human-Computer Interaction with
+  Mobile Devices and Services (MobileHCI 2011), Stockholm, Schweden; 30.08.2011 -
+  02.09.2011; in: "Proceedings of the 13th International Conference on Human Computer
+  Interaction with Mobile Devices and Services", ACM, New York (2011), ISBN: 978-1-4503-0541-9;
+  S. 1 - 4.'
 title: Aesthetic Quality of Physical Behavior and its Impact on User Experience
 url_pdf: ''
 ---

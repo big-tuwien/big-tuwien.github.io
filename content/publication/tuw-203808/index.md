@@ -12,6 +12,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2005-01-01'
+specifics: null
 title: Business Collaboration Models and their Business Context-dependent BPSS Implementations
 url_pdf: ''
 ---

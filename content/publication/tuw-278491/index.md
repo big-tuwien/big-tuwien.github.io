@@ -22,6 +22,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2018-04-22'
+specifics: 'Vortrag: 2018 IFIP WG 9.4 European Regional Conference on the Social Implications
+  of Computers in Developing Countries, Tirana, Albanien; 22.04.2018 - 24.04.2018;
+  in: "Proceedings of the 2018 IFIP WG 9.4 European Regional Conference on the Social
+  Implications of Computers in Developing Countries", Ifip Aict, London (2018), ISBN:
+  978-1-78926-343-5; S. 39 - 41.'
 title: Engineering Consequences of Mobile Systems´ Technological Constraints in Developing
   Countries Exemplified by Mozambique
 url_pdf: ''

@@ -17,6 +17,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-12-03'
+specifics: 'Vortrag: The 6th International Conference on Knowledge Management: Managing
+  Knowledge for Global and Collaborative Innovations, Hong Kong, China; 03.12.2009
+  - 04.12.2009; in: "Proceedings of the 6th International Conference on Knowledge
+  Management: Managing Knowledge for Global and Collaborative Innovations", (2009),
+  12 S.'
 title: Fundamentals for an IT-Strategy towards managing viable knowledge-intensive
   research projects
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_183641.pdf

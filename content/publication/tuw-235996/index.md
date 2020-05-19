@@ -22,6 +22,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2014-10-26'
+specifics: 'Vortrag: The 8th Nordic Conference on Human-Computer Interaction (NordiCHI`
+  2014), Helsinki, Finland; 26.10.2014 - 30.10.2014; in: "Proceedings of the 8th Nordic
+  Conference on Human-Computer Interaction: Fun, Fast, Foundational", ACM, (2014),
+  ISBN: 978-1-4503-2542-4; S. 565 - 568.'
 title: 'Gamification of Online Surveys: Conceptual Foundations and a Design Method
   based on the MDA Framework'
 url_pdf: ''

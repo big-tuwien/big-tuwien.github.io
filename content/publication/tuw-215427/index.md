@@ -24,6 +24,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2013-01-16'
+specifics: 'Vortrag: IEEE EMBS Special Topic Conference on Point-of-Care Healthcare
+  Technologies, Bangalore, India; 16.01.2013 - 18.01.2013; in: "Point-of-Care Healthcare
+  Technologies (PHT)", Ieee Embs, (2013), S. 176 - 179.'
 title: Developing a NFC Based Patient Identification and Ward round System for Mobile
   Devices Using the Android Platform
 url_pdf: ''

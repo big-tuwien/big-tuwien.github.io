@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-01-01'
+specifics: null
 title: ebXML Business Processes - Defined both in UMM and BPSS
 url_pdf: ''
 ---

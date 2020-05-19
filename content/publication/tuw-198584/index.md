@@ -27,6 +27,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2011-01-01'
+specifics: Service Oriented Computing and Applications, 5 (2011), 3; S. 183 - 202.
 title: Registry support for core component-based business document models
 url_pdf: ''
 ---

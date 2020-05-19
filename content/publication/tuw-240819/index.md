@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2015-09-28'
+specifics: null
 title: 'Programming against Multi-Version Metamodels: A Model Differencing and Virtualization
   Approach'
 url_pdf: http://ceur-ws.org/Vol-1511/paper-02.pdf

@@ -33,6 +33,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2009-01-01'
+specifics: IEEE Pervasive Computing, 8 (2009), 1; S. 54 - 57.
 title: Pervasive Computing Approaches to Environmental Sustainability
 url_pdf: ''
 ---

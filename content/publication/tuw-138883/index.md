@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-06-21'
+specifics: null
 title: Four personality traits make a software engineer
 url_pdf: ''
 ---

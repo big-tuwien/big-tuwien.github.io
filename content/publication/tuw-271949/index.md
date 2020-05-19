@@ -16,6 +16,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2018-07-10'
+specifics: null
 title: Energy grid infrastructure limitations as new framework conditions for building
   developments
 url_pdf: http://www.trippus.se/eventus/userfiles/101941.pdf

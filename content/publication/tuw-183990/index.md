@@ -22,6 +22,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-07-20'
+specifics: 'Vortrag: 2009 IEEE Conference on Commerce and Enterprise Computing (CEC
+  2009), Vienna, Austria; 20.07.2009 - 23.07.2009; in: "Proceedings of the 2009 IEEE
+  Conference on Commerce and Enterprise Computing (CEC 2009)", IEEE Computer Society,
+  (2009), ISBN: 978-0-7695-3755-9; S. 233 - 238.'
 title: Profitability Analysis of Workflow Management Systems
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_183990.pdf
 ---

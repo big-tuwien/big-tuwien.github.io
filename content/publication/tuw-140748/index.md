@@ -13,6 +13,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2006-05-20'
+specifics: null
 title: Dimensions of Software Engineering Course Design
 url_pdf: ''
 ---

@@ -20,6 +20,8 @@ links:
 publication_types:
 - '1'
 publishDate: '2008-11-09'
+specifics: 'Vortrag: 22nd IPMA World Congress, Rome, Italy; 09.11.2008 - 11.11.2008;
+  in: "Proceedings of the 22nd IPMA World Congress", IPMA, (2008).'
 title: Developing a Global Standard Challenges and Lessons Learned During the OPM3
   2nd Edition Update Project
 url_pdf: ''

@@ -10,6 +10,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2018-10-02'
+specifics: null
 title: Enabling Digital Transformation and Innovation
 url_pdf: ''
 ---

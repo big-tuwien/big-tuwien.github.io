@@ -10,6 +10,7 @@ links:
 publication_types:
 - '7'
 publishDate: '2004-01-01'
+specifics: null
 title: Der aktive Raum
 url_pdf: ''
 ---

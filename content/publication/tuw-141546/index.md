@@ -21,6 +21,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2007-08-28'
+specifics: 'Vortrag: Conference & Workshop on Assistive Technologies for People with
+  Vision & Hearing Impairments: Assistive Technology for All Ages, CVHI 2007, Granada,
+  Spain; 28.08.2007 - 31.08.2007; in: "Proceedings of the Conference and Workshop
+  on Assistive Technology for People with Vision and Hearing Impairments", M. Hersh
+  (Hrg.); (2007), 7 S.'
 title: Designing Tangible Tabletop Interfaces for Patients in Rehabilitation
 url_pdf: ''
 ---

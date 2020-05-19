@@ -13,6 +13,7 @@ links:
 publication_types:
 - '4'
 publishDate: '2002-01-01'
+specifics: null
 title: Entwicklung des Grenzlandes im Zuge der EU-Erweiterung
 url_pdf: ''
 ---

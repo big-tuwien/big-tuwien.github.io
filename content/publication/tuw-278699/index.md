@@ -21,6 +21,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2019-01-01'
+specifics: Procedia CIRP, 81 (2019), S. 13 - 18.
 title: Modeling Variability and Persisting Configurations in OPC UA
 url_pdf: ''
 ---

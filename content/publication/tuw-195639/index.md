@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-08-09'
+specifics: null
 title: Adopting Code Reviews for Agile Software Development
 url_pdf: ''
 ---

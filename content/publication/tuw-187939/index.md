@@ -24,6 +24,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-07-05'
+specifics: 'Vortrag: International Workshop on Service Computing for B2B, Miami, USA;
+  05.07.2010 - 10.07.2010; in: "Proceedings of the 6th World Congress on Services",
+  IEEE, (2010), ISBN: 978-0-7695-4129-7; S. 497 - 502.'
 title: Size Matters!? Measuring the Complexity of XML Schema Mapping Models
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_187939.pdf
 ---

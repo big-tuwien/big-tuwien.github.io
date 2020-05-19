@@ -25,6 +25,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2016-01-01'
+specifics: Computer and Information Science, 9 (2016), 2; S. 68 - 81.
 title: 'Ten Heuristics from Applying Agile Practices across Different Distribution
   Scenarios: A Multiple-Case Study'
 url_pdf: ''

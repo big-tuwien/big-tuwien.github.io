@@ -15,6 +15,8 @@ links:
 publication_types:
 - '6'
 publishDate: '2008-01-01'
+specifics: 'in: "Ontologies-Based Business Integration", Springer, Heidelberg, 2008,
+  (eingeladen), ISBN: 978-3-540-75229-5, S. 79 - 93.'
 title: Designing ebXML - The Work of UN/CEFACT
 url_pdf: ''
 ---

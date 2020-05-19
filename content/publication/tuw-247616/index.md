@@ -10,6 +10,7 @@ links:
 publication_types:
 - '7'
 publishDate: '2015-01-01'
+specifics: null
 title: Durability and Contention in Software Transactional Memory
 url_pdf: ''
 ---

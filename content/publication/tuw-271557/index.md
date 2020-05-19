@@ -23,6 +23,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2018-10-15'
+specifics: 'Vortrag: 2nd International Workshop on Model-Driven Engineering for the
+  Internet-of-Things (MDE4IoT), Kopenhagen; 15.10.2018; in: "Proceedings of the 2nd
+  International Workshop on Model-Driven Engineering for the Internet-of-Things (MDE4IoT)",
+  (2018), S. 524 - 529.'
 title: An Initial Mapping Study on MDE4IoT
 url_pdf: ''
 ---

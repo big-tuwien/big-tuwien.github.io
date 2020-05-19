@@ -13,6 +13,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2006-09-11'
+specifics: null
 title: Guidelines for Designing Usable DVD Menus
 url_pdf: ''
 ---

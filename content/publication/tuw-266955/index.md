@@ -24,6 +24,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2017-10-21'
+specifics: 'Vortrag: 16th International Semantic Web Conference (ISWC 2017), Vienna;
+  21.10.2017 - 25.10.2017; in: "Proceedings of the Workshop on Decentralizing the
+  Semantic Web 2017 co-located with 16th International Semantic Web Conference (ISWC2017)",
+  CEUR, 1934 (2017).'
 title: Agreements in a Decentralized Linked Data Based Messaging System
 url_pdf: http://publik.tuwien.ac.at/files/publik_266955.pdf
 ---

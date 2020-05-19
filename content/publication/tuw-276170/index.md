@@ -11,6 +11,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2018-10-14'
+specifics: null
 title: Tool demonstration on LieberLieber Embedded Engineer
 url_pdf: ''
 ---

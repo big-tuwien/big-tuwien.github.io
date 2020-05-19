@@ -24,6 +24,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-07-05'
+specifics: 'Vortrag: 6th World Congress on Services, Miami; 05.07.2010 - 10.07.2010;
+  in: "IEEE Congress on Services", IEEE Computer Society, (2010), ISBN: 978-0-7695-4129-7;
+  S. 229 - 236.'
 title: A Composable, QoS-Aware and Web Services-Based Execution Model for ebXML BPSS
   Business Transactions
 url_pdf: ''

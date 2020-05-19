@@ -46,6 +46,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2009-03-23'
+specifics: 'Vortrag: EclipseCon 2009, Santa Clara, CA, USA; 23.03.2009 - 26.03.2009.'
 title: ReviewClipse - Supporting Code-Reviews within the Eclipse IDE
 url_pdf: ''
 ---

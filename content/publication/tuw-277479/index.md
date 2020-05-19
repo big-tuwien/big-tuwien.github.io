@@ -35,6 +35,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2018-01-01'
+specifics: Information and Software Technology, 96 (2018), S. 161 - 180.
 title: Systematic Literature Review on Agile Practices in Global Software Development
 url_pdf: ''
 ---

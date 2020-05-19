@@ -17,6 +17,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-01-01'
+specifics: 'in: "Managing Knowledge for Global and Collaborative Innovations", S.
+  Chu, W. Ritter, S. Hawamdeh (Hrg.); World Scientific Publishing Co. Pte. Ltd., 2010,
+  ISBN: 9814299855, S. 119 - 130.'
 title: Fundamentals for an IT-Strategy towards managing viable knowledge-intensive
   research projects
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_183645.pdf

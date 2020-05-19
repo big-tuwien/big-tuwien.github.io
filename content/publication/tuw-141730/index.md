@@ -31,6 +31,8 @@ links:
 publication_types:
 - '2'
 publishDate: '2007-01-01'
+specifics: 'Informatica - An International Journal of Computing and Informatics, Ljubljana
+  (2007), ISSN: 1854-3871; S. 407 - 417.'
 title: Modeling e-Government processes with UMM
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_141730.pdf
 ---

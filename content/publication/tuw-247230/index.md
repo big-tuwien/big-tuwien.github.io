@@ -21,6 +21,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2015-12-06'
+specifics: 'Vortrag: 2015 IEEE International Conference on Industrial Engineering
+  and Engineering Management (IEEM), Singapore; 06.12.2015 - 09.12.2015; in: "Proceedings
+  of the 2015 IEEE International Conference on Industrial Engineering and Engineering
+  Management", IEEE, (2015), ISBN: 978-1-4673-8065-2.'
 title: A Standards Framework for Value Networks in the Context of Industry 4.0
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_247230.pdf
 ---

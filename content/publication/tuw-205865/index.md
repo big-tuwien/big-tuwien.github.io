@@ -23,6 +23,12 @@ links:
 publication_types:
 - '1'
 publishDate: '2011-08-29'
+specifics: 'Vortrag: The Second international conference on Electronic government
+  and the information systems perspective (EGOVIS''11), Toulouse, France; 29.08.2011
+  - 02.09.2011; in: "Proceedings of the Second international conference on Electronic
+  government and the information systems perspective (EGOVIS''11)", K. Andersen, E.
+  Francesconi, Å. Grönlund, T. van Engers (Hrg.); Springer-Verlag, Berlin, Heidelberg
+  (2011), ISBN: 978-3-642-22960-2; S. 56 - 67.'
 title: 'Learning from a Distributed Denial of Service Attack against a Legally Binding
   Electronic Election: Scenario, Operational Experience, Legal Consequences'
 url_pdf: ''

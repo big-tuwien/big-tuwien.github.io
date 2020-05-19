@@ -25,6 +25,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2006-11-06'
+specifics: 'Vortrag: 2nd International Workshop on Best Practices of UML (BP-UML 2006),
+  Tucson, USA; 06.11.2006 - 09.11.2006; in: "Advances in Conceptual Modeling - Theory
+  and Practice", Lecture Notes in Computer Science, Springer, (2006), S. 19 - 31.'
 title: 'UN/CEFACT''s Modeling Methodology (UMM): A UML Profile for B2B e-Commerce'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_140532.pdf
 ---

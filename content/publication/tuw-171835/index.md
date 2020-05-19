@@ -11,6 +11,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2008-07-13'
+specifics: null
 title: 'OPM3: Creating Capabilities, Outcomes and Key Performance Indicators for Virtual
   Team Best Practices'
 url_pdf: ''

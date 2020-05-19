@@ -14,6 +14,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-02-26'
+specifics: 'Vortrag: IRIS 2009, Universität Salzburg; 26.02.2009 - 28.02.2009; in:
+  "Semantisches Web und Soziales Web im Recht. Tagungsband des 12. Internationalen
+  Rechtsinformatik Symposions IRIS 2009", E. Schweighofer (Hrg.); Österreichische
+  Computer Gesellschaft, (2009), ISBN: 978-3-85403-259-5; S. 153 - 158.'
 title: Semantisches Web und Soziales Web im Recht
 url_pdf: ''
 ---

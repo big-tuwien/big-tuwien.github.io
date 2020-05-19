@@ -22,6 +22,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2014-03-23'
+specifics: 'Vortrag: Sixth International Conference on eHealth, Telemedicine, and
+  Social Medicine (eTELEMED 14), Barcelona, Spain; 23.03.2014 - 27.03.2014; in: "Proceedings
+  of the Sixth International Conference on eHealth, Telemedicine, and Social Medicine",
+  IARIA, Curran Associates, Inc. (2014), ISBN: 978-1-61208-327-8; S. 17 - 22.'
 title: 'A Quantitative Survey About the Interest in Second Opinion and Quality/Trust
   in Online Health Information: How "Online" are Digital Natives in Personal Health?'
 url_pdf: ''

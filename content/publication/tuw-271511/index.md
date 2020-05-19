@@ -17,6 +17,8 @@ links:
 publication_types:
 - '1'
 publishDate: '2018-10-24'
+specifics: 'Vortrag: 5th AutomationML User Conference, Göteborg; 24.10.2018 - 25.10.2018;
+  in: "Proceedings of the 5th AutomationML User Conference", (2018), S. 1 - 7.'
 title: IEC 62264-2 for AutomationML
 url_pdf: ''
 ---

@@ -20,6 +20,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2013-02-24'
+specifics: 'Vortrag: The Fifth International Conference on eHealth, Telemedicine,
+  and Social Medicine (eTELEMED 2013), Nizza, France; 24.02.2013 - 01.03.2013; in:
+  "Proceedings of the Fifth International Conference on eHealth, Telemedicine, and
+  Social Medicine", IARIA, (2013), ISBN: 978-1-61208-252-3; S. 137 - 140.'
 title: Towards an Architecture for a Game Achievement Based System to Analyze Human
   Health Comparative Behavior
 url_pdf: ''

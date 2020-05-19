@@ -23,6 +23,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2013-02-05'
+specifics: 'Vortrag: 5th international Workshop on Near Field Communication, Zürich,
+  Schweiz; 05.02.2013; in: "Proceedings of the 5th International Workshop on Near
+  Field Communication", IEEE, (2013), ISBN: 978-1-4673-4837-9; S. 1 - 5.'
 title: Components for an interoperable NFC mobile payment ecosystem
 url_pdf: ''
 ---

@@ -23,6 +23,8 @@ links:
 publication_types:
 - '1'
 publishDate: '2014-01-01'
+specifics: 'in: "Proceedings of the 16th IEEE Conference on Business Informatics (CBI
+  2014), Volume 1", IEEE Computer Society, 2014, S. 94 - 101.'
 title: The Case for the Web of Needs
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_237340.pdf
 ---

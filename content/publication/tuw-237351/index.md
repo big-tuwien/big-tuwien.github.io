@@ -18,6 +18,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2014-06-24'
+specifics: 'Vortrag: Fourth International Symposium on Business Modeling and Software
+  Design, Luxemburg; 24.06.2014 - 26.06.2014; in: "Proceedings of the Fourth International
+  Symposium on Business Modeling and Software Design", B. Shishkov (Hrg.); (2014),
+  ISBN: 978-989-758-032-1; 6 S.'
 title: Towards a Generic Data Model for REA Based Applications
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_237351.pdf
 ---

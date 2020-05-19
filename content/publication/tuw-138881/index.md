@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-09-08'
+specifics: null
 title: Creating Organic Software Maturity Attitudes (COSMA)
 url_pdf: ''
 ---

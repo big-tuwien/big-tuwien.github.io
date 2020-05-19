@@ -24,6 +24,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2014-07-30'
+specifics: 'Vortrag: International Conference on eBusiness, eCommerce, eManagement,
+  eLearning and eGovernance (IC5E 2014), University of Greenwich, London, UK &#65532;;
+  30.07.2014 - 31.07.2014; in: "Proceedings of the International Conference on eBusiness,
+  eCommerce, eManagement, eLearning and eGovernance", ASDF, Oxford (2014), ISBN: 978-81-925233-2-3;
+  S. 55 - 60.'
 title: Yes, Governments Can! - Concept and Experiences with Guaranteed Blindness in
   a Central Exchange Service
 url_pdf: ''

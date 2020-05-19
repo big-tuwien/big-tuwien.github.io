@@ -23,6 +23,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-12-13'
+specifics: 'Vortrag: International Conference on Information and Communication Technologies
+  and Development (ICTD2010), London , UK; 13.12.2010 - 16.12.2010; in: "Proceedings
+  of the International Conference on Information and Communication Technologies and
+  Development (ICTD2010)", (2010), 5 S.'
 title: 'Stories from the Field: Mobile Phone Usage and its Impact on People´s Lives
   in East Africa'
 url_pdf: ''

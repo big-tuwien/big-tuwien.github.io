@@ -12,6 +12,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-12-02'
+specifics: 'Vortrag: Fachtagung GI-Fachausschuss Management der Anwendungsentwicklung
+  und -wartung im Fachbereich Wirtschaftsinformatik (WI-MAW), Aachen; 02.12.2010 -
+  03.12.2010; in: "GI-Edition Lecture Notes in Informatics", W. Pietsch, B. Krams
+  (Hrg.); GI-EditionLecture Notes in Informatics, P-178 (2010), S. 61 - 78.'
 title: Vom Projekt zum Produkt
 url_pdf: ''
 ---

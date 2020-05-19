@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2006-01-01'
+specifics: null
 title: A B2B Benchmark On Top Of UMM and TPC-App
 url_pdf: ''
 ---

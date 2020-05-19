@@ -20,6 +20,7 @@ links:
 publication_types:
 - '4'
 publishDate: '2014-01-01'
+specifics: 2014; 6 S.
 title: 'MocOCL: A Model Checker for CTL-Extended OCL Specifications'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_234915.pdf
 ---

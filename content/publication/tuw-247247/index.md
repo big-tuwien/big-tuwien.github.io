@@ -21,6 +21,9 @@ links:
 publication_types:
 - '6'
 publishDate: '2015-01-01'
+specifics: 'in: "Handbook on Business Process Management 1, 2nd Edition", International
+  Handbooks on Information Systems; Springer, Berlin Heidelberg, 2015, (eingeladen),
+  ISBN: 978-3-642-45099-0, S. 625 - 647.'
 title: 'The UN/CEFACT Modeling Methodology UMM 2.0: Choreographing Business Document
   Exchanges'
 url_pdf: http://link.springer.com/chapter/10.1007%2F978-3-642-45100-3_27

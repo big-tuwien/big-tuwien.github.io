@@ -21,6 +21,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2013-07-10'
+specifics: 'Vortrag: The 11th International Conference on Privacy, Security and Trust
+  (PST 2013), Tarragona, Spain; 10.07.2013 - 12.07.2013; in: "Proceedings of the International
+  Conference on Privacy, Security and Trust", J. Castellà-Roca et al. (Hrg.); IEEE,
+  (2013), ISBN: 978-1-4673-5839-2; S. 205 - 212.'
 title: 'Voice calls for free: How the black market establishes free phone calls -
   Trapped and uncovered by a VoIP honeynet'
 url_pdf: ''

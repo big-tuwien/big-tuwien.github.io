@@ -32,6 +32,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-06-22'
+specifics: 'Vortrag: 2nd International Conference on Education Technology and Computer
+  (ICETC ''10), Shanghai; 22.06.2010 - 24.06.2010; in: "Proceedings of the 2nd International
+  Conference on Education Technology and Computer (ICETC ''10)", IEEE, Vol.2 (2010),
+  ISBN: 978-1-4244-6367-1; S. 74 - 79.'
 title: 'Mobile enabling of virtual teams in school: An observational study on smart
   phone application in secondary education'
 url_pdf: ''

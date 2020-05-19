@@ -19,6 +19,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2009-01-01'
+specifics: Wundmanagement, 06 (2009).
 title: Digitale Wunddiagnostik und -dokumentation mit W.H.A.T. als Basis für eine
   integrative Versorgung
 url_pdf: ''

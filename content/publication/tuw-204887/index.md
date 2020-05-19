@@ -25,6 +25,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2011-07-07'
+specifics: 'Vortrag: 23rd International Conference on Software Engineering and Knowledge
+  Engineering (SEKE 2011), Eden Roc Renaissance Hotel Miami Beach, USA; 07.07.2011
+  - 09.07.2011; in: "Proceedings of the Twenty-Third International Conference on Software
+  Engineering & Knowledge Engineering", Knowledge Systems Institute Graduate School,
+  Skokie, IL 60076, USA (2011), ISBN: 1891706292; S. 392 - 397.'
 title: Exploiting semantic aspects to evolve a text-based search on a legacy document
   management system
 url_pdf: ''

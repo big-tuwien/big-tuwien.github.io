@@ -26,6 +26,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-07-29'
+specifics: 'Vortrag: IADIS International Conference Web Based Communities 2010, Freiburg,
+  Germany; 29.07.2010 - 31.07.2010; in: "Proceedings of the IADIS International Conference
+  Web Based Communities 2010", N. Bessis, P. Kommers, P. Isaias (Hrg.); IADIS Press,
+  (2010), ISBN: 978-972-8939-21-2; S. 45 - 49.'
 title: 'The Power of Community: Survival Strategies for Companies in the Social Web'
 url_pdf: ''
 ---

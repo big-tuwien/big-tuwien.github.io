@@ -23,6 +23,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2011-01-01'
+specifics: i-com, 10 (2011), 2; S. 26 - 33.
 title: '"Show-Me" - water conservation through ambient feedback'
 url_pdf: ''
 ---

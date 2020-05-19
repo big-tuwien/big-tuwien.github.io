@@ -12,6 +12,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2009-10-27'
+specifics: null
 title: Kontinuierliche Code-Reviews mit Subversion und Eclipse - Schulterblick
 url_pdf: ''
 ---

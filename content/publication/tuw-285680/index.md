@@ -30,6 +30,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2019-09-01'
+specifics: 'Vortrag: Blockchain Forum, 17th International Conference on Business Process
+  Management (BPM 2019), Vienna, Austria; 01.09.2019 - 06.09.2019; in: "Proceedings
+  of the International Conference on Business Process Management", Springer, Cham,
+  LNBIP 361 (2019), ISBN: 978-3-030-30428-7; S. 151 - 165.'
 title: Towards a Multi-party, Blockchain-Based Identity Verification Solution to Implement
   Clear Name Laws for Online Media Platforms
 url_pdf: ''

@@ -15,6 +15,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2014-01-01'
+specifics: null
 title: Tool Use in Software Modelling Education
 url_pdf: http://ceur-ws.org/Vol-1134/paper6.pdf
 ---

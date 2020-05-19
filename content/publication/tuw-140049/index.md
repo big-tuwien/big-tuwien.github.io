@@ -16,6 +16,12 @@ links:
 publication_types:
 - '1'
 publishDate: '2006-06-26'
+specifics: 'Vortrag: The 8th IEEE International Conference on E-Commerce Technology
+  and The 3rd IEEE International Conference on Enterprise Computing, E-Commerce, and
+  E-Services (CEC/EEE''06), San Francisco, USA; 26.06.2006 - 29.06.2006; in: "Proceedings
+  of the 8th IEEE International Conference on E-Commerce Technology and the 3rd IEEE
+  International Conference on Enterprise Computing, E-Commerce, and E-Services (CEC/EEE''06)",
+  IEEE Computer Society, (2006), ISBN: 0-7695-2511-3; S. 45 - ##.'
 title: Registering UMM Business Collaboration Models in an ebXML Registry
 url_pdf: http://publik.tuwien.ac.at/files/hidden/pub-inf_3613_610aa45fb0d0b625a02d3f3611ee52d3.pdf
 ---

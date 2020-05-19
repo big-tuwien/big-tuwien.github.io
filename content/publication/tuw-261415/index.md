@@ -27,6 +27,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2017-10-23'
+specifics: 'Vortrag: 10th ACM SIGPLAN International Conference on Software Language
+  Engineering (SLE), Vancouver, Canada; 23.10.2017 - 24.10.2017; in: "Proceedings
+  of the 2017 ACM SIGPLAN International Conference on Software Language Engineering,
+  SLE 2017, Vancouver, Canada, October 23-24, 2017", (2017), S. 67 - 78.'
 title: Virtual Textual Model Composition for Supporting Versioning and Aspect-Orientation
 url_pdf: http://publik.tuwien.ac.at/files/publik_261415.pdf
 ---

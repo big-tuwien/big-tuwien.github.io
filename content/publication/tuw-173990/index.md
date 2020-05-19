@@ -28,6 +28,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2009-01-01'
+specifics: Computer Journal, 52 (2009), 8.
 title: 'B2B Services: Worksheet-Driven Development of Modeling Artifacts and Code'
 url_pdf: ''
 ---

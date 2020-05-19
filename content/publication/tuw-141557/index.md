@@ -20,6 +20,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2007-05-28'
+specifics: 'Vortrag: Graphics Interface 2007, Montreal, Canada; 28.05.2007 - 30.05.2007;
+  in: "Proceedings of Graphics Interface 2007 (GI 2007)", Ch. Healey, E. Lank (Hrg.);
+  ACM International Conference Proceeding Series, 234 (2007), ISBN: 0713-5424, ISSN:
+  978-1-56881-337-0; S. 103 - 110.'
 title: 'TwoStick: Writing with a Game Controller'
 url_pdf: ''
 ---

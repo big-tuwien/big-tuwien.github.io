@@ -13,6 +13,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2006-04-22'
+specifics: null
 title: Developing User Interface Guidelines for DVD Menus
 url_pdf: ''
 ---

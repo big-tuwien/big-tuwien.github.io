@@ -25,6 +25,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2007-11-05'
+specifics: 'Vortrag: ER 2007 Workshops CMLSA, FP-UML, ONISW, QoIS, RIGiM, SeCoGIS,
+  Auckland, New Zealand; 05.11.2007 - 09.11.2007; in: "Advances in Conceptual Modeling
+  - Foundations and Applications", J. Hainaut et al. (Hrg.); Springer, LNCS 4802 (2007),
+  ISSN: 0302-9743; S. 116 - 125.'
 title: Applying Model Transformation By-Example on Business Process Modeling Languages
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_4798.pdf
 ---

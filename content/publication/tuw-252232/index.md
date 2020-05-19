@@ -21,6 +21,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2016-01-01'
+specifics: Information Technology and Management, 17 (2016), 3; S. 203 - 227.
 title: Applying business context to calculate subsets of business document standards
 url_pdf: http://link.springer.com/article/10.1007/s10799-015-0228-2?wt_mc=Internal.Event.1.SEM.ArticleAuthorAssignedToIssue
 ---

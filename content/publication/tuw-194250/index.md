@@ -23,6 +23,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-03-21'
+specifics: 'Vortrag: 1st IEEE-AMA Medical Technology Conference on Individualized
+  Healthcare, Washington, USA; 21.03.2010 - 23.03.2010; in: "Proceedings of the 1st
+  IEEE-AMA Medical Technology Conference on Individualized Healthcare", (2010), 1
+  S.'
 title: A PDA Based System for Clinical Studies
 url_pdf: ''
 ---

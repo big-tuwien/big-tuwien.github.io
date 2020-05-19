@@ -12,6 +12,7 @@ links:
 publication_types:
 - '6'
 publishDate: '2002-01-01'
+specifics: null
 title: Methoden und Verfahren zur Durchführung von Funktionstests bei Objektorientierter
   Software
 url_pdf: ''

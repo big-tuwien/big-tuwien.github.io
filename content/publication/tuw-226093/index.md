@@ -22,6 +22,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2013-06-03'
+specifics: 'Vortrag: 14th International Conference, XP 2013, Vienna; 03.06.2013 -
+  07.06.2013; in: "Agile Processes in Software Engineering and Extreme Programming",
+  H. Baumeister, B. Weber (Hrg.); Springer Lecture Notes in Business Information Processing,
+  149 (2013), ISBN: 978-3-642-38313-7; S. 150 - 164.'
 title: 'Inter-organizational Co-development with Scrum: Experiences and Lessons Learned
   from a Distributed Corporate Development Environment'
 url_pdf: ''

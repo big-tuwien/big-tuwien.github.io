@@ -20,6 +20,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2007-01-01'
+specifics: 'in: "Proceedings of the 2007 Inaugural IEEE International Conference on
+  Digital Ecosystems and Technologies (IEEE DEST 2007)", herausgegeben von: IEEE Computer
+  Society; IEEE Computer Society, Cairns (Australia), 2007, ISBN: 1-4244-0470-3, 6
+  S.'
 title: A State Machine executing UMM Business Transactions
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_4580.pdf
 ---

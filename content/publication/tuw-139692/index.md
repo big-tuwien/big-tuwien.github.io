@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2005-05-15'
+specifics: null
 title: Software Quality Development and Assurance in RUP, MSF and XP - A Comparative
   Study
 url_pdf: ''

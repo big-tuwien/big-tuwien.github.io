@@ -12,6 +12,7 @@ links:
 publication_types:
 - '4'
 publishDate: '2003-01-01'
+specifics: null
 title: 'Can Mommies become Super Girls (Again)?: Two Professional Female Stereotypes
   and Their Self Image in IT Organizations (TR-RISE 01/03)'
 url_pdf: ''

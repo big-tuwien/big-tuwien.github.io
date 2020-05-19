@@ -24,6 +24,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-09-14'
+specifics: 'Vortrag: Third IEEE International Conference on Semantic Computing, Berkeley;
+  14.09.2009 - 16.09.2009; in: "Proccedings of the Third IEEE International Conference
+  on Semantic Computing", IEEE Computer Society, (2009), ISBN: 978-0-7695-3800-6;
+  S. 355 - 360.'
 title: Towards a global business document reference ontology
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_177763.pdf
 ---

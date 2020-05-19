@@ -11,6 +11,8 @@ links:
 publication_types:
 - '3'
 publishDate: '2009-09-24'
+specifics: 'Vortrag: 6. Internationale Österreichische MoodleMoot.at, Wien; 24.09.2009
+  - 25.09.2009.'
 title: Verbesserung der Qualität in der Massenlehre durch die Moodle-Adaptierung TUWEL
 url_pdf: ''
 ---

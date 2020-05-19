@@ -22,6 +22,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2015-09-14'
+specifics: 'Vortrag: 15th International Conference on Human-Computer Interaction (INTERACT
+  2015), Bamberg, Deutschland; 14.09.2015 - 18.09.2015; in: "Volume 9298 of the series
+  Lecture Notes in Computer Science", Lecture Notes in Computer Science, (2015), ISBN:
+  978-3-319-22697-2; S. 333 - 340.'
 title: 'Navigation in Long Forms on Smartphones: Scrolling worse than Tabs, Menus,
   and Collapsible Fieldsets'
 url_pdf: ''

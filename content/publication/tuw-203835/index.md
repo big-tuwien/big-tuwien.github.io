@@ -12,6 +12,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2004-01-01'
+specifics: null
 title: 'Business Collaboration Framework: Interoperability on Top of Web Services'
 url_pdf: ''
 ---

@@ -27,6 +27,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2019-10-14'
+specifics: 'Vortrag: 45th Annual Conference of the IEEE Industrial Electronics Society
+  (IECON 2019), Lisbon, Portugal, Portugal; 14.10.2019 - 18.10.2019; in: "IECON 2019
+  - 45th Annual Conference of the IEEE Industrial Electronics Society", IEEE Xplore,
+  (2019), ISBN: 978-1-7281-4878-6; S. 3024 - 3030.'
 title: 'Sensyml: Simulation Environment for large-scale IoT Applications'
 url_pdf: https://publik.tuwien.ac.at/files/publik_284276.pdf
 ---

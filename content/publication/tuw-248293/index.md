@@ -25,6 +25,8 @@ links:
 publication_types:
 - '6'
 publishDate: '2016-01-01'
+specifics: 'in: "Handbuch Industrie 4.0", B. Vogel-Heuser et al. (Hrg.); Springer-Verlag
+  Berlin Heidelberg, 2016, ISBN: 978-3-662-45537-1, S. 22.'
 title: Rahmenwerk zur modellbasierten horizontalen und vertikalen Integration von
   Standards für Industrie 4.0
 url_pdf: http://link.springer.com/referenceworkentry/10.1007%2F978-3-662-45537-1_94-1

@@ -18,6 +18,9 @@ links:
 publication_types:
 - '5'
 publishDate: '2014-01-01'
+specifics: 'in Buchreihe "Enterprise Modelling and Information Systems Architectures
+  (EMISA)", Buchreihen-Herausgeber: M. Reichert, K. Turowski; German Informatics Society
+  (GI), 2014, ISSN: 1866-3621, 120 S.'
 title: Special Issue on A Roadmap for Business Informatics
 url_pdf: ''
 ---

@@ -26,6 +26,8 @@ links:
 publication_types:
 - '2'
 publishDate: '2019-01-01'
+specifics: International Journal of Computer Science & Information Technology, Vol
+  11 (2019), 1; S. 1 - 18.
 title: 'Agile Distributed Software Development in Nine Central European Teams: Challenges,
   Benefits and Recommendations'
 url_pdf: ''

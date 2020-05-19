@@ -29,6 +29,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2012-08-27'
+specifics: 'Vortrag: 12th International Conference on Quality Software (QSIC), 2012,
+  Xi''an; 27.08.2012 - 29.08.2012; in: "Proceedings of the 12th International Conference
+  on Quality Software (QSIC), 2012", A. Tang, H. Muccini (Hrg.); IEEE, (2012), ISBN:
+  978-1-4673-2857-9; S. 214 - 219.'
 title: Applying Continuous Code Reviews in Airport Operations Software
 url_pdf: ''
 ---

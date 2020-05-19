@@ -21,6 +21,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-07-01'
+specifics: 'Vortrag: The 22nd International Conference on Software Engineering & Knowledge
+  Engineering, San Francisco Bay; 01.07.2010 - 03.07.2010; in: "Proceedings of the
+  Twenty-Second International Conference on Software Engineering & Knowledge Engineering",
+  Knowledge Systems Institute Graduate School, (2010), ISBN: 978-1-891706-26-4; S.
+  198 - 202.'
 title: Automated Integration Testing and Verification of a Secured SOA Infrastructure
   - an Experience Report in eHealth
 url_pdf: ''

@@ -19,6 +19,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2008-03-19'
+specifics: 'Vortrag: Pervasive Expression - Workshop on Pervasive Visual, Auditory
+  and Alternative Modality Information Display, Sydney, Australia; 19.03.2008; in:
+  "Proceedings of the Workshop on Pervasive Visual, Auditory and Alternative Modality
+  Information Display", (2008), 5 S.'
 title: A Framework for Architecture as a Medium for Expression
 url_pdf: ''
 ---

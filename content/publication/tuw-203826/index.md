@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2003-01-01'
+specifics: null
 title: Modeling Business Collaborations in Context
 url_pdf: ''
 ---

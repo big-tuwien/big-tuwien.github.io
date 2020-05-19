@@ -26,6 +26,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2008-02-26'
+specifics: 'Vortrag: Proceedings of the 2nd International Conference on Digital Ecosystems
+  and Technologies, Phitsanulok; 26.02.2008 - 29.02.2008; in: "Proceedings of the
+  2nd International IEEE Conference on Digital Ecosystems and Technologies (DEST2008)",
+  IEEE, IEEE (2008), 6 S.'
 title: 'Inter-organizational Systems: From Business Values over Business Processes
   to Deployment'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_141766.pdf

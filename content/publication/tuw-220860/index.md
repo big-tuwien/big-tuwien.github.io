@@ -18,6 +18,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2013-10-28'
+specifics: 'Poster: The Eighth International and Interdisciplinary Conference on Modeling
+  and Using Context (CONTEXT''13), Annecy, France; 28.10.2013 - 01.11.2013; in: "Brézillon,
+  P., Blackburn, P., Dapoigny, R. (eds.) CONTEXT 2013. LNCS (LNAI), vol. 8175, Springer,
+  Heidelberg (2013)", (2013), ISBN: 978-3-642-40971-4; S. 357 - 363.'
 title: Context Aware Business Documents Modeling
 url_pdf: http://link.springer.com/chapter/10.1007%2F978-3-642-40972-1_29
 ---

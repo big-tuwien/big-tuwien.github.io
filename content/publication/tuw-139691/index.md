@@ -14,6 +14,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2005-04-02'
+specifics: null
 title: Implications for Designing the User Experience of DVD Menus
 url_pdf: ''
 ---

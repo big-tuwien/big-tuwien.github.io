@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-05-23'
+specifics: null
 title: Selected Principles and Activities for Software Maturity in small and medium
   Software Enterprises
 url_pdf: ''

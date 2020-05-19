@@ -21,6 +21,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2014-05-14'
+specifics: 'Vortrag: 3rd International Conference on Serious Games and Applications
+  for Health (SeGAH 2014), Rio de Janeiro, Brazil; 14.05.2014 - 16.05.2014; in: "Proceedings
+  of the 3rd International Conference on Serious Games and Applications for Health",
+  IEEE, (2014).'
 title: 'unCUT: Bridging the Gap from Paper Diary Cards Towards Mobile Electronic Monitoring
   Solutions in Borderline and Self-Injury'
 url_pdf: ''

@@ -22,6 +22,8 @@ links:
 publication_types:
 - '2'
 publishDate: '2011-01-01'
+specifics: International Journal for Information Security Research, 1 (2011), 1; S.
+  53 - 60.
 title: Security test environment for voip research
 url_pdf: ''
 ---

@@ -25,6 +25,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2012-09-23'
+specifics: 'Vortrag: 28th IEEE International Conference on Software Maintenance (ICSM
+  2012), Trento, Italien; 23.09.2012 - 30.09.2012; in: "Proceedings of the 28th IEEE
+  International Conference on Software Maintenance (ICSM), 2012", IEEE, (2012), ISBN:
+  978-1-4673-2312-3; S. 503 - 510.'
 title: Incremental Reengineering and Migration of a 40 Year Old Airport Operations
   System
 url_pdf: ''

@@ -29,6 +29,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2019-06-05'
+specifics: 'Vortrag: 9th International Conference on Advanced Computer Information
+  Technologies (ACIT), Ceske Budejovice, Czech Republic; 05.06.2019 - 07.06.2019;
+  in: "Proceedings of the 9th International Conference on Advanced Computer Information
+  Technologies (ACIT)", (2019), ISBN: 978-1-7281-0450-8; S. 1 - 5.'
 title: Ethical Issues Arising Through Identification and Registration Systems Applied
   in a European Refugee Camp
 url_pdf: ''

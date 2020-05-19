@@ -27,6 +27,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2015-01-01'
+specifics: Journal of Software (JSW), 10 (2015), 11; S. 1245 - 1264.
 title: 'An Agile and Lean Process Model for Mobile App Development: Case Study into
   Austrian Industry'
 url_pdf: ''

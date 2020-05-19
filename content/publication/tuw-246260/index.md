@@ -24,6 +24,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2015-05-16'
+specifics: 'Vortrag: The 12th Working Conference on Mining Software Repositories (MSR),
+  Florenz, Italien; 16.05.2015 - 17.05.2015; in: "Proceedings of the 12th Working
+  Conference on Mining Software Repositories (MSR)", IEEE, (2015), ISBN: 978-0-7695-5594-2;
+  S. 490 - 493.'
 title: Dataset of Developer-Labeled Commit Messages
 url_pdf: ''
 ---

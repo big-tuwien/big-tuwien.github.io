@@ -18,6 +18,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2007-01-01'
+specifics: null
 title: Multipath Curved Planar Reformation of the Peripheral Arterial Tree in CT Angiography
 url_pdf: ''
 ---

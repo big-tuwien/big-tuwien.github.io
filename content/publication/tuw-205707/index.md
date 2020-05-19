@@ -22,6 +22,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2011-10-16'
+specifics: 'Vortrag: AMA IEEE Medical Technology Conference 2011, Boston, USA; 16.10.2011
+  - 18.10.2011; in: "Proceedings of the AMA IEEE Medical Technology Conference 2011",
+  IEEE, (2011), S. 1 - 2.'
 title: Extending the Patient Synchronized Applications Profile with Tools for Distributed
   Diagnosis
 url_pdf: ''

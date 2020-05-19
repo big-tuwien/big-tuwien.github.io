@@ -17,6 +17,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-09-23'
+specifics: 'Vortrag: The 12th International Conference "Interactive Computer aided
+  Learning", Villach, Austria; 23.09.2009 - 25.09.2009; in: "Proceedings of ICL2009",
+  Carinthia Tech Institute, (2009), S. 149 - 158.'
 title: Modelling and managing knowledge-intensive, but loosely coupled communities
   (KILCC)
 url_pdf: ''

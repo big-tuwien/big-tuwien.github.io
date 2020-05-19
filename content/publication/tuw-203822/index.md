@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-01-01'
+specifics: null
 title: OCL-Constraints for UMM Business Collaborations
 url_pdf: ''
 ---

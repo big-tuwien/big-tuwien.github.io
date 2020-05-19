@@ -29,6 +29,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2015-05-18'
+specifics: 'Vortrag: Ninth International Conference on IT Security Incident Management
+  & IT Forensics (IMF), Magdeburg; 18.05.2015 - 20.05.2015; in: "Proceedings of the
+  9th International Conference on IT Security Incident Management & IT Forensics (IMF)",
+  IEEE, (2015), ISBN: 978-1-4799-9902-6; S. 68 - 76.'
 title: 'Mobile Payment Fraud: A Practical View on the Technical Architecture and Starting
   Points for Forensic Analysis of New Attack Scenarios'
 url_pdf: ''

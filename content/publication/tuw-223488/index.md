@@ -21,6 +21,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2013-09-30'
+specifics: 'Vortrag: MODELS 2013 Educators Symposium, Miami, USA; 30.09.2013; in:
+  "Proceedings of the Educators'' Symposium co-located with ACM/IEEE 16th International
+  Conference on Model Driven Engineering Languages and Systems (MODELS 2013)", CEUR
+  Workshop Proceedings, Vol-1134 (2013), ISSN: 1613-0073; S. 1 - 8.'
 title: 'Making UML "hip": A First Experience Report on Using Modern Teaching Tools
   for Object-Oriented Modelling'
 url_pdf: ''

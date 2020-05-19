@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2003-03-20'
+specifics: null
 title: Reflecting Skills and Personality Internally as Means for Team Performance
   Improvement
 url_pdf: ''

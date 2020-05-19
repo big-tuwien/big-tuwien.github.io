@@ -25,6 +25,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2014-06-27'
+specifics: 'Vortrag: 5th IEEE International Conference on Software Engineering and
+  Service Science (ICSESS 2014), Beijing, China; 27.06.2014 - 29.06.2014; in: "Proceedings
+  of the International Conference on Software Engineering and Service Science", IEEE,
+  Curran Associates, Inc. (2014), ISBN: 9781479932801; S. 178 - 181.'
 title: 'Data Retention Services with Soft Privacy Impacts: Concept and Implementation'
 url_pdf: ''
 ---

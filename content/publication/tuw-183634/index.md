@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-08-24'
+specifics: null
 title: Designing an SMS-based application for seaweed farmers in Zanzibar and why
   it failed for now
 url_pdf: ''

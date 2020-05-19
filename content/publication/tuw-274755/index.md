@@ -109,6 +109,7 @@ links:
 publication_types:
 - '4'
 publishDate: '2018-01-01'
+specifics: Bericht für FFG; Berichts-Nr. 3, 2018; 206 S.
 title: SIMULTAN - Simultane Planungsumgebung für Gebäudecluster in resilienten, ressourcen-
   und höchst energieeffizienten Stadtteilen
 url_pdf: ''

@@ -33,6 +33,8 @@ links:
 publication_types:
 - '2'
 publishDate: '2011-01-01'
+specifics: International Journal of Managing Information Technology (IJMIT), 3 (2011),
+  3; S. 16 - 26.
 title: Assessing the feasibility of developing a federated ERP system
 url_pdf: ''
 ---

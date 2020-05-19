@@ -32,6 +32,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2007-09-17'
+specifics: 'Poster: International Conference on Service-Oriented Computing, Wien;
+  17.09.2007 - 20.09.2007; in: "Service-Oriented Computing - ICSOC 2007", Springer,
+  LNCS 4749 (2007), ISBN: 978-3-540-74973-8; S. 618 - 619.'
 title: 'UMM Add-In: A UML Extension for UN/CEFACT''s Modeling Methodology'
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_5355.pdf
 ---

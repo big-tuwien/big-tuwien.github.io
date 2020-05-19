@@ -30,6 +30,8 @@ links:
 publication_types:
 - '2'
 publishDate: '2013-01-01'
+specifics: International Journal of Software and Informatics, 7 (2013), 2; S. 331
+  - 356.
 title: Evolution of Business Documents Based on UN/CEFACT's Core Components
 url_pdf: http://www.ijsi.org/ch/reader/view_abstract.aspx?file_no=i158&flag=1
 ---

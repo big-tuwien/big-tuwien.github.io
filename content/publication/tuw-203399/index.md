@@ -12,6 +12,7 @@ links:
 publication_types:
 - '5'
 publishDate: '2010-01-01'
+specifics: null
 title: Proceedings of the 12th IEEE Conference on Commerce and Enterprise Computing
   (CEC 2010)
 url_pdf: ''

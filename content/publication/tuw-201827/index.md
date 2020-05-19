@@ -25,6 +25,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2011-09-13'
+specifics: 'Vortrag: 1st International Workshop on Software Architecture Variability
+  (SAVA 2011), Essen, Germany; 13.09.2011 - 16.09.2011; in: "Proceedings of the 5th
+  European Conference on Software Architecture, ECSA Companion Volume", ACM International
+  Conference Proceeding Series (2011), S. 1 - 5.'
 title: Towards Variability Management in Business Document Types using Product Line
   Engineering
 url_pdf: ''

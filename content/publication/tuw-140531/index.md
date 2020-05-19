@@ -24,6 +24,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2006-10-24'
+specifics: 'Vortrag: IEEE International Conference on e-Business Engineering (ICEBE''06),
+  Shanghai, China; 24.10.2006 - 26.10.2006; in: "Proceedings of the IEEE International
+  Conference on e-Business Engineering (ICEBE''06)", IEEE Computer Society, (2006),
+  S. 392 - 400.'
 title: A Business Collaboration Registry Model on Top of ebRIM
 url_pdf: ''
 ---

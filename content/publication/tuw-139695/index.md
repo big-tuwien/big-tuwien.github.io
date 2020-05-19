@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2005-02-22'
+specifics: null
 title: LEXWAS-Begutachtung - Konzept und einsatzfähiger Prototyp eines online Begutachtungsverfahrens
   in der Sozialversicherungslegistik
 url_pdf: ''

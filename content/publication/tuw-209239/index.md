@@ -32,6 +32,8 @@ links:
 publication_types:
 - '1'
 publishDate: '2012-07-24'
+specifics: 'Vortrag: Annual SRII Global Conference 2012, San Jose; 24.07.2012 - 27.07.2012;
+  in: "Proceedings of the Annual SRII Global Conference 2012", (2012).'
 title: 'ERPEL: Enabling Seamless Ad-hoc Cross Enterprise Collaborations'
 url_pdf: ''
 ---

@@ -25,6 +25,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2011-02-07'
+specifics: 'Vortrag: 5th International Workshop on Value Modeling and Business Ontology
+  (VMBO 2011), Ghent, Belgium; 07.02.2011 - 08.02.2011; in: "5th International Workshop
+  on Value Modeling and Business Ontology (VMBO 2011)", (2011).'
 title: A Domain Specific Modeling Language for REA
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_200217.pdf
 ---

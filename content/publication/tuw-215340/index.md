@@ -22,6 +22,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2012-01-05'
+specifics: 'Vortrag: International Conference on Biomedical and Health Informatics
+  (BHI), 2012, Shenzhen, Kong Kong, China; 05.01.2012 - 07.01.2012; in: "Proceedings
+  of the International Conference on Biomedical and Health Informatics (BHI), 2012",
+  IEEE-EMBS, 01/2012 (2012), ISBN: 978-1-4577-2176-2; S. 101 - 103.'
 title: Developing a hospital information system ecosystem for creating new clinical
   collaboration methodologies
 url_pdf: ''

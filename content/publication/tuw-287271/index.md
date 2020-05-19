@@ -27,6 +27,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2019-05-04'
+specifics: 'Poster: ENASE 2019 : 14th International Conference on Evaluation of Novel
+  Approaches to Software Engineering, Heraklion, Kreta, Griechenland; 04.05.2019 -
+  05.05.2019; in: "Proceedings of the 14th International Conference on Evaluation
+  of Novel Approaches to Software Engineering", ACM New York, NY, USA, (2019), ISBN:
+  9789897583759; S. 210 - 217.'
 title: 'Distributed Kanban with Limited Geographical Distance: Analyzing Lean Principles
   Pull, Work in Progress and Kaizen'
 url_pdf: ''

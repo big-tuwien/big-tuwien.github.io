@@ -30,6 +30,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-10-10'
+specifics: 'Vortrag: IEEE Visualization, Austin, Texas; 10.10.2004 - 15.10.2004; in:
+  "Proceedings of Visualization 2004", H Rushmeier, G. Turk, J van Wijk (Hrg.); IEEE,
+  (2004), ISBN: 0-7803-8788-0; S. 385 - 392.'
 title: 'The VesselGlyph: Focus & Context Visualization in CT-Angiography'
 url_pdf: http://www.cg.tuwien.ac.at/research/publications/2004/StrakaVis2004/
 ---

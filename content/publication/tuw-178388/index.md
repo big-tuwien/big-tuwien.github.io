@@ -22,6 +22,8 @@ links:
 publication_types:
 - '6'
 publishDate: '2009-01-01'
+specifics: 'in: "Handbook of Enterprise Integration", Auerbach Publications, London,
+  2009, ISBN: 1420078216, S. 307 - 322.'
 title: Service-Oriented Enterprise Modeling and Analysis
 url_pdf: ''
 ---

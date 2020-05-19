@@ -11,6 +11,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2005-01-01'
+specifics: null
 title: Choreography of ebXML business collaborations
 url_pdf: ''
 ---

@@ -24,6 +24,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2018-08-20'
+specifics: 'Vortrag: 14th International Conference on Automation Science and Engineering
+  (CASE 2018), München; 20.08.2018 - 24.08.2018; in: "Proceedings of the 14th International
+  Conference on Automation Science and Engineering", (2018), ISBN: 978-1-5386-2514-9;
+  S. 1381 - 1387.'
 title: 'AutomationML, ISA-95 and Others: Rendezvous in the OPC UA Universe'
 url_pdf: ''
 ---

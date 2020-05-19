@@ -12,6 +12,7 @@ links:
 publication_types:
 - '5'
 publishDate: '2004-01-01'
+specifics: null
 title: Software Engineering mit UML und dem Unified Process
 url_pdf: ''
 ---

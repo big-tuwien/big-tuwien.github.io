@@ -13,6 +13,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2006-06-07'
+specifics: null
 title: Experiences from Designing a Tangible Musical Toy
 url_pdf: ''
 ---

@@ -15,6 +15,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2003-01-01'
+specifics: null
 title: 3D Watershed Transform Combined with a Probabilistic Atlas for Medical Image
   Segmentation
 url_pdf: ''

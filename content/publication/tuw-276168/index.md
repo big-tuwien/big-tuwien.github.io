@@ -10,6 +10,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2018-04-10'
+specifics: null
 title: Model-Driven Vertical Integration - Using ISA-95 in AutomationML
 url_pdf: ''
 ---

@@ -39,6 +39,8 @@ links:
 publication_types:
 - '7'
 publishDate: '2020-01-01'
+specifics: 'Betreuer/in(nen), Begutachter/in(nen): G. Kappel, M. Wimmer, M. Gogolla,
+  A. Vallecillo; Institut für Information Systems Engineering, 2020; Rigorosum: 24.02.2020.'
 title: Model Integration by Hybrid Model Virtualization
 url_pdf: https://publik.tuwien.ac.at/files/publik_288220.pdf
 ---

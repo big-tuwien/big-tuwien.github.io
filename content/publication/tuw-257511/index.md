@@ -24,6 +24,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2017-02-20'
+specifics: 'Poster: 24th IEEE International Conference on Software Analysis, Evolution,
+  and Reengineering (SANER), Klagenfurt, Österreich; 20.02.2017 - 24.02.2017; in:
+  "Proceedings of the 24th IEEE International Conference on Software Analysis, Evolution,
+  and Reengineering (SANER)", Proceedings of the 24th IEEE International Conference
+  on Software Analysis, Evolution, and Reengineering (SANER), (2017).'
 title: Modernizing Domain-Specific Languages with XMLText and IntellEdit
 url_pdf: ''
 ---

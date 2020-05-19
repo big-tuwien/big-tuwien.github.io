@@ -11,6 +11,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2015-09-29'
+specifics: null
 title: Bezahlen mit dem Smartphone - die Zukunft der sicheren, digitalen Transaktion
   im Payment und Retailing
 url_pdf: ''

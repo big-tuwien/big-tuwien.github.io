@@ -10,6 +10,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2001-04-26'
+specifics: null
 title: Implementation and Stability, Hedging Strategies, Application to Exotic Derivatives
 url_pdf: ''
 ---

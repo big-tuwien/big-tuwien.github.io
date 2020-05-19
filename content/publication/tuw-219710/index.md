@@ -32,6 +32,7 @@ links:
 publication_types:
 - '5'
 publishDate: '2013-01-01'
+specifics: 'IEEE Computer Society, 2013, ISBN: 978-0-7695-5072-5; 436 S.'
 title: 2013 IEEE International Conference on Business Informatics
 url_pdf: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6642227
 ---

@@ -30,6 +30,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2013-10-28'
+specifics: 'Vortrag: 2013 Digital Heritage International Congress, Marseille, France;
+  28.10.2013 - 01.11.2013; in: "2013 Digital Heritage International Congress", A.
+  Addison, G. Guidi, L. De Luca, S. Pescarin (Hrg.); IEEE, CFP1308W-USB (2013), ISBN:
+  978-1-4799-3169-9; S. 199 - 206.'
 title: Parametric Balinese Rumah - Procedural Modeling of Traditional Balinese Architecture
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_223198.pdf
 ---

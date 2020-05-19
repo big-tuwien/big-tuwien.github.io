@@ -34,6 +34,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-01-01'
+specifics: 'in: "European Radiology", Springer, 2004, S. 524.'
 title: Accuracy of Automated Centerline Approximation Algorithms for Lower Extremity
   Vessels in CTA Phantom
 url_pdf: ''

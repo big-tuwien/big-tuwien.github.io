@@ -21,6 +21,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2008-06-04'
+specifics: 'Vortrag: IEEE International Conference on Information Visualisation (IV''08),
+  Eindhoven, Netherlands; 04.06.2008 - 06.06.2008; in: "Proceedings of the IEEE International
+  Conference on Information Visualisation", (2008), ISBN: 978-0-7695-3268-4; S. 100
+  - 105.'
 title: 'Information Sky: Exploring Ceiling-based Data Representations'
 url_pdf: ''
 ---

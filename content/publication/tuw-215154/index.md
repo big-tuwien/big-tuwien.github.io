@@ -19,6 +19,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2012-01-01'
+specifics: Informatik Spektrum, 0170-6012 (2012), 11; S. 1 - 8.
 title: Kombination von Agil und Lean in der Softwareentwicklung
 url_pdf: ''
 ---

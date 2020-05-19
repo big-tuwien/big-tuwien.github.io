@@ -23,6 +23,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2011-10-19'
+specifics: 'Vortrag: The 8th IEEE International Conference on e-Business Engineering
+  (ICEBE 2011), Beijing, China; 19.10.2011 - 21.10.2011; in: "The 8th IEEE International
+  Conference on e-Business Engineering (ICEBE 2011)", (2011), S. 44 - 51.'
 title: 'REA-XML: An Unambiguous Language for REA Business Models'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_200218.pdf
 ---

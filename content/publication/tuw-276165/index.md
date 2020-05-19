@@ -23,6 +23,12 @@ links:
 publication_types:
 - '1'
 publishDate: '2018-10-04'
+specifics: 'Vortrag: 14th Workshop on Embedded and Cyber-Physical Systems Education
+  (WESE 2018), Turin, Italien; 04.10.2018 - 05.10.2018; in: "Cyber Physical Systems.
+  Model-Based Design. 8th International Workshop on Model-Based Design of Cyber Physical
+  Systems (CyPhy 2018), and 14th International Workshop on Embedded and Cyber-Physical
+  Systems Education (WESE 2018)", R. Chamberlain, W. Taha, M. Törngren (Hrg.); Springer
+  International Publishing, (2019), ISBN: 978-3-030-23702-8.'
 title: 'CPS/IoT Ecosystem: A Platform for Research and Education'
 url_pdf: ''
 ---

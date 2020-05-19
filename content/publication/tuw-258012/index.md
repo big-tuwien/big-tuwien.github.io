@@ -23,6 +23,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2016-01-01'
+specifics: 'in: "IEEE International Conference on Healthcare Informatics", herausgegeben
+  von: IEEE; IEEE Computer Society, Los Alamitos, CA, USA, 2016, ISBN: 978-1-5090-6118-1,
+  S. 432 - 438.'
 title: Visual Health Reminder - A Reminder for Medication Intake and Measuring Blood
   Pressure to Support Elderly People
 url_pdf: ''

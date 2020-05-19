@@ -23,6 +23,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2007-09-24'
+specifics: 'Vortrag: The Institution of Engineering and Technology (IET): 3rd IET
+  International Conference on Intelligent Environments: IE 07, Ulm, Germany; 24.09.2007
+  - 25.09.2007; in: "Proceedings of the International Conference on Intelligent Environments",
+  The Institution of Engineering and Technology, London (2007), ISBN: 9780863418464;
+  S. 164 - 167.'
 title: 'Mobility and Emotional Distance: Exploring the Ceiling as an Ambient Display
   to provide Remote Awareness'
 url_pdf: ''

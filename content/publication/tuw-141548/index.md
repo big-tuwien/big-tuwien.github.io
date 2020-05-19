@@ -18,6 +18,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2007-04-28'
+specifics: 'Vortrag: ACM Conference on Human Factors in Computing Systems (CHI 2007),
+  San Jose, California, USA; 28.04.2007 - 03.05.2007; in: "Extended Abstracts of the
+  ACM Conference on Human Factors in Computing Systems", ACM Press, (2007), ISBN:
+  978-1-59593-642-4; S. 2513 - 2518.'
 title: Game Controller Text Entry with Alphabetic and Multi-Tap Selection Keyboards
 url_pdf: ''
 ---

@@ -278,6 +278,7 @@ def parse_publications(publications, bib_db, author_transform_map):
         if reference_search:
             extra = reference_search.group(1)
             extra = re.sub(r' {2,}', ' ', re.sub('<[^<]+?>', '', extra).strip())  # remove html and normalize whitespace
+            print(extra)
 
         # create the post
         post = frontmatter.Post(content='', title=title, authors=authors, date=f'{year}-{month}-{day}',
@@ -497,8 +498,8 @@ def main():
 
         posts = parse_publications(publications, bib_db, name_map)
 
-        print(f'Storing results to "{publication_dir}". Skipping existing records.')
-        save_publications(posts, bib_db, publication_dir)
+        print(f'Storing results to "content/publication". Skipping existing records.')
+        save_publications(posts, bib_db, publication_dir, override=args.override)
 
 
 if __name__ == '__main__':

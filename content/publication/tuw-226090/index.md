@@ -22,6 +22,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2013-03-22'
+specifics: 'Vortrag: The Fourth International Workshop on Security Testing (SECTEST
+  2013), Luxembourg; 22.03.2013; in: "Proceedings of the Fourth International Workshop
+  on Security Testing (SECTEST 2013)", IEEE, (2013).'
 title: Improving the Accuracy of Automated Security Tests Based on Learned System
   Behavior Models
 url_pdf: ''

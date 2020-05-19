@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2005-01-01'
+specifics: null
 title: From multi-context Business Collaboration Models to context-specific ebXML
   BPSS
 url_pdf: ''

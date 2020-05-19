@@ -27,6 +27,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2019-01-01'
+specifics: null
 title: 'Aneuploidy in children with relapsed B-cell precursor acute lymphoblastic
   leukaemia: clinical importance of detecting a hypodiploid origin of relapse'
 url_pdf: ''

@@ -14,6 +14,7 @@ links:
 publication_types:
 - '6'
 publishDate: '2011-01-01'
+specifics: null
 title: Design Criteria for Large eHealth Infrastructure Systems
 url_pdf: ''
 ---

@@ -31,6 +31,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2019-04-08'
+specifics: 'Vortrag: 2019 IEEE 35th International Conference on Data Engineering Workshops
+  (ICDEW), Macao, Macao; 08.04.2019 - 12.04.2019; in: "Proceedings of the IEEE 35th
+  International Conference on Data Engineering Workshops", IEEE, (2019), ISBN: 978-1-7281-0890-2;
+  S. 31 - 36.'
 title: Technical Mechanics of a Trans-Border Waste Flow Tracking Solution Based on
   Blockchain Technology
 url_pdf: ''

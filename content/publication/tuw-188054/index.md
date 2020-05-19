@@ -24,6 +24,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-06-28'
+specifics: 'Vortrag: International Workshop on Business System Management and Engineering
+  @ TOOLS 2010, Malaga, Spain; 28.06.2010 - 02.07.2010; in: "Proceedings of the International
+  Workshop on Business System Management and Engineering @ TOOLS 2010", (2010), S.
+  1 - 16.'
 title: Inter-organizational Reference Modeling - A Position Statement
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_188054.pdf
 ---

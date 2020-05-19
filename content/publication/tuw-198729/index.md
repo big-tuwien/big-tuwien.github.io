@@ -12,6 +12,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2011-01-01'
+specifics: null
 title: New Media in Teaching UML in the Large - an Experience Report
 url_pdf: http://journal.ub.tu-berlin.de/eceasst/issue/view/45
 ---

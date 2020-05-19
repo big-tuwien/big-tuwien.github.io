@@ -28,6 +28,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2015-01-01'
+specifics: Journal of Web Engineering, Volume 14 (2015), No. 5&6; S. 414 - 442.
 title: Identifying Web Performance Degradations through Synthetic and Real-User Monitoring
 url_pdf: ''
 ---

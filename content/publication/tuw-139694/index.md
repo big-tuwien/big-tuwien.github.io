@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2005-05-15'
+specifics: null
 title: Functional Group Roles in Software Engineering Teams
 url_pdf: ''
 ---

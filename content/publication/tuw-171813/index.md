@@ -25,6 +25,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2008-07-25'
+specifics: 'Vortrag: IADIS International Conference E-Commerce 2008, Amsterdam, Netherlands;
+  25.07.2008 - 27.07.2008; in: "Proceedings of the IADIS International Conference
+  E-Commerce 2008", S. Krishnamurthy (Hrg.); IADIS Press, (2008), ISBN: 978-972-8924-66-9;
+  S. 260 - 264.'
 title: 'Electronic Commerce Mashups: Combining Applications to Useful Services for
   Shoppers'
 url_pdf: ''

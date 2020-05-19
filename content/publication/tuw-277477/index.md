@@ -28,6 +28,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2018-01-01'
+specifics: Studies in health technology and informatics, 248 (2018), S. 330 - 337.
 title: Challenges of a HL7 CDA Guideline for Telehealth Based DMP Systems
 url_pdf: ''
 ---

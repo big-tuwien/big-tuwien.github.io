@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2006-04-01'
+specifics: null
 title: Konzeptive Kriterien für ein State-of-the-Art Portalsystem zur effektiven innerbetrieblichen
   Organisation in der öffentlichen Verwaltung
 url_pdf: ''

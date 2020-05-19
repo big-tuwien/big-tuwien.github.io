@@ -32,6 +32,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2012-04-19'
+specifics: 'Vortrag: 1-ICAUD, Tirana; 19.04.2012 - 21.04.2012; in: "Proceedings: First
+  International Conference on Architecture and Urban Design", A. Hysa (Hrg.); Epoka
+  University Press, Tirana (2012), ISBN: 9789928-135-01-8; S. 107 - 116.'
 title: Shape Grammars for Architectural Heritage
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_207796.pdf
 ---

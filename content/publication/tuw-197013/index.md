@@ -23,6 +23,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2011-01-01'
+specifics: 'in: "Models in Software Engineering - Workshops and Symposia at MODELS
+  2010, Reports and Revised Selected Papers", Lecture Notes in Computer Science Volume
+  6627, Springer, 2011, S. 40 - 54.'
 title: Novel Communication Channels in Software Modeling Education
 url_pdf: http://www.springerlink.com/content/85433244788077u4/
 ---

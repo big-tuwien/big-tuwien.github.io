@@ -36,6 +36,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-08-31'
+specifics: 'Vortrag: 17th IEEE International Requirements Engineering Conference,
+  Atlanta; 31.08.2009 - 04.09.2009; in: "Proceedings of the 17th IEEE Requirements
+  Engineering Conference", IEEE Computer Society, (2009), ISBN: 978-0-7695-3761-0;
+  S. 193 - 202.'
 title: '[vem:xi:] - A methodology for process based requirements engineering'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_177762.pdf
 ---

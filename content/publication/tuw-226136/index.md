@@ -10,6 +10,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2013-03-19'
+specifics: null
 title: A Safe & Secure Mobile & Social Media World? Vom Wirrwarr zum stabilen Umbruch
 url_pdf: ''
 ---

@@ -10,6 +10,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2001-03-27'
+specifics: null
 title: Optimal hedging using surrogate assets in incomplete markets with transaction
   costs - open problems
 url_pdf: ''

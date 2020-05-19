@@ -18,6 +18,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2017-03-06'
+specifics: 'Vortrag: 11th International Workshop on Value Modeling and Business Ontologies
+  (VMBO 2017), Belvaux, Luxemburg; 06.03.2017 - 07.03.2017; in: "Proceedings of the
+  11th International Workshop on Value Modeling and Business Ontologies", (2017),
+  5 S.'
 title: ISA-95 based Task Specification Layer for REA in Production Environments
 url_pdf: ''
 ---

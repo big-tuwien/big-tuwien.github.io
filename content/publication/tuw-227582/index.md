@@ -22,6 +22,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2014-03-03'
+specifics: 'Vortrag: 8th International Workshop on Value Modeling and Business Ontology
+  (VMBO 2014), Berlin; 03.03.2014 - 04.03.2014; in: "Proceedings of the 8th International
+  Workshop on Value Modeling and Business Ontology (VMBO 2014)", (2014), 5 S.'
 title: A Generic REA Software Architecture based on Fragments and Declarations
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_227582.pdf
 ---

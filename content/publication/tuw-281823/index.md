@@ -31,6 +31,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2019-01-01'
+specifics: 'in: "Proceedings of the Eleventh International Conference on Advanced
+  Cognitive Technologies and Applications (COGNITIVE 2019)", herausgegeben von: Marta
+  Franova, Charlotte Sennersten, Jayfus T. Doswell (eds); IARIA, Venice, Italy, 2019,
+  ISBN: 978-1-61208-705-4, S. 3 - 9.'
 title: 'Cognitive Decision Support for Industrial Product Life Cycles: A Position
   Paper'
 url_pdf: https://publik.tuwien.ac.at/files/publik_281823.pdf

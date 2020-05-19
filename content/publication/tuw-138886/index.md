@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-04-24'
+specifics: null
 title: Comparing the Immediate Usability of Graffiti 2 and Virtual Keyboard
 url_pdf: ''
 ---

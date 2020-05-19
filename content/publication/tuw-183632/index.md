@@ -20,6 +20,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-06-20'
+specifics: 'Vortrag: IADIS International Conference on Interfaces and Human Computer
+  Interaction 2009, Algarve, Portugal; 20.06.2009 - 22.06.2009; in: "Proceedings of
+  Interfaces and Human Computer Interaction 2009 and Game and Entertainment Technologies
+  2009", IADIS Press, (2009), ISBN: 978-972-8924-85-0; S. 176 - 180.'
 title: Evaluating the Usability of 1D Fisheye Lists
 url_pdf: ''
 ---

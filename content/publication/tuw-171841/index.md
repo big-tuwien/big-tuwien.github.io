@@ -26,6 +26,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2008-09-21'
+specifics: 'Poster: Ubicomp 2008, Seoul, South Korea; 21.09.2008 - 24.09.2008; in:
+  "Proceedings of the Poster Session at the Tenth International Conference on Ubiquitous
+  Computing 2008", (2008).'
 title: 'From Feedback to Awareness: An Ambient Water Consumption Display'
 url_pdf: ''
 ---

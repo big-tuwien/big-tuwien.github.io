@@ -22,6 +22,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2008-09-25'
+specifics: 'Vortrag: BIR 2008, Gdansk; 25.09.2008 - 26.09.2008; in: "Proc. of BIR
+  2008 The 7th Int''l Conf. on Perspectives In Business Informatics Research", University
+  Gdansk, (2008), ISBN: 978-83-7326-558-5; S. 77 - 93.'
 title: 'Selecting business processes for automation by WFMS: An Evaluation Framework'
 url_pdf: ''
 ---

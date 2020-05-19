@@ -23,6 +23,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-06-10'
+specifics: 'Vortrag: The 14th conference of AIM (Association Information and Management),
+  Marrakech, Morocco; 10.06.2009 - 12.06.2009; in: "Proceedings of the AIM 2009",
+  (2009), S. 27 - 29.'
 title: Discrepancies between expectation and evaluation results of IS shared services
 url_pdf: ''
 ---

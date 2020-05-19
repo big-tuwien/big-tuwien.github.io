@@ -13,6 +13,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2017-07-21'
+specifics: null
 title: On the Need for Temporal Model Repositories
 url_pdf: http://www.edusymp.org/Grand2017/en/programme
 ---

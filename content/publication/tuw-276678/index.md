@@ -12,6 +12,7 @@ links:
 publication_types:
 - '6'
 publishDate: '2018-01-01'
+specifics: null
 title: Austausch von elektronischen Geschäftsdokumenten
 url_pdf: ''
 ---

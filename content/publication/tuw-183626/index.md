@@ -25,6 +25,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-06-19'
+specifics: 'Vortrag: IADIS International Conference E-Commerce 2009, Algarve, Portugal;
+  19.06.2009 - 21.06.2009; in: "Proceedings of the IADIS International Conference
+  E-Commerce 2009", S. Krishnamurthy (Hrg.); IADIS Press, (2009), ISBN: 978-972-8924-89-8;
+  S. 77 - 88.'
 title: 'Smart Shopping Spaces: Connecting Merchants and Consumers by Innovative Online
   Marketplaces'
 url_pdf: ''

@@ -21,6 +21,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2016-01-01'
+specifics: 'in: "2016 IEEE International Conference on Software Maintenance and Evolution",
+  1; herausgegeben von: IEEE; IEEE Computer Society, Los Alamitos, CA, USA, 2016,
+  ISBN: 978-1-5090-3806-0, S. 563 - 567.'
 title: A tiered approach towards an incremental BPEL to BPMN 2.0 migration
 url_pdf: ''
 ---

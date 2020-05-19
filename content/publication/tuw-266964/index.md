@@ -22,6 +22,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2017-10-12'
+specifics: 'Vortrag: Proceedings of the Hamburg International Conference of Logistics
+  (HICL 2017), Hamburg; 12.10.2017 - 13.10.2017; in: "Digitalization in supply chain
+  management and logistics", epubli, (2017), ISBN: 978-3-7450-4328-0; S. 55 - 73.'
 title: Towards a Web Based Transportation Infrastructure
 url_pdf: http://publik.tuwien.ac.at/files/publik_266964.pdf
 ---

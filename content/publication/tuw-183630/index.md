@@ -22,6 +22,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-09-10'
+specifics: 'Vortrag: Sixth European Workshop on Public Key Services, Applications
+  and Infrastructures, Pisa, Italy; 10.09.2009 - 11.09.2009; in: "Proceedings of the
+  Sixth European Workshop on Public Key Services, Applications and Infrastructures",
+  Springer, (2009), S. 115 - 130.'
 title: Nationwide PKI Testing - Ensuring Interoperability of OCSP Server and Client
   Implementations Early During Component Tests
 url_pdf: ''

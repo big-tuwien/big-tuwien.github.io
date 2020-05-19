@@ -25,6 +25,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2018-11-08'
+specifics: 'Vortrag: 2018 IEEE 10th International Conference on Engineering Education
+  (ICEED), Kuala Lumpur, Malaysia; 08.11.2018 - 09.11.2018; in: "Proceedings of the
+  2018 IEEE 10th International Conference on Engineering Education (ICEED)", IEEE,
+  (2018), ISBN: 978-1-5386-6847-4; S. 63 - 68.'
 title: Teaching Global Software Engineering in a Remote Customer Environment
 url_pdf: ''
 ---

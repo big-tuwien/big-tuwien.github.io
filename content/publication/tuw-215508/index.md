@@ -41,6 +41,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2012-06-14'
+specifics: 'Vortrag: 12th European Conference on e-Government (ECEG 2012), Barcelona,
+  Spain; 14.06.2012 - 15.06.2012; in: "Proceedings of the 12th European Conference
+  on e-Government (ECEG 2012)", M. Gasco (Hrg.); Academic Publishing International
+  Limited Reading, UK (2012), 978&#8208;1&#8208;908272&#8208;41&#8208;6; S. 642 -
+  649.'
 title: The Austrian Approach Concerning the European Data Retention Directive´s Translation
   into National Law and its Technical Implementation
 url_pdf: ''

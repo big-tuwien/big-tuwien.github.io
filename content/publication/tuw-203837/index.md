@@ -11,6 +11,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2004-01-01'
+specifics: null
 title: UN/CEFACTs Business Collaboration Framework Information Day (BCF)
 url_pdf: ''
 ---

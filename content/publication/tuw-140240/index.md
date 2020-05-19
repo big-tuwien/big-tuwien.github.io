@@ -22,6 +22,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2006-10-16'
+specifics: 'Vortrag: Internationaler Workshop Models for Enterprise Computing 2006,
+  Hong Kong; 16.10.2006; in: "Models for Enterprise Computing 2006 - International
+  Workshop at EDOC 2006", IEEE Digital Library - http://doi.ieeecomputersociety.org/10.1109/EDOCW.2006.64,
+  (2006), ISBN: 0-7695-2743-4; S. 43 - 52.'
 title: Structural Patterns for the Transformation of Business Process Models
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_3809.pdf
 ---

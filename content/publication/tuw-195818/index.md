@@ -24,6 +24,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2011-01-01'
+specifics: Journal of Location Based Services, Vol. 5 (2011), 1; S. 38 - 57.
 title: Comparing viewing and filtering techniques for mobile urban exploration
 url_pdf: ''
 ---

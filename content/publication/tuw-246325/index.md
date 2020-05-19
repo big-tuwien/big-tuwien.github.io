@@ -25,6 +25,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2015-05-20'
+specifics: 'Vortrag: IFIP Networking Conference (IFIP Networking 2015), Toulouse,
+  Frankreich; 20.05.2015 - 22.05.2015; in: "Proceedings of the IFIP Networking Conference
+  2015", IEEE Conference Publications, (2015), S. 1 - 9.'
 title: Global VoIP Security Threats - Large Scale Validation Based on Independent
   Honeynets
 url_pdf: ''

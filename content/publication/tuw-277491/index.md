@@ -22,6 +22,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2018-08-15'
+specifics: 'Vortrag: 2018 1st IEEE International Conference on Hot Information-Centric
+  Networking (HotICN 2018), Beijing, China; 15.08.2018 - 17.08.2018; in: "Proceedings
+  of the 2018 1st IEEE International Conference on Hot Information-Centric Networking
+  (HotICN 2018)", IEEE Press, (2018), ISBN: 978-1-5386-4870-4; S. 223 - 228.'
 title: 'Towards Using Public Blockchain in Information-Centric Networks: Challenges
   Imposed by the European Union´s General Data Protection Regulation'
 url_pdf: ''

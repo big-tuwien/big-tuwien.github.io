@@ -10,6 +10,7 @@ links:
 publication_types:
 - '6'
 publishDate: '2009-01-01'
+specifics: null
 title: Ingenieurdisziplin Softwaretechnik und die Bausteine eines Projektes
 url_pdf: ''
 ---

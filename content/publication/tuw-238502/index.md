@@ -22,6 +22,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2015-07-22'
+specifics: 'Vortrag: 2015 IEEE International Conference on Industrial Informatics
+  (INDIN 2015), Cambridge; 22.07.2015 - 24.07.2015; in: "Proceedings of 2015 IEEE
+  International Conference on Industrial Informatics (INDIN 2015)", IEEE, (2015),
+  S. 1642 - 1647.'
 title: 'HoVer: a Modeling Framework for Horizontal and Vertical Integration'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_238502.pdf
 ---

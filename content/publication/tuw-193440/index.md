@@ -29,6 +29,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-08-02'
+specifics: 'Vortrag: Principles, Systems and Applications of IP Telecommunications
+  (IPTComm''10), München, Deutschland; 02.08.2010 - 03.08.2010; in: "Proceedings of
+  IPTComm 2010 Principles, Systems and Applications of IP Telecommunications", Technische
+  Universität München, Germany, (2010), ISSN: 1868-2642; S. 107 - 116.'
 title: 'Work in progress: Black-Box approach for testing quality of service in case
   of security incidents on the example of a SIP-based VoIP service'
 url_pdf: ''

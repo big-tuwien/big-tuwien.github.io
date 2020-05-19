@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2005-07-22'
+specifics: null
 title: 'GlueBar: A Solution Pattern for Integrating Interfaces into Self-Contained
   Applications'
 url_pdf: ''

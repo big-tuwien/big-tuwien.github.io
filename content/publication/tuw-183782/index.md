@@ -12,6 +12,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2009-01-01'
+specifics: null
 title: ReviewClipse - Kontinuierliche Code-Reviews mit Subversion und Eclipse
 url_pdf: ''
 ---

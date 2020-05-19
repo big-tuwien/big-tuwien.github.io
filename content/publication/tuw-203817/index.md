@@ -10,6 +10,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2005-01-01'
+specifics: null
 title: Registering a Business Collaboration Model in Multiple Business Environments
 url_pdf: ''
 ---

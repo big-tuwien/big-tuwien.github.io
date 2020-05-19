@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2002-01-01'
+specifics: null
 title: B2B Integration - Aligning ebXML and Ontology Approaches
 url_pdf: ''
 ---

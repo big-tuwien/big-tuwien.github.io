@@ -25,6 +25,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2015-01-01'
+specifics: Geomechanics and Tunnelling, 8 (2015), 4; S. 331 - 332.
 title: MineralBay - the portal for raw materials and projects from subsurface construction
 url_pdf: ''
 ---

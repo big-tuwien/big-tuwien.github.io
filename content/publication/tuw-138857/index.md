@@ -28,6 +28,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-10-10'
+specifics: 'Vortrag: IEEE Visualization, Austin, Texas; 10.10.2004 - 15.10.2004; in:
+  "Proceedings of Visualization 2004", H Rushmeier, G. Turk, J van Wijk (Hrg.); IEEE,
+  (2004), ISBN: 0-7803-8788-0; S. 393 - 400.'
 title: Non-linear Model Fitting to Parameterize Diseased Blood Vessels
 url_pdf: http://www.cg.tuwien.ac.at/research/publications/2004/LaCruz2004/
 ---

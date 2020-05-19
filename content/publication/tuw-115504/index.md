@@ -10,6 +10,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2001-12-18'
+specifics: null
 title: Indifference Prices and Related Measures II
 url_pdf: ''
 ---

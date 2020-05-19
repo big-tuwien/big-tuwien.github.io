@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2003-01-01'
+specifics: null
 title: Shifting from an electrical engineering based software structure to a software
   engineering based software structure
 url_pdf: ''

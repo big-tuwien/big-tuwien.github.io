@@ -21,6 +21,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2011-10-09'
+specifics: 'Vortrag: The Third IEEE International Conference on Information Privacy,
+  Security, Risk and Trust, MIT, Boston, USA; 09.10.2011 - 11.10.2011; in: "Proceedings
+  of the Third IEEE International Conference on Information Privacy, Security, Risk
+  and Trust", IEEE, (2011), ISBN: 978-0-7695-4578-3; S. 1041 - 1047.'
 title: Security status of voip based on the observation of real-world attacks on a
   honeynet
 url_pdf: ''

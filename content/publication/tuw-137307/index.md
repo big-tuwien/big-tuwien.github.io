@@ -12,6 +12,7 @@ links:
 publication_types:
 - '5'
 publishDate: '2002-01-01'
+specifics: null
 title: Stufen zur Informationsgesellschaft. Festschrift zum 65. Geburtstag von Klaus
   Fuchs-Kittowski
 url_pdf: ''

@@ -12,6 +12,7 @@ links:
 publication_types:
 - '6'
 publishDate: '2013-01-01'
+specifics: null
 title: Eine Plattform für den elektronischen Austausch von Geschäftsdokumenten
 url_pdf: ''
 ---

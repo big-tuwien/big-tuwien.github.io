@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2003-06-25'
+specifics: null
 title: A pattern language for software quality assurance in small and medium enterprises
 url_pdf: ''
 ---

@@ -14,6 +14,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-01-01'
+specifics: null
 title: Registry Support for Core Component Evolution
 url_pdf: ''
 ---

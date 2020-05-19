@@ -11,6 +11,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2014-03-26'
+specifics: null
 title: Mobility und Banking Apps
 url_pdf: ''
 ---

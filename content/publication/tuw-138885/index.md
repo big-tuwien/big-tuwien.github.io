@@ -11,6 +11,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2004-05-23'
+specifics: null
 title: How to find a Pragmatic Personality Model On Members in a Software Engineering
   Teams
 url_pdf: ''

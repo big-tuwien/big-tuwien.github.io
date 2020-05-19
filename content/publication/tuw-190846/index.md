@@ -26,6 +26,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-05-03'
+specifics: 'Vortrag: Business Information Systems 2010, Berlin; 03.05.2010 - 05.05.2010;
+  in: "Business Information Systems 13th International Conference, BIS 2010, Berlin,
+  Germany, May 3-5, 2010. Proceedings", Springer Berlin Heidelberg, (2010), ISBN:
+  978-3-642-12813-4; S. 119 - 132.'
 title: 'From Economic Drivers to B2B Process Models: a Mapping from REA to UMM'
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_190846.pdf
 ---

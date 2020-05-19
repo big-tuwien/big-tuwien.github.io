@@ -16,6 +16,7 @@ links:
 publication_types:
 - '4'
 publishDate: '2005-01-01'
+specifics: null
 title: 'Increasing election secrecy: The vote scrambling algorithm'
 url_pdf: ''
 ---

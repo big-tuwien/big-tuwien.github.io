@@ -23,6 +23,12 @@ links:
 publication_types:
 - '1'
 publishDate: '2007-10-05'
+specifics: 'Vortrag: 6th International Conference on Perspecitves in Business Information
+  Research - BIR 2007, Tampere, Finnland; 05.10.2007 - 06.10.2007; in: "Proceedings
+  of the 6th International Conference on Perspecitves in Business Information Research
+  - BIR 2007", J. Nummenmaa, E. Söderström (Hrg.); Department of Computer Sciences,
+  University of Tampere, Tampere, Finnland (2007), ISBN: 978-951-44-7096-7; S. 88
+  - 103.'
 title: The Model Morphing Approach - Horizontal Transformations between Business Process
   Models
 url_pdf: http://publik.tuwien.ac.at/files/pub-inf_4725.pdf

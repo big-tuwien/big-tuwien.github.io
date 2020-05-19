@@ -11,6 +11,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2009-01-01'
+specifics: null
 title: Current trends in modeling inter-organizational cooperation
 url_pdf: ''
 ---

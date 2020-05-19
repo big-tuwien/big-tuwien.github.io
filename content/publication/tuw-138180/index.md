@@ -12,6 +12,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2003-10-16'
+specifics: null
 title: A Vehicle Structure Based Software Architecture
 url_pdf: ''
 ---

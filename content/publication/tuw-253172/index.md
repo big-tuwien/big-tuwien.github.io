@@ -29,6 +29,11 @@ links:
 publication_types:
 - '1'
 publishDate: '2017-02-20'
+specifics: 'Vortrag: 24th IEEE International Conference on Software Analysis, Evolution,
+  and Reengineering (SANER), Klagenfurt, Österreich; 20.02.2017 - 24.02.2017; in:
+  "Proceedings of the 24th IEEE International Conference on Software Analysis, Evolution,
+  and Reengineering (SANER)", Proceedings of the 24th IEEE International Conference
+  on Software Analysis, Evolution, and Reengineering (SANER), (2017), S. 1 - 12.'
 title: Automated Generation of Consistency-Achieving Modeling Editors
 url_pdf: https://doi.org/10.1109/SANER.2017.7884615
 ---

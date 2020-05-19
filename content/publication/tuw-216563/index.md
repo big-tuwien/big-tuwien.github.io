@@ -14,6 +14,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2012-11-28'
+specifics: null
 title: ICT4DMZ Strengthening universities' capacities for improved access, use and
   application of ICT for social development and economic growth in Mozambique
 url_pdf: ''

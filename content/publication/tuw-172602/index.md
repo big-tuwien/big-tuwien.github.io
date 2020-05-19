@@ -20,6 +20,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2007-07-29'
+specifics: 'Vortrag: 19th IEEE International Engineering Management Conference (IEMC
+  2007), Austin, Texas; 29.07.2007 - 01.08.2007; in: "Proceedings of the 19th IEEE
+  International Engineering Management Conference", (2007), ISBN: 978-1-4244-2146-6;
+  S. 84 - 89.'
 title: 'Project Management Maturity Models: Towards Best Practices for Virtual Teams'
 url_pdf: ''
 ---

@@ -17,6 +17,7 @@ links:
 publication_types:
 - '1'
 publishDate: '2010-09-02'
+specifics: null
 title: Open Source Tool for 3D Simulation of Complex Applicator Placements and Ablation
   Volume during Image Guided Percutaneous Cryoablations
 url_pdf: ''

@@ -14,6 +14,7 @@ links:
 publication_types:
 - '3'
 publishDate: '2008-09-29'
+specifics: null
 title: Exercises for Object-Oriented Modeling
 url_pdf: http://www.iem.pw.edu.pl/edusymp08/M.Brensteidl_artifact.pdf
 ---

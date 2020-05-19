@@ -36,6 +36,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2016-01-01'
+specifics: IEEE Software, 33 (2016), 6; S. 106 - 111.
 title: 'ADAPT: A Framework for Agile Distributed Software Development'
 url_pdf: ''
 ---

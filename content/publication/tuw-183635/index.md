@@ -27,6 +27,9 @@ links:
 publication_types:
 - '1'
 publishDate: '2009-09-20'
+specifics: 'Vortrag: 25th IEEE International Conference on Software Maintenance (ICSM
+  2009), Edmonton, Alberta, Canada; 20.09.2009 - 26.09.2009; in: "Software Maintenance,
+  2009. ICSM 2009.", IEEE, (2009), ISBN: 978-1-4244-4897-5; S. 407 - 410.'
 title: 'Digging deep: Software reengineering supported by database reverse engineering
   of a system with 30+ years of legacy'
 url_pdf: ''

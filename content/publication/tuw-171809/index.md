@@ -25,6 +25,10 @@ links:
 publication_types:
 - '1'
 publishDate: '2008-07-24'
+specifics: 'Poster: IADIS International Conference Web Based Communities 2008, Amsterdam,
+  Netherlands; 24.07.2008 - 26.07.2008; in: "Proceedings of the IADIS International
+  Conference Web Based Communities 2008", P. Kommers (Hrg.); IADIS Press, (2008),
+  ISBN: 978-972-8924-65-2; S. 273 - 275.'
 title: 'Consumer Centric Communities: Integrating Community Based Features into Online
   Shops'
 url_pdf: ''

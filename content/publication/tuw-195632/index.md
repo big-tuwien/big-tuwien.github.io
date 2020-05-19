@@ -27,6 +27,8 @@ links:
 publication_types:
 - '2'
 publishDate: '2010-01-01'
+specifics: ACIS International Journal of Computer and Information Science, 11 (2010),
+  2.
 title: Definition and segmentation of orchestra companies
 url_pdf: ''
 ---

@@ -12,6 +12,7 @@ links:
 publication_types:
 - '2'
 publishDate: '2009-01-01'
+specifics: ERP Management Journal, 1 (2009), S. 41 - 47.
 title: Vergleich moderner ERP Systeme für den Einsatz im Orchesterunternehmen
 url_pdf: ''
 ---

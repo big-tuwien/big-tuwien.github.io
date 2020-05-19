@@ -25,6 +25,9 @@ links:
 publication_types:
 - '6'
 publishDate: '2012-01-01'
+specifics: 'in: "Business System Management and Engineering", C. Ardagna, E. Damiani,
+  L. Maciaszek, M. Missikoff, M. Parkin (Hrg.); Springer LNCS 7350, Berlin Heidelberg,
+  2012, ISBN: 978-3-642-32438-3, S. 32 - 47.'
 title: Inter-organizational Reference Models - May Inter-organizational Systems Profit
   from Reference Modeling?
 url_pdf: http://publik.tuwien.ac.at/files/PubDat_210144.pdf
