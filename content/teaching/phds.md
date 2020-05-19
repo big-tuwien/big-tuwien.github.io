@@ -15,7 +15,7 @@ active: true
 weight: 40
 subtitle: ''
 content:
-  page_type: phd-theses
+  page_type: phd-thesis
   filter_default: 0
   filter_button:
     - name: Ongoing

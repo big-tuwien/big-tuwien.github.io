@@ -23,17 +23,36 @@ def _person_id(name):
     if name == 'Gerti Kappel':
         return 'gertrude-kappel'
     return name.lower().replace(' ', '-').replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue') \
-           .replace('ß', 'sz').replace(' ', '')
+        .replace('ß', 'sz').replace(' ', '')
 
 
 def _title_id(title):
     # hyphenize title, remove non ascii chars and convert to lower (ik, pretty ugly)
     title = title.lower().replace('–', '-').replace('&', '-').replace('/', '-').replace(' - ', '-').replace('.', '-')\
         .strip().replace(' ', '-').replace('--', '-')
-    return re.sub(r'[^a-zA-Z0-9\-]+', '', title)
+    return re.sub(r'[^a-zA-Z0-9\-]+', '', title).rstrip('-')
 
 
-def migrate_big_profile(profile_url, output_dir, create=True, picture=True):
+def _prepare_resources(output_dir, identifier, fallback_template=None, create_directory=False, directory_file=None):
+    # creates all necessary folders and reference to existing templates if they dont already exist
+    directory = f'{output_dir}/{identifier}'
+
+    if os.path.exists(f'{directory}.md'):
+        # check if file exists first
+        return f'{directory}.md', output_dir, f'{identifier}.md'
+    elif os.path.exists(directory):
+        # check if directory exists
+        return f'{directory}/{directory_file}', directory, directory_file
+
+    print(f'Creating files for {identifier}')
+    if create_directory:
+        os.makedirs(directory)
+        return fallback_template, directory, directory_file
+    else:
+        return fallback_template, output_dir, f'{identifier}.md'
+
+
+def migrate_big_profile(profile_url, output_dir, picture=True):
     r = s.get(profile_url)
     raw_html = r.content.decode()
     soup = BeautifulSoup(raw_html, 'html.parser')
@@ -60,16 +79,10 @@ def migrate_big_profile(profile_url, output_dir, create=True, picture=True):
     picture_uri = picture_uri[0]['src'] if len(picture_uri) > 0 else None
 
     # create folder
-    directory = f'{output_dir}/{identifier}'
-    template_source = TEMPLATE_DIR + '/authors/user/_index.md'
-
-    if not os.path.exists(directory):
-        if not create:
-            return
-        print(f'Creating profile files for {name}')
-        os.makedirs(directory)
-    else:
-        template_source = directory + '/_index.md'
+    template_source, directory, file = _prepare_resources(
+        output_dir, identifier, create_directory=True, directory_file='_index.md',
+        fallback_template=f'{TEMPLATE_DIR}/authors/user/_index.md'
+    )
 
     if picture:
         # download profile pic or copy default
@@ -95,10 +108,9 @@ def migrate_big_profile(profile_url, output_dir, create=True, picture=True):
     if office_hours:
         pairs.append({'key': 'Office hours', 'value': office_hours})
     post['pairs'] = pairs
-
     post.content = content_markdown
 
-    with open(f'{directory}/_index.md', 'w+', encoding='utf-8') as f:
+    with open(f'{directory}/{file}', 'w+', encoding='utf-8') as f:
         f.write(frontmatter.dumps(post))
 
 
@@ -123,17 +135,9 @@ def migrate_thesis(thesis_url, output_dir, ongoing, create=True):
     content_markdown = html2markdown.convert(content_html)
 
     # create folder
-    directory = f'{output_dir}/{identifier}'
-    file = 'index.md'
-    template_source = TEMPLATE_DIR + '/theses/thesis/index.md'
-
-    if not os.path.exists(directory):
-        if not create:
-            return
-        print(f'Creating thesis files for "{title}"')
-        os.makedirs(directory)
-    else:
-        template_source = directory + '/' + file
+    template_source, directory, file = _prepare_resources(
+        output_dir, identifier, fallback_template=f'{TEMPLATE_DIR}/theses/thesis/index.md'
+    )
 
     # apply metadata to markdown front matter
     post = frontmatter.load(template_source)
@@ -171,15 +175,9 @@ def migrate_project(project_url, output_dir, ongoing):
     content_markdown = html2markdown.convert(content_html)
 
     # create folder
-    directory = f'{output_dir}/{identifier}'
-    file = 'index.md'
-    template_source = TEMPLATE_DIR + '/projects/project/index.md'
-
-    if not os.path.exists(directory):
-        print(f'Creating thesis files for "{title}"')
-        os.makedirs(directory)
-    else:
-        template_source = directory + '/' + file
+    template_source, directory, file = _prepare_resources(
+        output_dir, identifier, fallback_template=f'{TEMPLATE_DIR}/projects/project/index.md'
+    )
 
     # apply metadata to markdown front matter
     post = frontmatter.load(template_source)
@@ -202,7 +200,8 @@ def migrate_people():
     raw_html = r.content.decode()
     soup = BeautifulSoup(raw_html, 'html.parser')
     profile_refs = soup.select('#main a')
-    profile_refs = [a for a in profile_refs if a['href'].startswith('/people') and not 'visitors-and-friends' in a['href']]
+    profile_refs = [a for a in profile_refs if a['href'].startswith('/people') and
+                    'visitors-and-friends' not in a['href']]
 
     for ref in profile_refs:
         url = f'{BIG_BASE}{ref["href"]}'
@@ -231,7 +230,7 @@ def migrate_visitors_and_friends():
 
 def migrate_master_theses():
     url = f'{BIG_BASE}/teaching/masters-theses/'
-    output_dir = CONTENT_DIR + '/master-theses'
+    output_dir = CONTENT_DIR + '/master-thesis'
 
     r = s.get(url)
     raw_html = r.content.decode()
@@ -250,7 +249,7 @@ def migrate_master_theses():
 
 def migrate_phd_theses():
     url = f'{BIG_BASE}/teaching/phd-theses/'
-    output_dir = CONTENT_DIR + '/phd-theses'
+    output_dir = CONTENT_DIR + '/phd-thesis'
 
     r = s.get(url)
     raw_html = r.content.decode()
@@ -336,7 +335,7 @@ def main():
     # migrate_visitors_and_friends()
     migrate_master_theses()
     migrate_phd_theses()
-    # migrate_projects()
+    migrate_projects()
     # migrate_news()
     pass
 

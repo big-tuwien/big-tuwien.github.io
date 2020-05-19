@@ -15,7 +15,7 @@ active: true
 weight: 30
 subtitle: ''
 content:
-  page_type: master-theses
+  page_type: master-thesis
   filter_default: 0
   filter_button:
     - name: Ongoing

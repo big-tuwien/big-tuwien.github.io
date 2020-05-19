@@ -1,0 +1,28 @@
+---
+advisors:
+- christian-huemer
+authors:
+- Philipp Liegl
+categories: []
+date: '2020-05-19 12:38:19+00:00'
+external_link: ''
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+slides: ''
+summary: ''
+tags:
+- Finished
+title: Business Documents for Inter-Organisational Business Processes
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
+---
+
+This work has been finished in December 2009.
+
+Automated business-to-business (B2B) interactions between companies are constantly superseding old paper-based processes. This automation of inter-organizational processes requires a two-fold agreement between the participating business partners. First of all, business partners must agree on a common process choreography, unambiguously defining the exact exchange order of business documents in an inter-organizational business process. Consequently, business partners must agree on the structure of the exchanged business information as well. The two main business document paradigms, which are we elaborate on in this thesis, are top-down business document standards and bottom-up business document standards. The research question, this thesis aims to solve, is how to provide appropriate methods for the definition of business documents for inter-organizational business processes. Due to their special characteristics, such as the involvement of various stakeholders from different companies, the definition of business documents for inter-organizational business processes is not as straightforward as the definition of business documents for intra-organizational business processes. For the definition of inter-organizational business documents we employ two different approaches – a top-down approach and a bottom-up approach. For both approaches we provide appropriate methods for the definition of business documents, the mapping between different business document definitions, and the derivation of XML-based deployment artifacts from business document definitions. We thoroughly cover state-of-the art in the domain of inter-organizational business documents and inter-organizational business processes. This thesis starts by giving an introduction to the domain of Electronic Data Interchange (EDI) and shows the transition of data-centric EDI solutions to modern B2B systems in Chapter 1. Thereby, the specific requirements for B2B interactions are elaborated – in particular in regard to the definition of the exchanged business information. We motivate the findings of this thesis using an accompanying example from the domain of pan-European waste transport, which is introduced in Chapter 2. In Chapter 3 we provide a survey of current state-of-the-art in business documents standards. Chapter 4 provides an introduction to UN/CEFACT’s Core Components, a top-down business document standard which is key to this thesis. In a nutshell, core components are implementation neutral building blocks for assembling business documents. Although this implementation neutrality is one of the strengths of core components, it hinders a broad diffusion of the standard, since no common representation format for core components is available. To address this issue, this thesis provides three reference representation formats for core components: (i) a UML Profile for Core Components (Chapter 5), (ii) a Domain Specific Language for Core Components (Chapter 6), (iii) and a Web Ontology Language representation for Core Components (Chapter 7). The derivation of XML Schema artifacts from core components, which may be deployed to IT systems, is covered in Chapter 8. A successful diffusion of core Components may only be achieved if a broad user community has access to the necessary core component definitions. Consequently, we provide a registry meta-model for core components in Chapter 9. Bottom-up business document standards are subject to discussion in the second part of this thesis. Thereby, domain specific extensions to bottom-up document standards are introduced in Chapter 10. Consequently, we examine how to map bottom-up standard definitions to core component based top-down standard definitions in Chapter 11. Finally, we show how to combine business choreography models and business document models in Chapter 12. Related work is discussed in Chapter 13 and Chapter 14 concludes the contributions of this thesis. In summary this thesis provides the following seven contributions: (1) An overview of business document standards, based on standard clusters; (2) three reference representation formats for core components using the Unified Modeling Language, Domain Specific Languages, and Web Ontology Language for Core Components; (3) an unambiguous derivation of XML Schema artifacts from UML based core component models; (4) a registry meta-model for a core component registry; (5) domain specific extensions for an XML based bottom-up business document standard; (6) a mapping of bottom-up business document standards to top-down business documents standards; (7) an integration of UML based core component models in UML based business choreography models. In short the overall approach facilitates the definition of business documents in an inter-organizational context and fosters reuse of existing business document definitions.
+
+Abstract and paper may be found in our <a class="external" href="http://publik.tuwien.ac.at/showentry.php?ID=183994&amp;lang=2">publication database</a>.
