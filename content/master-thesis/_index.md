@@ -1,5 +1,5 @@
 ---
-title: Seminars
+title: Master Theses
 
 # View.
 #   1 = List

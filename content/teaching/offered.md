@@ -15,7 +15,7 @@ active: true
 weight: 20
 subtitle: ''
 content:
-  page_type: offered
+  page_type: offered-topic
   count: 3
   offset: 0
   order: desc

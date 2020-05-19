@@ -1,5 +1,5 @@
 ---
-title: Seminars
+title: Offered Topics
 
 # View.
 #   1 = List
