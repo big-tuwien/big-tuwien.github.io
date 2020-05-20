@@ -23,10 +23,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=190846&lang=2
-publication: 'Vortrag: Business Information Systems 2010, Berlin; 03.05.2010 - 05.05.2010;
+publication: 'Talk: Business Information Systems 2010, Berlin; 05-03-2010 - 05-05-2010;
   in: "Business Information Systems 13th International Conference, BIS 2010, Berlin,
   Germany, May 3-5, 2010. Proceedings", Springer Berlin Heidelberg, (2010), ISBN:
-  978-3-642-12813-4; S. 119 - 132'
+  978-3-642-12813-4; 119 - 132'
 publication_types:
 - '1'
 publishDate: '2010-05-03'

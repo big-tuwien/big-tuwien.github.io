@@ -22,10 +22,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141188&lang=2
-publication: 'Vortrag: ER 2007 Workshops CMLSA, FP-UML, ONISW, QoIS, RIGiM, SeCoGIS,
-  Auckland, New Zealand; 05.11.2007 - 09.11.2007; in: "Advances in Conceptual Modeling
-  - Foundations and Applications", J. Hainaut et al. (Hrg.); Springer, LNCS 4802 (2007),
-  ISSN: 0302-9743; S. 116 - 125'
+publication: 'Talk: ER 2007 Workshops CMLSA, FP-UML, ONISW, QoIS, RIGiM, SeCoGIS,
+  Auckland, New Zealand; 11-05-2007 - 11-09-2007; in: "Advances in Conceptual Modeling
+  - Foundations and Applications", J. Hainaut et al. (ed.); Springer, LNCS 4802 (2007),
+  ISSN: 0302-9743; 116 - 125'
 publication_types:
 - '1'
 publishDate: '2007-11-05'

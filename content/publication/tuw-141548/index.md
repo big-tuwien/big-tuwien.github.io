@@ -15,10 +15,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141548&lang=2
-publication: 'Vortrag: ACM Conference on Human Factors in Computing Systems (CHI 2007),
-  San Jose, California, USA; 28.04.2007 - 03.05.2007; in: "Extended Abstracts of the
+publication: 'Talk: ACM Conference on Human Factors in Computing Systems (CHI 2007),
+  San Jose, California, USA; 04-28-2007 - 05-03-2007; in: "Extended Abstracts of the
   ACM Conference on Human Factors in Computing Systems", ACM Press, (2007), ISBN:
-  978-1-59593-642-4; S. 2513 - 2518'
+  978-1-59593-642-4; 2513 - 2518'
 publication_types:
 - '1'
 publishDate: '2007-04-28'

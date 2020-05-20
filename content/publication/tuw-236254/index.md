@@ -21,10 +21,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=236254&lang=2
-publication: 'Vortrag: International Conference on Advanced Networking, Distributed
-  Systems and Applications (INDS 2014), Béjaia, Algeria; 17.06.2014 - 19.06.2014;
-  in: "Proceedings of the International Conference on Advanced Networking, Distributed
-  Systems and Applications", INDS, (2014), S. 58 - 61'
+publication: 'Talk: International Conference on Advanced Networking, Distributed Systems
+  and Applications (INDS 2014), Béjaia, Algeria; 06-17-2014 - 06-19-2014; in: "Proceedings
+  of the International Conference on Advanced Networking, Distributed Systems and
+  Applications", INDS, (2014), 58 - 61'
 publication_types:
 - '1'
 publishDate: '2014-06-17'

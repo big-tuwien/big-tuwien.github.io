@@ -30,9 +30,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=215556&lang=2
-publication: 'Vortrag: IEEE Conference on Information Visualization (InfoVis 2012),
-  Seattle, USA; 14.10.2012 - 19.10.2012; in: "IEEE Transactions on Visualization and
-  Computer Graphics", IEEE, 18 (2012), ISSN: 1077-2626; S. 2739 - 2748'
+publication: 'Talk: IEEE Conference on Information Visualization (InfoVis 2012), Seattle,
+  USA; 10-14-2012 - 10-19-2012; in: "IEEE Transactions on Visualization and Computer
+  Graphics", IEEE, 18 (2012), ISSN: 1077-2626; 2739 - 2748'
 publication_types:
 - '1'
 publishDate: '2012-10-14'

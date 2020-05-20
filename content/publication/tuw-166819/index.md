@@ -11,8 +11,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=166819&lang=2
-publication: 'Vortrag: Educators Symposium @ MODELS 2008, Toulouse, Frankreich (eingeladen);
-  29.09.2008'
+publication: 'Talk: Educators Symposium @ MODELS 2008, Toulouse, Frankreich (invited);
+  09-29-2008'
 publication_types:
 - '3'
 publishDate: '2008-09-29'

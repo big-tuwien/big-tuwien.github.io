@@ -20,11 +20,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226095&lang=2
-publication: 'Vortrag: The 8th International Conference on Evaluation of Novel Approaches
-  to Software Engineering (ENASE 2013), Angers, Frankreich; 04.07.2013 - 06.07.2013;
+publication: 'Talk: The 8th International Conference on Evaluation of Novel Approaches
+  to Software Engineering (ENASE 2013), Angers, Frankreich; 07-04-2013 - 07-06-2013;
   in: "Proceedings of the 8th International Conference on Evaluation of Novel Approaches
-  to Software Engineering", L. Maciaszek, J. Filipe (Hrg.); SciTePress, (2013), ISBN:
-  978-989-8565-62-4; S. 150 - 164'
+  to Software Engineering", L. Maciaszek, J. Filipe (ed.); SciTePress, (2013), ISBN:
+  978-989-8565-62-4; 150 - 164'
 publication_types:
 - '1'
 publishDate: '2013-07-04'

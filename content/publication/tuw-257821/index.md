@@ -33,7 +33,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=257821&lang=2
-publication: IEEE Software, 33 (2016), 6; S. 106 - 111
+publication: IEEE Software, 33 (2016), 6; 106 - 111
 publication_types:
 - '2'
 publishDate: '2016-01-01'

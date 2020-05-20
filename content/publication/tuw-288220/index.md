@@ -36,8 +36,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=288220&lang=2
-publication: 'Betreuer/in(nen), Begutachter/in(nen): G. Kappel, M. Wimmer, M. Gogolla,
-  A. Vallecillo; Institut für Information Systems Engineering, 2020; Rigorosum: 24.02.2020'
+publication: 'Supervisor, Reviewer: G. Kappel, M. Wimmer, M. Gogolla, A. Vallecillo;
+  Institut für Information Systems Engineering, 2020; oral examination: 02-24-2020'
 publication_types:
 - '7'
 publishDate: '2020-01-01'

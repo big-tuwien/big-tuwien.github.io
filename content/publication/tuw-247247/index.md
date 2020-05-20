@@ -19,8 +19,8 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=247247&lang=2
 publication: 'in: "Handbook on Business Process Management 1, 2nd Edition", International
-  Handbooks on Information Systems; Springer, Berlin Heidelberg, 2015, (eingeladen),
-  ISBN: 978-3-642-45099-0, S. 625 - 647'
+  Handbooks on Information Systems; Springer, Berlin Heidelberg, 2015, (invited),
+  ISBN: 978-3-642-45099-0, 625 - 647'
 publication_types:
 - '6'
 publishDate: '2015-01-01'

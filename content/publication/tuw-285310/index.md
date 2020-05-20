@@ -26,10 +26,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=285310&lang=2
-publication: 'Vortrag: 9th International Conference on Advanced Computer Information
-  Technologies (ACIT), Ceske Budejovice, Czech Republic; 05.06.2019 - 07.06.2019;
+publication: 'Talk: 9th International Conference on Advanced Computer Information
+  Technologies (ACIT), Ceske Budejovice, Czech Republic; 06-05-2019 - 06-07-2019;
   in: "Proceedings of the 9th International Conference on Advanced Computer Information
-  Technologies (ACIT)", (2019), ISBN: 978-1-7281-0450-8; S. 1 - 5'
+  Technologies (ACIT)", (2019), ISBN: 978-1-7281-0450-8; 1 - 5'
 publication_types:
 - '1'
 publishDate: '2019-06-05'

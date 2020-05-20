@@ -17,11 +17,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=277473&lang=2
-publication: 'Vortrag: 2018 IEEE 6th International Conference on Serious Games and
-  Applications for Health (SeGAH), Wien; 16.05.2018 - 18.05.2018; in: "Proceedings
-  of the 2018 IEEE 6th International Conference on Serious Games and Applications
-  for Health (SeGAH)", Institute of Electrical and Electronics Engineers (IEEE), (2018),
-  ISBN: 9781538662984; S. 1 - 8'
+publication: 'Talk: 2018 IEEE 6th International Conference on Serious Games and Applications
+  for Health (SeGAH), Wien; 05-16-2018 - 05-18-2018; in: "Proceedings of the 2018
+  IEEE 6th International Conference on Serious Games and Applications for Health (SeGAH)",
+  Institute of Electrical and Electronics Engineers (IEEE), (2018), ISBN: 9781538662984;
+  1 - 8'
 publication_types:
 - '1'
 publishDate: '2018-05-16'

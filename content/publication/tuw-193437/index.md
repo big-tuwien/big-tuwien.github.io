@@ -18,10 +18,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=193437&lang=2
-publication: 'Vortrag: International Conference for Internet Technology and Secured
-  Transactions (ICITST-2010), London, UK; 08.11.2010 - 11.11.2010; in: "Proceedings
-  of The 5th International Conference for Internet Technology and Secured Transactions",
-  Infonomics Society, UK, (2010), ISBN: 978-0-9564263-6-9; S. 96 - 101'
+publication: 'Talk: International Conference for Internet Technology and Secured Transactions
+  (ICITST-2010), London, UK; 11-08-2010 - 11-11-2010; in: "Proceedings of The 5th
+  International Conference for Internet Technology and Secured Transactions", Infonomics
+  Society, UK, (2010), ISBN: 978-0-9564263-6-9; 96 - 101'
 publication_types:
 - '1'
 publishDate: '2010-11-08'

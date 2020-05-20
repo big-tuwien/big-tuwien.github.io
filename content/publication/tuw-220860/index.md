@@ -16,10 +16,10 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=220860&lang=2
 publication: 'Poster: The Eighth International and Interdisciplinary Conference on
-  Modeling and Using Context (CONTEXT''13), Annecy, France; 28.10.2013 - 01.11.2013;
+  Modeling and Using Context (CONTEXT''13), Annecy, France; 10-28-2013 - 11-01-2013;
   in: "Brézillon, P., Blackburn, P., Dapoigny, R. (eds.) CONTEXT 2013. LNCS (LNAI),
-  vol. 8175, Springer, Heidelberg (2013)", (2013), ISBN: 978-3-642-40971-4; S. 357
-  - 363'
+  vol. 8175, Springer, Heidelberg (2013)", (2013), ISBN: 978-3-642-40971-4; 357 -
+  363'
 publication_types:
 - '1'
 publishDate: '2013-10-28'

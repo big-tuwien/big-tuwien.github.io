@@ -7,8 +7,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=276168&lang=2
-publication: 'Vortrag: 2nd Workshop for Production Lifecycle Information Management
-  (PLIM), Darmstadt, Deutschland (eingeladen); 10.04.2018'
+publication: 'Talk: 2nd Workshop for Production Lifecycle Information Management (PLIM),
+  Darmstadt, Deutschland (invited); 04-10-2018'
 publication_types:
 - '3'
 publishDate: '2018-04-10'

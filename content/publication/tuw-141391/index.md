@@ -22,10 +22,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141391&lang=2
-publication: 'Vortrag: 2007 IEEE International Conference on Web Services (ICWS 2007),
-  Salt Lake City, Utah, USA; 09.07.2007 - 13.07.2007; in: "2007 IEEE International
+publication: 'Talk: 2007 IEEE International Conference on Web Services (ICWS 2007),
+  Salt Lake City, Utah, USA; 07-09-2007 - 07-13-2007; in: "2007 IEEE International
   Conference on Web Services (ICWS 2007)", IEEE Computer Society, Los Alamitos, CA,
-  USA (2007), ISBN: 0-7695-2924-0; S. 216 - 224'
+  USA (2007), ISBN: 0-7695-2924-0; 216 - 224'
 publication_types:
 - '1'
 publishDate: '2007-07-09'

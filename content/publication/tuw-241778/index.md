@@ -25,7 +25,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=241778&lang=2
-publication: Journal of Web Engineering, Volume 14 (2015), No. 5&6; S. 414 - 442
+publication: Journal of Web Engineering, Volume 14 (2015), No. 5&6; 414 - 442
 publication_types:
 - '2'
 publishDate: '2015-01-01'

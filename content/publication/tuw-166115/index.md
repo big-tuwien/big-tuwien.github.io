@@ -17,10 +17,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=166115&lang=2
-publication: 'Vortrag: Tenth International Conference on Electronic Commerce (ICEC08),
-  Innsbruck (eingeladen); 19.08.2008 - 22.08.2008; in: "Proceedings of the Tenth International
+publication: 'Talk: Tenth International Conference on Electronic Commerce (ICEC08),
+  Innsbruck (invited); 08-19-2008 - 08-22-2008; in: "Proceedings of the Tenth International
   Conference on Electronic Commerce", ACM, 342 (2008), ISBN: 978-1-60558-075-3; 10
-  S'
+  pages'
 publication_types:
 - '1'
 publishDate: '2008-08-19'

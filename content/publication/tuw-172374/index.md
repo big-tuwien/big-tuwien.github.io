@@ -16,10 +16,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=172374&lang=2
-publication: 'Vortrag: Pervasive Expression - Workshop on Pervasive Visual, Auditory
-  and Alternative Modality Information Display, Sydney, Australia; 19.03.2008; in:
+publication: 'Talk: Pervasive Expression - Workshop on Pervasive Visual, Auditory
+  and Alternative Modality Information Display, Sydney, Australia; 03-19-2008; in:
   "Proceedings of the Workshop on Pervasive Visual, Auditory and Alternative Modality
-  Information Display", (2008), 5 S'
+  Information Display", (2008), 5 pages'
 publication_types:
 - '1'
 publishDate: '2008-03-19'

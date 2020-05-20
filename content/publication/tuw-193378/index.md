@@ -18,11 +18,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=193378&lang=2
-publication: 'Vortrag: The 22nd International Conference on Software Engineering &
-  Knowledge Engineering, San Francisco Bay; 01.07.2010 - 03.07.2010; in: "Proceedings
-  of the Twenty-Second International Conference on Software Engineering & Knowledge
-  Engineering", Knowledge Systems Institute Graduate School, (2010), ISBN: 978-1-891706-26-4;
-  S. 198 - 202'
+publication: 'Talk: The 22nd International Conference on Software Engineering & Knowledge
+  Engineering, San Francisco Bay; 07-01-2010 - 07-03-2010; in: "Proceedings of the
+  Twenty-Second International Conference on Software Engineering & Knowledge Engineering",
+  Knowledge Systems Institute Graduate School, (2010), ISBN: 978-1-891706-26-4; 198
+  - 202'
 publication_types:
 - '1'
 publishDate: '2010-07-01'

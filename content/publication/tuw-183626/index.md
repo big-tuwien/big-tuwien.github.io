@@ -22,10 +22,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183626&lang=2
-publication: 'Vortrag: IADIS International Conference E-Commerce 2009, Algarve, Portugal;
-  19.06.2009 - 21.06.2009; in: "Proceedings of the IADIS International Conference
-  E-Commerce 2009", S. Krishnamurthy (Hrg.); IADIS Press, (2009), ISBN: 978-972-8924-89-8;
-  S. 77 - 88'
+publication: 'Talk: IADIS International Conference E-Commerce 2009, Algarve, Portugal;
+  06-19-2009 - 06-21-2009; in: "Proceedings of the IADIS International Conference
+  E-Commerce 2009", S. Krishnamurthy (ed.); IADIS Press, (2009), ISBN: 978-972-8924-89-8;
+  77 - 88'
 publication_types:
 - '1'
 publishDate: '2009-06-19'

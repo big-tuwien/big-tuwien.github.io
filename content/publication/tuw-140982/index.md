@@ -18,9 +18,9 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=140982&lang=2
 publication: 'in: "Proceedings of the 2007 Inaugural IEEE International Conference
-  on Digital Ecosystems and Technologies (IEEE DEST 2007)", herausgegeben von: IEEE
-  Computer Society; IEEE Computer Society, Cairns (Australia), 2007, ISBN: 1-4244-0470-3,
-  6 S'
+  on Digital Ecosystems and Technologies (IEEE DEST 2007)", issued by: IEEE Computer
+  Society; IEEE Computer Society, Cairns (Australia), 2007, ISBN: 1-4244-0470-3, 6
+  pages'
 publication_types:
 - '1'
 publishDate: '2007-01-01'

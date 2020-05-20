@@ -18,7 +18,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=278699&lang=2
-publication: Procedia CIRP, 81 (2019), S. 13 - 18
+publication: Procedia CIRP, 81 (2019), 13 - 18
 publication_types:
 - '2'
 publishDate: '2019-01-01'

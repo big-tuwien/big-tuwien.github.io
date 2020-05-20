@@ -57,8 +57,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=140331&lang=2
-publication: 'Betreuer/in(nen), Begutachter/in(nen): M. Sramek; Institut für Computergraphik
-  und Algorithmen, 2006'
+publication: 'Supervisor, Reviewer: M. Sramek; Institut für Computergraphik und Algorithmen,
+  2006'
 publication_types:
 - '7'
 publishDate: '2006-01-01'

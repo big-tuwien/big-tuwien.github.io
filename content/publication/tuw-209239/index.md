@@ -29,8 +29,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=209239&lang=2
-publication: 'Vortrag: Annual SRII Global Conference 2012, San Jose; 24.07.2012 -
-  27.07.2012; in: "Proceedings of the Annual SRII Global Conference 2012", (2012)'
+publication: 'Talk: Annual SRII Global Conference 2012, San Jose; 07-24-2012 - 07-27-2012;
+  in: "Proceedings of the Annual SRII Global Conference 2012", (2012)'
 publication_types:
 - '1'
 publishDate: '2012-07-24'

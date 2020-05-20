@@ -27,10 +27,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=285655&lang=2
-publication: 'Vortrag: 2019 International Conference on Information and Digital Technologies
-  (IDT), Zilina, Slovakia; 25.06.2019 - 27.06.2019; in: "Proceedings of the International
+publication: 'Talk: 2019 International Conference on Information and Digital Technologies
+  (IDT), Zilina, Slovakia; 06-25-2019 - 06-27-2019; in: "Proceedings of the International
   Conference on Information and Digital Technologies", (2019), ISBN: 978-1-7281-1401-9;
-  S. 283 - 287'
+  283 - 287'
 publication_types:
 - '1'
 publishDate: '2019-06-25'

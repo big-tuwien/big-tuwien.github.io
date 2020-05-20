@@ -17,10 +17,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205406&lang=2
-publication: 'Vortrag: The 6th International Conference on Internet Technology and
-  Secured Transactions, Abu Dhabi, UAE; 11.12.2011 - 14.12.2011; in: "Proceedings
-  of the 6th International Conference on Internet Technology and Secured Transactions",
-  IEEE, (2011), ISBN: 978-1-908320-00-1; S. 442 - 447'
+publication: 'Talk: The 6th International Conference on Internet Technology and Secured
+  Transactions, Abu Dhabi, UAE; 12-11-2011 - 12-14-2011; in: "Proceedings of the 6th
+  International Conference on Internet Technology and Secured Transactions", IEEE,
+  (2011), ISBN: 978-1-908320-00-1; 442 - 447'
 publication_types:
 - '1'
 publishDate: '2011-12-11'

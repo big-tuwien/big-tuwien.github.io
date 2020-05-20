@@ -21,10 +21,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205747&lang=2
-publication: 'Vortrag: Third International Conference on eHealth, Telemedicine, and
-  Social Medicine (eTELEMED 2011), Gosier, Guadeloupe, France; 23.02.2011 - 28.02.2011;
-  in: "Proceedings of the Third International Conference on eHealth, Telemedicine,
-  and Social Medicine", IARIA, (2011), ISBN: 978-1-61208-119-9; S. 169 - 174'
+publication: 'Talk: Third International Conference on eHealth, Telemedicine, and Social
+  Medicine (eTELEMED 2011), Gosier, Guadeloupe, France; 02-23-2011 - 02-28-2011; in:
+  "Proceedings of the Third International Conference on eHealth, Telemedicine, and
+  Social Medicine", IARIA, (2011), ISBN: 978-1-61208-119-9; 169 - 174'
 publication_types:
 - '1'
 publishDate: '2011-02-23'

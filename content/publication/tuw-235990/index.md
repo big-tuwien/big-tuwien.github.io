@@ -19,10 +19,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=235990&lang=2
-publication: 'Vortrag: Sixth International Conference on eHealth, Telemedicine, and
-  Social Medicine (eTELEMED 14), Barcelona, Spain; 23.03.2014 - 27.03.2014; in: "Proceedings
+publication: 'Talk: Sixth International Conference on eHealth, Telemedicine, and Social
+  Medicine (eTELEMED 14), Barcelona, Spain; 03-23-2014 - 03-27-2014; in: "Proceedings
   of the Sixth International Conference on eHealth, Telemedicine, and Social Medicine",
-  IARIA, Curran Associates, Inc. (2014), ISBN: 978-1-61208-327-8; S. 17 - 22'
+  IARIA, Curran Associates, Inc. (2014), ISBN: 978-1-61208-327-8; 17 - 22'
 publication_types:
 - '1'
 publishDate: '2014-03-23'

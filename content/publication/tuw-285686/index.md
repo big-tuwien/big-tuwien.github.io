@@ -28,10 +28,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=285686&lang=2
-publication: 'Vortrag: 2019 IEEE 35th International Conference on Data Engineering
-  Workshops (ICDEW), Macao, Macao; 08.04.2019 - 12.04.2019; in: "Proceedings of the
-  IEEE 35th International Conference on Data Engineering Workshops", IEEE, (2019),
-  ISBN: 978-1-7281-0890-2; S. 31 - 36'
+publication: 'Talk: 2019 IEEE 35th International Conference on Data Engineering Workshops
+  (ICDEW), Macao, Macao; 04-08-2019 - 04-12-2019; in: "Proceedings of the IEEE 35th
+  International Conference on Data Engineering Workshops", IEEE, (2019), ISBN: 978-1-7281-0890-2;
+  31 - 36'
 publication_types:
 - '1'
 publishDate: '2019-04-08'

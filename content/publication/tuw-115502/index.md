@@ -7,7 +7,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=115502&lang=2
-publication: 'Vortrag: TU Vienna, Austria; 11.12.2001'
+publication: 'Talk: TU Vienna, Austria; 12-11-2001'
 publication_types:
 - '3'
 publishDate: '2001-12-11'

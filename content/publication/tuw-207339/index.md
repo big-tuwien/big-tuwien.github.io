@@ -27,8 +27,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=207339&lang=2
-publication: 'Vortrag: 6th International Workshop on Value Modeling and Business Ontology
-  (VMBO 2012), Vienna, Austria; 20.02.2012 - 21.02.2012; in: "6th International Workshop
+publication: 'Talk: 6th International Workshop on Value Modeling and Business Ontology
+  (VMBO 2012), Vienna, Austria; 02-20-2012 - 02-21-2012; in: "6th International Workshop
   on Value Modeling and Business Ontology (VMBO 2012)", (2012)'
 publication_types:
 - '1'

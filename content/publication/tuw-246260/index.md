@@ -21,10 +21,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246260&lang=2
-publication: 'Vortrag: The 12th Working Conference on Mining Software Repositories
-  (MSR), Florenz, Italien; 16.05.2015 - 17.05.2015; in: "Proceedings of the 12th Working
+publication: 'Talk: The 12th Working Conference on Mining Software Repositories (MSR),
+  Florenz, Italien; 05-16-2015 - 05-17-2015; in: "Proceedings of the 12th Working
   Conference on Mining Software Repositories (MSR)", IEEE, (2015), ISBN: 978-0-7695-5594-2;
-  S. 490 - 493'
+  490 - 493'
 publication_types:
 - '1'
 publishDate: '2015-05-16'

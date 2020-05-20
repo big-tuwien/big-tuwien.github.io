@@ -19,11 +19,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=278491&lang=2
-publication: 'Vortrag: 2018 IFIP WG 9.4 European Regional Conference on the Social
-  Implications of Computers in Developing Countries, Tirana, Albanien; 22.04.2018
-  - 24.04.2018; in: "Proceedings of the 2018 IFIP WG 9.4 European Regional Conference
-  on the Social Implications of Computers in Developing Countries", Ifip Aict, London
-  (2018), ISBN: 978-1-78926-343-5; S. 39 - 41'
+publication: 'Talk: 2018 IFIP WG 9.4 European Regional Conference on the Social Implications
+  of Computers in Developing Countries, Tirana, Albanien; 04-22-2018 - 04-24-2018;
+  in: "Proceedings of the 2018 IFIP WG 9.4 European Regional Conference on the Social
+  Implications of Computers in Developing Countries", Ifip Aict, London (2018), ISBN:
+  978-1-78926-343-5; 39 - 41'
 publication_types:
 - '1'
 publishDate: '2018-04-22'

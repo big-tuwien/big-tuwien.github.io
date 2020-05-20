@@ -9,7 +9,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183659&lang=2
-publication: ERP Management Journal, 1 (2009), S. 41 - 47
+publication: ERP Management Journal, 1 (2009), 41 - 47
 publication_types:
 - '2'
 publishDate: '2009-01-01'

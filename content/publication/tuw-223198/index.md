@@ -27,10 +27,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=223198&lang=2
-publication: 'Vortrag: 2013 Digital Heritage International Congress, Marseille, France;
-  28.10.2013 - 01.11.2013; in: "2013 Digital Heritage International Congress", A.
-  Addison, G. Guidi, L. De Luca, S. Pescarin (Hrg.); IEEE, CFP1308W-USB (2013), ISBN:
-  978-1-4799-3169-9; S. 199 - 206'
+publication: 'Talk: 2013 Digital Heritage International Congress, Marseille, France;
+  10-28-2013 - 11-01-2013; in: "2013 Digital Heritage International Congress", A.
+  Addison, G. Guidi, L. De Luca, S. Pescarin (ed.); IEEE, CFP1308W-USB (2013), ISBN:
+  978-1-4799-3169-9; 199 - 206'
 publication_types:
 - '1'
 publishDate: '2013-10-28'

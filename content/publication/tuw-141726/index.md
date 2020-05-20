@@ -30,8 +30,8 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141726&lang=2
 publication: 'Poster: International Conference on Service-Oriented Computing, Wien;
-  17.09.2007 - 20.09.2007; in: "Service-Oriented Computing - ICSOC 2007", Springer,
-  LNCS 4749 (2007), ISBN: 978-3-540-74973-8; S. 618 - 619'
+  09-17-2007 - 09-20-2007; in: "Service-Oriented Computing - ICSOC 2007", Springer,
+  LNCS 4749 (2007), ISBN: 978-3-540-74973-8; 618 - 619'
 publication_types:
 - '1'
 publishDate: '2007-09-17'

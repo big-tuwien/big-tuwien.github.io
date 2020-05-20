@@ -43,7 +43,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183781&lang=2
-publication: 'Vortrag: EclipseCon 2009, Santa Clara, CA, USA; 23.03.2009 - 26.03.2009'
+publication: 'Talk: EclipseCon 2009, Santa Clara, CA, USA; 03-23-2009 - 03-26-2009'
 publication_types:
 - '3'
 publishDate: '2009-03-23'

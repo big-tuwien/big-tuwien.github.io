@@ -17,7 +17,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=171830&lang=2
-publication: 'Vortrag: 22nd IPMA World Congress, Rome, Italy; 09.11.2008 - 11.11.2008;
+publication: 'Talk: 22nd IPMA World Congress, Rome, Italy; 11-09-2008 - 11-11-2008;
   in: "Proceedings of the 22nd IPMA World Congress", IPMA, (2008)'
 publication_types:
 - '1'

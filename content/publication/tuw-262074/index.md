@@ -32,7 +32,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=262074&lang=2
-publication: Software and Systems Modeling, 18 (2019), S. 1017 - 1046
+publication: Software and Systems Modeling, 18 (2019), 1017 - 1046
 publication_types:
 - '2'
 publishDate: '2019-01-01'

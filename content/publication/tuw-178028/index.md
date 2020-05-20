@@ -17,8 +17,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=178028&lang=2
-publication: 'Vortrag: Educators'' Symposium @ Models 2009, Denver, USA; 06.10.2009;
-  in: "Educators'' Symposium @ Models 2009", (2009), 8 S'
+publication: 'Talk: Educators'' Symposium @ Models 2009, Denver, USA; 10-06-2009;
+  in: "Educators'' Symposium @ Models 2009", (2009), 8 pages'
 publication_types:
 - '1'
 publishDate: '2009-10-06'

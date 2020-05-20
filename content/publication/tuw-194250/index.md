@@ -20,10 +20,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=194250&lang=2
-publication: 'Vortrag: 1st IEEE-AMA Medical Technology Conference on Individualized
-  Healthcare, Washington, USA; 21.03.2010 - 23.03.2010; in: "Proceedings of the 1st
-  IEEE-AMA Medical Technology Conference on Individualized Healthcare", (2010), 1
-  S'
+publication: 'Talk: 1st IEEE-AMA Medical Technology Conference on Individualized Healthcare,
+  Washington, USA; 03-21-2010 - 03-23-2010; in: "Proceedings of the 1st IEEE-AMA Medical
+  Technology Conference on Individualized Healthcare", (2010), 1 pages'
 publication_types:
 - '1'
 publishDate: '2010-03-21'

@@ -19,10 +19,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226093&lang=2
-publication: 'Vortrag: 14th International Conference, XP 2013, Vienna; 03.06.2013
-  - 07.06.2013; in: "Agile Processes in Software Engineering and Extreme Programming",
-  H. Baumeister, B. Weber (Hrg.); Springer Lecture Notes in Business Information Processing,
-  149 (2013), ISBN: 978-3-642-38313-7; S. 150 - 164'
+publication: 'Talk: 14th International Conference, XP 2013, Vienna; 06-03-2013 - 06-07-2013;
+  in: "Agile Processes in Software Engineering and Extreme Programming", H. Baumeister,
+  B. Weber (ed.); Springer Lecture Notes in Business Information Processing, 149 (2013),
+  ISBN: 978-3-642-38313-7; 150 - 164'
 publication_types:
 - '1'
 publishDate: '2013-06-03'

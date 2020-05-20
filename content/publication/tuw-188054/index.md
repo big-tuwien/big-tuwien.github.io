@@ -21,10 +21,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=188054&lang=2
-publication: 'Vortrag: International Workshop on Business System Management and Engineering
-  @ TOOLS 2010, Malaga, Spain; 28.06.2010 - 02.07.2010; in: "Proceedings of the International
-  Workshop on Business System Management and Engineering @ TOOLS 2010", (2010), S.
-  1 - 16'
+publication: 'Talk: International Workshop on Business System Management and Engineering
+  @ TOOLS 2010, Malaga, Spain; 06-28-2010 - 07-02-2010; in: "Proceedings of the International
+  Workshop on Business System Management and Engineering @ TOOLS 2010", (2010), 1
+  - 16'
 publication_types:
 - '1'
 publishDate: '2010-06-28'

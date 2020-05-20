@@ -17,7 +17,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=234915&lang=2
-publication: 2014; 6 S
+publication: 2014; 6 pages
 publication_types:
 - '4'
 publishDate: '2014-01-01'

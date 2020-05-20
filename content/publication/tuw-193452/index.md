@@ -23,10 +23,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=193452&lang=2
-publication: 'Vortrag: IADIS International Conference Web Based Communities 2010,
-  Freiburg, Germany; 29.07.2010 - 31.07.2010; in: "Proceedings of the IADIS International
-  Conference Web Based Communities 2010", N. Bessis, P. Kommers, P. Isaias (Hrg.);
-  IADIS Press, (2010), ISBN: 978-972-8939-21-2; S. 45 - 49'
+publication: 'Talk: IADIS International Conference Web Based Communities 2010, Freiburg,
+  Germany; 07-29-2010 - 07-31-2010; in: "Proceedings of the IADIS International Conference
+  Web Based Communities 2010", N. Bessis, P. Kommers, P. Isaias (ed.); IADIS Press,
+  (2010), ISBN: 978-972-8939-21-2; 45 - 49'
 publication_types:
 - '1'
 publishDate: '2010-07-29'

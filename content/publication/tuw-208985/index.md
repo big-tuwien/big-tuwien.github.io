@@ -10,7 +10,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=208985&lang=2
-publication: 'dpunkt.verlag, Heidelberg, 2012, ISBN: 978-3-89864-776-2; 250 S'
+publication: 'dpunkt.verlag, Heidelberg, 2012, ISBN: 978-3-89864-776-2; 250 pages'
 publication_types:
 - '5'
 publishDate: '2012-01-01'

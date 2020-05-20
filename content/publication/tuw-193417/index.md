@@ -22,11 +22,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=193417&lang=2
-publication: 'Vortrag: The Second International Conference on Advances in System Testing
-  and Validation Lifecycle, Nice, France; 22.08.2010 - 27.08.2010; in: "Proceedings
+publication: 'Talk: The Second International Conference on Advances in System Testing
+  and Validation Lifecycle, Nice, France; 08-22-2010 - 08-27-2010; in: "Proceedings
   of The Second International Conference on Advances in System Testing and Validation
-  Lifecycle", IEEE Computer Society Press, (2010), ISBN: 978-0-7695-4146-4; S. 114
-  - 119'
+  Lifecycle", IEEE Computer Society Press, (2010), ISBN: 978-0-7695-4146-4; 114 -
+  119'
 publication_types:
 - '1'
 publishDate: '2010-08-22'

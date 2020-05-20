@@ -17,9 +17,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=247240&lang=2
-publication: 'Hauptvortrag: ERP Future 2013 Conference, Vienna (eingeladen); 11.11.2013
-  - 12.11.2013; in: "Novel Methods and Technologies for Enterprise Information Systems",
-  Springer, (2014), ISBN: 978-3-319-07054-4; S. 9 - 18'
+publication: 'Keynote Lecture: ERP Future 2013 Conference, Vienna (invited); 11-11-2013
+  - 11-12-2013; in: "Novel Methods and Technologies for Enterprise Information Systems",
+  Springer, (2014), ISBN: 978-3-319-07054-4; 9 - 18'
 publication_types:
 - '1'
 publishDate: '2013-11-11'

@@ -9,7 +9,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=276797&lang=2
-publication: 'IEEE Computer Society, 2018, ISBN: 978-1-5386-7016-3; 206 S'
+publication: 'IEEE Computer Society, 2018, ISBN: 978-1-5386-7016-3; 206 pages'
 publication_types:
 - '5'
 publishDate: '2018-01-01'

@@ -22,8 +22,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=200217&lang=2
-publication: 'Vortrag: 5th International Workshop on Value Modeling and Business Ontology
-  (VMBO 2011), Ghent, Belgium; 07.02.2011 - 08.02.2011; in: "5th International Workshop
+publication: 'Talk: 5th International Workshop on Value Modeling and Business Ontology
+  (VMBO 2011), Ghent, Belgium; 02-07-2011 - 02-08-2011; in: "5th International Workshop
   on Value Modeling and Business Ontology (VMBO 2011)", (2011)'
 publication_types:
 - '1'

@@ -22,9 +22,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=245920&lang=2
-publication: 'Vortrag: 17th IEEE Conference on Business Informatics, Lissabon, Portugal;
-  13.07.2015 - 16.07.2015; in: "Business Informatics (CBI), 2015 IEEE 17th Conference
-  on (Volume:1 )", IEEE, (2015), ISBN: 978-1-4673-7340-1; S. 33 - 42'
+publication: 'Talk: 17th IEEE Conference on Business Informatics, Lissabon, Portugal;
+  07-13-2015 - 07-16-2015; in: "Business Informatics (CBI), 2015 IEEE 17th Conference
+  on (Volume:1 )", IEEE, (2015), ISBN: 978-1-4673-7340-1; 33 - 42'
 publication_types:
 - '1'
 publishDate: '2015-07-13'

@@ -17,10 +17,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=276723&lang=2
-publication: 'Vortrag: 14th International Conference on Semantic Systems, Vienna;
-  10.09.2018 - 13.09.2018; in: "Proceedings of the Posters and Demos Track of the
-  14th International Conference on Semantic Systems", ceur-ws, Vol. 2198 (2018), ISSN:
-  1613-0073; Paper-Nr. 103, 4 S'
+publication: 'Talk: 14th International Conference on Semantic Systems, Vienna; 09-10-2018
+  - 09-13-2018; in: "Proceedings of the Posters and Demos Track of the 14th International
+  Conference on Semantic Systems", ceur-ws, Vol. 2198 (2018), ISSN: 1613-0073; Paper
+  ID 103, 4 pages'
 publication_types:
 - '1'
 publishDate: '2018-09-10'

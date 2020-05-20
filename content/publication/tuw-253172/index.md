@@ -26,11 +26,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=253172&lang=2
-publication: 'Vortrag: 24th IEEE International Conference on Software Analysis, Evolution,
-  and Reengineering (SANER), Klagenfurt, Österreich; 20.02.2017 - 24.02.2017; in:
+publication: 'Talk: 24th IEEE International Conference on Software Analysis, Evolution,
+  and Reengineering (SANER), Klagenfurt, Österreich; 02-20-2017 - 02-24-2017; in:
   "Proceedings of the 24th IEEE International Conference on Software Analysis, Evolution,
   and Reengineering (SANER)", Proceedings of the 24th IEEE International Conference
-  on Software Analysis, Evolution, and Reengineering (SANER), (2017), S. 1 - 12'
+  on Software Analysis, Evolution, and Reengineering (SANER), (2017), 1 - 12'
 publication_types:
 - '1'
 publishDate: '2017-02-20'

@@ -10,7 +10,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=267403&lang=2
 publication: 'IEEE Computer Society, Los Alamitos, 2016, ISBN: 978-1-5090-3231-0;
-  112 S'
+  112 pages'
 publication_types:
 - '5'
 publishDate: '2016-01-01'

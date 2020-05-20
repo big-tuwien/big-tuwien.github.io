@@ -21,11 +21,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=201831&lang=2
-publication: 'Vortrag: Joint Workshop of the 3rd International Workshop on Model-driven
+publication: 'Talk: Joint Workshop of the 3rd International Workshop on Model-driven
   Approaches in Software Product Line Engineering and 3rd Workshop on Scalable Modeling
-  Techniques for Software Product Lines (MAPLE/SCALE 2011), Munich, Germany; 22.08.2011
-  - 26.08.2011; in: "Proceedings of the 15th International Conference on Software
-  Product Line Engineering (Volume 2)", (2011), S. 1 - 8'
+  Techniques for Software Product Lines (MAPLE/SCALE 2011), Munich, Germany; 08-22-2011
+  - 08-26-2011; in: "Proceedings of the 15th International Conference on Software
+  Product Line Engineering (Volume 2)", (2011), 1 - 8'
 publication_types:
 - '1'
 publishDate: '2011-08-22'

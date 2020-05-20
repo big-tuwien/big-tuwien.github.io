@@ -21,7 +21,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=229618&lang=2
-publication: Berichts-Nr. BIG-TR-2014-2, 2014; 28 S
+publication: Report No. BIG-TR-2014-2, 2014; 28 pages
 publication_types:
 - '4'
 publishDate: '2014-01-01'

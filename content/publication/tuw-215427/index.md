@@ -21,9 +21,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=215427&lang=2
-publication: 'Vortrag: IEEE EMBS Special Topic Conference on Point-of-Care Healthcare
-  Technologies, Bangalore, India; 16.01.2013 - 18.01.2013; in: "Point-of-Care Healthcare
-  Technologies (PHT)", Ieee Embs, (2013), S. 176 - 179'
+publication: 'Talk: IEEE EMBS Special Topic Conference on Point-of-Care Healthcare
+  Technologies, Bangalore, India; 01-16-2013 - 01-18-2013; in: "Point-of-Care Healthcare
+  Technologies (PHT)", Ieee Embs, (2013), 176 - 179'
 publication_types:
 - '1'
 publishDate: '2013-01-16'

@@ -23,7 +23,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=171841&lang=2
-publication: 'Poster: Ubicomp 2008, Seoul, South Korea; 21.09.2008 - 24.09.2008; in:
+publication: 'Poster: Ubicomp 2008, Seoul, South Korea; 09-21-2008 - 09-24-2008; in:
   "Proceedings of the Poster Session at the Tenth International Conference on Ubiquitous
   Computing 2008", (2008)'
 publication_types:

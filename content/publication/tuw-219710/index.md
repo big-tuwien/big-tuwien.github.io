@@ -29,7 +29,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=219710&lang=2
-publication: 'IEEE Computer Society, 2013, ISBN: 978-0-7695-5072-5; 436 S'
+publication: 'IEEE Computer Society, 2013, ISBN: 978-0-7695-5072-5; 436 pages'
 publication_types:
 - '5'
 publishDate: '2013-01-01'

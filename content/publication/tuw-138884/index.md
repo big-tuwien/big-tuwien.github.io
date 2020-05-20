@@ -10,7 +10,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=138884&lang=2
-publication: 'Vortrag: EuroPLoP, Kloster Irsee; 2004; in: "Proceedings for Europlop",
+publication: 'Talk: EuroPLoP, Kloster Irsee; 2004; in: "Proceedings for Europlop",
   (2004)'
 publication_types:
 - '1'

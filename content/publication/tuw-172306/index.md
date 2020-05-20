@@ -19,8 +19,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=172306&lang=2
-publication: 'Vortrag: Nordic conference on Human-computer interaction (NordiCHI''08),
-  Lund, Sweden; 20.10.2008 - 22.10.2008; in: "Proceedings of the Nordic conference
+publication: 'Talk: Nordic conference on Human-computer interaction (NordiCHI''08),
+  Lund, Sweden; 10-20-2008 - 10-22-2008; in: "Proceedings of the Nordic conference
   on Human-computer interaction", (2008), ISBN: 978-1-59593-704-9'
 publication_types:
 - '1'

@@ -20,9 +20,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183648&lang=2
-publication: 'Vortrag: The 14th conference of AIM (Association Information and Management),
-  Marrakech, Morocco; 10.06.2009 - 12.06.2009; in: "Proceedings of the AIM 2009",
-  (2009), S. 27 - 29'
+publication: 'Talk: The 14th conference of AIM (Association Information and Management),
+  Marrakech, Morocco; 06-10-2009 - 06-12-2009; in: "Proceedings of the AIM 2009",
+  (2009), 27 - 29'
 publication_types:
 - '1'
 publishDate: '2009-06-10'

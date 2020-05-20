@@ -15,10 +15,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=287206&lang=2
-publication: 'Vortrag: 2019 IEEE International Conference on Software Maintenance
-  and Evolution (ICSME), Cleveland, OH, USA; 29.09.2019 - 04.10.2019; in: "Proceedings
+publication: 'Talk: 2019 IEEE International Conference on Software Maintenance and
+  Evolution (ICSME), Cleveland, OH, USA; 09-29-2019 - 10-04-2019; in: "Proceedings
   of the IEEE International Conference on Software Maintenance and Evolution", IEEE,
-  (2019), ISBN: 978-1-7281-3094-1; S. 364'
+  (2019), ISBN: 978-1-7281-3094-1; 364'
 publication_types:
 - '1'
 publishDate: '2019-09-29'

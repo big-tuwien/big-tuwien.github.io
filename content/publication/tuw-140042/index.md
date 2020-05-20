@@ -12,7 +12,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=140042&lang=2
 publication: 'Poster: European Conference on Model Driven Architecture (ECMDA''06),
-  Bilbao, Spanien; 10.07.2006'
+  Bilbao, Spanien; 07-10-2006'
 publication_types:
 - '3'
 publishDate: '2006-07-10'

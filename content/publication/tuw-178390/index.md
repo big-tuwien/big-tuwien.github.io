@@ -20,10 +20,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=178390&lang=2
-publication: 'Vortrag: IEEE International Conference on Service-Oriented Computing
-  and Applications, Taipei, Taiwain; 14.12.2009 - 15.12.2009; in: "Proceedings of
-  the IEEE International Conference on Service-Oriented Computing and Applications",
-  IEEE Computer Society, (2009), S. 1 - 6'
+publication: 'Talk: IEEE International Conference on Service-Oriented Computing and
+  Applications, Taipei, Taiwain; 12-14-2009 - 12-15-2009; in: "Proceedings of the
+  IEEE International Conference on Service-Oriented Computing and Applications", IEEE
+  Computer Society, (2009), 1 - 6'
 publication_types:
 - '1'
 publishDate: '2009-12-14'

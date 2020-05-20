@@ -125,7 +125,8 @@ def load_publications(researchers, session=requests.Session()):
     publications = []
 
     for res in researchers:
-        query = {'zuname': res['last_name'], 'vorname': res['first_name'], 'inst': 'E194', 'abt': '03', 'func': '1'}
+        query = {'zuname': res['last_name'], 'vorname': res['first_name'],
+                 'inst': 'E194', 'abt': '03', 'func': '1', 'lang': '2'}
         r = session.get(PUBLICATION_URL, params=query)
         content = r.content.decode('ISO-8859-1')
         xml = xmltodict.parse(content, encoding='utf-8')['export']  # get root element
@@ -199,15 +200,15 @@ def parse_publications(publications, bib_db, author_transform_map):
         authors = [f'{a["vorname_lang"]} {a["nachname"]}' for a in authors]
         authors = [author_transform_map[name] if name in author_transform_map else name for name in authors]
         pdf_link = pub['link_pdf'] if 'link_pdf' in pub else ''
-        publik_link = pub['infolink'].replace('&lang=1', '&lang=2')
+        publik_link = pub['infolink']
 
         year = ''
         month = '01'
         day = '01'
         if 'datum_von' in pub[pub_type]:
-            dateparts = pub[pub_type]['datum_von'].split('.')
+            dateparts = pub[pub_type]['datum_von'].split('-')
             if len(dateparts) >= 3:
-                day, month, year = dateparts[0], dateparts[1], dateparts[2]
+                month, day, year = dateparts[0], dateparts[1], dateparts[2]
             else:
                 year = dateparts[0]
         elif 'jahr' in pub[pub_type]:
@@ -221,59 +222,7 @@ def parse_publications(publications, bib_db, author_transform_map):
         academic_type = academic_type_map.get(bib_entry["ENTRYTYPE"], 0) if bib_entry else 0
 
         # type specific content
-        """extra_data = {}
-
-        if pub_type == 'diss_dipl':
-            extra_data['advisor'] = pub[pub_type]['begutachter']
-        elif pub_type == 'zeitschriftenartikel':
-            extra_data['magazine'] = pub[pub_type]['zeitschrift']
-        elif pub_type == 'vortrag_poster_mit_tagungsband':
-            extra_data['talk'] = pub[pub_type]['veranstaltung']
-            extra_data['in'] = pub[pub_type]['titel_tagungsband']
-            extra_data['location'] = pub[pub_type]['ort']
-            extra_data['starts'] = pub[pub_type]['datum_von']
-        elif pub_type == 'vortrag_poster_ohne_tagungsband':
-            extra_data['talk'] = pub[pub_type]['veranstaltung']
-            extra_data['location'] = pub[pub_type]['ort']
-            extra_data['starts'] = pub[pub_type]['datum_von']
-        elif pub_type == 'buch_herausgabe':
-            extra_data['publisher_name'] = pub[pub_type]['verlag_name']
-            extra_data['publisher_location'] = pub[pub_type]['verlag_ort']
-            extra_data['isbn'] = pub[pub_type]['isbn']
-        elif pub_type == 'buch':
-            extra_data['publisher_name'] = pub[pub_type]['verlag_name']
-            extra_data['publisher_location'] = pub[pub_type]['verlag_ort']
-            extra_data['isbn'] = pub[pub_type]['isbn']
-            # extra_data['pages'] = pub[pub_type]['seiten']
-        elif pub_type == 'elektron_zeitschrift':
-            extra_data['paper_name'] = pub[pub_type]['www_zeitschr']
-            extra_data['edition'] = pub[pub_type]['band_url']
-        elif pub_type == 'buchbeitrag':
-            extra_data['publication_title'] = pub[pub_type]['titel_buch']
-            extra_data['publisher_name'] = pub[pub_type]['verlag_name']
-            extra_data['isbn'] = pub[pub_type]['isbn']
-            extra_data['pages'] = pub[pub_type]['seite_von_bis']
-        elif pub_type == 'beitrag_tagungsband':
-            extra_data['publication_title'] = pub[pub_type]['titel_tagungsband']
-            extra_data['publisher_name'] = pub[pub_type]['verlag_name']
-            extra_data['publisher_location'] = pub[pub_type]['verlag_ort']
-            # extra_data['isbn'] = pub[pub_type]['isbn']
-            extra_data['pages'] = pub[pub_type]['seite_von_bis']
-        elif pub_type == 'vortrag_poster_mit_cd_tagungsband':
-            extra_data['talk'] = pub[pub_type]['veranstaltung']
-            extra_data['in'] = pub[pub_type]['titel_tagungsband']
-            extra_data['location'] = pub[pub_type]['ort']
-            extra_data['starts'] = pub[pub_type]['datum_von']
-            extra_data['pages'] = pub[pub_type]['seiten']
-        elif pub_type == 'vortrag_poster_mit_tagungsband':
-            extra_data['talk'] = pub[pub_type]['veranstaltung']
-            extra_data['in'] = pub[pub_type]['titel_tagungsband']
-            extra_data['location'] = pub[pub_type]['ort']
-            extra_data['starts'] = pub[pub_type]['datum_von']
-            extra_data['pages'] = pub[pub_type]['seite_von_bis']"""
-
         reference_search = re.search(r';(.*?)<br><br>', pub['reference'])
-
         extra = None
         if reference_search:
             extra = reference_search.group(1)

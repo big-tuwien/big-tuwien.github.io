@@ -36,7 +36,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=228709&lang=2
-publication: 'Betreuer/in(nen): S. Dustdar, Ph. Leitner; Institut für Informationssysteme,
+publication: 'Supervisor: S. Dustdar, Ph. Leitner; Institut für Informationssysteme,
   Distributed Systems Group, 2014'
 publication_types:
 - '7'

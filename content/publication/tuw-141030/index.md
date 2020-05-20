@@ -16,10 +16,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141030&lang=2
-publication: 'Vortrag: Ninth International Conference on Enterprise Information Systems,
-  Funchal, Madeira; 12.06.2007 - 16.06.2007; in: "Proceedings of the ninth international
+publication: 'Talk: Ninth International Conference on Enterprise Information Systems,
+  Funchal, Madeira; 06-12-2007 - 06-16-2007; in: "Proceedings of the ninth international
   conference on enterprise information systems", ISAS, Portugal (2007), ISBN: 978-972-8865-90-0;
-  S. 144 - 151'
+  144 - 151'
 publication_types:
 - '1'
 publishDate: '2007-06-12'

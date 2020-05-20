@@ -17,10 +17,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=217080&lang=2
-publication: 'Vortrag: 7th International Workshop on Value Modeling and Business Ontology
-  (VMBO 2013), Delft, Netherlands; 18.02.2013 - 19.02.2013; in: "Proceedings of the
+publication: 'Talk: 7th International Workshop on Value Modeling and Business Ontology
+  (VMBO 2013), Delft, Netherlands; 02-18-2013 - 02-19-2013; in: "Proceedings of the
   7th International Workshop on Value Modeling and Business Ontology (VMBO 2013)",
-  (2013), 4 S'
+  (2013), 4 pages'
 publication_types:
 - '1'
 publishDate: '2013-02-18'

@@ -8,8 +8,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=139340&lang=2
-publication: 'Vortrag: 1st International Conference on Interoperability of Enterprise
-  Software and Applications, Geneva, Switzerland; 23.02.2005 - 25.02.2005; in: "Proceedings
+publication: 'Talk: 1st International Conference on Interoperability of Enterprise
+  Software and Applications, Geneva, Switzerland; 02-23-2005 - 02-25-2005; in: "Proceedings
   of the First International Conference on Interoperability of Enterprise Software
   and Applications (INTEROP-ESA''05)", (2005)'
 publication_types:

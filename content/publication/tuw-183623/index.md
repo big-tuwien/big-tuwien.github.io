@@ -8,11 +8,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183623&lang=2
-publication: 'Vortrag: Internationales Rechtsinformatik Symposion 2008, Salzburg,
-  Austria; 21.02.2008 - 23.02.2008; in: "Komplexitätsgrenzen der Rechtsinformatik
-  : Tagungsband des 11. Internationalen Rechtsinformatik Symposions, IRIS 2008", E.
-  Schweighofer, A. Geist, G. Heindl et al. (Hrg.); Boorberg Verlag, (2008), ISBN:
-  978-3-415-04130-1; S. 393 - 401'
+publication: 'Talk: Internationales Rechtsinformatik Symposion 2008, Salzburg, Austria;
+  02-21-2008 - 02-23-2008; in: "Komplexitätsgrenzen der Rechtsinformatik : Tagungsband
+  des 11. Internationalen Rechtsinformatik Symposions, IRIS 2008", E. Schweighofer,
+  A. Geist, G. Heindl et al. (ed.); Boorberg Verlag, (2008), ISBN: 978-3-415-04130-1;
+  393 - 401'
 publication_types:
 - '1'
 publishDate: '2008-02-21'

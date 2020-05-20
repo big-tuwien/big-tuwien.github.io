@@ -15,9 +15,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=172321&lang=2
-publication: 'Vortrag: Workshop on Future Mobile Experiences: next generation mobile
-  interaction and contextualization, Lund, Sweden; 19.10.2008; in: "Proceedings of
-  the Workshop on Future Mobile Experiences", (2008), 4 S'
+publication: 'Talk: Workshop on Future Mobile Experiences: next generation mobile
+  interaction and contextualization, Lund, Sweden; 10-19-2008; in: "Proceedings of
+  the Workshop on Future Mobile Experiences", (2008), 4 pages'
 publication_types:
 - '1'
 publishDate: '2008-10-19'

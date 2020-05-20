@@ -24,7 +24,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=287784&lang=2
 publication: International Journal of Computer Science & Information Technology, Vol
-  11 (2019), 1; S. 1 - 18
+  11 (2019), 1; 1 - 18
 publication_types:
 - '2'
 publishDate: '2019-01-01'

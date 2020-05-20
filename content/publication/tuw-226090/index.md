@@ -19,8 +19,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226090&lang=2
-publication: 'Vortrag: The Fourth International Workshop on Security Testing (SECTEST
-  2013), Luxembourg; 22.03.2013; in: "Proceedings of the Fourth International Workshop
+publication: 'Talk: The Fourth International Workshop on Security Testing (SECTEST
+  2013), Luxembourg; 03-22-2013; in: "Proceedings of the Fourth International Workshop
   on Security Testing (SECTEST 2013)", IEEE, (2013)'
 publication_types:
 - '1'

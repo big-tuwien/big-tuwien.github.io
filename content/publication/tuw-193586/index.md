@@ -20,10 +20,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=193586&lang=2
-publication: 'Vortrag: International Conference on Information and Communication Technologies
-  and Development (ICTD2010), London , UK; 13.12.2010 - 16.12.2010; in: "Proceedings
+publication: 'Talk: International Conference on Information and Communication Technologies
+  and Development (ICTD2010), London , UK; 12-13-2010 - 12-16-2010; in: "Proceedings
   of the International Conference on Information and Communication Technologies and
-  Development (ICTD2010)", (2010), 5 S'
+  Development (ICTD2010)", (2010), 5 pages'
 publication_types:
 - '1'
 publishDate: '2010-12-13'

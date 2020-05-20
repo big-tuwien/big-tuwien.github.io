@@ -23,10 +23,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141766&lang=2
-publication: 'Vortrag: Proceedings of the 2nd International Conference on Digital
-  Ecosystems and Technologies, Phitsanulok; 26.02.2008 - 29.02.2008; in: "Proceedings
-  of the 2nd International IEEE Conference on Digital Ecosystems and Technologies
-  (DEST2008)", IEEE, IEEE (2008), 6 S'
+publication: 'Talk: Proceedings of the 2nd International Conference on Digital Ecosystems
+  and Technologies, Phitsanulok; 02-26-2008 - 02-29-2008; in: "Proceedings of the
+  2nd International IEEE Conference on Digital Ecosystems and Technologies (DEST2008)",
+  IEEE, IEEE (2008), 6 pages'
 publication_types:
 - '1'
 publishDate: '2008-02-26'

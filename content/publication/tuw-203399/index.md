@@ -10,7 +10,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=203399&lang=2
 publication: 'IEEE Computer Society, Shanghai, China, 2010, ISBN: 978-1-4244-8433-1;
-  200 S'
+  200 pages'
 publication_types:
 - '5'
 publishDate: '2010-01-01'

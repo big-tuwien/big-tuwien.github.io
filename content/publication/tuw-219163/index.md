@@ -27,8 +27,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=219163&lang=2
-publication: International Journal of Software and Informatics, 7 (2013), 2; S. 331
-  - 356
+publication: International Journal of Software and Informatics, 7 (2013), 2; 331 -
+  356
 publication_types:
 - '2'
 publishDate: '2013-01-01'

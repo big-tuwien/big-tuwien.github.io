@@ -7,8 +7,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=276173&lang=2
-publication: 'Vortrag: AutomationML Workshop Nuremberg 2017, Nuremberg, Germany (eingeladen);
-  13.12.2017 - 14.12.2017'
+publication: 'Talk: AutomationML Workshop Nuremberg 2017, Nuremberg, Germany (invited);
+  12-13-2017 - 12-14-2017'
 publication_types:
 - '3'
 publishDate: '2017-12-13'

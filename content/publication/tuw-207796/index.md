@@ -29,9 +29,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=207796&lang=2
-publication: 'Vortrag: 1-ICAUD, Tirana; 19.04.2012 - 21.04.2012; in: "Proceedings:
-  First International Conference on Architecture and Urban Design", A. Hysa (Hrg.);
-  Epoka University Press, Tirana (2012), ISBN: 9789928-135-01-8; S. 107 - 116'
+publication: 'Talk: 1-ICAUD, Tirana; 04-19-2012 - 04-21-2012; in: "Proceedings: First
+  International Conference on Architecture and Urban Design", A. Hysa (ed.); Epoka
+  University Press, Tirana (2012), ISBN: 9789928-135-01-8; 107 - 116'
 publication_types:
 - '1'
 publishDate: '2012-04-19'

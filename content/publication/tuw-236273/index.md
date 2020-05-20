@@ -22,10 +22,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=236273&lang=2
-publication: 'Vortrag: 5th IEEE International Conference on Software Engineering and
-  Service Science (ICSESS 2014), Beijing, China; 27.06.2014 - 29.06.2014; in: "Proceedings
+publication: 'Talk: 5th IEEE International Conference on Software Engineering and
+  Service Science (ICSESS 2014), Beijing, China; 06-27-2014 - 06-29-2014; in: "Proceedings
   of the International Conference on Software Engineering and Service Science", IEEE,
-  Curran Associates, Inc. (2014), ISBN: 9781479932801; S. 178 - 181'
+  Curran Associates, Inc. (2014), ISBN: 9781479932801; 178 - 181'
 publication_types:
 - '1'
 publishDate: '2014-06-27'

@@ -17,7 +17,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=203810&lang=2
 publication: 'in: "Agent-Based Service Oriented Computing", Springer-Verlag, Heidelberg,
-  Berlin, Heidelberg, 2010, ISBN: 978-1-84996-040-3, S. 81 - 111'
+  Berlin, Heidelberg, 2010, ISBN: 978-1-84996-040-3, 81 - 111'
 publication_types:
 - '6'
 publishDate: '2010-01-01'

@@ -20,9 +20,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226096&lang=2
-publication: 'Vortrag: 5th international Workshop on Near Field Communication, Zürich,
-  Schweiz; 05.02.2013; in: "Proceedings of the 5th International Workshop on Near
-  Field Communication", IEEE, (2013), ISBN: 978-1-4673-4837-9; S. 1 - 5'
+publication: 'Talk: 5th international Workshop on Near Field Communication, Zürich,
+  Schweiz; 02-05-2013; in: "Proceedings of the 5th International Workshop on Near
+  Field Communication", IEEE, (2013), ISBN: 978-1-4673-4837-9; 1 - 5'
 publication_types:
 - '1'
 publishDate: '2013-02-05'

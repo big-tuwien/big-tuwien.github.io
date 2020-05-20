@@ -20,9 +20,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=200218&lang=2
-publication: 'Vortrag: The 8th IEEE International Conference on e-Business Engineering
-  (ICEBE 2011), Beijing, China; 19.10.2011 - 21.10.2011; in: "The 8th IEEE International
-  Conference on e-Business Engineering (ICEBE 2011)", (2011), S. 44 - 51'
+publication: 'Talk: The 8th IEEE International Conference on e-Business Engineering
+  (ICEBE 2011), Beijing, China; 10-19-2011 - 10-21-2011; in: "The 8th IEEE International
+  Conference on e-Business Engineering (ICEBE 2011)", (2011), 44 - 51'
 publication_types:
 - '1'
 publishDate: '2011-10-19'

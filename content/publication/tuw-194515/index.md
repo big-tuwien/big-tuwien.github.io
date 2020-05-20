@@ -29,10 +29,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=194515&lang=2
-publication: 'Vortrag: 2nd International Conference on Education Technology and Computer
-  (ICETC ''10), Shanghai; 22.06.2010 - 24.06.2010; in: "Proceedings of the 2nd International
+publication: 'Talk: 2nd International Conference on Education Technology and Computer
+  (ICETC ''10), Shanghai; 06-22-2010 - 06-24-2010; in: "Proceedings of the 2nd International
   Conference on Education Technology and Computer (ICETC ''10)", IEEE, Vol.2 (2010),
-  ISBN: 978-1-4244-6367-1; S. 74 - 79'
+  ISBN: 978-1-4244-6367-1; 74 - 79'
 publication_types:
 - '1'
 publishDate: '2010-06-22'

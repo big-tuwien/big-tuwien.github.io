@@ -8,8 +8,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=276170&lang=2
-publication: 'Vortrag: 4th International Workshop on Executable Modeling (EXE 2018),
-  Copenhagen, Denmark (eingeladen); 14.10.2018'
+publication: 'Talk: 4th International Workshop on Executable Modeling (EXE 2018),
+  Copenhagen, Denmark (invited); 10-14-2018'
 publication_types:
 - '3'
 publishDate: '2018-10-14'

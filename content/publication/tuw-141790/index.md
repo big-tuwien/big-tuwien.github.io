@@ -22,11 +22,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141790&lang=2
-publication: 'Vortrag: Third International Workshop on Business/IT Alignment and Interoperability
+publication: 'Talk: Third International Workshop on Business/IT Alignment and Interoperability
   (BUSITAL''08) held in conjunction with CAiSE''08 Conference, Montpellier, Frankreich;
-  16.06.2008; in: "Proceedings of the Third International Workshop on Business/IT
+  06-16-2008; in: "Proceedings of the Third International Workshop on Business/IT
   Alignment and Interoperability (BUSITAL''08) held in conjunction with CAiSE''08
-  Conference", CEUR-WS, Vol-336 (2008), ISSN: 1613-0073; Paper-Nr. 1, 15 S'
+  Conference", CEUR-WS, Vol-336 (2008), ISSN: 1613-0073; Paper ID 1, 15 pages'
 publication_types:
 - '1'
 publishDate: '2008-06-16'

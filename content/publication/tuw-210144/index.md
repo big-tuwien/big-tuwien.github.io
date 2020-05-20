@@ -23,8 +23,8 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=210144&lang=2
 publication: 'in: "Business System Management and Engineering", C. Ardagna, E. Damiani,
-  L. Maciaszek, M. Missikoff, M. Parkin (Hrg.); Springer LNCS 7350, Berlin Heidelberg,
-  2012, ISBN: 978-3-642-32438-3, S. 32 - 47'
+  L. Maciaszek, M. Missikoff, M. Parkin (ed.); Springer LNCS 7350, Berlin Heidelberg,
+  2012, ISBN: 978-3-642-32438-3, 32 - 47'
 publication_types:
 - '6'
 publishDate: '2012-01-01'

@@ -19,10 +19,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183630&lang=2
-publication: 'Vortrag: Sixth European Workshop on Public Key Services, Applications
-  and Infrastructures, Pisa, Italy; 10.09.2009 - 11.09.2009; in: "Proceedings of the
-  Sixth European Workshop on Public Key Services, Applications and Infrastructures",
-  Springer, (2009), S. 115 - 130'
+publication: 'Talk: Sixth European Workshop on Public Key Services, Applications and
+  Infrastructures, Pisa, Italy; 09-10-2009 - 09-11-2009; in: "Proceedings of the Sixth
+  European Workshop on Public Key Services, Applications and Infrastructures", Springer,
+  (2009), 115 - 130'
 publication_types:
 - '1'
 publishDate: '2009-09-10'

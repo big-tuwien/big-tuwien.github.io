@@ -17,9 +17,9 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246389&lang=2
 publication: 'Poster: 14th International Conference on Mobile and Ubiquitous Multimedia
-  (MUM 2015), Linz; 30.11.2015 - 02.12.2015; in: "Proceedings of the 14th International
+  (MUM 2015), Linz; 11-30-2015 - 12-02-2015; in: "Proceedings of the 14th International
   Conference on Mobile and Ubiquitous Multimedia", ACM, New York, NY, USA, (2015),
-  ISBN: 978-1-4503-3605-5; S. 368 - 372'
+  ISBN: 978-1-4503-3605-5; 368 - 372'
 publication_types:
 - '1'
 publishDate: '2015-11-30'

@@ -18,10 +18,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=221651&lang=2
-publication: 'Vortrag: 13th International Workshop on OCL, Model Constraint and Query
-  Languages (OCL 2013), Miami, USA; 30.09.2013; in: "Proceedings of the MODELS 2013
-  OCL Workshop", CEUR Workshop Proceedings, Vol-1092 (2013), ISSN: 1613-0073; S. 13
-  - 22'
+publication: 'Talk: 13th International Workshop on OCL, Model Constraint and Query
+  Languages (OCL 2013), Miami, USA; 09-30-2013; in: "Proceedings of the MODELS 2013
+  OCL Workshop", CEUR Workshop Proceedings, Vol-1092 (2013), ISSN: 1613-0073; 13 -
+  22'
 publication_types:
 - '1'
 publishDate: '2013-09-30'

@@ -29,9 +29,9 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=281823&lang=2
 publication: 'in: "Proceedings of the Eleventh International Conference on Advanced
-  Cognitive Technologies and Applications (COGNITIVE 2019)", herausgegeben von: Marta
-  Franova, Charlotte Sennersten, Jayfus T. Doswell (eds); IARIA, Venice, Italy, 2019,
-  ISBN: 978-1-61208-705-4, S. 3 - 9'
+  Cognitive Technologies and Applications (COGNITIVE 2019)", issued by: Marta Franova,
+  Charlotte Sennersten, Jayfus T. Doswell (eds); IARIA, Venice, Italy, 2019, ISBN:
+  978-1-61208-705-4, 3 - 9'
 publication_types:
 - '1'
 publishDate: '2019-01-01'

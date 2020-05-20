@@ -18,7 +18,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=252232&lang=2
-publication: Information Technology and Management, 17 (2016), 3; S. 203 - 227
+publication: Information Technology and Management, 17 (2016), 3; 203 - 227
 publication_types:
 - '2'
 publishDate: '2016-01-01'

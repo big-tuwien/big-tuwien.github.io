@@ -22,11 +22,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=261306&lang=2
-publication: 'Vortrag: 10th IEEE International Conference on Service Oriented Computing
-  and Applications (SOCA 2017), Kanazawa; 22.11.2017 - 25.11.2017; in: "Proceedings
+publication: 'Talk: 10th IEEE International Conference on Service Oriented Computing
+  and Applications (SOCA 2017), Kanazawa; 11-22-2017 - 11-25-2017; in: "Proceedings
   of the 10th IEEE International Conference on Service Oriented Computing and Applications",
   IEEE Computer Society Conference Publishing Services (CPS), (2017), ISBN: 978-1-5386-1326-9;
-  S. 9 - 17'
+  9 - 17'
 publication_types:
 - '1'
 publishDate: '2017-11-22'

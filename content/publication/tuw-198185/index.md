@@ -23,10 +23,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=198185&lang=2
-publication: 'Vortrag: Advanced Information Systems Engineering 23rd International
-  Conference (CAiSE 2011), London, United Kingdom; 20.06.2011 - 24.06.2011; in: "Advanced
-  Information Systems Engineering &#65279;Proceedings of the 23rd International Conference
-  (CAiSE 2011)", Springer, LNCS 6741 (2011), ISBN: 978-3-642-21639-8; S. 252 - 266'
+publication: 'Talk: Advanced Information Systems Engineering 23rd International Conference
+  (CAiSE 2011), London, United Kingdom; 06-20-2011 - 06-24-2011; in: "Advanced Information
+  Systems Engineering &#65279;Proceedings of the 23rd International Conference (CAiSE
+  2011)", Springer, LNCS 6741 (2011), ISBN: 978-3-642-21639-8; 252 - 266'
 publication_types:
 - '1'
 publishDate: '2011-06-20'

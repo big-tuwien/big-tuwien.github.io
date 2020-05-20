@@ -29,7 +29,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141730&lang=2
 publication: 'Informatica - An International Journal of Computing and Informatics,
-  Ljubljana (2007), ISSN: 1854-3871; S. 407 - 417'
+  Ljubljana (2007), ISSN: 1854-3871; 407 - 417'
 publication_types:
 - '2'
 publishDate: '2007-01-01'

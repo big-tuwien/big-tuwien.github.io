@@ -16,10 +16,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141747&lang=2
-publication: 'Vortrag: 2nd International Conference on Pervasive Computing and Applications
-  (ICPCA 2007), Birmingham, UK; 26.07.2007 - 27.07.2007; in: "Proceedings of the International
+publication: 'Talk: 2nd International Conference on Pervasive Computing and Applications
+  (ICPCA 2007), Birmingham, UK; 07-26-2007 - 07-27-2007; in: "Proceedings of the International
   Conference on Pervasive Computing and Applications", IEEE, (2007), ISBN: 978-1-4244-0971-6;
-  S. 209 - 214'
+  209 - 214'
 publication_types:
 - '1'
 publishDate: '2007-07-26'

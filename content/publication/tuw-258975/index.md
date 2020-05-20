@@ -24,10 +24,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=258975&lang=2
-publication: 'Vortrag: 3rd International Conference on Control, Automation and Robotics
-  (ICCAR 2017), Nagoya, Japan; 22.04.2017 - 24.04.2017; in: "Proceedings of the 3rd
+publication: 'Talk: 3rd International Conference on Control, Automation and Robotics
+  (ICCAR 2017), Nagoya, Japan; 04-22-2017 - 04-24-2017; in: "Proceedings of the 3rd
   International Conference on Control, Automation and Robotics", IEEE Press, (2017),
-  ISBN: 978-1-5090-6087-0; S. 356 - 364'
+  ISBN: 978-1-5090-6087-0; 356 - 364'
 publication_types:
 - '1'
 publishDate: '2017-04-22'

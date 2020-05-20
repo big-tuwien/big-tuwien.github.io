@@ -14,8 +14,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=194264&lang=2
-publication: 'Vortrag: 22nd International Conference of the Society for Medical Innovation
-  and Technology (SMIT 2010), Trondheim, Norway; 02.09.2010 - 04.09.2010; in: "Proceedings
+publication: 'Talk: 22nd International Conference of the Society for Medical Innovation
+  and Technology (SMIT 2010), Trondheim, Norway; 09-02-2010 - 09-04-2010; in: "Proceedings
   of the 22nd International Conference of the Society for Medical Innovation and Technology",
   (2010)'
 publication_types:

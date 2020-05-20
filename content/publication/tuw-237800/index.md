@@ -15,9 +15,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=237800&lang=2
-publication: 'Vortrag: 9th International Workshop on Value Modeling and Business Ontology
-  (VMBO 2015), Tilburg; 23.02.2015 - 24.02.2015; in: "Proceedings of the 9th International
-  Workshop on Value Modeling and Business Ontology (VMBO 2015)", (2015), 7 S'
+publication: 'Talk: 9th International Workshop on Value Modeling and Business Ontology
+  (VMBO 2015), Tilburg; 02-23-2015 - 02-24-2015; in: "Proceedings of the 9th International
+  Workshop on Value Modeling and Business Ontology (VMBO 2015)", (2015), 7 pages'
 publication_types:
 - '1'
 publishDate: '2015-02-23'

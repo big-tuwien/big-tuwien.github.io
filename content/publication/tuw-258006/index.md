@@ -27,8 +27,8 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=258006&lang=2
 publication: 'in: "IEEE 4th International Conference on Serious Games and Applications
-  for Health", 1; herausgegeben von: IEEE; IEEE, Los Alamitos, CA, USA, 2016, ISBN:
-  978-1-5090-2211-3, S. 1 - 6'
+  for Health", 1; issued by: IEEE; IEEE, Los Alamitos, CA, USA, 2016, ISBN: 978-1-5090-2211-3,
+  1 - 6'
 publication_types:
 - '1'
 publishDate: '2016-01-01'

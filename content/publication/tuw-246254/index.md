@@ -26,10 +26,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246254&lang=2
-publication: 'Vortrag: Ninth International Conference on IT Security Incident Management
-  & IT Forensics (IMF), Magdeburg; 18.05.2015 - 20.05.2015; in: "Proceedings of the
+publication: 'Talk: Ninth International Conference on IT Security Incident Management
+  & IT Forensics (IMF), Magdeburg; 05-18-2015 - 05-20-2015; in: "Proceedings of the
   9th International Conference on IT Security Incident Management & IT Forensics (IMF)",
-  IEEE, (2015), ISBN: 978-1-4799-9902-6; S. 68 - 76'
+  IEEE, (2015), ISBN: 978-1-4799-9902-6; 68 - 76'
 publication_types:
 - '1'
 publishDate: '2015-05-18'

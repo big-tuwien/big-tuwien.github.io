@@ -22,8 +22,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=248293&lang=2
-publication: 'in: "Handbuch Industrie 4.0", B. Vogel-Heuser et al. (Hrg.); Springer-Verlag
-  Berlin Heidelberg, 2016, ISBN: 978-3-662-45537-1, S. 22'
+publication: 'in: "Handbuch Industrie 4.0", B. Vogel-Heuser et al. (ed.); Springer-Verlag
+  Berlin Heidelberg, 2016, ISBN: 978-3-662-45537-1, 22'
 publication_types:
 - '6'
 publishDate: '2016-01-01'

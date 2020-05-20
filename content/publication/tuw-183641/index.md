@@ -14,11 +14,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183641&lang=2
-publication: 'Vortrag: The 6th International Conference on Knowledge Management: Managing
-  Knowledge for Global and Collaborative Innovations, Hong Kong, China; 03.12.2009
-  - 04.12.2009; in: "Proceedings of the 6th International Conference on Knowledge
+publication: 'Talk: The 6th International Conference on Knowledge Management: Managing
+  Knowledge for Global and Collaborative Innovations, Hong Kong, China; 12-03-2009
+  - 12-04-2009; in: "Proceedings of the 6th International Conference on Knowledge
   Management: Managing Knowledge for Global and Collaborative Innovations", (2009),
-  12 S'
+  12 pages'
 publication_types:
 - '1'
 publishDate: '2009-12-03'

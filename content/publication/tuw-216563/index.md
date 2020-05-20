@@ -11,8 +11,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=216563&lang=2
-publication: 'Vortrag: 2012 Africa-EU Cooperation Forum on ICT, Lisbon, Portugal (eingeladen);
-  28.11.2012 - 29.11.2012'
+publication: 'Talk: 2012 Africa-EU Cooperation Forum on ICT, Lisbon, Portugal (invited);
+  11-28-2012 - 11-29-2012'
 publication_types:
 - '3'
 publishDate: '2012-11-28'

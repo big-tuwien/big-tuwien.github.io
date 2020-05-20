@@ -24,10 +24,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=261415&lang=2
-publication: 'Vortrag: 10th ACM SIGPLAN International Conference on Software Language
-  Engineering (SLE), Vancouver, Canada; 23.10.2017 - 24.10.2017; in: "Proceedings
+publication: 'Talk: 10th ACM SIGPLAN International Conference on Software Language
+  Engineering (SLE), Vancouver, Canada; 10-23-2017 - 10-24-2017; in: "Proceedings
   of the 2017 ACM SIGPLAN International Conference on Software Language Engineering,
-  SLE 2017, Vancouver, Canada, October 23-24, 2017", (2017), S. 67 - 78'
+  SLE 2017, Vancouver, Canada, October 23-24, 2017", (2017), 67 - 78'
 publication_types:
 - '1'
 publishDate: '2017-10-23'

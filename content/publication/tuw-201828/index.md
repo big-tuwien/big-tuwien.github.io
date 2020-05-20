@@ -22,9 +22,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=201828&lang=2
-publication: 'Vortrag: Third Workshop on Feature-Oriented Software Development (FOSD),
-  Munich, Germany; 22.08.2011 - 26.08.2011; in: "Proceedings of the 15th International
-  Conference on Software Product Line Engineering (Volume 2)", (2011), S. 1 - 8'
+publication: 'Talk: Third Workshop on Feature-Oriented Software Development (FOSD),
+  Munich, Germany; 08-22-2011 - 08-26-2011; in: "Proceedings of the 15th International
+  Conference on Software Product Line Engineering (Volume 2)", (2011), 1 - 8'
 publication_types:
 - '1'
 publishDate: '2011-08-22'

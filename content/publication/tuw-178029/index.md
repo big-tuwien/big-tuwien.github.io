@@ -8,8 +8,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=178029&lang=2
-publication: 'Vortrag: 6. Internationale Österreichische MoodleMoot.at, Wien; 24.09.2009
-  - 25.09.2009'
+publication: 'Talk: 6. Internationale Österreichische MoodleMoot.at, Wien; 09-24-2009
+  - 09-25-2009'
 publication_types:
 - '3'
 publishDate: '2009-09-24'

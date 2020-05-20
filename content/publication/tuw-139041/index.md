@@ -8,8 +8,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=139041&lang=2
-publication: 'Vortrag: 5th International Conference on Practical Aspects of Knowledge
-  Management (PAKM), Wien; 02.12.2004; in: "Workshop on Ontology and Enterprise Modelling:
+publication: 'Talk: 5th International Conference on Practical Aspects of Knowledge
+  Management (PAKM), Wien; 12-02-2004; in: "Workshop on Ontology and Enterprise Modelling:
   Ingredients for Interoperability", (2004)'
 publication_types:
 - '1'

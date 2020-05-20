@@ -18,12 +18,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=207823&lang=2
-publication: 'Vortrag: 7th International Workshop on Business/IT Alignment and Interoperability
+publication: 'Talk: 7th International Workshop on Business/IT Alignment and Interoperability
   (BUSITAL 2012) held in conjunction with the 24th International Conference on Advanced
-  Information Systems Engineering (CAiSE 2012), Gda&#324;sk, Poland; 25.06.2012; in:
+  Information Systems Engineering (CAiSE 2012), Gda&#324;sk, Poland; 06-25-2012; in:
   "Proceedings of the 7th International Workshop on Business/IT Alignment and Interoperability
   (BUSITAL 2012) held in conjunction with the 24th International Conference on Advanced
-  Information Systems Engineering (CAiSE 2012)", Springer, (2012), S. 543 - 554'
+  Information Systems Engineering (CAiSE 2012)", Springer, (2012), 543 - 554'
 publication_types:
 - '1'
 publishDate: '2012-06-25'

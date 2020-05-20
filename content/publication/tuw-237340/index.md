@@ -21,7 +21,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=237340&lang=2
 publication: 'in: "Proceedings of the 16th IEEE Conference on Business Informatics
-  (CBI 2014), Volume 1", IEEE Computer Society, 2014, S. 94 - 101'
+  (CBI 2014), Volume 1", IEEE Computer Society, 2014, 94 - 101'
 publication_types:
 - '1'
 publishDate: '2014-01-01'

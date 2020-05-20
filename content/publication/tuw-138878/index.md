@@ -31,7 +31,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=138878&lang=2
-publication: 'in: "European Radiology", Springer, 2004, S. 524'
+publication: 'in: "European Radiology", Springer, 2004, 524'
 publication_types:
 - '1'
 publishDate: '2004-01-01'

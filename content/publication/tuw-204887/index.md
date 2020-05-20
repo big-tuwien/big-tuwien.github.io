@@ -22,11 +22,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=204887&lang=2
-publication: 'Vortrag: 23rd International Conference on Software Engineering and Knowledge
-  Engineering (SEKE 2011), Eden Roc Renaissance Hotel Miami Beach, USA; 07.07.2011
-  - 09.07.2011; in: "Proceedings of the Twenty-Third International Conference on Software
+publication: 'Talk: 23rd International Conference on Software Engineering and Knowledge
+  Engineering (SEKE 2011), Eden Roc Renaissance Hotel Miami Beach, USA; 07-07-2011
+  - 07-09-2011; in: "Proceedings of the Twenty-Third International Conference on Software
   Engineering & Knowledge Engineering", Knowledge Systems Institute Graduate School,
-  Skokie, IL 60076, USA (2011), ISBN: 1891706292; S. 392 - 397'
+  Skokie, IL 60076, USA (2011), ISBN: 1891706292; 392 - 397'
 publication_types:
 - '1'
 publishDate: '2011-07-07'

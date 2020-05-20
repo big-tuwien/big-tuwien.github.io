@@ -22,9 +22,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246325&lang=2
-publication: 'Vortrag: IFIP Networking Conference (IFIP Networking 2015), Toulouse,
-  Frankreich; 20.05.2015 - 22.05.2015; in: "Proceedings of the IFIP Networking Conference
-  2015", IEEE Conference Publications, (2015), S. 1 - 9'
+publication: 'Talk: IFIP Networking Conference (IFIP Networking 2015), Toulouse, Frankreich;
+  05-20-2015 - 05-22-2015; in: "Proceedings of the IFIP Networking Conference 2015",
+  IEEE Conference Publications, (2015), 1 - 9'
 publication_types:
 - '1'
 publishDate: '2015-05-20'

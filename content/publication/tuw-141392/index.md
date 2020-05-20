@@ -24,10 +24,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141392&lang=2
-publication: 'Vortrag: 2007 IEEE International Conference on e-Business Engineering
-  (ICEBE 2007), Hong Kong, China; 24.10.2007 - 26.10.2007; in: "e-Business Engineering,
-  2007. ICEBE 2007. IEEE International Conference on", IEEE Computer Society, (2007),
-  ISBN: 978-0-7695-3003-1; S. 30 - 38'
+publication: 'Talk: 2007 IEEE International Conference on e-Business Engineering (ICEBE
+  2007), Hong Kong, China; 10-24-2007 - 10-26-2007; in: "e-Business Engineering, 2007.
+  ICEBE 2007. IEEE International Conference on", IEEE Computer Society, (2007), ISBN:
+  978-0-7695-3003-1; 30 - 38'
 publication_types:
 - '1'
 publishDate: '2007-10-24'

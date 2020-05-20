@@ -21,9 +21,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=187939&lang=2
-publication: 'Vortrag: International Workshop on Service Computing for B2B, Miami,
-  USA; 05.07.2010 - 10.07.2010; in: "Proceedings of the 6th World Congress on Services",
-  IEEE, (2010), ISBN: 978-0-7695-4129-7; S. 497 - 502'
+publication: 'Talk: International Workshop on Service Computing for B2B, Miami, USA;
+  07-05-2010 - 07-10-2010; in: "Proceedings of the 6th World Congress on Services",
+  IEEE, (2010), ISBN: 978-0-7695-4129-7; 497 - 502'
 publication_types:
 - '1'
 publishDate: '2010-07-05'

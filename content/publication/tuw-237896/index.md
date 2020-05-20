@@ -14,10 +14,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=237896&lang=2
-publication: 'Vortrag: Ninth International Workshop on Variability Modelling of Software-intensive
-  Systems, Hildesheim; 21.01.2015 - 23.01.2015; in: "Proceedings of the Ninth International
+publication: 'Talk: Ninth International Workshop on Variability Modelling of Software-intensive
+  Systems, Hildesheim; 01-21-2015 - 01-23-2015; in: "Proceedings of the Ninth International
   Workshop on Variability Modelling of Software-intensive Systems", J. Müller, Ø.
-  Haugen, K. Schmid (Hrg.); ACM, (2015), ISBN: 978-1-4503-3273-6; 5 S'
+  Haugen, K. Schmid (ed.); ACM, (2015), ISBN: 978-1-4503-3273-6; 5 pages'
 publication_types:
 - '1'
 publishDate: '2015-01-21'

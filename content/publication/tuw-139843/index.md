@@ -9,8 +9,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=139843&lang=2
-publication: 'Vortrag: Workshop "Model Transformation in Practice" at MoDELS2005,
-  Montego Bay, Jamaica; 03.10.2005; in: "Model Transformation in Practice", (2005)'
+publication: 'Talk: Workshop "Model Transformation in Practice" at MoDELS2005, Montego
+  Bay, Jamaica; 10-03-2005; in: "Model Transformation in Practice", (2005)'
 publication_types:
 - '1'
 publishDate: '2005-10-03'

@@ -8,7 +8,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=203819&lang=2
-publication: 'Vortrag: IEEE International Conference on e-Technology, e-Commerce and
+publication: 'Talk: IEEE International Conference on e-Technology, e-Commerce and
   e-Services: (EEE05), Hongkong, China; 2005; in: "IEEE International Conference on
   e-Technology, e-Commerce and e-Services: (EEE05)", (2005)'
 publication_types:

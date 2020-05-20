@@ -20,10 +20,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226083&lang=2
-publication: 'Vortrag: Sixth IEEE International Conference on Software Testing, Verification
-  and Validation (ICST 2013), Luxembourg; 18.03.2013 - 22.03.2013; in: "Proceedings
+publication: 'Talk: Sixth IEEE International Conference on Software Testing, Verification
+  and Validation (ICST 2013), Luxembourg; 03-18-2013 - 03-22-2013; in: "Proceedings
   of the Sixth IEEE International Conference on Software Testing, Verification and
-  Validation", IEEE, (2013), ISBN: 978-1-4799-1324-4; S. 453 - 460'
+  Validation", IEEE, (2013), ISBN: 978-1-4799-1324-4; 453 - 460'
 publication_types:
 - '1'
 publishDate: '2013-03-18'

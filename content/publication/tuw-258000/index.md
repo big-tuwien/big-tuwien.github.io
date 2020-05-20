@@ -22,7 +22,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=258000&lang=2
-publication: Geomechanics and Tunnelling, 8 (2015), 4; S. 331 - 332
+publication: Geomechanics and Tunnelling, 8 (2015), 4; 331 - 332
 publication_types:
 - '2'
 publishDate: '2015-01-01'

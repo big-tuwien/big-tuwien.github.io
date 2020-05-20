@@ -32,7 +32,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=277479&lang=2
-publication: Information and Software Technology, 96 (2018), S. 161 - 180
+publication: Information and Software Technology, 96 (2018), 161 - 180
 publication_types:
 - '2'
 publishDate: '2018-01-01'

@@ -27,7 +27,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=233371&lang=2
-publication: 'Springer, Heidelberg, 2015, ISBN: 978-3-319-12741-5; 206 S'
+publication: 'Springer, Heidelberg, 2015, ISBN: 978-3-319-12741-5; 206 pages'
 publication_types:
 - '5'
 publishDate: '2015-01-01'

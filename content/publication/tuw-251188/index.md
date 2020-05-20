@@ -9,11 +9,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=251188&lang=2
-publication: 'Vortrag: Workshop on Models and Evolution @ ACM/IEEE 19th International
+publication: 'Talk: Workshop on Models and Evolution @ ACM/IEEE 19th International
   Conference on Model Driven Engineering Languages and Systems (MODELS), Saint Malo,
-  France; 02.10.2016; in: "Proceedings of the Workshop on Models and Evolution @ ACM/IEEE
+  France; 10-02-2016; in: "Proceedings of the Workshop on Models and Evolution @ ACM/IEEE
   19th International Conference on Model Driven Engineering Languages and Systems
-  (MODELS)", (2016), S. 20 - 29'
+  (MODELS)", (2016), 20 - 29'
 publication_types:
 - '1'
 publishDate: '2016-10-02'

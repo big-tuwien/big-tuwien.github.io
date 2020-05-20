@@ -23,9 +23,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183627&lang=2
-publication: 'Vortrag: Advances in System Testing and Validation Lifecycle 2009, Porto;
-  20.09.2009 - 25.09.2009; in: "Advances in System Testing and Validation Lifecycle",
-  IEEE, (2009), ISBN: 978-1-4244-4862-3; S. 161 - 166'
+publication: 'Talk: Advances in System Testing and Validation Lifecycle 2009, Porto;
+  09-20-2009 - 09-25-2009; in: "Advances in System Testing and Validation Lifecycle",
+  IEEE, (2009), ISBN: 978-1-4244-4862-3; 161 - 166'
 publication_types:
 - '1'
 publishDate: '2009-09-20'

@@ -7,7 +7,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=276188&lang=2
-publication: Berichts-Nr. AR-MES-ERP, 2018; 192 S
+publication: Report No. AR-MES-ERP, 2018; 192 pages
 publication_types:
 - '4'
 publishDate: '2018-01-01'

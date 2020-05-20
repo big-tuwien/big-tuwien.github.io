@@ -20,12 +20,12 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205865&lang=2
-publication: 'Vortrag: The Second international conference on Electronic government
-  and the information systems perspective (EGOVIS''11), Toulouse, France; 29.08.2011
-  - 02.09.2011; in: "Proceedings of the Second international conference on Electronic
+publication: 'Talk: The Second international conference on Electronic government and
+  the information systems perspective (EGOVIS''11), Toulouse, France; 08-29-2011 -
+  09-02-2011; in: "Proceedings of the Second international conference on Electronic
   government and the information systems perspective (EGOVIS''11)", K. Andersen, E.
-  Francesconi, Å. Grönlund, T. van Engers (Hrg.); Springer-Verlag, Berlin, Heidelberg
-  (2011), ISBN: 978-3-642-22960-2; S. 56 - 67'
+  Francesconi, Å. Grönlund, T. van Engers (ed.); Springer-Verlag, Berlin, Heidelberg
+  (2011), ISBN: 978-3-642-22960-2; 56 - 67'
 publication_types:
 - '1'
 publishDate: '2011-08-29'

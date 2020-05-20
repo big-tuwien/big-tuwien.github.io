@@ -29,7 +29,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246610&lang=2
 publication: 'essentials Springer Vieweg, Wiesbaden, 2015, ISBN: 978-3-658-11594-4;
-  37 S'
+  37 pages'
 publication_types:
 - '5'
 publishDate: '2015-01-01'

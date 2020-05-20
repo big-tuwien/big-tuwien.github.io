@@ -16,10 +16,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=220685&lang=2
-publication: 'Vortrag: First International Conference on Advanced Computing, Networking,
-  and Informatics (ICACNI 2013), Raipur, Chhattisgarh, India; 14.06.2013 - 16.06.2013;
+publication: 'Talk: First International Conference on Advanced Computing, Networking,
+  and Informatics (ICACNI 2013), Raipur, Chhattisgarh, India; 06-14-2013 - 06-16-2013;
   in: "Intelligent Computing, Networking, and Informatics, Springer, Vol. 243", (2013),
-  ISBN: 978-81-322-1664-3; S. 199 - 211'
+  ISBN: 978-81-322-1664-3; 199 - 211'
 publication_types:
 - '1'
 publishDate: '2013-06-14'

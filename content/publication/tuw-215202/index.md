@@ -22,10 +22,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=215202&lang=2
-publication: 'Vortrag: 28th IEEE International Conference on Software Maintenance
-  (ICSM 2012), Trento, Italien; 23.09.2012 - 30.09.2012; in: "Proceedings of the 28th
-  IEEE International Conference on Software Maintenance (ICSM), 2012", IEEE, (2012),
-  ISBN: 978-1-4673-2312-3; S. 503 - 510'
+publication: 'Talk: 28th IEEE International Conference on Software Maintenance (ICSM
+  2012), Trento, Italien; 09-23-2012 - 09-30-2012; in: "Proceedings of the 28th IEEE
+  International Conference on Software Maintenance (ICSM), 2012", IEEE, (2012), ISBN:
+  978-1-4673-2312-3; 503 - 510'
 publication_types:
 - '1'
 publishDate: '2012-09-23'

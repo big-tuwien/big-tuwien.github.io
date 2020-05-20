@@ -20,9 +20,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=258012&lang=2
-publication: 'in: "IEEE International Conference on Healthcare Informatics", herausgegeben
-  von: IEEE; IEEE Computer Society, Los Alamitos, CA, USA, 2016, ISBN: 978-1-5090-6118-1,
-  S. 432 - 438'
+publication: 'in: "IEEE International Conference on Healthcare Informatics", issued
+  by: IEEE; IEEE Computer Society, Los Alamitos, CA, USA, 2016, ISBN: 978-1-5090-6118-1,
+  432 - 438'
 publication_types:
 - '1'
 publishDate: '2016-01-01'

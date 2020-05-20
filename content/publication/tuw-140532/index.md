@@ -22,10 +22,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=140532&lang=2
-publication: 'Vortrag: 2nd International Workshop on Best Practices of UML (BP-UML
-  2006), Tucson, USA; 06.11.2006 - 09.11.2006; in: "Advances in Conceptual Modeling
-  - Theory and Practice", Lecture Notes in Computer Science, Springer, (2006), S.
-  19 - 31'
+publication: 'Talk: 2nd International Workshop on Best Practices of UML (BP-UML 2006),
+  Tucson, USA; 11-06-2006 - 11-09-2006; in: "Advances in Conceptual Modeling - Theory
+  and Practice", Lecture Notes in Computer Science, Springer, (2006), 19 - 31'
 publication_types:
 - '1'
 publishDate: '2006-11-06'

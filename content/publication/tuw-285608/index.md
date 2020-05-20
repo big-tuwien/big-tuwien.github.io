@@ -34,8 +34,8 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=285608&lang=2
 publication: 'Poster: CIB WBC 2019 - CIB World Building Congress 2019 ''Constructing
-  Smart Cities'', Hongkong; 17.06.2019 - 21.06.2019; in: "CIB World Building Congress
-  2019 Constructing Smart Cities", (2019), ISBN: 978-962-367-821-6; 10 S'
+  Smart Cities'', Hongkong; 06-17-2019 - 06-21-2019; in: "CIB World Building Congress
+  2019 Constructing Smart Cities", (2019), ISBN: 978-962-367-821-6; 10 pages'
 publication_types:
 - '1'
 publishDate: '2019-06-17'

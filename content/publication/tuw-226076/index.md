@@ -18,10 +18,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226076&lang=2
-publication: 'Vortrag: The 11th International Conference on Privacy, Security and
-  Trust (PST 2013), Tarragona, Spain; 10.07.2013 - 12.07.2013; in: "Proceedings of
-  the International Conference on Privacy, Security and Trust", J. Castellà-Roca et
-  al. (Hrg.); IEEE, (2013), ISBN: 978-1-4673-5839-2; S. 205 - 212'
+publication: 'Talk: The 11th International Conference on Privacy, Security and Trust
+  (PST 2013), Tarragona, Spain; 07-10-2013 - 07-12-2013; in: "Proceedings of the International
+  Conference on Privacy, Security and Trust", J. Castellà-Roca et al. (ed.); IEEE,
+  (2013), ISBN: 978-1-4673-5839-2; 205 - 212'
 publication_types:
 - '1'
 publishDate: '2013-07-10'

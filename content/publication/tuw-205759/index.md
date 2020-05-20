@@ -21,10 +21,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205759&lang=2
-publication: 'Vortrag: Human-Computer Interaction - INTERACT 2011, Lissabon, PT; 05.09.2011
-  - 09.09.2011; in: "Proceedings of 13th IFIP TC13 Conference on Human-Computer Interaction
-  (INTERACT ´11)", P. Campos et al. (Hrg.); Springer Berlin / Heidelberg, Part III
-  (2011), S. 373 - 390'
+publication: 'Talk: Human-Computer Interaction - INTERACT 2011, Lissabon, PT; 09-05-2011
+  - 09-09-2011; in: "Proceedings of 13th IFIP TC13 Conference on Human-Computer Interaction
+  (INTERACT ´11)", P. Campos et al. (ed.); Springer Berlin / Heidelberg, Part III
+  (2011), 373 - 390'
 publication_types:
 - '1'
 publishDate: '2011-09-05'

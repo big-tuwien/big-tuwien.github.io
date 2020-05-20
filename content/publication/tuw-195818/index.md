@@ -21,7 +21,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=195818&lang=2
-publication: Journal of Location Based Services, Vol. 5 (2011), 1; S. 38 - 57
+publication: Journal of Location Based Services, Vol. 5 (2011), 1; 38 - 57
 publication_types:
 - '2'
 publishDate: '2011-01-01'

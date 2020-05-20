@@ -24,9 +24,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=201825&lang=2
-publication: 'Vortrag: IEEE International Symposium on Service-Oriented System Engineering,
-  Irvine, CA, USA; 12.12.2011 - 14.12.2011; in: "Proceedings of the 6th IEEE International
-  Symposium on Service-Oriented System Engineering", (2011), S. 1 - 9'
+publication: 'Talk: IEEE International Symposium on Service-Oriented System Engineering,
+  Irvine, CA, USA; 12-12-2011 - 12-14-2011; in: "Proceedings of the 6th IEEE International
+  Symposium on Service-Oriented System Engineering", (2011), 1 - 9'
 publication_types:
 - '1'
 publishDate: '2011-12-12'

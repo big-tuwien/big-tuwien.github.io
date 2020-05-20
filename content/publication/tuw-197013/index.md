@@ -22,7 +22,7 @@ links:
   url: https://publik.tuwien.ac.at/showentry.php?ID=197013&lang=2
 publication: 'in: "Models in Software Engineering - Workshops and Symposia at MODELS
   2010, Reports and Revised Selected Papers", Lecture Notes in Computer Science Volume
-  6627, Springer, 2011, S. 40 - 54'
+  6627, Springer, 2011, 40 - 54'
 publication_types:
 - '1'
 publishDate: '2011-01-01'

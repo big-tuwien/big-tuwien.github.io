@@ -26,10 +26,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=285701&lang=2
-publication: 'Vortrag: 2019 IEEE 7th International Conference on Serious Games and
-  Applications for Health (SeGAH), Kyoto, Japan; 05.08.2019 - 07.08.2019; in: "Proceedings
-  of the IEEE 7th International Conference on Serious Games and Applications for Health",
-  IEEE, (2019), ISBN: 978-1-7281-0300-6; S. 1 - 8'
+publication: 'Talk: 2019 IEEE 7th International Conference on Serious Games and Applications
+  for Health (SeGAH), Kyoto, Japan; 08-05-2019 - 08-07-2019; in: "Proceedings of the
+  IEEE 7th International Conference on Serious Games and Applications for Health",
+  IEEE, (2019), ISBN: 978-1-7281-0300-6; 1 - 8'
 publication_types:
 - '1'
 publishDate: '2019-08-05'

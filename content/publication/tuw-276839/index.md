@@ -7,7 +7,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=276839&lang=2
-publication: 'Hauptvortrag: VÖSI Software Day 2018, Wien (eingeladen); 02.10.2018'
+publication: 'Keynote Lecture: VÖSI Software Day 2018, Wien (invited); 10-02-2018'
 publication_types:
 - '3'
 publishDate: '2018-10-02'

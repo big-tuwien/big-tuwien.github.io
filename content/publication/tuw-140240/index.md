@@ -19,10 +19,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=140240&lang=2
-publication: 'Vortrag: Internationaler Workshop Models for Enterprise Computing 2006,
-  Hong Kong; 16.10.2006; in: "Models for Enterprise Computing 2006 - International
+publication: 'Talk: Internationaler Workshop Models for Enterprise Computing 2006,
+  Hong Kong; 10-16-2006; in: "Models for Enterprise Computing 2006 - International
   Workshop at EDOC 2006", IEEE Digital Library - http://doi.ieeecomputersociety.org/10.1109/EDOCW.2006.64,
-  (2006), ISBN: 0-7695-2743-4; S. 43 - 52'
+  (2006), ISBN: 0-7695-2743-4; 43 - 52'
 publication_types:
 - '1'
 publishDate: '2006-10-16'

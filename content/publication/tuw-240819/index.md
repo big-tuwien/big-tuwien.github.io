@@ -8,10 +8,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=240819&lang=2
-publication: 'Vortrag: 3rd International Workshop on The Globalization of Modeling
-  Languages (GEMOC), Ottawa, Canada; 28.09.2015; in: "Proceedings of the 3rd International
-  Workshop on The Globalization of Modeling Languages (GEMOC)", CEUR Workshop Proceedings,
-  (2015), S. 1 - 6'
+publication: 'Talk: 3rd International Workshop on The Globalization of Modeling Languages
+  (GEMOC), Ottawa, Canada; 09-28-2015; in: "Proceedings of the 3rd International Workshop
+  on The Globalization of Modeling Languages (GEMOC)", CEUR Workshop Proceedings,
+  (2015), 1 - 6'
 publication_types:
 - '1'
 publishDate: '2015-09-28'

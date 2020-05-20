@@ -9,10 +9,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183634&lang=2
-publication: 'Vortrag: NTERACT 2009 Workshop on Ethics, Roles & Relationships in Interaction
-  Design in Developing Regions, Uppsala, Sweden (eingeladen); 24.08.2009 - 25.08.2009;
+publication: 'Talk: NTERACT 2009 Workshop on Ethics, Roles & Relationships in Interaction
+  Design in Developing Regions, Uppsala, Sweden (invited); 08-24-2009 - 08-25-2009;
   in: "INTERACT 2009 Workshop on Ethics, Roles & Relationships in Interaction Design
-  in Developing Regions", (2009), 2 S'
+  in Developing Regions", (2009), 2 pages'
 publication_types:
 - '1'
 publishDate: '2009-08-24'

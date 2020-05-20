@@ -19,8 +19,8 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=257998&lang=2
 publication: 'in: "2016 IEEE International Conference on Software Maintenance and
-  Evolution", 1; herausgegeben von: IEEE; IEEE Computer Society, Los Alamitos, CA,
-  USA, 2016, ISBN: 978-1-5090-3806-0, S. 563 - 567'
+  Evolution", 1; issued by: IEEE; IEEE Computer Society, Los Alamitos, CA, USA, 2016,
+  ISBN: 978-1-5090-3806-0, 563 - 567'
 publication_types:
 - '1'
 publishDate: '2016-01-01'

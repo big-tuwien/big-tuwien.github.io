@@ -25,7 +25,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=277477&lang=2
-publication: Studies in health technology and informatics, 248 (2018), S. 330 - 337
+publication: Studies in health technology and informatics, 248 (2018), 330 - 337
 publication_types:
 - '2'
 publishDate: '2018-01-01'

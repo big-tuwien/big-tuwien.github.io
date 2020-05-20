@@ -14,9 +14,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=183640&lang=2
-publication: 'Vortrag: The 12th International Conference "Interactive Computer aided
-  Learning", Villach, Austria; 23.09.2009 - 25.09.2009; in: "Proceedings of ICL2009",
-  Carinthia Tech Institute, (2009), S. 149 - 158'
+publication: 'Talk: The 12th International Conference "Interactive Computer aided
+  Learning", Villach, Austria; 09-23-2009 - 09-25-2009; in: "Proceedings of ICL2009",
+  Carinthia Tech Institute, (2009), 149 - 158'
 publication_types:
 - '1'
 publishDate: '2009-09-23'

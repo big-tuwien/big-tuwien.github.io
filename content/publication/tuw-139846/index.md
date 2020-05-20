@@ -8,10 +8,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=139846&lang=2
-publication: 'Vortrag: 4th International Conference on Perspectives in Business Informatics
-  Research, University of Skövde, Sweden; 03.10.2005 - 04.10.2005; in: "Proceedings
+publication: 'Talk: 4th International Conference on Perspectives in Business Informatics
+  Research, University of Skövde, Sweden; 10-03-2005 - 10-04-2005; in: "Proceedings
   of the 4th International Conference on Perspectives in Business Informatics Research",
-  (2005), ISBN: 91-631-7521-5; S. 57 - 66'
+  (2005), ISBN: 91-631-7521-5; 57 - 66'
 publication_types:
 - '1'
 publishDate: '2005-10-03'

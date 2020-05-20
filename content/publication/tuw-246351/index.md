@@ -21,10 +21,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246351&lang=2
-publication: 'Vortrag: Symposium on the 2nd ACM SIGCHI annual symposium on Computer-Human
-  Interaction in Play (CHI PLAY), London, Great Britain; 05.10.2015 - 07.10.2015;
+publication: 'Talk: Symposium on the 2nd ACM SIGCHI annual symposium on Computer-Human
+  Interaction in Play (CHI PLAY), London, Great Britain; 10-05-2015 - 10-07-2015;
   in: "Proceedings of the 2015 Annual Symposium on Computer-Human Interaction in Play",
-  ACM, (2015), ISBN: 978-1-4503-3466-2; S. 109 - 113'
+  ACM, (2015), ISBN: 978-1-4503-3466-2; 109 - 113'
 publication_types:
 - '1'
 publishDate: '2015-10-05'

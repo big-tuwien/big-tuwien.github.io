@@ -106,7 +106,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=274755&lang=2
-publication: Bericht für FFG; Berichts-Nr. 3, 2018; 206 S
+publication: Report for FFG; Report No. 3, 2018; 206 pages
 publication_types:
 - '4'
 publishDate: '2018-01-01'

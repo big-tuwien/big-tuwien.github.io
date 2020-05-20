@@ -23,10 +23,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=226032&lang=2
-publication: 'Vortrag: IEEE 2nd International Conference on Serious Games and Applications
-  for Health (SeGAH 2013), Algarve, Portugal; 02.05.2013 - 03.05.2013; in: "Book of
+publication: 'Talk: IEEE 2nd International Conference on Serious Games and Applications
+  for Health (SeGAH 2013), Algarve, Portugal; 05-02-2013 - 05-03-2013; in: "Book of
   Proceedings of the 2nd International Conference on Serious Games and Applications
-  for Health", (2013), ISBN: 978-1-4673-6165-1; S. 1 - 7'
+  for Health", (2013), ISBN: 978-1-4673-6165-1; 1 - 7'
 publication_types:
 - '1'
 publishDate: '2013-05-02'

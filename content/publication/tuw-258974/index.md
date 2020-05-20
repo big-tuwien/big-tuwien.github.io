@@ -15,10 +15,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=258974&lang=2
-publication: 'Vortrag: 11th International Workshop on Value Modeling and Business
-  Ontologies (VMBO 2017), Belvaux, Luxemburg; 06.03.2017 - 07.03.2017; in: "Proceedings
-  of the 11th International Workshop on Value Modeling and Business Ontologies", (2017),
-  5 S'
+publication: 'Talk: 11th International Workshop on Value Modeling and Business Ontologies
+  (VMBO 2017), Belvaux, Luxemburg; 03-06-2017 - 03-07-2017; in: "Proceedings of the
+  11th International Workshop on Value Modeling and Business Ontologies", (2017),
+  5 pages'
 publication_types:
 - '1'
 publishDate: '2017-03-06'

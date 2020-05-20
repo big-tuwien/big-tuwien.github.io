@@ -19,10 +19,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=238502&lang=2
-publication: 'Vortrag: 2015 IEEE International Conference on Industrial Informatics
-  (INDIN 2015), Cambridge; 22.07.2015 - 24.07.2015; in: "Proceedings of 2015 IEEE
-  International Conference on Industrial Informatics (INDIN 2015)", IEEE, (2015),
-  S. 1642 - 1647'
+publication: 'Talk: 2015 IEEE International Conference on Industrial Informatics (INDIN
+  2015), Cambridge; 07-22-2015 - 07-24-2015; in: "Proceedings of 2015 IEEE International
+  Conference on Industrial Informatics (INDIN 2015)", IEEE, (2015), 1642 - 1647'
 publication_types:
 - '1'
 publishDate: '2015-07-22'

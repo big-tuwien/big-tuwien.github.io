@@ -26,10 +26,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=267598&lang=2
-publication: 'Vortrag: 2017 IEEE 5th International Conference on Serious Games and
-  Applications for Health (SeGAH), Perth, Australia, from 2-4 April 2017; 02.04.2017
-  - 04.04.2017; in: "2017 IEEE 5th International Conference on Serious Games and Applications
-  for Health (SeGAH)", IEEE, (2017), ISBN: 978-1-5090-5483-1; S. 1 - 8'
+publication: 'Talk: 2017 IEEE 5th International Conference on Serious Games and Applications
+  for Health (SeGAH), Perth, Australia, from 2-4 April 2017; 04-02-2017 - 04-04-2017;
+  in: "2017 IEEE 5th International Conference on Serious Games and Applications for
+  Health (SeGAH)", IEEE, (2017), ISBN: 978-1-5090-5483-1; 1 - 8'
 publication_types:
 - '1'
 publishDate: '2017-04-02'

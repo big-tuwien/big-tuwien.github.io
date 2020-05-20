@@ -18,10 +18,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=235997&lang=2
-publication: 'Vortrag: ACM SIGCHI Symposium on Engineering Interactive Computing Systems
-  (EICS 2014), Rome, Italy; 17.06.2014 - 20.06.2014; in: "Proceedings of the 2014
+publication: 'Talk: ACM SIGCHI Symposium on Engineering Interactive Computing Systems
+  (EICS 2014), Rome, Italy; 06-17-2014 - 06-20-2014; in: "Proceedings of the 2014
   ACM SIGCHI symposium on Engineering interactive computing systems", ACM, New York,
-  NY, USA (2014), ISBN: 978-1-4503-2725-1; S. 39 - 44'
+  NY, USA (2014), ISBN: 978-1-4503-2725-1; 39 - 44'
 publication_types:
 - '1'
 publishDate: '2014-06-17'

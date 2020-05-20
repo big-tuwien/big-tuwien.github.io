@@ -19,7 +19,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=266970&lang=2
 publication: Enterprise Modelling and Information Systems Architectures (EMISA), 11
-  (2016), 3; S. 1 - 18
+  (2016), 3; 1 - 18
 publication_types:
 - '2'
 publishDate: '2016-01-01'

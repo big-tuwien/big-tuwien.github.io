@@ -30,7 +30,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=200219&lang=2
 publication: 'in: "Handbook of Semantic Web Technologies", Springer, Berlin, Heidelberg,
-  2011, ISBN: 978-3-540-92912-3, S. 787 - 848'
+  2011, ISBN: 978-3-540-92912-3, 787 - 848'
 publication_types:
 - '6'
 publishDate: '2011-01-01'

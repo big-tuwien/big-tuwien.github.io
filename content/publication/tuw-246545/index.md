@@ -24,7 +24,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=246545&lang=2
-publication: Journal of Software (JSW), 10 (2015), 11; S. 1245 - 1264
+publication: Journal of Software (JSW), 10 (2015), 11; 1245 - 1264
 publication_types:
 - '2'
 publishDate: '2015-01-01'

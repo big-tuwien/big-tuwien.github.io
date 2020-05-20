@@ -19,9 +19,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=266964&lang=2
-publication: 'Vortrag: Proceedings of the Hamburg International Conference of Logistics
-  (HICL 2017), Hamburg; 12.10.2017 - 13.10.2017; in: "Digitalization in supply chain
-  management and logistics", epubli, (2017), ISBN: 978-3-7450-4328-0; S. 55 - 73'
+publication: 'Talk: Proceedings of the Hamburg International Conference of Logistics
+  (HICL 2017), Hamburg; 10-12-2017 - 10-13-2017; in: "Digitalization in supply chain
+  management and logistics", epubli, (2017), ISBN: 978-3-7450-4328-0; 55 - 73'
 publication_types:
 - '1'
 publishDate: '2017-10-12'

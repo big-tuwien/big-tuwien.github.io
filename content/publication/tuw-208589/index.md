@@ -19,10 +19,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=208589&lang=2
-publication: 'Vortrag: 14th IEEE International Conference on Commerce and Enterprise
-  Computing (CEC 2012), Hang-Zhou, China; 09.09.2012 - 11.09.2012; in: "Proceedings
+publication: 'Talk: 14th IEEE International Conference on Commerce and Enterprise
+  Computing (CEC 2012), Hang-Zhou, China; 09-09-2012 - 09-11-2012; in: "Proceedings
   of the 14th IEEE International Conference on Commerce and Enterprise Computing (CEC
-  2012)", IEEE, (2012), S. 1 - 8'
+  2012)", IEEE, (2012), 1 - 8'
 publication_types:
 - '1'
 publishDate: '2012-09-09'

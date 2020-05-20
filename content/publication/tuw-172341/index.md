@@ -18,10 +18,10 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=172341&lang=2
-publication: 'Vortrag: IEEE International Conference on Information Visualisation
-  (IV''08), Eindhoven, Netherlands; 04.06.2008 - 06.06.2008; in: "Proceedings of the
-  IEEE International Conference on Information Visualisation", (2008), ISBN: 978-0-7695-3268-4;
-  S. 100 - 105'
+publication: 'Talk: IEEE International Conference on Information Visualisation (IV''08),
+  Eindhoven, Netherlands; 06-04-2008 - 06-06-2008; in: "Proceedings of the IEEE International
+  Conference on Information Visualisation", (2008), ISBN: 978-0-7695-3268-4; 100 -
+  105'
 publication_types:
 - '1'
 publishDate: '2008-06-04'

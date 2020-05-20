@@ -14,7 +14,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=245948&lang=2
 publication: 'Springer, Lecture Notes in Business Information Processing (LNBIP),
-  Berlin Heidelberg, 2013, ISBN: 978-3-642-39877-3; 211 S'
+  Berlin Heidelberg, 2013, ISBN: 978-3-642-39877-3; 211 pages'
 publication_types:
 - '5'
 publishDate: '2013-01-01'

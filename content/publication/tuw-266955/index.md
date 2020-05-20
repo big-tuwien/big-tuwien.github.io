@@ -21,8 +21,8 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=266955&lang=2
-publication: 'Vortrag: 16th International Semantic Web Conference (ISWC 2017), Vienna;
-  21.10.2017 - 25.10.2017; in: "Proceedings of the Workshop on Decentralizing the
+publication: 'Talk: 16th International Semantic Web Conference (ISWC 2017), Vienna;
+  10-21-2017 - 10-25-2017; in: "Proceedings of the Workshop on Decentralizing the
   Semantic Web 2017 co-located with 16th International Semantic Web Conference (ISWC2017)",
   CEUR, 1934 (2017)'
 publication_types:

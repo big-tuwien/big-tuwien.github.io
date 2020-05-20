@@ -20,11 +20,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=276165&lang=2
-publication: 'Vortrag: 14th Workshop on Embedded and Cyber-Physical Systems Education
-  (WESE 2018), Turin, Italien; 04.10.2018 - 05.10.2018; in: "Cyber Physical Systems.
+publication: 'Talk: 14th Workshop on Embedded and Cyber-Physical Systems Education
+  (WESE 2018), Turin, Italien; 10-04-2018 - 10-05-2018; in: "Cyber Physical Systems.
   Model-Based Design. 8th International Workshop on Model-Based Design of Cyber Physical
   Systems (CyPhy 2018), and 14th International Workshop on Embedded and Cyber-Physical
-  Systems Education (WESE 2018)", R. Chamberlain, W. Taha, M. Törngren (Hrg.); Springer
+  Systems Education (WESE 2018)", R. Chamberlain, W. Taha, M. Törngren (ed.); Springer
   International Publishing, (2019), ISBN: 978-3-030-23702-8'
 publication_types:
 - '1'

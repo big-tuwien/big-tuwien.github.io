@@ -13,11 +13,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205831&lang=2
-publication: 'Vortrag: 13th International Conference on Human-Computer Interaction
-  with Mobile Devices and Services (MobileHCI 2011), Stockholm, Schweden; 30.08.2011
-  - 02.09.2011; in: "Proceedings of the 13th International Conference on Human Computer
+publication: 'Talk: 13th International Conference on Human-Computer Interaction with
+  Mobile Devices and Services (MobileHCI 2011), Stockholm, Schweden; 08-30-2011 -
+  09-02-2011; in: "Proceedings of the 13th International Conference on Human Computer
   Interaction with Mobile Devices and Services", ACM, New York (2011), ISBN: 978-1-4503-0541-9;
-  S. 1 - 4'
+  1 - 4'
 publication_types:
 - '1'
 publishDate: '2011-08-30'

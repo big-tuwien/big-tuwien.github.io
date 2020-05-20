@@ -25,9 +25,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=138857&lang=2
-publication: 'Vortrag: IEEE Visualization, Austin, Texas; 10.10.2004 - 15.10.2004;
-  in: "Proceedings of Visualization 2004", H Rushmeier, G. Turk, J van Wijk (Hrg.);
-  IEEE, (2004), ISBN: 0-7803-8788-0; S. 393 - 400'
+publication: 'Talk: IEEE Visualization, Austin, Texas; 10-10-2004 - 10-15-2004; in:
+  "Proceedings of Visualization 2004", H Rushmeier, G. Turk, J van Wijk (ed.); IEEE,
+  (2004), ISBN: 0-7803-8788-0; 393 - 400'
 publication_types:
 - '1'
 publishDate: '2004-10-10'

@@ -8,9 +8,9 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=203830&lang=2
-publication: 'Vortrag: 12th International Workshop on Research Issues on Data Engineering:
+publication: 'Talk: 12th International Workshop on Research Issues on Data Engineering:
   Engineering E-Commerce/E-Business Systems (RIDE-2EC''2002), San Jose, California,
-  USA; 01.01.2002; in: "12th International Workshop on Research Issues on Data Engineering:
+  USA; 01-01-2002; in: "12th International Workshop on Research Issues on Data Engineering:
   Engineering E-Commerce/E-Business Systems (RIDE-2EC''2002)", (2002)'
 publication_types:
 - '1'

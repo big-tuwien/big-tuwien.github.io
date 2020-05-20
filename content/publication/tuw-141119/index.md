@@ -20,12 +20,11 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=141119&lang=2
-publication: 'Vortrag: 6th International Conference on Perspecitves in Business Information
-  Research - BIR 2007, Tampere, Finnland; 05.10.2007 - 06.10.2007; in: "Proceedings
+publication: 'Talk: 6th International Conference on Perspecitves in Business Information
+  Research - BIR 2007, Tampere, Finnland; 10-05-2007 - 10-06-2007; in: "Proceedings
   of the 6th International Conference on Perspecitves in Business Information Research
-  - BIR 2007", J. Nummenmaa, E. Söderström (Hrg.); Department of Computer Sciences,
-  University of Tampere, Tampere, Finnland (2007), ISBN: 978-951-44-7096-7; S. 88
-  - 103'
+  - BIR 2007", J. Nummenmaa, E. Söderström (ed.); Department of Computer Sciences,
+  University of Tampere, Tampere, Finnland (2007), ISBN: 978-951-44-7096-7; 88 - 103'
 publication_types:
 - '1'
 publishDate: '2007-10-05'

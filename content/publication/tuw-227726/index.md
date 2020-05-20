@@ -13,7 +13,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=227726&lang=2
 publication: 'in: "Proceedings of the Educators'' Symposium 2013 @ MODELS", CEUR-WS.org,
-  2014, S. 1 - 22'
+  2014, 1 - 22'
 publication_types:
 - '1'
 publishDate: '2014-01-01'

@@ -24,7 +24,7 @@ featured: false
 links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=284220&lang=2
-publication: British Journal of Haematology, 185 (2019), 2; S. 266 - 283
+publication: British Journal of Haematology, 185 (2019), 2; 266 - 283
 publication_types:
 - '2'
 publishDate: '2019-01-01'

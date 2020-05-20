@@ -20,7 +20,7 @@ links:
 - name: Publik
   url: https://publik.tuwien.ac.at/showentry.php?ID=205423&lang=2
 publication: International Journal for Information Security Research, 1 (2011), 1;
-  S. 53 - 60
+  53 - 60
 publication_types:
 - '2'
 publishDate: '2011-01-01'
