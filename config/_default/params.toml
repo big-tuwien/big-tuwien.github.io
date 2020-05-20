@@ -41,10 +41,10 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = "Business Informatics Group (BIG) TU Wien"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "The Business Informatics Group (BIG) is a research division of the Institute of Information Systems Engineering at TU Wien. Given its name, the division focuses on business informatics that integrates theory and methods of information systems and computer science."
 
 ############################
 ## Site Features
