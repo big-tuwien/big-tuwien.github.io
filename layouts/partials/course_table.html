@@ -14,11 +14,14 @@
       <td>{{ index $row "type" }}</td>
       <td>{{ index $row "title" }}</td>
       <td>
+        {{- $len := len (index $row "authors") -}}
         {{ range $index, $username := (index $row "authors") }}
         {{- $profile_page := site.GetPage (printf "/%s/%s" "people" $username) -}}
         {{- $name := $profile_page.Params.name | default ($username|markdownify) -}}
-        {{- if (ne $index 0) -}}<span>, </span>{{- end -}}
-        <a href="{{$profile_page.RelPermalink}}">{{$name}}</a>
+          <span>
+            <a href="{{$profile_page.RelPermalink}}">{{$name}}</a>
+            {{- if lt $index (sub $len 1) -}}, {{- end -}}
+          </span>
         {{ end }}
       </td>
     </tr>

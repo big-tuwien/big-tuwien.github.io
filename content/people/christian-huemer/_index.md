@@ -18,7 +18,7 @@ pairs:
 role: Ao.Univ.Prof. Mag.rer.soc.oec. Dr.rer.soc.oec.
 superuser: false
 user_groups:
-- Teaching
+- Professors
 ---
 
 Christian Huemer is Dean of Academic Affairs for Business Informatics and Professor at the Business Informatics Group of the Institute for Software Technology and Interactive Systems of the Vienna University of Technology (TU Wien). Furthermore, he is director of the [Research Studio Interorganisational Systems](http://ios.researchstudio.at/) of Research Studios Austria (RSA). Until August 2006 he was associate professor at the [Faculty of Computer Science of the University of Vienna](http://www.cs.univie.ac.at/). He finished his master in business informatics at Vienna University of Technology in 1993. In 1997 he received a doctors degree from the University of Vienna. In 2002 the University of Vienna conferred the Venia Docendi in business informatics on Christian Huemer. His research interests are inter-organizational systems, electronic data interchange, enterprise modeling, business system development, and ERP systems.

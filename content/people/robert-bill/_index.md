@@ -18,7 +18,7 @@ pairs:
 role: Projektass. Dipl.-Ing. Dr.techn.
 superuser: false
 user_groups:
-- Research
+- Researchers
 ---
 
 Robert Bill received his bachelor degree in Medical Informatics and his master’s degree in Software Engineering &amp; Internet Computing at the Vienna University of Technology. His master thesis [„Towards Software Model Checking in the Context of Model–Driven Engineering“](https://www.big.tuwien.ac.at/teaching/theses/138) got the [OCG incentive award 2015](http://blog.ocg.at/2015/10/ocg-fp2015/).

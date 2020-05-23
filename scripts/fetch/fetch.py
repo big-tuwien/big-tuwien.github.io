@@ -18,7 +18,6 @@ BIG_OID = 18460477
 LECTURE_EXERCISE_COURSE_TYPES = ['VO', 'VU']
 SEMINAR_PROJECT_COURSE_TYPES = ['SE', 'PV', 'PR']
 
-TEMPLATE_DIR = 'templates'
 
 TISS_BASE = 'https://tiss.tuwien.ac.at'
 PUBLIK_BASE = 'https://publik.tuwien.ac.at'
@@ -100,6 +99,15 @@ def load_courses(lecturers, semester=None, session=requests.Session()):
 
 
 def parse_courses(courses, people):
+    def oids_to_author_ids(oids):
+        if type(oids) == str:
+            oids = [oids]
+        res = []
+        for oid in oids:
+            ps = [p['identifier'] for p in people if oid == str(p['oid'])]
+            res.extend(ps)
+        return res
+
     lectures_exercises = [c for c in courses if c['courseType'] in LECTURE_EXERCISE_COURSE_TYPES]
     seminars_projects = [c for c in courses if c['courseType'] in SEMINAR_PROJECT_COURSE_TYPES]
     other = [c for c in courses if c['courseType'] not in
@@ -111,7 +119,7 @@ def parse_courses(courses, people):
                                 ('seminars_projects', seminars_projects),
                                 ('other', other)]:
         result[identifier] = [{
-            'authors': [p['identifier'] for p in people if str(p['oid']) in course['lecturers']['oid']],
+            'authors': oids_to_author_ids(course['lecturers']['oid']),
             'number': course["courseNumber"],
             'url': course["url"],
             'type': course["courseType"],
@@ -333,6 +341,8 @@ def main():
     people_dir = base_dir + '/people'
     publication_dir = content_dir + '/publication'
 
+    template_dir = 'templates'
+
     # load config
     with open(args.config_path, 'r', encoding='utf-8') as yml:
         try:
@@ -378,10 +388,10 @@ def main():
             if person['picture_uri']:
                 urllib.request.urlretrieve(TISS_BASE + person['picture_uri'], pic_dest)
             else:
-                shutil.copyfile(TEMPLATE_DIR + '/authors/user/avatar.jpg', pic_dest)
+                shutil.copyfile(template_dir + '/authors/user/avatar.jpg', pic_dest)
 
             # apply metadata to markdown front matter
-            post = frontmatter.load(TEMPLATE_DIR + '/authors/user/_index.md')
+            post = frontmatter.load(template_dir + '/authors/user/_index.md')
             post['name'] = name
             post['authors'] = [person["identifier"]]
             post['role'] = person['preceding_titles']

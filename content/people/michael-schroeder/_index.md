@@ -16,5 +16,5 @@ pairs:
 role: Dipl.-Ing. BSc
 superuser: false
 user_groups:
-- Research
+- Researchers
 ---
