@@ -40,24 +40,14 @@ publications:
   blacklist: []
   # The publication database does not necessarily use the same names as TISS.
   # In order to link names with the user profiles, names must be transformed to the correct name identifier
-  # TO represents the value all FROM values must be mapped to
   # Example:
-  # - to: Max Mustermann
-  #      from:
-  #        - Maximilian Mustermann
-  #        - M. Mustermann
+  #   transform:
+  #     Maximilian Mustermann: Max Mustermann
+  #     M. Mustermann: Max Mustermann
   # This setup will map all names matching either "Maximilian Mustermann" or "M. Mustermann" to "Max Mustermann"
   # WARNING: ALL NAMES THAT CONTAIN NON ASCII LETTERS MUST PROVIDE TRANSFORM RECORDS REMOVING THEM
   transform:
-    - to: Marek Straka
-      from:
-        - Marcel Straka
-    - to: Gertrude Kappel
-      from:
-        - Gerti Kappel
-    - to: Juergen Cito
-      from:
-        - Jürgen Cito
-    - to: Michael Schroeder
-      from:
-        - Michael Schröder
+    Marcel Straka: Marek Straka
+    Gerti Kappel: Gertrude Kappel
+    Jürgen Cito: Juergen Cito
+    Michael Schröder: Michael Schroeder

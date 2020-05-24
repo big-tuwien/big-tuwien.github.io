@@ -18,13 +18,10 @@ BIG_OID = 18460477
 LECTURE_EXERCISE_COURSE_TYPES = ['VO', 'VU']
 SEMINAR_PROJECT_COURSE_TYPES = ['SE', 'PV', 'PR']
 
-
 TISS_BASE = 'https://tiss.tuwien.ac.at'
 PUBLIK_BASE = 'https://publik.tuwien.ac.at'
 PEOPLE_URL = f'{TISS_BASE}/api/orgunit/v22/id/{BIG_TID}?persons=true'
-PROJECTS_ONGOING_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=1'
-PROJECTS_FINISHED_URL = f'{TISS_BASE}/api/pdb/rest/projectsearch/v2?instituteOid={BIG_OID}&status=2'
-COURSE_LECTURER_URL = TISS_BASE + '/api/course/lecturer/{}'
+COURSE_URL = TISS_BASE + '/api/course/lecturer/{}'
 PUBLICATION_URL = f'{PUBLIK_BASE}/pubexport.php'
 BIBTEX_URL = f'{PUBLIK_BASE}/pubbibtex.php'
 
@@ -61,6 +58,15 @@ def _get_semesters(at=datetime.datetime.now(), summer_term_start=3, winter_term_
 
 
 def load_courses(lecturers, semester=None, session=requests.Session()):
+    def oids_to_author_ids(oids):
+        if type(oids) == str:
+            oids = [oids]
+        res = []
+        for oid in oids:
+            ps = [p['identifier'] for p in lecturers if oid == str(p['oid'])]
+            res.extend(ps)
+        return res
+
     course_dict = {}
 
     namespaces = {
@@ -70,7 +76,7 @@ def load_courses(lecturers, semester=None, session=requests.Session()):
     }
 
     for lect in lecturers:
-        url = COURSE_LECTURER_URL.format(lect['oid'])
+        url = COURSE_URL.format(lect['oid'])
         query = {}
         if session:
             query['semester'] = semester
@@ -95,18 +101,7 @@ def load_courses(lecturers, semester=None, session=requests.Session()):
                 continue
             course_dict[course_id] = dict(course)
 
-    return list(course_dict.values())
-
-
-def parse_courses(courses, people):
-    def oids_to_author_ids(oids):
-        if type(oids) == str:
-            oids = [oids]
-        res = []
-        for oid in oids:
-            ps = [p['identifier'] for p in people if oid == str(p['oid'])]
-            res.extend(ps)
-        return res
+    courses = list(course_dict.values())
 
     lectures_exercises = [c for c in courses if c['courseType'] in LECTURE_EXERCISE_COURSE_TYPES]
     seminars_projects = [c for c in courses if c['courseType'] in SEMINAR_PROJECT_COURSE_TYPES]
@@ -129,24 +124,7 @@ def parse_courses(courses, people):
     return result
 
 
-def load_publications(researchers, session=requests.Session()):
-    publications = []
-
-    for res in researchers:
-        query = {'zuname': res['last_name'], 'vorname': res['first_name'],
-                 'inst': 'E194', 'abt': '03', 'func': '1', 'lang': '2'}
-        r = session.get(PUBLICATION_URL, params=query)
-        content = r.content.decode('ISO-8859-1')
-        xml = xmltodict.parse(content, encoding='utf-8')['export']  # get root element
-        if 'publikation' not in xml:
-            continue
-        result = xml['publikation'] if type(xml['publikation']) is list else [xml['publikation']]
-        publications.extend(result)
-
-    return publications
-
-
-def parse_publications(publications, bib_db, author_transform_map):
+def load_publications(researchers, bib_db, author_transform_map, session=requests.Session()):
     type_map = {
         'Dissertation': 'diss_dipl',
         'Wissenschaftlicher Bericht': 'bericht',
@@ -186,7 +164,19 @@ def parse_publications(publications, bib_db, author_transform_map):
       'patent': 8
     }
 
+    publications = []
     posts = []
+
+    for res in researchers:
+        query = {'zuname': res['last_name'], 'vorname': res['first_name'],
+                 'inst': 'E194', 'abt': '03', 'func': '1', 'lang': '2'}
+        r = session.get(PUBLICATION_URL, params=query)
+        content = r.content.decode('ISO-8859-1')
+        xml = xmltodict.parse(content, encoding='utf-8')['export']  # get root element
+        if 'publikation' not in xml:
+            continue
+        result = xml['publikation'] if type(xml['publikation']) is list else [xml['publikation']]
+        publications.extend(result)
 
     for pub in publications:
         pub_id = pub['pub_id'].lower()
@@ -245,11 +235,11 @@ def parse_publications(publications, bib_db, author_transform_map):
 
         posts.append((pub_id, post))
 
-    return posts
+    return publications, posts
 
 
 def load_bibtex(publishers, session=requests.Session()):
-    composite_bibtex = ''
+    bibtex = ''
 
     for pub in publishers:
         query = {'zuname': pub['last_name'], 'vorname': pub['first_name'], 'inst': 'E194', 'abt': '03', 'func': '1'}
@@ -259,46 +249,15 @@ def load_bibtex(publishers, session=requests.Session()):
             if len(line) == 0 or line.startswith('BibTeX-Export:') or \
               line.endswith('ausgegeben') or line.startswith('@comment'):
                 continue
-            composite_bibtex += line + '\n'
-        composite_bibtex += '\n'
+            bibtex += line + '\n'
+        bibtex += '\n'
 
-    return composite_bibtex
-
-
-def parse_bibtex(bibtex):
     parser = bibtexparser.bparser.BibTexParser(common_strings=True)
     parser.customization = bibtexparser.customization.convert_to_unicode
     parser.ignore_nonstandard_types = False
     bib_database = bibtexparser.loads(bibtex_str=bibtex, parser=parser)
 
     return bib_database
-
-
-def save_publications(posts, bib_db, pub_dir, override=False):
-    for identifier, post in posts:
-        directory = f'{pub_dir}/{identifier}'
-
-        # create folder
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-        elif not override:
-            continue
-
-        bib_entry = None
-        for entry in bib_db.entries:
-            if entry['ID'].lower() == identifier:
-                bib_entry = entry
-                break
-
-        if bib_entry:
-            db = bibtexparser.bibdatabase.BibDatabase()
-            db.entries = [bib_entry]
-            writer = bibtexparser.bwriter.BibTexWriter()
-            with open(f'{directory}/cite.bib', 'w+', encoding='utf-8') as f:
-                f.write(writer.write(db))
-
-        with open(f'{directory}/index.md', 'w+', encoding='utf-8') as f:
-            f.write(frontmatter.dumps(post))
 
 
 def main():
@@ -424,41 +383,51 @@ def main():
         for semester in semesters:
             print(f'Fetching courses for semester {semester}')
 
-            courses = load_courses(lecturers, semester=semester)
-            parsed_courses = parse_courses(courses, lecturers)
+            courses = load_courses(lecturers, semester=semester, session=s)
 
             with open(f'{data_dir}/teaching/courses/{semester}.json', 'w+', encoding='utf-8') as f:
-                f.write(json.dumps(parsed_courses, indent=4))
+                f.write(json.dumps(courses, indent=4))
 
     if args.fetch_publications:
         # fetch publications
         publisher_blacklist = [_id(name) for name in config['publications']['blacklist']]
         publishers = [p for p in people if p['identifier'] not in publisher_blacklist]
 
-        print('Loading BibTeX records')
-        bibtex = load_bibtex(publishers)
-
-        print('Parsing BibTeX entries')
-        bib_db = parse_bibtex(bibtex)
+        print('Fetching BibTeX records')
+        bib_db = load_bibtex(publishers)
 
         print('Fetching publications')
-        publications = load_publications(publishers, session=s)
+        publications, posts = load_publications(publishers, bib_db, config['publications']['transform'], session=s)
 
         if args.debug:
             with open(f'{data_dir}/publications.json', 'w+', encoding='utf-8') as f:
                 f.write(json.dumps(publications, indent=4))
 
-        print('Parsing publications')
-        name_map = {}
-        for entry in config['publications']['transform']:
-            to = entry['to']
-            for fr in entry['from']:
-                name_map[fr] = to
-
-        posts = parse_publications(publications, bib_db, name_map)
-
         print(f'Storing results to "content/publication".')
-        save_publications(posts, bib_db, publication_dir, override=args.override)
+        for identifier, post in posts:
+            directory = f'{publication_dir}/{identifier}'
+
+            # create folder
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            elif not args.override:
+                continue
+
+            bib_entry = None
+            for entry in bib_db.entries:
+                if entry['ID'].lower() == identifier:
+                    bib_entry = entry
+                    break
+
+            if bib_entry:
+                db = bibtexparser.bibdatabase.BibDatabase()
+                db.entries = [bib_entry]
+                writer = bibtexparser.bwriter.BibTexWriter()
+                with open(f'{directory}/cite.bib', 'w+', encoding='utf-8') as f:
+                    f.write(writer.write(db))
+
+            with open(f'{directory}/index.md', 'w+', encoding='utf-8') as f:
+                f.write(frontmatter.dumps(post))
 
 
 if __name__ == '__main__':
