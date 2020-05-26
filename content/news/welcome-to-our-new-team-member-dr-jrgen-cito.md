@@ -15,5 +15,7 @@ summary: ''
 tags: []
 title: Welcome to our new team member Dr. Jürgen Cito!
 ---
+Welcome to our new team member, Dr. Jürgen Cito, who recently started as an Assistant Professor for Software Engineering.
+He will be teaching [Web Engineering](https://web-engineering-tuwien.github.io/) in SS20. 
 
 {{% mention "juergen-cito" %}}
