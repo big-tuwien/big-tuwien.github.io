@@ -1,0 +1,43 @@
+name: Fetch Member Data
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ content ]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 3 * * 0'  # "At 03:00 on Sunday."
+
+defaults:
+  run:
+    shell: bash
+    working-directory: scripts/fetch
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  fetch:
+    runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        python-version: [2.7, 3.5, 3.6, 3.7, 3.8]
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Fetch updates
+        run: python fetch.py -mo  # Fetch members and override existing records
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply weekly member data updates
