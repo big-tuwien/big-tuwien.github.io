@@ -48,7 +48,7 @@ def _get_semesters(at=datetime.datetime.now(), summer_term_start=3, winter_term_
     current = f'{year}{term}'
 
     # get the past semester
-    if term is 'W':
+    if term == 'W':
         term = 'S'
     else:
         term = 'W'
@@ -177,7 +177,7 @@ def load_publications(researchers, bib_db, author_transform_map, session=request
         xml = xmltodict.parse(content, encoding='utf-8')['export']  # get root element
         if 'publikation' not in xml:
             continue
-        result = xml['publikation'] if type(xml['publikation']) is list else [xml['publikation']]
+        result = xml['publikation'] if type(xml['publikation']) == list else [xml['publikation']]
         publications.extend(result)
 
     for pub in publications:
