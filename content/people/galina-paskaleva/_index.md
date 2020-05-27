@@ -9,9 +9,11 @@ pairs:
   link: mailto:paskaleva@big.tuwien.ac.at
   value: paskaleva@big.tuwien.ac.at
 - key: Phone
-  link: tel:+43 (1) 58801 - 20652
-  value: +43 (1) 58801 - 20652
-role: Univ.Ass. Dipl.-Ing.
+  link: tel:+43 (1) 58801 207225
+  value: +43 (1) 58801 207225
+- key: Location
+  value: HD0205
+role: Projektass. Dipl.-Ing.
 superuser: false
 user_groups:
 - Researchers

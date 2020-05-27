@@ -9,11 +9,11 @@ pairs:
   link: mailto:marek.straka@tuwien.ac.at
   value: marek.straka@tuwien.ac.at
 - key: Phone
-  link: tel:+43 (1) 58801 - 194304
-  value: +43 (1) 58801 - 194304
+  link: tel:+43 (1) 58801 194304
+  value: +43 (1) 58801 194304
 - key: Location
   value: HG0209
-role: Ing.
+role: null
 superuser: false
 user_groups:
 - Administration

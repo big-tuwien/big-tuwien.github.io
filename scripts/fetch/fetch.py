@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import re
+from os.path import basename, normpath
 
 import bibtexparser
 import requests
@@ -21,6 +22,7 @@ SEMINAR_PROJECT_COURSE_TYPES = ['SE', 'PV', 'PR']
 TISS_BASE = 'https://tiss.tuwien.ac.at'
 PUBLIK_BASE = 'https://publik.tuwien.ac.at'
 PEOPLE_URL = f'{TISS_BASE}/api/orgunit/v22/id/{BIG_TID}?persons=true'
+PERSON_DETAIL_URL = TISS_BASE + '/api/person/v22/id/{}'
 COURSE_URL = TISS_BASE + '/api/course/lecturer/{}'
 PUBLICATION_URL = f'{PUBLIK_BASE}/pubexport.php'
 BIBTEX_URL = f'{PUBLIK_BASE}/pubbibtex.php'
@@ -278,6 +280,10 @@ def main():
                            help='provide the path of the config file. Defaults to "config.yml"',
                            default=os.path.dirname(__file__) + '/config.yml',
                            metavar='PATH', dest='config_path')
+    argparser.add_argument('-g' '--groups',
+                           help='provide the path of the group config file. Defaults to "groups.yml"',
+                           default=os.path.dirname(__file__) + '/groups.yml',
+                           metavar='PATH', dest='group_config_path')
     argparser.add_argument('-b', '--base',
                            help='provide the project base dir. Defaults to "../.."',
                            default=os.path.dirname(__file__) + '/../..',
@@ -297,7 +303,7 @@ def main():
     base_dir = args.base_path.rstrip('/')
     data_dir = base_dir + '/data'
     content_dir = base_dir + '/content'
-    people_dir = base_dir + '/people'
+    people_dir = content_dir + '/people'
     publication_dir = content_dir + '/publication'
 
     template_dir = 'templates'
@@ -310,37 +316,61 @@ def main():
             print('Cannot read config file: ', e)
             return
 
+    # load group config
+    with open(args.group_config_path, 'r', encoding='utf-8') as yml:
+        try:
+            group_config = yaml.safe_load(yml)
+        except yaml.YAMLError as e:
+            print('Cannot read group config file: ', e)
+            return
+
     s = requests.Session()
 
     # fetch members
     r = s.get(PEOPLE_URL)
     data = r.json()
-    people = data['employees']
+    tiss_employees = data['employees']
 
     # add identifiers
-    for person in people:
+    for person in tiss_employees:
         person['identifier'] = _id(person['first_name'] + ' ' + person['last_name'])
 
     # apply whitelist
     print('Applying people whitelist')
-    whitelist = [_id(name) for name in config['people']['whitelist']]
-    people = [p for p in people if p['identifier'] in whitelist]
+
+    groups = group_config['groups']
+    name_grouped_people = {}
+    for group_name, group_members in groups.items():
+        for name in group_members:
+            if name not in name_grouped_people:
+                name_grouped_people[name] = group_name
+    id_grouped_people = dict((_id(k), v) for k, v in name_grouped_people.items())
+
+    tiss_employees = [p for p in tiss_employees if p['identifier'] in id_grouped_people.keys()]
 
     if args.fetch_members:
         print('Fetching people. Creating files for new people in the "content/authors" directory')
 
-        for person in people:
+        # apply data from TISS to profiles (and create new pages)
+        # only profiles listed in the group config will be handled
+        for person in tiss_employees:
             first_name = person['first_name']
             last_name = person['last_name']
             name = f'{first_name} {last_name}'
             directory = f'{people_dir}/{person["identifier"]}'
+            template_source = template_dir + '/authors/user/_index.md'
 
             # create folder
             if not os.path.exists(directory):
+                # dir does not exist
                 print(f'Creating author files for {name}')
                 os.makedirs(directory)
             elif not args.override:
+                # dir does exist, but override is disabled
                 continue
+            else:
+                # dir does exist
+                template_source = directory + '/_index.md'
 
             # download profile pic or copy default
             pic_dest = directory + '/avatar.jpg'
@@ -350,23 +380,66 @@ def main():
                 shutil.copyfile(template_dir + '/authors/user/avatar.jpg', pic_dest)
 
             # apply metadata to markdown front matter
-            post = frontmatter.load(template_dir + '/authors/user/_index.md')
+            post = frontmatter.load(template_source)
+
+            pairs = []
+            if 'pairs' in post:
+                pairs = post['pairs']
+
+            email = person["main_email"]
+            big_mails = list(filter(lambda mail: '@big.tuwien.ac.at' in mail, person['other_emails']))
+            if len(big_mails) > 0:
+                email = big_mails[0]
+
+            mail_pair = {'key': 'Mail', 'value': email, 'link': f'mailto:{email}'}
+
+            phone = person['main_phone_number']
+            phone_pair = None
+            if phone:
+                phone_pair = {'key': 'Phone', 'value': phone, 'link': f'tel:{phone}'}
+
+            room_pair = None
+            if 'room_code' in person:
+                room = person['room_code']
+                room_pair = {'key': 'Location', 'value': room}
+
+            remaining_pairs = list(filter(
+                lambda p: 'key' not in p or (p['key'] != 'Mail' and p['key'] != 'Phone' and p['key'] != 'Location'),
+                pairs
+            ))
+
+            pairs = [mail_pair]
+            if phone_pair:
+                pairs.append(phone_pair)
+            if room_pair:
+                pairs.append(room_pair)
+            pairs.extend(remaining_pairs)
+
             post['name'] = name
+            post['email'] = email
             post['authors'] = [person["identifier"]]
             post['role'] = person['preceding_titles']
-            post['email'] = person['main_email']
-            pairs = [{'key': 'Mail', 'value': person["main_email"], 'link': f'mailto:{person["main_email"]}'}]
-            if person['main_phone_number']:
-                pairs.append(
-                    {'key': 'Phone', 'value': person["main_phone_number"], 'link': f'tel:{person["main_phone_number"]}'}
-                )
             post['pairs'] = pairs
+
             with open(f'{directory}/_index.md', 'w+', encoding='utf-8') as f:
+                f.write(frontmatter.dumps(post))
+
+        # adjust groups for all profiles
+        default_group = group_config['default']
+        existing_profiles = [f.path for f in os.scandir(people_dir) if f.is_dir()]
+        for profile_path in existing_profiles:
+            folder_id = basename(normpath(profile_path))
+            group = id_grouped_people.get(folder_id, default_group)
+
+            index_file = profile_path + '/_index.md'
+            post = frontmatter.load(index_file)
+            post['user_groups'] = [group]
+            with open(index_file, 'w+', encoding='utf-8') as f:
                 f.write(frontmatter.dumps(post))
 
         if args.debug:
             with open(f'{data_dir}/people.json', 'w+', encoding='utf-8') as f:
-                f.write(json.dumps(people, indent=4))
+                f.write(json.dumps(tiss_employees, indent=4))
 
     if args.fetch_courses:
         # fetch courses. has to be done separately for each person
@@ -378,7 +451,7 @@ def main():
         semesters = [current_semester, prev_semester]
 
         lecturer_blacklist = [_id(name) for name in config['courses']['blacklist']]
-        lecturers = [p for p in people if p['identifier'] not in lecturer_blacklist]
+        lecturers = [p for p in tiss_employees if p['identifier'] not in lecturer_blacklist]
 
         for semester in semesters:
             print(f'Fetching courses for semester {semester}')
@@ -391,10 +464,10 @@ def main():
     if args.fetch_publications:
         # fetch publications
         publisher_blacklist = [_id(name) for name in config['publications']['blacklist']]
-        publishers = [p for p in people if p['identifier'] not in publisher_blacklist]
+        publishers = [p for p in tiss_employees if p['identifier'] not in publisher_blacklist]
 
         print('Fetching BibTeX records')
-        bib_db = load_bibtex(publishers)
+        bib_db = load_bibtex(publishers, session=s)
 
         print('Fetching publications')
         publications, posts = load_publications(publishers, bib_db, config['publications']['transform'], session=s)

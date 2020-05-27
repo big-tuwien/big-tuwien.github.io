@@ -1,18 +1,18 @@
 ---
 authors:
-- gerti-kappel
+- gertrude-kappel
 bio: null
 email: gerti@big.tuwien.ac.at
-name: Gerti Kappel
+name: Gertrude Kappel
 pairs:
 - key: Mail
   link: mailto:gerti@big.tuwien.ac.at
   value: gerti@big.tuwien.ac.at
 - key: Phone
-  link: tel:+43 (1) 58801 - 18870
-  value: +43 (1) 58801 - 18870
+  link: tel:+43 (1) 58801 18870
+  value: +43 (1) 58801 18870
 - key: Location
-  value: HC 02 15
+  value: HC0215
 - key: Office hours
   value: only by appointment via e-mail
 role: O.Univ.Prof. Dipl.-Ing. Mag. Dr.techn.

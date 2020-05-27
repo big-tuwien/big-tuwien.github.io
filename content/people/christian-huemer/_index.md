@@ -9,10 +9,8 @@ pairs:
   link: mailto:huemer@big.tuwien.ac.at
   value: huemer@big.tuwien.ac.at
 - key: Phone
-  link: tel:+43 (1) 58801 - 18882
-  value: +43 (1) 58801 - 18882
-- key: Location
-  value: HG0201
+  link: tel:+43 (1) 58801 18882
+  value: +43 (1) 58801 18882
 - key: Office hours
   value: see profile
 role: Ao.Univ.Prof. Mag.rer.soc.oec. Dr.rer.soc.oec.

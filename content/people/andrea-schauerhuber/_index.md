@@ -2,10 +2,10 @@
 authors:
 - andrea-schauerhuber
 bio: null
-email: 
+email: null
 name: Andrea Schauerhuber
-pairs:
-role: 
+pairs: null
+role: null
 superuser: false
 user_groups:
 - Visitors and Friends

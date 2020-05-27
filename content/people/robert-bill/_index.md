@@ -2,20 +2,17 @@
 authors:
 - robert-bill
 bio: null
-email: robert.bill@big.tuwien.ac.at
+email: bill@big.tuwien.ac.at
 name: Robert Bill
 pairs:
 - key: Mail
-  link: mailto:robert.bill@big.tuwien.ac.at
-  value: robert.bill@big.tuwien.ac.at
-- key: Phone
-  link: tel:+43 (1) 58801 - 188316
-  value: +43 (1) 58801 - 188316
+  link: mailto:bill@big.tuwien.ac.at
+  value: bill@big.tuwien.ac.at
 - key: Location
   value: HG0206
 - key: Office hours
   value: by appointment
-role: Projektass. Dipl.-Ing. Dr.techn.
+role: Dipl.-Ing. Dr.techn.
 superuser: false
 user_groups:
 - Researchers

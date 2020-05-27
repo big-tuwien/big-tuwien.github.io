@@ -8,9 +8,7 @@ pairs:
 - key: Mail
   link: mailto:juergen.cito@tuwien.ac.at
   value: juergen.cito@tuwien.ac.at
-- key: Location
-  value: HD0209
-role: Univ.Ass. Dipl.-Ing. Dr.sc. BSc
+role: Assistant Prof. Dipl.-Ing. Dr.sc.
 superuser: false
 user_groups:
 - Professors

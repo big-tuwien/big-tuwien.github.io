@@ -9,11 +9,13 @@ pairs:
   link: mailto:wimmer@big.tuwien.ac.at
   value: wimmer@big.tuwien.ac.at
 - key: Phone
-  link: tel:+43 (1) 58801 - 18829
-  value: +43 (1) 58801 - 18829
+  link: tel:+43 (1) 58801 18829
+  value: +43 (1) 58801 18829
+- key: Location
+  value: HG0219
 - key: Office hours
   value: only by appointment
-role: Assistant Prof. Mag.rer.soc.oec. Dr.rer.soc.oec.
+role: Privatdoz. Mag.rer.soc.oec. Dr.rer.soc.oec.
 superuser: false
 user_groups:
 - Former Staff

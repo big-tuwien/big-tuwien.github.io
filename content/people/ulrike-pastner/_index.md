@@ -2,17 +2,14 @@
 authors:
 - ulrike-pastner
 bio: null
-email: pastner@big.tuwien.ac.at
+email: ulrike.pastner@tuwien.ac.at
 name: Ulrike Pastner
 pairs:
 - key: Mail
-  link: mailto:pastner@big.tuwien.ac.at
-  value: pastner@big.tuwien.ac.at
-- key: Phone
-  link: tel:+43 (1) 58801 - 194333
-  value: +43 (1) 58801 - 194333
+  link: mailto:ulrike.pastner@tuwien.ac.at
+  value: ulrike.pastner@tuwien.ac.at
 - key: Location
-  value: HG 0204
+  value: HG0204
 - key: Office hours
   value: by appointment via e-mail
 role: Mag. Dr.
