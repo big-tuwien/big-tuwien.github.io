@@ -278,15 +278,15 @@ def main():
                            dest='override')
     argparser.add_argument('-C', '--config',
                            help='provide the path of the config file. Defaults to "config.yml"',
-                           default=os.path.dirname(__file__) + '/config.yml',
+                           default='config.yml',
                            metavar='PATH', dest='config_path')
     argparser.add_argument('-g' '--groups',
                            help='provide the path of the group config file. Defaults to "groups.yml"',
-                           default=os.path.dirname(__file__) + '/groups.yml',
+                           default='groups.yml',
                            metavar='PATH', dest='group_config_path')
     argparser.add_argument('-b', '--base',
                            help='provide the project base dir. Defaults to "../.."',
-                           default=os.path.dirname(__file__) + '/../..',
+                           default='../..',
                            metavar='PATH', dest='base_path')
     argparser.add_argument('-d', '--debug',
                            help='dumps fetched data to the /data directory', action='store_true',
