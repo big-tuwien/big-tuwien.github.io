@@ -1,0 +1,18 @@
+{
+  "name": "BIG TU Wien",
+  "short_name": "BIG TU Wien",
+  "lang": "en-us",
+  "theme_color": "#006bab",
+  "background_color": "#006bab",
+  "icons": [{
+    "src": "/images/icon_hu4b513d9a4c8addbc21b4395edd7bc835_1231_192x192_fill_lanczos_center_2.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/images/icon_hu4b513d9a4c8addbc21b4395edd7bc835_1231_512x512_fill_lanczos_center_2.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}

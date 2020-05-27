@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Offered Topics | BIG TU Wien</title><link>https://big.tuwien.ac.at/offered-topic/</link><atom:link href="https://big.tuwien.ac.at/offered-topic/index.xml" rel="self" type="application/rss+xml"/><description>Offered Topics</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© by Business Informatics Group (BIG), TU Wien, 2020</copyright><lastBuildDate>Sat, 25 Apr 2020 20:45:21 +0200</lastBuildDate><image><url>https://big.tuwien.ac.at/images/logo_hub5239f9a002a777103d549dfca2a9392_18033_300x300_fit_lanczos_2.png</url><title>Offered Topics</title><link>https://big.tuwien.ac.at/offered-topic/</link></image><item><title>Web IDEs &amp; Language Server Protocol (LSP) – in collaboration with EclipseSource</title><link>https://big.tuwien.ac.at/offered-topic/web-ides-lsp-eclipse/</link><pubDate>Sat, 25 Apr 2020 20:45:21 +0200</pubDate><guid>https://big.tuwien.ac.at/offered-topic/web-ides-lsp-eclipse/</guid><description>&lt;p>There is currently a large hype surrounding Web IDEs and the
+&lt;a href="https://microsoft.github.io/language-server-protocol/overview" target="_blank" rel="noopener">language server protocol (LSP)&lt;/a>.
+LSP provides a very flexible and well-proven architecture for implementing textual editors. It allows to reuse editor
+implementations for different languages by decoupling editor implementations from language implementations in so-called
+language servers. Through this decoupling, also Web-based IDEs become easily implementable.&lt;/p>
+&lt;p>Wouldn’t it be cool to use a similar protocol and architecture for graphical modeling languages, too? Following in the
+footsteps of LSP, this would make it possible to implement a “generic diagram editor” that talks to a graphical language
+server, retrieving information on the modeling language such as how nodes are rendered, how they can be connected, or
+which elements can be created from a palette.&lt;/p>
+&lt;p>A protocol-based implementation for graphical editors in the web sounds like an obvious follow-up of LSP. However,
+diagrams are not the same as source code, they have fundamentally different editing features, such as complex
+combinations of shapes that can be connected, resized, or nested with drag and drop. To find out what’s possible and
+what makes sense, we have started the implementation of a proof of concept for such a Graphical Language Server
+Protocol (GLSP) along with demonstrators for language servers and generic diagram editors.&lt;/p>
+&lt;p>The obvious starting point for this was the open source framework
+&lt;a href="https://projects.eclipse.org/proposals/eclipse-sprotty" target="_blank" rel="noopener">Sprotty&lt;/a>, a new graphical framework in the Eclipse ecosystem.
+It already contains a protocol (an extension to LSP) to synchronize graphs from a server to the client. Therefore,
+we started to extend Sprotty by new protocol parts, such as editing, a palette concept, and possible node references.&lt;/p>
+&lt;p>We are offering Bachelor’s theses, Master’s theses, as well as internships around this topic. The focus of your work
+can be chosen individually. Possible topics are for example the following:&lt;/p>
+&lt;ul>
+&lt;li>The extension and evaluation of the GLSP protocol&lt;/li>
+&lt;li>The implementation and evaluation of a particular language server (e.g., for UML)&lt;/li>
+&lt;li>The development of novel interaction features of Web-based diagram editors&lt;/li>
+&lt;li>The improvement of the user experience (UX) of Web-based diagram editors&lt;/li>
+&lt;/ul>
+&lt;p>If you are interested in this topic, contact Dr. Philip Langer from the company
+&lt;a href="https://eclipsesource.com/about/company/eclipsesource-services/" target="_blank" rel="noopener">EclipseSource&lt;/a>
+(
+&lt;a href="mailto:planger@eclipsesource.com">planger@eclipsesource.com&lt;/a> ), who will supervise your work on this topic.&lt;/p></description></item><item><title>Entwicklung von Datenzugriffsmechanismen für CAD</title><link>https://big.tuwien.ac.at/offered-topic/datenschutzmechanismen-cad/</link><pubDate>Sat, 25 Apr 2020 20:44:58 +0200</pubDate><guid>https://big.tuwien.ac.at/offered-topic/datenschutzmechanismen-cad/</guid><description>&lt;p>Für folgende Studienrichtungen:&lt;/p>
+&lt;ul>
+&lt;li>066 443 Masterstudium Architektur,&lt;/li>
+&lt;li>066 444 Masterstudium Building Science and Technology,&lt;/li>
+&lt;li>066 505 Masterstudium Bauingenieurwissenschaften,&lt;/li>
+&lt;li>066 937 Masterstudium Software Engineering &amp;amp; Internet Computing,&lt;/li>
+&lt;li>066 932 Masterstudium Visual Computing,&lt;/li>
+&lt;li>066 935 Masterstudium Media and Human-Centered Computing,&lt;/li>
+&lt;li>066 931 Masterstudium Logik and Computation&lt;/li>
+&lt;li>066 936 Masterstudium Medizinische Informatik&lt;/li>
+&lt;/ul>
+&lt;p>Angebotene Sprachen: Deutsch oder Englisch&lt;/p>
+&lt;p>&lt;strong>Das Thema wird als Projektarbeit mit Option zur Durchführung einer Diplomarbeit vergeben!&lt;/strong>&lt;/p>
+&lt;h3 id="beschreibung-de">Beschreibung DE&lt;/h3>
+&lt;p>Unter Building Information Modeling (BIM) versteht man einerseits den Austausch von geometrischen Daten, die mit
+Meta-Information angereichert wurden, und andererseits das gleichzeitige Bearbeiten des gleichen Gebäudemodels
+durch alle beteiligten Fachrichtungen – von Architektur bis zur Gebäudeautomatisierung.
+Diverse Computer Aided Design (CAD) Programme implementieren Teile von BIM. Ziel dieser Projektarbeit ist, ein
+bekanntes CAD Tool auf BIM-Tauglichkeit zu untersuchen, indem klar vordefinierte Tests über die zur Verfügung
+stehenden Application Programming Interface (API) durchgeführt werden.
+Der oder die Masterstudent_In sollte Erfahrung mit CAD-Tools haben – Zeichnen von Vorentwurfsplänen, Bemaßung,
+Erstellung von dynamischen Bibliothekselementen, Plandruck und Datenaustausch zwischen CAD-Tools. Weiter ist
+Erfahrung mit dem Entwickeln von Plug-Ins für CAD-Tools notwendig, und mindestens Grundkenntnisse in mehreren der
+dazu verwendeten Programmiersprachen – z.B. Visual Basic for Applications (VBA) und C#.&lt;/p>
+&lt;p>&lt;strong>The topic is assigned as project work with an option to write a diploma thesis!&lt;/strong>&lt;/p>
+&lt;h3 id="beschreibung-en">Beschreibung EN&lt;/h3>
+&lt;p>Building Information Modeling (BIM) has a twofold meaning. On the one hand, it describes the exchange of geometry
+data enriched by meta-information. On the other hand, it stands for the entire process of interdisciplinary planning
+of a building – with the simultaneous engagement of all stakeholders in the development of a common model containing
+all relevant information.
+Multiple Computer Aided Design (CAD) tools implement parts of BIM. The goal of this project is to evaluate the
+BIM-fitness of a well-known CAD tool by performing pre-defined tests. Those will assess its BIM-functionality via
+the available Application Programming Interface (API).
+The master student should have experience in using CAD-Tools – drawing of building plans during the design phase,
+dimensioning, creation of dynamic library elements, plan layout and CAD data exchange, at least. Furthermore, the
+student should have experience in developing plug-ins for CAD-Tools, and at least basic knowledge of some of the used
+programming languages – e.g., Visual Basic for Applications (VBA) and c#.&lt;/p></description></item><item><title>Entwicklung von Datenzugriffsmechanismen für CAD Werkzeuginteroperabilität</title><link>https://big.tuwien.ac.at/offered-topic/datenschutzmechanismen-cad-werkzeuginterop/</link><pubDate>Sat, 25 Apr 2020 20:44:58 +0200</pubDate><guid>https://big.tuwien.ac.at/offered-topic/datenschutzmechanismen-cad-werkzeuginterop/</guid><description>&lt;p>Für folgende Studienrichtungen:&lt;/p>
+&lt;ul>
+&lt;li>066 937 Masterstudium Software Engineering &amp;amp; Internet Computing,&lt;/li>
+&lt;li>066 932 Masterstudium Visual Computing,&lt;/li>
+&lt;li>066 935 Masterstudium Media and Human-Centered Computing&lt;/li>
+&lt;/ul>
+&lt;p>Angebotene Sprachen: Deutsch oder Englisch&lt;/p>
+&lt;h3 id="beschreibung-de">Beschreibung DE&lt;/h3>
+&lt;p>Unter Building Information Modeling (BIM) versteht man einerseits den Austausch von geometrischen Daten, die mit
+Meta-Information angereichert wurden, und andererseits das gleichzeitige Bearbeiten des gleichen Gebäudemodels
+durch alle beteiligten Fachrichtungen – von Architektur bis zur Gebäudeautomatisierung.
+Diverse Computer Aided Design (CAD) Programme implementieren Teile von BIM. Ziel dieser Diplomarbeit ist,
+BIM-Tauglichkeitskriterien zu Evaluierung von CAD Software zu formulieren, und diese dann anhand von praktischen Tests
+über die zur Verfügung stehenden Application Programming Interface (API) an einem CAD-Tool durchzuführen und zu
+dokumentieren. Der Schwerpunkt der Evaluierung liegt bei der Werkzeuginteroperabilität.
+Der oder die Masterstudent_In sollte Erfahrung mit CAD-Tools haben – zumindest mit Zeichnen und Datenaustausch zwischen
+CAD-Tools. Weiter ist Erfahrung mit dem Entwickeln von Plug-Ins, insbesondere für CAD-Tools, notwendig, und solide
+Kenntnisse in den dazu verwendeten Programmiersprachen – z.B., Visual Basic fror Applications (VBA) und C#.&lt;/p>
+&lt;h3 id="beschreibung-en">Beschreibung EN&lt;/h3>
+&lt;p>Building Information Modeling (BIM) has a twofold meaning. On the one hand, it describes the exchange of geometry
+data enriched by meta-information. On the other hand, it stands for the entire process of interdisciplinary planning
+of a building – with the simultaneous engagement of all stakeholders in the development of a common model containing
+all relevant information.
+Multiple Computer Aided Design (CAD) tools implement parts of BIM. The goal of this master thesis is to formulate
+evaluation criteria for the BIM-fitness of CAD tools. Those will be tested by constructing, performing and documenting
+tests on one CAD tool via the available Application Programming Interface (API). The focus of the evaluation is the
+interoperability between CAD tools.
+The master student should have some experience in using CAD tools – drawing and CAD data exchange between CAD tools,
+at least. Furthermore, the student should have experience in developing plug-ins, in particular for CAD-Tools, and
+solid knowledge of the used programming languages – e.g., Visual Basic for Applications (VBA) and C#.&lt;/p></description></item><item><title>Various topics in the context of B2B electronic commerce</title><link>https://big.tuwien.ac.at/offered-topic/b2b-electronic-commerce/</link><pubDate>Sat, 25 Apr 2020 20:44:58 +0200</pubDate><guid>https://big.tuwien.ac.at/offered-topic/b2b-electronic-commerce/</guid><description>&lt;p>If you are interested in this topic, please contact Christian Huemer and Philipp Liegl.&lt;/p>
+&lt;p>In order to allow two enterprises to engage in an electronic business transaction, an agreement on the exact exchange
+order of electronic business documents (i.e., business process choreography) and an agreement on the exact structure of
+the exchanged business documents is necessary. Appropriate methods and tools for finding such agreements have been
+researched during the course of the research project
+&lt;a href="http://www.big.tuwien.ac.at/projects/8" target="_blank" rel="noopener">BSopt&lt;/a>.
+The goal of the current research project ERPEL (E-Business Registry Permitting Enterprise Liaisons) is to provide the
+necessary infrastructure, allowing enterprises to seamlessly exchange electronic documents between their systems.
+Thereby, ERPEL aims to integrate ERP (Enterprise Resource Planning) systems of different size and functionality,
+in order to allow business partners to conduct electronic transactions between each other.&lt;/p>
+&lt;p>In the context of the ERPEL project we are looking for students interested in the following topics:&lt;/p>
+&lt;ul>
+&lt;li>Microsoft Dynamics NAV Add-On. The scope of this thesis is the definition and implementation of an Add-On for
+Microsoft Dynamics NAV within the context of the Project ERPEL.
+Requirements:
+&lt;a href="http://en.wikipedia.org/wiki/C/AL" target="_blank" rel="noopener">C/AL&lt;/a>, C/SIDE, SOA.&lt;/li>
+&lt;li>Open-source Enterprise Application Integration: The scope of this thesis is to design/implement an EAI prototype
+using Open Source Technologies. Thorough skills in Java, Apache Camel, and Apache ActiveMQ are required.&lt;/li>
+&lt;/ul>
+&lt;p>For further information please contact Philipp Liegl or have a look at the
+&lt;a href="http://www.erpel.at" target="_blank" rel="noopener">ERPEL project page&lt;/a>.&lt;/p></description></item><item><title>Reputationssystem für Web of Needs</title><link>https://big.tuwien.ac.at/offered-topic/reputation-web-of-needs/</link><pubDate>Sat, 25 Apr 2020 20:44:41 +0200</pubDate><guid>https://big.tuwien.ac.at/offered-topic/reputation-web-of-needs/</guid><description>&lt;p>Die Basis für die Diplomarbeit bildet Web of Needs (WoN), welches vom Research Studio Smart Agent Technologies (SAT) in
+Kooperation mit der Business Informatics Group (BIG) der TU Wien entwickelt wird. Grundlegende Infos zum Web of
+Needs findet Ihr unter: &lt;a href="https://sat.researchstudio.at/en/web-of-needs">https://sat.researchstudio.at/en/web-of-needs&lt;/a>&lt;/p>
+&lt;p>In vielen Webplattformen bewerten TeilnehmerInnen einander, nachdem sie miteinander interagiert haben.
+Diese Bewertungen sind für andere direkt oder aggregiert einsehbar und bilden die Basis für die Reputation der
+TeilnehmerInnen. Die Plattform kann diese Reputation jederzeit berechnen, da die ‘closed world assumption’ hier gilt –
+sämtliche relevanten Informationen stehen der Plattform zur Verfügung (die Liste aller BenutzerInnenkonten,
+sowie sämtliche Transaktionen und Bewertungen). Bei Web of Needs, einem dezentralen System, kann diese Annahme nicht
+gemacht werden. Jede TeilnehmerIn des Systems kann beliebig viele Identitäten erzeugen, und man kann nie von
+vollständiger Information ausgehen. Im Rahmen der Diplomarbeit soll ein Ansatz entwickelt werden, der den Aufbau von
+Reputation in WoN durch gegenseitige Bewertung ermöglicht, sodass diese durch Dritte nachvollzogen werden kann, und
+dies nach Möglichkeit so, dass die Auswirkungen auf die Privatsphäre der BenutzerInnen gering gehalten werden.&lt;/p>
+&lt;p>Die Arbeit besteht aus einem konzeptionell-theoretischen und einem praktischen Teil, in dem die open source
+Implementierung von WoN auf GitHub in enger Kooperation mit dem bestehenden Team erweitert werden soll.&lt;/p>
+&lt;p>Die Arbeit wird von ao. Univ.-Prof. Dr. Christian Huemer von der Business Informatics Group und wissenschaftlicher
+Leiter des Research Studios SAT sowie dem operativen Leiter des Research Studios SAT Dipl.-Ing. Florian Kleedorfer
+betreut.&lt;/p></description></item><item><title>Modeling Framework for Smart Production Environments</title><link>https://big.tuwien.ac.at/offered-topic/modeling-framework-spe/</link><pubDate>Sat, 25 Apr 2020 20:44:27 +0200</pubDate><guid>https://big.tuwien.ac.at/offered-topic/modeling-framework-spe/</guid><description>&lt;p>If you are interested, please contact Christian Huemer or Bernhard Wally.&lt;/p>
+&lt;p>&lt;em>Model-driven approach&lt;/em> to tackle the challenges of vertical and horizontal integration in the production industry.&lt;/p>
+&lt;p>This thesis consists of an implementation part with the goal to provide a running modeling environment based on either
+the
+&lt;a href="http://www.eclipse.org/modeling/" target="_blank" rel="noopener">Eclipse modeling framework&lt;/a>, or the
+&lt;a href="https://www.adoxx.org/" target="_blank" rel="noopener">ADOxx meta-modeling platform&lt;/a>.&lt;/p>
+&lt;p>Smart production systems require integrated systems in order to efficiently utilize data from one system level in
+another one (e.g. business data from ERP systems for the configuration of production systems). However,
+typically a plethora of non-integrated tools is used in real production systems. We therefore propose a
+standards-driven approach, where systems integration is realized on an abstract level.&lt;/p>
+&lt;p>In this thesis, relevant industry standards as well as academic modeling standards are used for integrating
+runtime data across functional software domains.&lt;/p>
+&lt;p>The standards and frameworks to be considered include:&lt;/p>
+&lt;ul>
+&lt;li>Resource-Event-Agent (REA) Business Ontology&lt;/li>
+&lt;li>ISA-95 (IEC 62264)&lt;/li>
+&lt;li>AutomationML (IEC 62714)&lt;/li>
+&lt;/ul>
+&lt;p>We welcome candidates with good (meta-)modeling and software development skills.&lt;/p></description></item><item><title>Integration von Payment-Systemen in Web of Needs</title><link>https://big.tuwien.ac.at/offered-topic/payment-systems-web-of-needs/</link><pubDate>Sat, 25 Apr 2020 20:43:44 +0200</pubDate><guid>https://big.tuwien.ac.at/offered-topic/payment-systems-web-of-needs/</guid><description>&lt;p>Die Basis für die Diplomarbeit bildet Web of Needs (WoN), welches vom Research Studio Smart Agent Technologies (SAT) in Kooperation mit der Business Informatics Group (BIG) der TU Wien entwickelt wird. Grundlegende Infos zum Web of Needs findet Ihr unter: &lt;a href="https://sat.researchstudio.at/en/web-of-needs">https://sat.researchstudio.at/en/web-of-needs&lt;/a>&lt;/p>
+&lt;p>Die Integration eines Payment-Systems in eine Webplattform gehört seit Langem zum
+Standardrepertoire im Bereich Web Services und Web Development. Bei Web of Needs handelt es sich jedoch um ein dezentrales System, daher reicht die Integration einer Payment-API in einen einzigen Knoten nicht aus. Vielmehr muss die Information über die Bezahlung derart in das System integriert werden, dass sie von allen SystemteilnehmerInnen eigenständig überprüft werden kann. Für diesen Zweck soll im Zuge der Diplomarbeit ein generischer Ansatz entwickelt werden, und die Anbindung verschiedener Paymentsysteme (wie z.B. Crypto-currencies, Kreditkarten oder Banküberweisungen) untersucht und wenn möglich durchgeführt werden.&lt;/p>
+&lt;p>Die Arbeit besteht aus einem konzeptionell-theoretischen und einem praktischen Teil, in dem die open source Implementierung von WoN auf GitHub in enger Kooperation mit dem bestehenden Team erweitert werden soll.&lt;/p>
+&lt;p>Die Arbeit wird von ao. Univ.-Prof. Dr. Christian Huemer von der Business Informatics Group und wissenschaftlicher Leiter des Research Studios SAT sowie dem operativen Leiter des Research Studios SAT Dipl.-Ing. Florian Kleedorfer betreut.&lt;/p></description></item></channel></rss>
