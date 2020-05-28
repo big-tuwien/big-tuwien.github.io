@@ -128,20 +128,29 @@ def load_courses(lecturers, semester=None, session=requests.Session()):
 
 def load_publications(researchers, bib_db, author_transform_map, session=requests.Session()):
     type_map = {
-        'Dissertation': 'diss_dipl',
-        'Wissenschaftlicher Bericht': 'bericht',
+        'Herausgabe eines Bandes einer Buchreihe': 'herausgabe_buchreihe',
         'Zeitschriftenartikel': 'zeitschriftenartikel',
+        'Buchbeitrag': 'buchbeitrag',
+        'Beitrag in Tagungsband': 'beitrag_tagungsband',
         'Vortrag mit Tagungsband': 'vortrag_poster_mit_tagungsband',
         'Vortrag ohne Tagungsband': 'vortrag_poster_ohne_tagungsband',
+        'Patent (Erstanmeldung)': 'patent',
+        'Habilitationsschrift': 'habilitation',
+        'Dissertation': 'diss_dipl',
         'Diplom- oder Master-Arbeit': 'diss_dipl',
+        'Wissenschaftlicher Bericht': 'bericht',
+        'Architektur- und Städtebauentwurf': 'architektur_staedtebauentwurf',
+        'Rezension in Fach- oder überregionaler Zeitschrift': 'rezension',
+        'Teilnahme an Ausstellung mit Katalog': 'ausstellung_mit_katalog',
+        'Teilnahme an Ausstellung ohne Katalog': 'ausstellung_ohne_katalog',
+        'Nichttextl. wiss. Veröffentlichung (gem. Wissensbilanz-VO)': 'nichttextl_veroeffentlichung',
+        'Editorial in wiss. Zeitschrift': 'editorial_zeitschrift',
+        'Editorial in CD- oder Web-Tagungsband': 'editorial_beitrag_cd_tagungsband',
         'Buch-Herausgabe': 'buch_herausgabe',
         'Monographie (Erstauflage)': 'buch',
         'Monographie (Folgeauflage)': 'buch',
         'Beitrag in elektron. Zeitschrift': 'elektron_zeitschrift',
-        'Buchbeitrag': 'buchbeitrag',
-        'Beitrag in Tagungsband': 'beitrag_tagungsband',
         'Vortrag mit CD- oder Web-Tagungsband': 'vortrag_poster_mit_cd_tagungsband',
-        'Herausgabe eines Bandes einer Buchreihe': 'herausgabe_buchreihe',
         'Beitrag in CD- oder Web-Tagungsband': 'beitrag_cd_tagungsband',
         'Haupt-(Keynote-)Vortrag mit Tagungsband': 'vortrag_poster_mit_tagungsband',
         'Haupt-(Keynote-)Vortrag ohne Tagungsband': 'vortrag_poster_ohne_tagungsband',
@@ -202,9 +211,10 @@ def load_publications(researchers, bib_db, author_transform_map, session=request
         pdf_link = pub['link_pdf'] if 'link_pdf' in pub else ''
         publik_link = pub['infolink']
 
-        year = ''
+        year = '2000'
         month = '01'
         day = '01'
+        # getting the correct date is type specific and cannot be done the same way for all publications
         if 'datum_von' in pub[pub_type]:
             dateparts = pub[pub_type]['datum_von'].split('-')
             if len(dateparts) >= 3:
@@ -309,20 +319,20 @@ def main():
     template_dir = 'templates'
 
     # load config
-    with open(args.config_path, 'r', encoding='utf-8') as yml:
-        try:
+    try:
+        with open(args.config_path, 'r', encoding='utf-8') as yml:
             config = yaml.safe_load(yml)
-        except yaml.YAMLError as e:
-            print('Cannot read config file: ', e)
-            return
+    except Exception as e:
+        print('Cannot read config file: ', e)
+        return
 
     # load group config
-    with open(args.group_config_path, 'r', encoding='utf-8') as yml:
-        try:
+    try:
+        with open(args.group_config_path, 'r', encoding='utf-8') as yml:
             group_config = yaml.safe_load(yml)
-        except yaml.YAMLError as e:
-            print('Cannot read group config file: ', e)
-            return
+    except Exception as e:
+        print('Cannot read group config file: ', e)
+        return
 
     s = requests.Session()
 

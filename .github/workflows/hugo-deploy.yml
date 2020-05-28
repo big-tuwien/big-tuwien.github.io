@@ -18,6 +18,22 @@ jobs:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          cd scripts/fetch
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Fetch publications
+        run: |
+          cd scripts/fetch
+          python fetch.py -p
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
