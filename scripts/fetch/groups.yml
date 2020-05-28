@@ -1,10 +1,11 @@
-# Automatic profile creation:
+# Automatic data creation and updating:
 #   * The TISS API result contains user records that are not meant to be displayed.
-#   * This whitelist can be used to filter the result set.
+#   * This list of people can be used to filter the result set.
 #   * The script will create a profile page IF AND ONLY IF
-#     - the person's name is on the following whitelist
+#     - the person's name is on the following list
 #     - the person is a member of the BIG TISS research unit
 #     - the name matches the person's name used in TISS
+#   * The same rules apply for course and publication fetching
 default: Visitors and Friends
 groups:
   Head:
