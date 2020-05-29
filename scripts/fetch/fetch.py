@@ -350,7 +350,7 @@ def main():
         person['identifier'] = _id(person['first_name'] + ' ' + person['last_name'])
 
     # apply whitelist
-    print('Applying people whitelist')
+    print('Applying whitelist based on group config')
 
     groups = group_config['groups']
     name_grouped_people = {}

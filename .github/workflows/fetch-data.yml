@@ -1,4 +1,4 @@
-name: Fetch Member Data
+name: Fetch Data Updates
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -31,6 +31,9 @@ jobs:
 
       - name: Fetch member updates
         run: python fetch.py -mo  # Fetch members and override existing records
+
+      - name: Fetch course updates
+        run: python fetch.py -co  # Fetch courses and override existing data
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
