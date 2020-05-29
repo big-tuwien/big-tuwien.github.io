@@ -5,4 +5,4 @@
 ##### Inhaltsverzeichnis
 
 * [Inhalte]()
-* [Technische Details]()
+* [Technische Details und Wartung]()
