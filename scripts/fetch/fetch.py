@@ -16,9 +16,6 @@ import datetime
 BIG_TID = 4760
 BIG_OID = 18460477
 
-LECTURE_EXERCISE_COURSE_TYPES = ['VO', 'VU']
-SEMINAR_PROJECT_COURSE_TYPES = ['SE', 'PV', 'PR']
-
 TISS_BASE = 'https://tiss.tuwien.ac.at'
 PUBLIK_BASE = 'https://publik.tuwien.ac.at'
 PEOPLE_URL = f'{TISS_BASE}/api/orgunit/v22/id/{BIG_TID}?persons=true'
@@ -29,6 +26,7 @@ BIBTEX_URL = f'{PUBLIK_BASE}/pubbibtex.php'
 
 
 def _id(name):
+    # might need adjustments in the future, if people with non standard chars in their names join BIG.
     return name.lower().replace(' ', '-').replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue')\
         .replace('ß', 'sz').replace(' ', '')
 
@@ -105,10 +103,13 @@ def load_courses(lecturers, semester=None, session=requests.Session()):
 
     courses = list(course_dict.values())
 
-    lectures_exercises = [c for c in courses if c['courseType'] in LECTURE_EXERCISE_COURSE_TYPES]
-    seminars_projects = [c for c in courses if c['courseType'] in SEMINAR_PROJECT_COURSE_TYPES]
+    lecture_exercise_course_types = ['VO', 'VU']
+    seminar_project_course_types = ['SE', 'PV', 'PR']
+
+    lectures_exercises = [c for c in courses if c['courseType'] in lecture_exercise_course_types]
+    seminars_projects = [c for c in courses if c['courseType'] in seminar_project_course_types]
     other = [c for c in courses if c['courseType'] not in
-             (LECTURE_EXERCISE_COURSE_TYPES + SEMINAR_PROJECT_COURSE_TYPES)]
+             (lecture_exercise_course_types + seminar_project_course_types)]
 
     result = {}
 
@@ -127,6 +128,7 @@ def load_courses(lecturers, semester=None, session=requests.Session()):
 
 
 def load_publications(researchers, bib_db, author_transform_map, session=requests.Session()):
+    # this map is used to map the given type of a pub record (key) to the respective element for further information
     type_map = {
         'Herausgabe eines Bandes einer Buchreihe': 'herausgabe_buchreihe',
         'Zeitschriftenartikel': 'zeitschriftenartikel',
@@ -159,6 +161,7 @@ def load_publications(researchers, bib_db, author_transform_map, session=request
         'Posterpräsentation mit CD- oder Web-Tagungsband': 'vortrag_poster_mit_cd_tagungsband',
     }
 
+    # mappings of bibtex type to adacemic framework type
     academic_type_map = {
       'article': 2,
       'book': 5,
@@ -179,6 +182,7 @@ def load_publications(researchers, bib_db, author_transform_map, session=request
     posts = []
 
     for res in researchers:
+        # func: 1 -> only fetch publications where the person is actually an author (skip supervisions etc.)
         query = {'zuname': res['last_name'], 'vorname': res['first_name'],
                  'inst': 'E194', 'abt': '03', 'func': '1', 'lang': '2'}
         r = session.get(PUBLICATION_URL, params=query)
@@ -413,6 +417,7 @@ def main():
                 room = person['room_code']
                 room_pair = {'key': 'Location', 'value': room}
 
+            # get remaining pairs that might have been defined individually such as office hours
             remaining_pairs = list(filter(
                 lambda p: 'key' not in p or (p['key'] != 'Mail' and p['key'] != 'Phone' and p['key'] != 'Location'),
                 pairs
@@ -473,6 +478,12 @@ def main():
 
     if args.fetch_publications:
         # fetch publications
+
+        # right now publications are fetched based on the people records in TISS. If there is no TISS record
+        # in the BIG org unit for this person, no publications will be loaded.
+        # If required, this step can be skipped by splitting the names from the config into first and last name.
+        # (edge case: people with multiple first names)
+
         publisher_blacklist = [_id(name) for name in config['publications']['blacklist']]
         publishers = [p for p in tiss_employees if p['identifier'] not in publisher_blacklist]
 

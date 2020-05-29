@@ -53,4 +53,4 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-##### [Visitors and Friends]({{< ref "/visitors" >}})
+##### [Visitors and Friends](/visitors)

@@ -331,11 +331,14 @@ def migrate_news():
 
 
 def main():
+    # THIS SCRIPT WAS USED TO MIGRATE THE CONTENT OF THE OLD WEBSITE TO THE NEW ONE.
+    # PROBABLY WONT BE OF USE IN THE FUTURE
+
     # migrate_people()
     # migrate_visitors_and_friends()
-    migrate_master_theses()
-    migrate_phd_theses()
-    migrate_projects()
+    # migrate_master_theses()
+    # migrate_phd_theses()
+    # migrate_projects()
     # migrate_news()
     pass
 
