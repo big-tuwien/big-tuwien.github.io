@@ -35,10 +35,16 @@ Um die Webseite mit dem Datenstand aus TISS und der Publikationsdatenbank abzugl
 welches sich sich im Ordner `scripts/fetch` befindet. Das script bietet Funktionen um Mitgliederdaten, Kursinformationen 
 und Publikationen zu laden.
 
-Das script sollte stets aus dem eigenen Folder (`scripts/fetch` und z.B. nicht aus dem Hauptverzeichnis) aufgerufen 
+Das script sollte stets aus dem eigenen Folder (`scripts/fetch` und nicht z.B. aus dem Hauptverzeichnis) aufgerufen 
 werden, da sonst die Variablen `config`, `group_config` und `base_dir` angepasst werden müssen. Es wurde mithilfe eines
-argument parsers sichergestellt, dass einfach über das CLI mit dem script interagiert werden kann. So können mithilfe
+argument parsers sichergestellt, dass einfach über das CLI mit dem script interagiert werden kann. Daher können mithilfe
 des Aufrufs `fetch.py -h` die möglichen Optionen angezeigt werden.
+
+### Speicherorte
+
+* Mitgliederdaten: `content/people`
+* Kursdaten: `data/teaching/courses`
+* Publikationen: `content/publication`
 
 ### Konfiguration
 

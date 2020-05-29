@@ -23,7 +23,8 @@ sich beispielsweise der `archive` Ordner für News-Beiträgt unter `content/news
 **Achtung:** Für `people` ist dieses Konzept **NICHT** anwendbar. Alle Inhalte müssen sich im Hauptordner befinden.
 
 Der Kern der Seite sind die Hauptseite (`content/home`) und die Teachingseite (`content/teaching`), 
-welche in einzelne Segmente, sogenannte *widgets*, unterteilt wurde. 
+welche in einzelne Segmente, sogenannte *widgets*, unterteilt wurde. Weitere Informationen zu *widgets* können
+dieser Seite entnommen werden: [Create a widget page](https://sourcethemes.com/academic/docs/managing-content/#create-a-widget-page)
 
 ### Zuordnungen
 
@@ -101,9 +102,8 @@ angeführt: [Writing content with Markdown, LaTeX, and Shortcodes](https://sourc
 Neben der Formatierung durch Markdown, bietet `hugo-academic` noch einige Zusatzfunktionen, sogenannte *Shortcodes*,
 mit welchen das Einfügen von gewissen Inhalten wie etwa Bildern vereinfacht werden soll.
 
-Alle verfügbaren Shortcodes können hier eingesehen werden: 
-[Writing content with Markdown, LaTeX, and Shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
-
+Die verfügbaren Shortcodes können hier eingesehen werden: 
+[Writing content with Markdown, LaTeX, and Shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/)  
 Alle Informationen zu den folgenden Shortcodes können auch auf der eben genannten Seite nachgelesen werden.
 
 #### Personen verlinken
