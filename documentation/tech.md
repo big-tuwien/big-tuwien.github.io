@@ -18,6 +18,9 @@ korrespondierenden Platz in der eigenen Codebase verschoben werden. Beispielswei
 Die Webseite wurde mit Hugo `0.68.3` entwickelt und getestet. Sollten bei neueren Hugo-Versionen Fehler auftreten,
 könnte dies auf Inkompatibilität mit der Version des `hugo-adacemic` Themes zurückzuführen sein.
 
+Gehostet wird die Seite über [GitHub Pages](https://pages.github.com/). Der Inhalt der master branch wird unter
+https://big-tuwien.github.io/ eingebunden.
+
 ### Aktualisieren von hugo-academic
 
 Es befindet sich ein Script zum updaten von `hugo-academic` im Hauptverzeichnis.
@@ -29,12 +32,39 @@ angepassten Files mit der neueren Version inkompatibel sind und Fehler entstehen
 ## Script zur Datenaktualisierung
 
 Um die Webseite mit dem Datenstand aus TISS und der Publikationsdatenbank abzugleichen, wurde ein Python script geschrieben,
-welches sich sich im Ordner `scripts/fetch` befindet.
+welches sich sich im Ordner `scripts/fetch` befindet. Das script bietet Funktionen um Mitgliederdaten, Kursinformationen 
+und Publikationen zu laden.
 
+Das script sollte stets aus dem eigenen Folder (`scripts/fetch` und z.B. nicht aus dem Hauptverzeichnis) aufgerufen 
+werden, da sonst die Variablen `config`, `group_config` und `base_dir` angepasst werden müssen. Es wurde mithilfe eines
+argument parsers sichergestellt, dass einfach über das CLI mit dem script interagiert werden kann. So können mithilfe
+des Aufrufs `fetch.py -h` die möglichen Optionen angezeigt werden.
 
+### Konfiguration
+
+Das script verfügt über zwei Konfigrutationsdateien:
+* `config.yml` verfügt über die Konfiguration für courses und publications. Es können Blacklists definiert werden,
+  und Namen, bei denen es Unterschiede zwischen dem TISS und publik gibt, können umgewandelt werden. Die Basis aller
+  Blacklisten ist immer die Groups Liste.
+* `groups.yml` verfügt über die Namen der Mitglieder und Gruppierungen in der *people* Sektion auf der Hauptseite.
+  **Die Namen müssen mit den Namen aus dem TISS übereinstimmen und die Person muss in der TISS BIG Organisationseinheit 
+  eingetragen sein, sonst werden keine Daten für diese Personen geladen. Das bedeutet auch, das Gertude Kappel nicht auf 
+  Gerti Kappel umbenannt werden kann, sofern es nicht so im TISS steht.**
+  Die `default` Gruppe wird auf alle Personen angewant, die nicht explitzit in der Liste aufscheinen.
 
 ## CI/CD
 
+Um das Aktualisieren der Daten zu vereinfachen, wird dieser Prozess mithilfe von 
+[GitHub Actions](https://github.com/features/actions) automatisiert. Die Konfiguration der Workflows ist unter
+`.github/workflows` einsehbar.
+
 ### Automatisches Bauen der Webseite
 
+Bei jedem push auf die `content` branch werden die publications von [publik](https://publik.tuwien.ac.at/) geladen, 
+die Seite mit Hugo gebaut und auf den master branch gepusht. Existierende Publikationen im `content/publication` 
+werden dabei nicht überschrieben.
+
 ### Automatische Datenaktualisierung
+
+Zu einem festgelegten Zeitpunkt wird ein scheduled job ausgeführt, der alle Member- und Kursdaten aktualisiert und auf
+die content branch gepusht.

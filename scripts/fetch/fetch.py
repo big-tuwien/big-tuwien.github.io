@@ -26,7 +26,8 @@ BIBTEX_URL = f'{PUBLIK_BASE}/pubbibtex.php'
 
 
 def _id(name):
-    # might need adjustments in the future, if people with non standard chars in their names join BIG.
+    # might need adjustments in the future, if people with non standard chars in their names join BIG
+    # and those chars are unwanted in the url.
     return name.lower().replace(' ', '-').replace('ö', 'oe').replace('ä', 'ae').replace('ü', 'ue')\
         .replace('ß', 'sz').replace(' ', '')
 
@@ -458,7 +459,7 @@ def main():
 
     if args.fetch_courses:
         # fetch courses. has to be done separately for each person
-        # (fetching courses for the institute returns an empty set)
+        # as fetching courses for the institute returns an empty set
         print('Fetching courses. Creating files for courses in the "content/teaching" directory.')
 
         current_semester, prev_semester = _get_semesters()
