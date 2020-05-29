@@ -19,7 +19,7 @@ Ein Bild würde in diesem Beispiel etwa unter `content/project/projekt-a/image.j
 
 Um den Überblick zu behalten, können Dateien, die nicht länger aktuell sind, wie etwa die News-Einträge der letzten
 Jahre, ein den `archive` Ordner verschoben werden. Diese wird für jeden Inhaltstyp separat geführt. So befindet 
-sich beispielsweise der `archive` Ordner für News-Beiträgt unter `content/news/archive`.
+sich beispielsweise der `archive` Ordner für News-Beiträgt unter `content/news/archive`.  
 **Achtung:** Für `people` ist dieses Konzept **NICHT** anwendbar. Alle Inhalte müssen sich im Hauptordner befinden.
 
 Der Kern der Seite sind die Hauptseite (`content/home`) und die Teachingseite (`content/teaching`), 

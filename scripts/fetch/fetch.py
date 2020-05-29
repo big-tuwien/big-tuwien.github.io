@@ -350,7 +350,7 @@ def main():
         person['identifier'] = _id(person['first_name'] + ' ' + person['last_name'])
 
     # apply whitelist
-    print('Applying whitelist based on group config')
+    print('Applying whitelist based on group config.')
 
     groups = group_config['groups']
     name_grouped_people = {}
@@ -363,7 +363,7 @@ def main():
     tiss_employees = [p for p in tiss_employees if p['identifier'] in id_grouped_people.keys()]
 
     if args.fetch_members:
-        print('Fetching people. Creating files for new people in the "content/authors" directory')
+        print('Fetching people. Creating files for new people in the "content/authors" directory.')
 
         # apply data from TISS to profiles (and create new pages)
         # only profiles listed in the group config will be handled
@@ -377,7 +377,7 @@ def main():
             # create folder
             if not os.path.exists(directory):
                 # dir does not exist
-                print(f'Creating author files for {name}')
+                print(f'Creating author files for {name}.')
                 os.makedirs(directory)
             elif not args.override:
                 # dir does exist, but override is disabled
@@ -459,7 +459,7 @@ def main():
     if args.fetch_courses:
         # fetch courses. has to be done separately for each person
         # (fetching courses for the institute returns an empty set)
-        print('Fetching courses. Creating files for courses in the "content/teaching" directory')
+        print('Fetching courses. Creating files for courses in the "content/teaching" directory.')
 
         current_semester, prev_semester = _get_semesters()
 
@@ -469,7 +469,7 @@ def main():
         lecturers = [p for p in tiss_employees if p['identifier'] not in lecturer_blacklist]
 
         for semester in semesters:
-            print(f'Fetching courses for semester {semester}')
+            print(f'Fetching courses for semester {semester}.')
 
             courses = load_courses(lecturers, semester=semester, session=s)
 
@@ -487,10 +487,10 @@ def main():
         publisher_blacklist = [_id(name) for name in config['publications']['blacklist']]
         publishers = [p for p in tiss_employees if p['identifier'] not in publisher_blacklist]
 
-        print('Fetching BibTeX records')
+        print('Fetching BibTeX records.')
         bib_db = load_bibtex(publishers, session=s)
 
-        print('Fetching publications')
+        print('Fetching publications.')
         publications, posts = load_publications(publishers, bib_db, config['publications']['transform'], session=s)
 
         if args.debug:
