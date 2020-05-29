@@ -4,5 +4,5 @@
 
 #### Inhaltsverzeichnis
 
-* [Inhalte](https://github.com/big-tuwien/big-tuwien.github.io/blob/content/documentation/content.md)
+* [Aufbereitung von Inhalten](https://github.com/big-tuwien/big-tuwien.github.io/blob/content/documentation/content.md)
 * [Technische Details und Wartung](https://github.com/big-tuwien/big-tuwien.github.io/blob/content/documentation/tech.md)

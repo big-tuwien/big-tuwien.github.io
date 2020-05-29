@@ -39,6 +39,11 @@ welche in einzelne Segmente, sogenannte *widgets*, unterteilt wurde.
 | seminar | [Recent & Upcoming Seminars](https://big-tuwien.github.io/teaching/seminars/) |
 | visitors | [Visitors and Friends](https://big-tuwien.github.io/visitors/) |
 
+### Konfigurationsdateien
+
+Gewisse Daten, wie etwa wie die Informationen der `Contact` Sektion, oder die Menüleiste müssen in den Konfigurationsdateien
+`config/_default/config.toml`, `config/_default/params.toml`, `config/_default/menus.toml` angepasst werden.
+
 ## Dateiaufbau
 
 Jede Markdown Datei (`.md`) besteht aus zwei Segmenten: einem Metadatensegment (auch *Front Matter*) und einem Inhaltssegment. 
