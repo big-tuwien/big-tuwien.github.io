@@ -38,4 +38,4 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Apply weekly member data updates
+          commit_message: Apply weekly data updates
