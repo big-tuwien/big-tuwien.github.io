@@ -118,7 +118,7 @@ def load_courses(lecturers, semester=None, session=requests.Session()):
                                 ('seminars_projects', seminars_projects),
                                 ('other', other)]:
         result[identifier] = [{
-            'authors': oids_to_author_ids(course['lecturers']['oid']),
+            'authors': sorted(oids_to_author_ids(course['lecturers']['oid'])),
             'number': course["courseNumber"],
             'url': course["url"],
             'type': course["courseType"],
