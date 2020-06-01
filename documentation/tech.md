@@ -13,7 +13,7 @@ sich bringt. Die Dateien des `hugo-academic` themes sind unter `themes/academic`
 nicht bearbeitet werden, da das Theme als `git submodule` eingebunden ist.  
 Sollen gewisse Komponenten wie etwa layouts abgeändert werden, so müssen diese aus dem `themes/academic` Ordner an den
 korrespondierenden Platz in der eigenen Codebase verschoben werden. Beispielsweise müsste 
-`themes/academic/layouts/404.html` nach `layouts/404.html` verschoben werden um bearbeitet werden zu können.
+`themes/academic/layouts/404.html` nach `layouts/404.html` verschoben werden, um bearbeitet werden zu können.
 
 Die Webseite wurde mit Hugo `0.68.3` entwickelt und getestet. Sollten bei neueren Hugo-Versionen Fehler auftreten,
 könnte dies auf Inkompatibilität mit der Version des `hugo-adacemic` Themes zurückzuführen sein.
@@ -70,7 +70,10 @@ Bei jedem push auf die `content` branch werden die publications von [publik](htt
 die Seite mit Hugo gebaut und auf den master branch gepusht. Existierende Publikationen im `content/publication` 
 werden dabei nicht überschrieben.
 
+Jegliche Konfiguration, die das Bauen der Seite betrifft, befindet sich unter `.github/workflows/hugo-deploy.yml`.
+In dieser Datei können Informationen wie etwa die output branch, oder der Inhalt des `CNAME` files festgelegt werden.
+
 ### Automatische Datenaktualisierung
 
 Zu einem festgelegten Zeitpunkt wird ein scheduled job ausgeführt, der alle Member- und Kursdaten aktualisiert und auf
-die content branch gepusht.
+die content branch pusht.

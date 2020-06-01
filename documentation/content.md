@@ -89,7 +89,7 @@ Auch Erläuterungen der häufig zum Einsaz kommenden Metadaten wird in der `hugo
 
 ### Inhalte
 
-Allgemein wird das Format *Markdown* für das Erstellen von Inhalten genutzt. Markdown bietet die Möglichkeit Text
+Allgemein wird das Format *Markdown* für das Erstellen von Inhalten genutzt. Markdown bietet die Möglichkeit, Text
 ohne weitere Konvertierung formatiert darzustellen. So wird zum Beispiel der Text `*dd*` kursiv formatiert, 
 oder `# Heading` als Überschrift. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung 
 leicht lesbar ist.
