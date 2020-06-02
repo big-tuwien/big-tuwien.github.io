@@ -18,3 +18,5 @@ superuser: false
 user_groups:
 - Researchers
 ---
+
+Michael Schröder is a PhD student advised by {{% mention "juergen-cito" %}}. 
