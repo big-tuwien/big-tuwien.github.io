@@ -3,7 +3,7 @@ authors: []
 categories: []
 date: '2020-05-18T00:00:00+02:00'
 draft: false
-featured: false
+featured: true
 image:
   caption: ''
   focal_point: ''
