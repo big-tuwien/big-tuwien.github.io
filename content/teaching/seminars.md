@@ -9,7 +9,7 @@ menu:
     name: Seminars
     weight: 5
 
-widget: pages
+widget: portfolio
 headless: true
 active: true
 weight: 50
@@ -17,17 +17,14 @@ title: Recent & Upcoming Seminars
 subtitle: ''
 content:
   page_type: seminar
-  count: 3
-  offset: 0
-  order: desc
-  filters:
-    tag: ''
-    category: ''
-    publication_type: ''
-    author: ''
-    exclude_featured: false
-    exclude_past: false
-    exclude_future: false
+  filter_default: 0
+  filter_button:
+    - name: Research Seminar
+      tag: Research Seminar
+    - name: Diploma Seminar
+      tag: Diploma Seminar
+    - name: All
+      tag: '*'
 design:
   columns: '1'
   view: 2
