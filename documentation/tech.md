@@ -77,3 +77,7 @@ In dieser Datei können Informationen wie etwa die output branch, oder der Inhal
 
 Zu einem festgelegten Zeitpunkt wird ein scheduled job ausgeführt, der alle Member- und Kursdaten aktualisiert und auf
 die content branch pusht.
+
+## Domainänderungen
+
+Sollte sich die Domain der Seite ändern, muss der `CNAME` Parameter unter `.github/workflows/hugo-deploy.yml` angepasst werden.

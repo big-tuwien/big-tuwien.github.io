@@ -63,12 +63,16 @@ Wenn ein Content-File die Front-Matter zwischen drei Minus-Zeichen `---` definie
 Anderenfalls werden die Front-Matter-Variablen zwischen drei Plus-Zeichen `+++` angelegt, wodurch das TOML-Format zum
 Einsatz kommt.
 
+Front-Matter wird in Paaren (*Schlüssel -> Wert*) angegeben. Ist eine Zeile mit `#` versehen, werden alle folgenden Zeichen
+der Zeile ignoriert. So können Wertepaare vorübergehend deaktiviert werden, ohne diese löschen zu müssen.
+
 #### YAML
 
 ```yaml
 ---
 date: 2017-12-01
 title: My first blog post
+# Comment
 ---
 ```
 
@@ -78,6 +82,7 @@ title: My first blog post
 +++
 date = 2017-12-01
 title = "My first blog post"
+# Comment
 +++
 ```
 
