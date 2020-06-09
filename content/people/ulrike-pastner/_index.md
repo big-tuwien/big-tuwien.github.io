@@ -15,5 +15,5 @@ pairs:
 role: Mag. Dr.
 superuser: false
 user_groups:
-- Former Staff
+- Visitors and Friends
 ---

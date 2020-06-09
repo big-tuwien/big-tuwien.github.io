@@ -18,7 +18,7 @@ pairs:
 role: Privatdoz. Mag.rer.soc.oec. Dr.rer.soc.oec.
 superuser: false
 user_groups:
-- Former Staff
+- Visitors and Friends
 ---
 
 ##### Short CV

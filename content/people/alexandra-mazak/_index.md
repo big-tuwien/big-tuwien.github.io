@@ -16,7 +16,7 @@ pairs:
 role: Projektass. Dipl.-Ing. Mag.rer.soc.oec. Dr.techn.
 superuser: false
 user_groups:
-- Former Staff
+- Visitors and Friends
 ---
 
 Alexandra Mazak studied Data Engineering & Statistics, Business Engineering and Computer Science as well as Computer 
