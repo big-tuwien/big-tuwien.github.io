@@ -14,4 +14,4 @@ menu:
 
 * [Meeting room second floor](http://thoas2.isis.tuwien.ac.at/Seminarroom/Reservierungsliste_Besprechungsraum_E188.xlsx)
 
-For more reservations contact [office@big.tuwien.ac.at](mailto:office@big.tuwien.ac.at)
+For reservations contact [office@big.tuwien.ac.at](mailto:office@big.tuwien.ac.at)
