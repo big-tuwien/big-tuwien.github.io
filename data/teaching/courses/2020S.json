@@ -171,5 +171,42 @@
             "title": "Research Methods"
         }
     ],
-    "other": []
+    "other": [
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "060011",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=060011&semester=2020S",
+            "type": "EX",
+            "title": "Au\u00dferordentlicher Einsatz im Zusammenhang mit Covid-19-1"
+        },
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "060012",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=060012&semester=2020S",
+            "type": "EX",
+            "title": "Au\u00dferordentlicher Einsatz im Zusammenhang mit Covid-19-2"
+        },
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "060013",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=060013&semester=2020S",
+            "type": "EX",
+            "title": "Au\u00dferordentlicher Einsatz im Zusammenhang mit Covid-19-3"
+        },
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "060014",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=060014&semester=2020S",
+            "type": "EX",
+            "title": "Au\u00dferordentlicher Einsatz im Zusammenhang mit Covid-19-4"
+        }
+    ]
 }

@@ -8,6 +8,8 @@ pairs:
 - key: Mail
   link: mailto:juergen.cito@tuwien.ac.at
   value: juergen.cito@tuwien.ac.at
+- key: Location
+  value: HG0219
 role: Assistant Prof. Dipl.-Ing. Dr.sc.
 superuser: false
 user_groups:
