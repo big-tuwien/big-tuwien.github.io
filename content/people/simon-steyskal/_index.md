@@ -9,8 +9,8 @@ pairs:
   link: mailto:steyskal@big.tuwien.ac.at
   value: steyskal@big.tuwien.ac.at
 - key: Phone
-  link: tel:+43 (1) 58801 - 188697
-  value: +43 (1) 58801 - 188697
+  link: tel:+43 (1) 58801 188697
+  value: +43 (1) 58801 188697
 - key: Location
   value: HG0206
 role: Dipl.-Ing. Dipl.-Ing.

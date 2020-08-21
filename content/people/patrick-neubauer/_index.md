@@ -9,13 +9,13 @@ pairs:
   link: mailto:neubauer@big.tuwien.ac.at
   value: neubauer@big.tuwien.ac.at
 - key: Phone
-  link: tel:+43 (1) 58801 - 188647
-  value: +43 (1) 58801 - 188647
+  link: tel:+43 (1) 58801 188647
+  value: +43 (1) 58801 188647
 - key: Location
   value: HG0206
 - key: Office hours
   value: only by appointment
-role: Projektass. Dipl.-Ing. Dott.
+role: Dipl.-Ing. Dr.techn. Dott.
 superuser: false
 user_groups:
 - Visitors and Friends

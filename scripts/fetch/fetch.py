@@ -361,8 +361,6 @@ def main():
                 name_grouped_people[name] = group_name
     id_grouped_people = dict((_id(k), v) for k, v in name_grouped_people.items())
 
-    tiss_employees = [p for p in tiss_employees if p['identifier'] in id_grouped_people.keys()]
-
     if args.fetch_members:
         print('Fetching people. Creating files for new people in the "content/authors" directory.')
 
@@ -387,12 +385,18 @@ def main():
                 # dir does exist
                 template_source = directory + '/_index.md'
 
-            # download profile pic or copy default
+            # download profile pic or copy default iff listed in group config
             pic_dest = directory + '/avatar.jpg'
-            if person['picture_uri']:
-                urllib.request.urlretrieve(TISS_BASE + person['picture_uri'], pic_dest)
+            if person['identifier'] in id_grouped_people.keys():
+                if person['picture_uri']:
+                    urllib.request.urlretrieve(TISS_BASE + person['picture_uri'], pic_dest)
+                else:
+                    shutil.copyfile(template_dir + '/authors/user/avatar.jpg', pic_dest)
             else:
-                shutil.copyfile(template_dir + '/authors/user/avatar.jpg', pic_dest)
+                try:
+                    os.remove(pic_dest)
+                except OSError:
+                    pass
 
             # apply metadata to markdown front matter
             post = frontmatter.load(template_source)
@@ -456,6 +460,9 @@ def main():
         if args.debug:
             with open(f'{data_dir}/people.json', 'w+', encoding='utf-8') as f:
                 f.write(json.dumps(tiss_employees, indent=4))
+
+    # filter fetched employees - only include members listed in group config
+    tiss_employees = [p for p in tiss_employees if p['identifier'] in id_grouped_people.keys()]
 
     if args.fetch_courses:
         # fetch courses. has to be done separately for each person

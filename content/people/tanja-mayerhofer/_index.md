@@ -2,20 +2,17 @@
 authors:
 - tanja-mayerhofer
 bio: null
-email: mayerhofer@big.tuwien.ac.at
+email: tanja.mayerhofer@tuwien.ac.at
 name: Tanja Mayerhofer
 pairs:
 - key: Mail
-  link: mailto:mayerhofer@big.tuwien.ac.at
-  value: mayerhofer@big.tuwien.ac.at
-- key: Phone
-  link: tel:+43 (1) 58801 - 188315
-  value: +43 (1) 58801 - 188315
+  link: mailto:tanja.mayerhofer@tuwien.ac.at
+  value: tanja.mayerhofer@tuwien.ac.at
 - key: Location
   value: HG0215
 - key: Office hours
   value: by appointment
-role: Univ.Ass. Dipl.-Ing. Dr.rer.soc.oec.
+role: Dipl.-Ing. Dr.rer.soc.oec.
 superuser: false
 user_groups:
 - Visitors and Friends

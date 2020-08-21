@@ -8,9 +8,6 @@ pairs:
 - key: Mail
   link: mailto:kaufmann@big.tuwien.ac.at
   value: kaufmann@big.tuwien.ac.at
-- key: Phone
-  link: tel:+43 (1) 58801 - 18814
-  value: +43 (1) 58801 - 18814
 - key: Location
   value: HB0210
 role: Mag.rer.soc.oec. Dr.rer.soc.oec.
