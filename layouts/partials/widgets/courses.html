@@ -16,10 +16,14 @@
   {{ end }}
 
   <h2>{{ $sem }}</h2>
+  {{ if (ne ($courses.lectures_exercises | len) 0) }}
   <h3>Lectures and Exercises</h3>
   <div class="full-width">{{ partial "course_table" $courses.lectures_exercises }}</div>
+  {{ end }}
+  {{ if (ne ($courses.seminars_projects | len) 0) }}
   <h3>Seminars and Projects</h3>
   <div class="full-width">{{ partial "course_table" $courses.seminars_projects }}</div>
+  {{ end }}
   {{ if (ne ($courses.other | len) 0) }}
   <h3>Other</h3>
   <div class="full-width">{{ partial "course_table" $courses.other }}</div>

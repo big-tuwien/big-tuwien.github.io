@@ -1,0 +1,16 @@
+<tr>
+    <td><a href="{{ index . "url" }}">{{ index . "number" }}</a></td>
+    <td>{{ index . "type" }}</td>
+    <td>{{ index . "title" }}</td>
+    <td>
+        {{- $len := len (index . "authors") -}}
+        {{ range $index, $username := (index . "authors") }}
+        {{- $profile_page := site.GetPage (printf "/%s/%s" "people" $username) -}}
+        {{- $name := $profile_page.Params.name | default ($username|markdownify) -}}
+        <span>
+            <a href="{{$profile_page.RelPermalink}}">{{$name}}</a>
+            {{- if lt $index (sub $len 1) -}}, {{- end -}}
+        </span>
+        {{ end }}
+    </td>
+</tr>
