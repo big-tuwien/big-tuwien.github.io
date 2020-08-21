@@ -498,7 +498,7 @@ def main():
             with open(f'{data_dir}/publications.json', 'w+', encoding='utf-8') as f:
                 f.write(json.dumps(publications, indent=4))
 
-        print(f'Storing results to "content/publication".')
+        print('Storing results to "content/publication".')
         for identifier, post in posts:
             directory = f'{publication_dir}/{identifier}'
 
