@@ -1,6 +1,6 @@
-# IDEs
-.idea/
-
-# Hugo
+# hugo
 resources/
 public/
+
+# content
+content/publication/tuw*
