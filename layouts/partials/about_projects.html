@@ -1,22 +1,32 @@
 {{/* Portfolio Widget */}}
 
 {{/* Initialise */}}
+{{ $author_name := index .person.authors 0 }}
+{{ with .context }}
+
 {{ $ := .root }}
 {{ $st := .page }}
 {{ $items_type := $st.Params.content.page_type | default "project" }}
 {{ $columns := $st.Params.design.columns | default "1" }}
 {{ $title := "Projects" }}
-{{ $author_name := index .person.authors 0 }}
 {{ $filter_button := slice (dict "name" "Ongoing" "tag" "Ongoing") (dict "name" "Finished" "tag" "Finished") (dict "name" "All" "tag" "*") }}
 {{ $items := where site.RegularPages "Type" $items_type }}
+{{ $scratch := newScratch }}
+
+{{ $scratch.Set "count_ongoing" 0 }}
 
 {{ $rows := slice }}
 {{ range $row := $items }}
 {{ $authors := apply $row.Params.authors "urlize" "." }}
 {{ if in $authors $author_name }}
 {{ $rows = $rows | append $row }}
+{{ if in $row.Params.tags "Ongoing" }}
+{{ $scratch.Add "count_ongoing" 1 }}
 {{ end }}
 {{ end }}
+{{ end }}
+
+{{ $count_ongoing := $scratch.Get "count_ongoing" }}
 
 {{ if gt (len $rows) 0 }}
 <div class="margin-auto">
@@ -29,7 +39,13 @@
 
         {{ if $filter_button }}
 
-        {{ $filter_default := 0 }}
+        {{ $scratch.Set "filter_default" 0 }}
+
+        {{ if eq $count_ongoing 0 }}
+            {{ $scratch.Add "filter_default" 1 }}
+        {{ end }}
+
+        {{ $filter_default := $scratch.Get "filter_default" }}
 
         {{/* Parse default filter tag from front matter in the form of either tag name or CSS class name. */}}
         {{ $default_filter_tag_raw := (index $filter_button ($filter_default)).tag }}
@@ -83,4 +99,5 @@
 
     </div>
 </div>
+{{ end }}
 {{ end }}
