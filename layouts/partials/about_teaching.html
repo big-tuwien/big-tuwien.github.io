@@ -7,6 +7,24 @@
 {{ $courses := getJSON (printf "%s/%s.json" $datafolder $sem) }}
 {{ $author_name := index .person.authors 0 }}
 
+{{ $rows := slice }}
+{{ range $row := $courses.lectures_exercises }}
+{{ if in $row.authors $author_name }}
+{{ $rows = $rows | append $row }}
+{{ end }}
+{{ end }}
+{{ range $row := $courses.seminars_projects }}
+{{ if in $row.authors $author_name }}
+{{ $rows = $rows | append $row }}
+{{ end }}
+{{ end }}
+{{ range $row := $courses.other }}
+{{ if in $row.authors $author_name }}
+{{ $rows = $rows | append $row }}
+{{ end }}
+{{ end }}
+
+{{ if gt (len $rows) 0 }}
 <div class="row col-lg-12 courses-widget">
     <h2>Teaching</h2>
     <div class="full-width">
@@ -20,22 +38,11 @@
                 </tr>
             </thead>
             <tbody>
-                {{range $row := $courses.lectures_exercises }}
-                {{ if in $row.authors $author_name }}
-                {{ partial "course_table_row" $row }}
-                {{ end }}
-                {{ end }}
-                {{range $row := $courses.seminars_projects }}
-                {{ if in $row.authors $author_name }}
-                {{ partial "course_table_row" $row }}
-                {{ end }}
-                {{ end }}
-                {{range $row := $courses.other }}
-                {{ if in $row.authors $author_name }}
-                {{ partial "course_table_row" $row }}
-                {{ end }}
+                {{ range $row := $rows }}
+                    {{ partial "course_table_row" $row }}
                 {{ end }}
             </tbody>
         </table>
     </div>
 </div>
+{{ end }}

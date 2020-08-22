@@ -85,8 +85,6 @@
 
     {{ $person_page.Content }}
 
-    <div class="row">
-      {{ partial "about_teaching" (dict "context" . "person" $person) }}
-    </div>
+    {{ partial "about_teaching" (dict "context" . "person" $person) }}
   </div>
 </div>
