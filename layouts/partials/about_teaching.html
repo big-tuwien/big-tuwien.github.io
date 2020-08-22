@@ -5,6 +5,7 @@
 {{ $semesters := getJSON (printf "%s/semesters.json" $datafolder) }}
 {{ $sem := index $semesters 0 }}
 {{ $courses := getJSON (printf "%s/%s.json" $datafolder $sem) }}
+{{ $title := "Teaching" }}
 {{ $author_name := index .person.authors 0 }}
 
 {{ $rows := slice }}
@@ -26,7 +27,9 @@
 
 {{ if gt (len $rows) 0 }}
 <div class="row col-lg-12 courses-widget">
-    <h2>Teaching</h2>
+    <div class="center-text mb-2">
+        <h2>{{ $title }}</h2>
+    </div>
     <div class="full-width">
         <table>
             <thead>

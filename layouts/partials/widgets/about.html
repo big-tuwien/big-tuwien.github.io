@@ -86,5 +86,6 @@
     {{ $person_page.Content }}
 
     {{ partial "about_teaching" (dict "context" . "person" $person) }}
+    {{ partial "about_projects" (dict "context" . "person" $person) }}
   </div>
 </div>
