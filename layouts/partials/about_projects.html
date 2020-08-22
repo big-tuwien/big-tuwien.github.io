@@ -8,7 +8,17 @@
 {{ $title := "Projects" }}
 {{ $author_name := index .person.authors 0 }}
 {{ $filter_button := slice (dict "name" "Ongoing" "tag" "Ongoing") (dict "name" "Finished" "tag" "Finished") (dict "name" "All" "tag" "*") }}
+{{ $items := where site.RegularPages "Type" $items_type }}
 
+{{ $rows := slice }}
+{{ range $row := $items }}
+{{ $authors := apply $row.Params.authors "urlize" "." }}
+{{ if in $authors $author_name }}
+{{ $rows = $rows | append $row }}
+{{ end }}
+{{ end }}
+
+{{ if gt (len $rows) 0 }}
 <div class="margin-auto">
     <div class="center-text mb-3">
         <h2>{{ $title }}</h2>
@@ -54,7 +64,7 @@
 
         <div
             class="justify-evenly{{ if or $filter_button (eq $st.Params.design.view 3) }}isotope projects-container{{end}} {{if eq $st.Params.design.view 3}}js-layout-masonry{{else}}row js-layout-row{{end}} {{ if eq $st.Params.design.view 5 }}project-showcase mt-5{{end}}">
-            {{ range $idx, $item := where site.RegularPages "Type" $items_type }}
+            {{ range $idx, $item := $rows }}
 
             {{ $authors := $item.Param "authors" }}
             {{ $authors := apply $authors "urlize" "." }}
@@ -73,3 +83,4 @@
 
     </div>
 </div>
+{{ end }}
