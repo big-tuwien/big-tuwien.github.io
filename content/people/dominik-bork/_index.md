@@ -13,7 +13,7 @@ pairs:
   value: +43 (1) 58801 194308
 - key: Location
   value: HG0206
-role: Univ.Ass. Dipl.-Ing. Dr.rer.pol.
+role: Assistant Prof. Dipl.-Ing. Dr.rer.pol.
 superuser: false
 user_groups:
 - Researchers
