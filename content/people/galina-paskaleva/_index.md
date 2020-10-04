@@ -13,7 +13,7 @@ pairs:
   value: +43 (1) 58801 207225
 - key: Location
   value: HD0205
-role: Projektass. Dipl.-Ing.
+role: Dipl.-Ing.
 superuser: false
 user_groups:
 - Researchers

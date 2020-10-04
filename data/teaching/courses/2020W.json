@@ -1,0 +1,196 @@
+{
+    "lectures_exercises": [
+        {
+            "authors": [
+                "dominik-bork",
+                "gertrude-kappel",
+                "michael-schroeder"
+            ],
+            "number": "188923",
+            "url": "https://tuwel.tuwien.ac.at/course/view.php?idnumber=188923-2016W",
+            "type": "VU",
+            "title": "Model Engineering"
+        },
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "194043",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194043&semester=2020W",
+            "type": "VU",
+            "title": "Enterprise Architecture"
+        },
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "194082",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194082&semester=2020W",
+            "type": "VU",
+            "title": "Technology for People 2040"
+        },
+        {
+            "authors": [
+                "marion-murzek"
+            ],
+            "number": "185A91",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A91&semester=2020W",
+            "type": "VU",
+            "title": "Introduction to Programming 1"
+        }
+    ],
+    "seminars_projects": [
+        {
+            "authors": [
+                "christian-huemer",
+                "gertrude-kappel"
+            ],
+            "number": "180779",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=180779&semester=2020W",
+            "type": "SE",
+            "title": "Seminar for Master Students in Business Informatics"
+        },
+        {
+            "authors": [
+                "christian-huemer",
+                "dominik-bork",
+                "gertrude-kappel",
+                "juergen-cito",
+                "michael-schroeder"
+            ],
+            "number": "188416",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188416&semester=2020W",
+            "type": "PR",
+            "title": "Informatics Lab (Freifachpraktikum)"
+        },
+        {
+            "authors": [
+                "christian-huemer",
+                "gertrude-kappel"
+            ],
+            "number": "188445",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188445&semester=2020W",
+            "type": "SE",
+            "title": "Seminar for Master Students"
+        },
+        {
+            "authors": [
+                "christian-huemer",
+                "gertrude-kappel"
+            ],
+            "number": "188446",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188446&semester=2020W",
+            "type": "SE",
+            "title": "Research Seminar"
+        },
+        {
+            "authors": [
+                "christian-huemer",
+                "gertrude-kappel"
+            ],
+            "number": "188512",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188512&semester=2020W",
+            "type": "SE",
+            "title": "Literature Seminar for PhD Students"
+        },
+        {
+            "authors": [
+                "christian-huemer",
+                "dominik-bork",
+                "gertrude-kappel",
+                "juergen-cito",
+                "michael-schroeder"
+            ],
+            "number": "188926",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188926&semester=2020W",
+            "type": "PR",
+            "title": "Bachelor Thesis for Informatics and Business Informatics"
+        },
+        {
+            "authors": [
+                "christian-huemer",
+                "gertrude-kappel"
+            ],
+            "number": "188976",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=188976&semester=2020W",
+            "type": "PV",
+            "title": "Exclusive Tutorial for PhD Students"
+        },
+        {
+            "authors": [
+                "christian-huemer",
+                "dominik-bork",
+                "gertrude-kappel",
+                "juergen-cito"
+            ],
+            "number": "193052",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=193052&semester=2020W",
+            "type": "SE",
+            "title": "Scientific Research and Writing"
+        },
+        {
+            "authors": [
+                "christian-huemer",
+                "dominik-bork",
+                "gertrude-kappel",
+                "juergen-cito",
+                "michael-schroeder"
+            ],
+            "number": "194074",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194074&semester=2020W",
+            "type": "PR",
+            "title": "Project in Computer Science 1"
+        },
+        {
+            "authors": [
+                "christian-huemer",
+                "dominik-bork",
+                "gertrude-kappel",
+                "juergen-cito",
+                "michael-schroeder"
+            ],
+            "number": "194075",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194075&semester=2020W",
+            "type": "PR",
+            "title": "Project in Computer Science 2"
+        },
+        {
+            "authors": [
+                "juergen-cito"
+            ],
+            "number": "194103",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194103&semester=2020W",
+            "type": "SE",
+            "title": "Seminar in Artificial Intelligence"
+        },
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "180772",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=180772&semester=2020W",
+            "type": "SE",
+            "title": "Seminar for Master Students in Data Science"
+        },
+        {
+            "authors": [
+                "christian-huemer"
+            ],
+            "number": "194078",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194078&semester=2020W",
+            "type": "SE",
+            "title": "Research Methods"
+        }
+    ],
+    "other": [
+        {
+            "authors": [
+                "marion-murzek"
+            ],
+            "number": "194096",
+            "url": "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=194096&semester=2020W",
+            "type": "UE",
+            "title": "ProgPro Together"
+        }
+    ]
+}
